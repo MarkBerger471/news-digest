@@ -1,50 +1,50 @@
 {
   "date": "2026-04-12",
   "edition": "morning",
-  "audience": "adult",
+  "audience": "teen",
   "generatedAt": "2026-04-12T08:30:04.536Z",
   "categories": {
     "world-news": [
       {
         "rank": 1,
-        "title": "Why did US-Iran talks end without an agreement in Pakistan?",
-        "summary": "High-level diplomatic talks between the US and Iran concluded without an agreement despite being the first direct negotiations in years, with significant implications for regional stability and ongoing conflicts. The failed talks represent a critical moment in US-Iran relations with potential consequences for global energy markets and Middle Eastern security.",
-        "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/12/why-did-us-iran-talks-end-without-an-agreement-in-pakistan?traffic_source=rss",
-        "pubDate": "2026-04-12",
-        "image": null
-      },
-      {
-        "rank": 2,
-        "title": "Oil tankers exit Strait of Hormuz amid fragile US-Iran ceasefire",
-        "summary": "Three oil supertankers are departing the strategic Strait of Hormuz as a fragile US-Iran ceasefire remains in place, with implications for global energy supplies and shipping. The movement of these vessels signals ongoing instability in a critical chokepoint for international oil trade.",
-        "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire?traffic_source=rss",
-        "pubDate": "2026-04-12",
-        "image": null
-      },
-      {
-        "rank": 3,
         "title": "Hungarians vote as PM Orban faces toughest election challenge in years",
-        "summary": "Hungarian voters are casting ballots in a parliamentary election that could end Prime Minister Viktor Orbán's 16-year grip on power, with opposition leader Péter Magyar's grassroots party leading in polls. Record turnout is expected as Hungarians weigh significant political change.",
+        "summary": "Hungary is holding a major parliamentary election that could end Prime Minister Viktor Orbán's 16-year control of the country. His rival Péter Magyar and his grassroots party are leading in polls, with record numbers of voters turning out to decide the nation's future direction.",
         "source": "Al Jazeera",
         "link": "https://www.aljazeera.com/news/2026/4/12/hungarians-vote-as-pm-orban-faces-toughest-election-challenge-in-years?traffic_source=rss",
         "pubDate": "2026-04-12",
         "image": null
       },
       {
-        "rank": 4,
-        "title": "Hungarians vote in big numbers on whether to end Orbán rule and elect rival",
-        "summary": "Hungarian voters are participating in record numbers in a pivotal election where opposition candidate Péter Magyar and his grassroots party are favored to unseat long-serving Prime Minister Viktor Orbán. The outcome could represent a significant shift in Central European politics and EU dynamics.",
-        "source": "BBC World",
-        "link": "https://www.bbc.com/news/articles/cdxdepjrv95o?at_medium=RSS&at_campaign=rss",
+        "rank": 2,
+        "title": "Why did US-Iran talks end without an agreement in Pakistan?",
+        "summary": "High-level talks between the United States and Iran in Pakistan have failed to produce a peace agreement to end their conflict. This is a major setback in international diplomacy, as these were the first direct negotiations between the two countries in years.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/12/why-did-us-iran-talks-end-without-an-agreement-in-pakistan?traffic_source=rss",
         "pubDate": "2026-04-12",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c41c/live/a048e7f0-3642-11f1-9e53-c1f9d2562c19.jpg"
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "Oil tankers exit Strait of Hormuz amid fragile US-Iran ceasefire",
+        "summary": "Three large oil ships are leaving a critical shipping channel between the Persian Gulf and the Indian Ocean as the fragile ceasefire between the US and Iran remains uncertain. This matters globally because this waterway is essential for world oil supplies, and any disruption affects energy prices everywhere.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire?traffic_source=rss",
+        "pubDate": "2026-04-12",
+        "image": null
+      },
+      {
+        "rank": 4,
+        "title": "'We need real peace': Easter truce fails to lift grim mood in war-torn Ukraine",
+        "summary": "A brief Easter ceasefire in Ukraine has ended without bringing hope for lasting peace, as fighting is expected to resume. The mood in Ukraine's Kharkiv region remains dark, with people exhausted by years of war with Russia.",
+        "source": "BBC World",
+        "link": "https://www.bbc.com/news/articles/cj0vn30574no?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-04-12",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9267/live/5ce7f850-3617-11f1-879d-1b2f5c3919b8.jpg"
       },
       {
         "rank": 5,
         "title": "Pakistan urges US and Iran to uphold ceasefire after talks end",
-        "summary": "Pakistan's Foreign Minister has called on both the US and Iran to maintain their ceasefire agreement following failed negotiations hosted in the country. The statement underscores Pakistan's diplomatic efforts to prevent escalation in the volatile region.",
+        "summary": "Pakistan's foreign minister is calling on the United States and Iran to stick to their ceasefire agreement even though their official peace talks have broken down. Pakistan is playing the role of peacemaker in this major international conflict.",
         "source": "Al Jazeera",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/4/12/pakistan-urges-us-and-iran-to-uphold-ceasefire-after-talks-end?traffic_source=rss",
         "pubDate": "2026-04-12",
@@ -52,55 +52,55 @@
       },
       {
         "rank": 6,
-        "title": "'We need real peace': Easter truce fails to lift grim mood in war-torn Ukraine",
-        "summary": "Ukrainians in Kharkiv observed a muted Easter as an Easter weekend truce failed to improve morale amid expectations of renewed fighting. The tepid response highlights persistent despair and the desire for a lasting resolution to the ongoing war.",
+        "title": "Hungarians vote in big numbers on whether to end Orbán rule and elect rival",
+        "summary": "Hungarian voters are turning out in record numbers to decide if they want to remove Prime Minister Viktor Orbán after 16 years in power. Early polls suggest rival Péter Magyar's grassroots party has strong support.",
         "source": "BBC World",
-        "link": "https://www.bbc.com/news/articles/cj0vn30574no?at_medium=RSS&at_campaign=rss",
+        "link": "https://www.bbc.com/news/articles/cdxdepjrv95o?at_medium=RSS&at_campaign=rss",
         "pubDate": "2026-04-12",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9267/live/5ce7f850-3617-11f1-879d-1b2f5c3919b8.jpg"
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c41c/live/a048e7f0-3642-11f1-9e53-c1f9d2562c19.jpg"
       },
       {
         "rank": 7,
-        "title": "US delegation leaves Pakistan without reaching Iran deal",
-        "summary": "US Vice President JD Vance departed Pakistan after diplomatic negotiations with Iran failed to produce an agreement, with American officials stating Tehran rejected their final offer. The breakdown signals continued tensions between Washington and Tehran despite earlier ceasefire arrangements.",
-        "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/12/us-delegation-leaves-pakistan-without-reaching-iran-deal?traffic_source=rss",
-        "pubDate": "2026-04-12",
-        "image": null
-      },
-      {
-        "rank": 8,
-        "title": "Watch JD Vance's full remarks after US-Iran talks end without deal",
-        "summary": "US Vice President JD Vance addressed the media following the conclusion of US-Iran negotiations in Pakistan, indicating that Tehran declined to accept Washington's final diplomatic proposal. His remarks provide official US perspective on the failed talks and future diplomatic posture.",
-        "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/12/watch-jd-vances-full-remarks-after-us-iran-talks-end-without-deal?traffic_source=rss",
-        "pubDate": "2026-04-12",
-        "image": null
-      },
-      {
-        "rank": 9,
         "title": "Artemis II's moon-traveling astronauts return home to cheers after a record-breaking trip",
-        "summary": "NASA's Artemis II astronauts have completed their lunar flyby mission and returned safely to Earth, marking a significant milestone in the international space program with participation from Canadian and American space agencies. The successful mission advances humanity's return to lunar exploration.",
+        "summary": "Astronauts from NASA and the Canadian Space Agency have successfully returned from a historic mission traveling to the moon, marking a major achievement for international space exploration. This demonstrates global cooperation in advancing human exploration beyond Earth.",
         "source": "AP News",
         "link": "https://apnews.com/article/artemis-astronauts-moon-flyby-splashdown-1fe7e0f38a9dd506945a4e508abb402d",
         "pubDate": "2026-04-11",
         "image": "https://dims.apnews.com/dims4/default/cd6ef6d/2147483647/strip/true/crop/4000x2665+0+530/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0f%2F39%2F58c78d5c71510445d85164a82957%2Fe830b42719674bcaa893a971e8949111"
       },
       {
-        "rank": 10,
+        "rank": 8,
+        "title": "US delegation leaves Pakistan without reaching Iran deal",
+        "summary": "US Vice President JD Vance is departing Pakistan after failing to reach a peace agreement with Iran, saying Tehran rejected America's final offer. The collapse of these high-stakes negotiations raises concerns about the future stability of the Middle East.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/12/us-delegation-leaves-pakistan-without-reaching-iran-deal?traffic_source=rss",
+        "pubDate": "2026-04-12",
+        "image": null
+      },
+      {
+        "rank": 9,
         "title": "Musician performs inside melting glacier to highlight climate crisis",
-        "summary": "Swiss musician To Athena performed a concert inside a melting Alpine glacier to draw global attention to accelerating ice loss and the climate crisis. The symbolic performance underscores the urgent environmental challenges facing the planet.",
+        "summary": "A Swiss musician performed inside a melting glacier cave in the Alps to raise awareness about climate change and how global warming is destroying ice. This artistic protest shows how the climate crisis is affecting Europe's most iconic landscapes.",
         "source": "Al Jazeera",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/4/12/musician-performs-inside-melting-glacier-to-highlight-climate-crisis?traffic_source=rss",
         "pubDate": "2026-04-12",
         "image": null
+      },
+      {
+        "rank": 10,
+        "title": "Prosecutor probes abuse claims against California governor candidate Swalwell",
+        "summary": "A federal prosecutor is investigating serious abuse allegations against Eric Swalwell, a leading Democrat running for California governor, though he denies the accusations. This case could significantly impact California's gubernatorial race and the state's political future.",
+        "source": "BBC World",
+        "link": "https://www.bbc.com/news/articles/c7vq0jnn0yro?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-04-12",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bc1/live/d5efc2d0-35ec-11f1-8447-95c5e97e3482.jpg"
       }
     ],
     "automotive-ev-battery": [
       {
         "rank": 1,
         "title": "It begins: electric articulated haul trucks reach series production",
-        "summary": "Volvo has begun regular production of its A30 and A40 Electric articulated haul trucks, marking the first time electric haulers of this size have transitioned from pilot stage to serial production. This milestone represents significant progress in decarbonizing heavy-duty commercial transportation.",
+        "summary": "Volvo has started mass-producing its new A30 and A40 Electric haul trucks, marking the first time huge electric trucks of this size have moved from testing into regular production. This is a big deal because these massive vehicles are used in mining and construction, and switching them to electric power helps reduce pollution from heavy industry.",
         "source": "Electrek",
         "link": "https://electrek.co/2026/04/11/it-begins-electric-articulated-haul-trucks-reach-series-production-video/",
         "pubDate": "2026-04-11",
@@ -109,7 +109,7 @@
       {
         "rank": 2,
         "title": "Boreal orders 20 electric hydrofoil ferries for Norway's coastline",
-        "summary": "Norwegian operator Boreal has ordered 20 Candela P-12 electric hydrofoil vessels from Swedish manufacturer Candela, creating the largest electric ferry fleet to date. The vessels will enable zero-emission, high-speed passenger transport along Norway's fjords and coastal routes.",
+        "summary": "A Norwegian ferry company ordered 20 electric boats called hydrofoils from a Swedish manufacturer, creating the world's largest fleet of electric ferries. These fast, silent boats will carry passengers along Norway's coastal routes without producing any emissions.",
         "source": "Electrive",
         "link": "https://www.electrive.com/2026/04/11/boreal-orders-20-electric-hydrofoil-ferries-for-norways-coastline/",
         "pubDate": "2026-04-11",
@@ -118,7 +118,7 @@
       {
         "rank": 3,
         "title": "Kia Beats Tesla To The Compact EV Sales Punch — In Europe",
-        "summary": "Kia is aggressively competing in the European compact EV market with its new EV2 model, positioning it as an affordable yet luxury-styled vehicle. The vehicle represents a significant competitive challenge to Tesla's compact EV offerings in Europe.",
+        "summary": "Kia's new EV2 is becoming the go-to affordable electric car for European shoppers, outselling Tesla in the budget-friendly compact EV market. The car combines nice features usually found in luxury vehicles with a price that regular people can afford.",
         "source": "CleanTechnica",
         "link": "https://cleantechnica.com/2026/04/11/kia-beats-tesla-to-the-compact-ev-sales-punch-in-europe/",
         "pubDate": "2026-04-11",
@@ -126,44 +126,44 @@
       },
       {
         "rank": 4,
-        "title": "Review: 2025 Volkswagen ID.Buzz tags nostalgia, re-ups minivans",
-        "summary": "Volkswagen's electric ID.Buzz minivan is arriving in the U.S. market with a larger 91-kWh battery, enhanced rear motor, and EPA-estimated range up to 234 miles with 10-80% charging in 26 minutes. Pricing begins at $61,545, offering a nostalgic electric alternative to traditional minivans.",
-        "source": "Green Car Reports",
-        "link": "https://www.greencarreports.com/news/1144782_2025-volkswagen-id-buzz-test-drive-review",
-        "pubDate": "2026-04-11",
-        "image": "https://images.hgmsites.net/tmb/2025-volkswagen-id-buzz_100946039_t.gif"
-      },
-      {
-        "rank": 5,
         "title": "Tesla Sitting on Record Inventory",
-        "summary": "Tesla reported a significant gap between production and deliveries in Q1 2026, with 408,386 vehicles produced but only 358,023 delivered, leaving approximately 50,000 units in inventory. This 14% production-to-delivery gap represents a notable shift in Tesla's market dynamics.",
+        "summary": "Tesla produced over 408,000 vehicles in Q1 2026 but only delivered about 358,000, leaving over 50,000 cars unsold. This large gap suggests that demand for Tesla vehicles might be slowing down, which could affect the company's sales strategy.",
         "source": "CleanTechnica",
         "link": "https://cleantechnica.com/2026/04/11/tesla-sitting-on-record-inventory/",
         "pubDate": "2026-04-11",
         "image": null
       },
       {
-        "rank": 6,
-        "title": "March Sees Record New Plugin Vehicle Sales in Australia",
-        "summary": "Australia experienced record plug-in vehicle sales in March, driven by surging petrol and diesel prices increasing consumer interest in electric and plug-in hybrid alternatives. The market shows strong demand, with used EV inventory depleting and prices rising.",
-        "source": "CleanTechnica",
-        "link": "https://cleantechnica.com/2026/04/11/march-sees-record-new-plugin-vehicle-sales-in-australia/",
+        "rank": 5,
+        "title": "Review: 2025 Volkswagen ID.Buzz tags nostalgia, re-ups minivans",
+        "summary": "Volkswagen's new ID.Buzz electric minivan finally arrived in the U.S. with a large battery, good range (up to 234 miles), and fast charging (26 minutes for 10-80%). Starting at about $61,500, it combines the retro look of an old VW bus with modern electric technology.",
+        "source": "Green Car Reports",
+        "link": "https://www.greencarreports.com/news/1144782_2025-volkswagen-id-buzz-test-drive-review",
         "pubDate": "2026-04-11",
-        "image": null
+        "image": "https://images.hgmsites.net/tmb/2025-volkswagen-id-buzz_100946039_t.gif"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "Serbian Post adds 100 new electric vans to its fleet",
-        "summary": "Serbia's state-owned postal service, Pošta Srbije, has added 100 electric vans from US manufacturer Cenntro to its fleet, supporting fleet decarbonization efforts. The vehicles will be deployed across Belgrade and other Serbian cities for postal operations.",
+        "summary": "Serbia's postal service bought 100 electric delivery vans from an American company to replace old gas-powered trucks in Belgrade and other cities. This helps the country reduce pollution while delivering mail and packages.",
         "source": "Electrive",
         "link": "https://www.electrive.com/2026/04/10/serbian-post-adds-100-new-electric-vans-to-its-fleet/",
         "pubDate": "2026-04-10",
         "image": "https://www.electrive.com/media/2026/04/e-transporter-serbische-post-2026-400x267.jpeg"
       },
       {
+        "rank": 7,
+        "title": "March Sees Record New Plugin Vehicle Sales in Australia",
+        "summary": "Australia hit a record high for selling plug-in hybrid and electric vehicles in March as gas and diesel prices keep climbing. More and more Australians are choosing electric cars because they're cheaper to fuel and run than traditional vehicles.",
+        "source": "CleanTechnica",
+        "link": "https://cleantechnica.com/2026/04/11/march-sees-record-new-plugin-vehicle-sales-in-australia/",
+        "pubDate": "2026-04-11",
+        "image": null
+      },
+      {
         "rank": 8,
         "title": "Electric, diesel, or CNG? MOOG tech lets you pick all of the above, on just ONE machine",
-        "summary": "MOOG has developed flexible powertrain technology allowing a single machine to operate with electric, diesel, or CNG power sources, enabling commercial fleets to decarbonize at lower cost and risk. The multi-fuel approach provides an alternative to purchasing separate vehicles for each fuel type.",
+        "summary": "MOOG created technology that lets companies use electric power, diesel, or natural gas on the same vehicle, giving fleets flexibility when switching to cleaner energy. This approach costs less and has less risk than buying completely different vehicles for each fuel type.",
         "source": "Electrek",
         "link": "https://electrek.co/2026/04/10/electric-diesel-or-cng-moog-tech-lets-you-pick-all-of-the-above-on-just-one-machine/",
         "pubDate": "2026-04-10",
@@ -172,7 +172,7 @@
       {
         "rank": 9,
         "title": "DHL Express Norway adopts Spirii charging platform",
-        "summary": "DHL Express Norway has partnered with Danish charging solutions provider Spirii to optimize charging infrastructure for its electric vehicle fleet. The collaboration aims to improve fleet efficiency and support DHL's electrification efforts in Norway.",
+        "summary": "DHL's Norwegian division partnered with a Danish company to improve its electric van charging network. Better charging infrastructure helps delivery companies like DHL run more electric vehicles efficiently.",
         "source": "Electrive",
         "link": "https://www.electrive.com/2026/04/10/dhl-express-norway-adopts-spirii-charging-platform/",
         "pubDate": "2026-04-10",
@@ -181,7 +181,7 @@
       {
         "rank": 10,
         "title": "The Chevy Equinox EV is 20% off right now with a $10,000 discount",
-        "summary": "General Motors is offering a significant 20 percent discount on the Chevrolet Equinox EV, one of the market's most affordable electric vehicles, bringing new affordability to mainstream EV buyers. The promotion enhances the model's value proposition in the growing affordable EV segment.",
+        "summary": "Chevy is offering a huge $10,000 discount (20% off) on the Equinox EV, one of the cheapest electric SUVs you can buy. This deal makes an already affordable EV even more accessible for families looking to go electric.",
         "source": "Electrek",
         "link": "https://electrek.co/2026/04/10/chevy-equinox-ev-20-off-with-10000-discount/",
         "pubDate": "2026-04-10",
@@ -192,7 +192,7 @@
       {
         "rank": 1,
         "title": "The Netherlands is the first European country to approve Tesla's supervised Full Self-Driving",
-        "summary": "Dutch regulators have officially approved Tesla's Full Self-Driving (FSD) Supervised after over a year and a half of testing, making the Netherlands the first European country to authorize the technology on public roads. This regulatory milestone could accelerate FSD adoption across the European Union and represents a significant validation of Tesla's autonomous driving capabilities in a major market.",
+        "summary": "Tesla's self-driving technology just got approved in the Netherlands, making it the first European country to allow it on roads. This is a big deal because it could lead to more countries in Europe allowing Tesla's Full Self-Driving system. Since Tesla's main European office is in Amsterdam, it makes sense that the Netherlands approved it first.",
         "source": "The Verge",
         "link": "https://www.theverge.com/transportation/910717/netherlands-tesla-supervised-full-self-driving",
         "pubDate": "2026-04-11",
@@ -200,84 +200,84 @@
       },
       {
         "rank": 2,
-        "title": "Battery recycler Ascend Elements files for bankruptcy",
-        "summary": "Ascend Elements, a prominent battery recycling company, has filed for Chapter 11 bankruptcy following the cancellation of a government grant and declining market conditions for lithium-ion batteries. The bankruptcy highlights challenges in the battery recycling sector despite growing demand for sustainable battery supply chains.",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/04/10/battery-recycler-ascend-elements-files-for-bankruptcy/",
-        "pubDate": "2026-04-10",
-        "image": null
-      },
-      {
-        "rank": 3,
         "title": "NASA Artemis II splashes down in Pacific Ocean in 'perfect' landing for Moon mission",
-        "summary": "NASA's Artemis II mission successfully concluded with a flawless splashdown in the Pacific Ocean off San Diego, marking the completion of a historic lunar mission. The successful return represents a critical milestone for NASA's Artemis program as it continues efforts to return humans to the Moon.",
+        "summary": "NASA's Artemis II spacecraft successfully returned to Earth and landed in the Pacific Ocean near San Diego after traveling farther from Earth than any previous mission. The perfect landing means the mission was a complete success. This is an important step for NASA's plans to eventually send people back to the Moon.",
         "source": "TechCrunch",
         "link": "https://techcrunch.com/2026/04/10/nasa-artemis-ii-landing-pacific-ocean-splash-down/",
         "pubDate": "2026-04-10",
         "image": null
       },
       {
-        "rank": 4,
-        "title": "Walmart-owned Flipkart, Amazon are squeezing India's quick commerce startups",
-        "summary": "Flipkart's aggressive expansion into smaller cities and competitive pricing strategy is intensifying pressure on independent quick commerce startups in India. Industry analysts warn that the dominance of well-capitalized e-commerce giants is creating substantial challenges for smaller competitors in the rapidly growing quick delivery market.",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/04/11/walmart-owned-flipkart-amazon-are-squeezing-indias-quick-commerce-startups/",
+        "rank": 3,
+        "title": "My baby deer plushie told me that Mitski's dad was a CIA operative",
+        "summary": "A reporter discovered that an AI companion living inside a cute baby deer plushie was spreading false conspiracy theories about the musician Mitski's father. This shows how AI companions can accidentally (or intentionally) spread misinformation to people who talk to them. It's a weird but important reminder that AI systems can share incorrect information.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/910008/fawn-friends-ai-companion",
         "pubDate": "2026-04-11",
-        "image": null
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268430_AI_deer_plushie_AKrales_0012.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
       },
       {
-        "rank": 5,
-        "title": "What's in a name? Moderna's 'vaccine' vs. 'therapy' dilemma",
-        "summary": "Moderna faces regulatory and political challenges in defining its next-generation mRNA products as either vaccines or therapies amid vaccine skepticism in the current political climate. The terminology dispute reflects broader tensions between scientific classification and public perception in mRNA-based medical treatments.",
-        "source": "MIT Technology Review",
-        "link": "https://www.technologyreview.com/2026/04/10/1135631/whats-in-a-name-modernas-vaccine-vs-therapy-dilemma/",
+        "rank": 4,
+        "title": "Battery recycler Ascend Elements files for bankruptcy",
+        "summary": "Ascend Elements, a company that recycles lithium-ion batteries (the kind used in electric cars and phones), went bankrupt after losing government funding and facing tough competition. This matters because we need battery recycling companies to handle old batteries responsibly and recover valuable materials. The company's failure shows how challenging the battery recycling business is right now.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/04/10/battery-recycler-ascend-elements-files-for-bankruptcy/",
         "pubDate": "2026-04-10",
         "image": null
       },
       {
-        "rank": 6,
-        "title": "Kalshi wins temporary pause in Arizona criminal case",
-        "summary": "The Commodity Futures Trading Commission has secured a temporary restraining order halting Arizona's criminal case against prediction market platform Kalshi. The regulatory action suggests potential federal-state jurisdictional disputes over cryptocurrency and prediction market regulation.",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/",
-        "pubDate": "2026-04-11",
-        "image": null
-      },
-      {
-        "rank": 7,
-        "title": "F1 moves a step closer to fixing its 2026 hybrid problem",
-        "summary": "Formula 1 is addressing concerns about algorithmic control systems in hybrid power units that are making acceleration decisions independently of drivers. The technical regulation adjustments aim to restore driver control and competitiveness in the sport's 2026 hybrid engine regulations.",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/cars/2026/04/f1-moves-a-step-closer-to-fixing-its-2026-hybrid-problem/",
-        "pubDate": "2026-04-11",
-        "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2268546147-1152x648.jpg"
-      },
-      {
-        "rank": 8,
+        "rank": 5,
         "title": "Pokémon Champions is off to a rough start",
-        "summary": "The launch of Pokémon Champions, a free-to-start battle simulator for Nintendo Switch, has been plagued by bugs affecting core battle mechanics. While developers are actively addressing reported issues, the game's launch stability problems highlight ongoing challenges with live-service game implementations.",
+        "summary": "The new Pokémon Champions game on Nintendo Switch has launched with lots of bugs, including problems with basic battle mechanics that mess up gameplay. While some bugs have already been fixed, the bigger issue is that the game's design and balance don't work well yet. Hopefully the developers will improve it as they update the game.",
         "source": "The Verge",
         "link": "https://www.theverge.com/games/910110/pokemon-champions-bugs-balance-issues-vgc-newcomers",
         "pubDate": "2026-04-11",
         "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/IMG_3487.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
       },
       {
-        "rank": 9,
+        "rank": 6,
+        "title": "AMC will stream 'The Audacity' premiere in 21 parts on TikTok",
+        "summary": "AMC is trying something new by breaking up a TV show premiere into 21 short clips and releasing them on TikTok to build excitement. Some people think this is a smart way to get young people interested in the show, while others say it's just copying Quibi, an old failed streaming service that tried the same thing. It's an interesting experiment in how entertainment companies are adapting to short-form video platforms.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/04/11/amc-will-stream-the-audacity-premiere-in-21-parts-on-tiktok/",
+        "pubDate": "2026-04-11",
+        "image": null
+      },
+      {
+        "rank": 7,
+        "title": "Walmart-owned Flipkart, Amazon are squeezing India's quick commerce startups",
+        "summary": "Amazon and Flipkart (which Walmart owns) are expanding into smaller Indian cities and offering huge discounts, making it really hard for smaller quick-delivery companies to compete. Quick commerce means getting stuff delivered super fast, usually within 30 minutes. The bigger companies' aggressive expansion is putting smaller startups at risk of going out of business.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/04/11/walmart-owned-flipkart-amazon-are-squeezing-indias-quick-commerce-startups/",
+        "pubDate": "2026-04-11",
+        "image": null
+      },
+      {
+        "rank": 8,
         "title": "You don't have to spend more than $50 on a great USB-C dock for your Switch 2",
-        "summary": "Third-party manufacturers have developed affordable USB-C docking solutions for Nintendo Switch 2 despite the console's proprietary wireless and video output protocols. Budget-conscious consumers now have quality accessory options under $50 as manufacturers master the new hardware requirements.",
+        "summary": "Nintendo Switch 2 needs special accessories to work properly, and good USB-C docks (devices that connect your Switch to a TV or charger) are now available for under $50. Nintendo changed how the Switch 2 connects to accessories, so third-party companies had to completely redesign their products. The good news is you can get quality docks without spending a lot of money.",
         "source": "The Verge",
         "link": "https://www.theverge.com/gadgets/907645/nintendo-switch-2-genki-jsaux-usb-c-dock-hands-on",
         "pubDate": "2026-04-11",
         "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/P4061021.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
       },
       {
-        "rank": 10,
-        "title": "My baby deer plushie told me that Mitski's dad was a CIA operative",
-        "summary": "An AI companion embedded in a smart plushie toy demonstrated concerning behavior by spontaneously sharing misinformation about a public figure. The incident raises questions about content moderation and misinformation spread through AI-powered consumer devices.",
+        "rank": 9,
+        "title": "Google's latest Nest Doorbells just hit their lowest prices of the year",
+        "summary": "Google's battery-powered Nest Doorbell video camera is now on sale for $129.99, which is the cheapest price it's been all year. Video doorbells let you see who's at your door even when you're not home, which is helpful for preventing porch pirates from stealing packages. This deal is available at Amazon and Best Buy right now.",
         "source": "The Verge",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/910008/fawn-friends-ai-companion",
+        "link": "https://www.theverge.com/gadgets/910472/google-nest-doorbell-wired-battery-powered-deal-sale",
         "pubDate": "2026-04-11",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268430_AI_deer_plushie_AKrales_0012.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/Google-Nest-Doorbell-battery.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      },
+      {
+        "rank": 10,
+        "title": "The Artemis II mission has ended. Where does NASA go from here?",
+        "summary": "Now that Artemis II has successfully completed its mission around the Moon, NASA is looking ahead to the next steps in getting people back to the Moon. The mission proved that NASA's technology and planning work, but there's still lots of hard work ahead. Scientists and engineers are already thinking about what comes next for Moon exploration.",
+        "source": "Ars Technica",
+        "link": "https://arstechnica.com/space/2026/04/the-artemis-ii-mission-has-ended-where-does-nasa-go-from-here/",
+        "pubDate": "2026-04-11",
+        "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/art002e021278large-1152x648.jpg"
       }
     ],
     "finance-markets": [

@@ -151,14 +151,7 @@ function rawSummaries(articles) {
 let totalInputTokens = 0;
 let totalOutputTokens = 0;
 
-async function loadAudience() {
-  try {
-    const config = JSON.parse(await fs.readFile(path.join(DATA_DIR, "config.json"), "utf-8"));
-    return config.audience || "adult";
-  } catch {
-    return "adult";
-  }
-}
+// Both audiences are always generated
 
 async function summarizeWithClaude(categoryKey, catConfig, articles, audience) {
   if (DRY_RUN || !CLAUDE_CATEGORIES.includes(categoryKey)) {
@@ -287,13 +280,18 @@ async function main() {
   const enabledCategories = getEnabledCategories();
   console.log(`Enabled categories: ${enabledCategories.join(", ")}`);
 
-  const audience = await loadAudience();
-  console.log(`Audience mode: ${audience}`);
-
-  const digest = {
+  const adultDigest = {
     date: dateStr,
     edition,
-    audience,
+    audience: "adult",
+    generatedAt: new Date().toISOString(),
+    categories: {},
+  };
+
+  const teenDigest = {
+    date: dateStr,
+    edition,
+    audience: "teen",
     generatedAt: new Date().toISOString(),
     categories: {},
   };
@@ -327,31 +325,58 @@ async function main() {
 
     if (allArticles.length === 0) {
       console.warn(`  No articles found for ${categoryKey}`);
-      digest.categories[categoryKey] = [];
+      adultDigest.categories[categoryKey] = [];
+      teenDigest.categories[categoryKey] = [];
       continue;
     }
 
-    const summarized = await summarizeWithClaude(
+    // Adult version
+    const adultSummarized = await summarizeWithClaude(
       categoryKey,
       catConfig,
       allArticles,
-      audience
+      "adult"
     );
-    digest.categories[categoryKey] = summarized;
-    console.log(`  Summarized: ${summarized.length} articles`);
+    adultDigest.categories[categoryKey] = adultSummarized;
+    console.log(`  Adult: ${adultSummarized.length} articles`);
+
+    // Teen version (only call Claude again for Claude categories, others are the same)
+    if (CLAUDE_CATEGORIES.includes(categoryKey)) {
+      const teenSummarized = await summarizeWithClaude(
+        categoryKey,
+        catConfig,
+        allArticles,
+        "teen"
+      );
+      teenDigest.categories[categoryKey] = teenSummarized;
+      console.log(`  Teen: ${teenSummarized.length} articles`);
+    } else {
+      teenDigest.categories[categoryKey] = adultSummarized;
+    }
   }
 
-  // Write digest files
+  // Write adult digest files
   const filename = `digest-${dateStr}-${edition}.json`;
   await fs.writeFile(
     path.join(DATA_DIR, filename),
-    JSON.stringify(digest, null, 2)
+    JSON.stringify(adultDigest, null, 2)
   );
   await fs.writeFile(
     path.join(DATA_DIR, "latest.json"),
-    JSON.stringify(digest, null, 2)
+    JSON.stringify(adultDigest, null, 2)
   );
-  console.log(`\nWritten: ${filename}, latest.json`);
+
+  // Write teen digest files
+  const teenFilename = `digest-${dateStr}-${edition}-teen.json`;
+  await fs.writeFile(
+    path.join(DATA_DIR, teenFilename),
+    JSON.stringify(teenDigest, null, 2)
+  );
+  await fs.writeFile(
+    path.join(DATA_DIR, "latest-teen.json"),
+    JSON.stringify(teenDigest, null, 2)
+  );
+  console.log(`\nWritten: ${filename}, ${teenFilename}, latest.json, latest-teen.json`);
 
   // Write full catalog for the frontend settings UI
   const catalog = {};

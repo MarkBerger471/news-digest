@@ -192,29 +192,6 @@ function FiltersPanel({ filters, setFilters }) {
       </p>
 
       <div className="filter-group">
-        <h3>Audience Mode</h3>
-        <p className="filter-hint">
-          Adjusts the language and complexity of article summaries.
-        </p>
-        <div className="audience-options">
-          <button
-            className={`audience-btn ${(filters.audience || "adult") === "adult" ? "active" : ""}`}
-            onClick={() => updateFilter("audience", "adult")}
-          >
-            <span className="audience-label">Adult</span>
-            <span className="audience-desc">Standard news language</span>
-          </button>
-          <button
-            className={`audience-btn ${filters.audience === "teen" ? "active" : ""}`}
-            onClick={() => updateFilter("audience", "teen")}
-          >
-            <span className="audience-label">Teen (13-18)</span>
-            <span className="audience-desc">Simpler, more accessible language</span>
-          </button>
-        </div>
-      </div>
-
-      <div className="filter-group">
         <h3>Exclude Keywords</h3>
         <p className="filter-hint">
           Articles containing these words in the title or summary will be hidden.
