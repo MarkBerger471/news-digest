@@ -1,0 +1,17 @@
+{
+  "name": "news-digest-backend",
+  "version": "1.0.0",
+  "description": "News digest fetcher and summarizer",
+  "main": "fetch-news.js",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch-news.js",
+    "test": "node fetch-news.js --dry-run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.88.0",
+    "dotenv": "^17.4.1",
+    "node-fetch": "^3.3.2",
+    "rss-parser": "^3.13.0"
+  }
+}
