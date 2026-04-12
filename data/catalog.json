@@ -1,0 +1,192 @@
+{
+  "world-news": {
+    "label": "World News",
+    "description": "Major global events, geopolitics, diplomacy",
+    "icon": "globe",
+    "sources": [
+      "BBC World",
+      "Al Jazeera",
+      "AP News",
+      "Reuters World",
+      "The Guardian World",
+      "NPR World",
+      "DW News",
+      "France 24",
+      "The Economist",
+      "Foreign Policy",
+      "The Diplomat",
+      "South China Morning Post",
+      "Nikkei Asia",
+      "Times of India"
+    ]
+  },
+  "automotive-ev-battery": {
+    "label": "Auto / EV / Battery",
+    "description": "Electric vehicles, batteries, charging, automotive industry",
+    "icon": "car",
+    "sources": [
+      "Electrive",
+      "InsideEVs",
+      "CleanTechnica",
+      "Electrek",
+      "Green Car Reports",
+      "Charged EVs",
+      "Automotive News",
+      "Car and Driver",
+      "Motor Trend",
+      "Autocar",
+      "Top Gear",
+      "The Drive",
+      "Jalopnik",
+      "Automotive Dive"
+    ]
+  },
+  "tech-ai": {
+    "label": "Tech / AI",
+    "description": "Artificial intelligence, tech industry, software, hardware",
+    "icon": "cpu",
+    "sources": [
+      "TechCrunch",
+      "The Verge",
+      "Ars Technica",
+      "MIT Technology Review",
+      "Wired",
+      "The Register",
+      "Hacker News",
+      "Engadget",
+      "ZDNet",
+      "VentureBeat",
+      "The Information",
+      "9to5Mac",
+      "Android Authority",
+      "Tom's Hardware",
+      "AnandTech",
+      "Slashdot"
+    ]
+  },
+  "finance-markets": {
+    "label": "Finance / Markets",
+    "description": "Stock markets, banking, global finance, monetary policy",
+    "icon": "chart",
+    "sources": [
+      "Financial Times",
+      "Bloomberg",
+      "CNBC",
+      "MarketWatch",
+      "Yahoo Finance",
+      "Investopedia",
+      "Seeking Alpha",
+      "The Motley Fool",
+      "Barron's",
+      "WSJ Markets"
+    ]
+  },
+  "science-space": {
+    "label": "Science / Space",
+    "description": "Scientific discoveries, space exploration, research breakthroughs",
+    "icon": "rocket",
+    "sources": [
+      "NASA",
+      "Space.com",
+      "Scientific American",
+      "Nature",
+      "Science Daily",
+      "New Scientist",
+      "Phys.org",
+      "SpaceNews",
+      "Ars Technica Science",
+      "Live Science"
+    ]
+  },
+  "energy-climate": {
+    "label": "Energy / Climate",
+    "description": "Renewable energy, climate policy, sustainability, oil & gas",
+    "icon": "leaf",
+    "sources": [
+      "Carbon Brief",
+      "Renewables Now",
+      "PV Magazine",
+      "GreenBiz",
+      "Energy Monitor",
+      "Utility Dive",
+      "Canary Media",
+      "Grist",
+      "Inside Climate News",
+      "Oil Price"
+    ]
+  },
+  "health-biotech": {
+    "label": "Health / Biotech",
+    "description": "Healthcare, biotech, pharmaceuticals, medical research",
+    "icon": "heart",
+    "sources": [
+      "STAT News",
+      "Fierce Biotech",
+      "Endpoints News",
+      "BioPharma Dive",
+      "Medical News Today",
+      "The Lancet",
+      "Health Affairs",
+      "WHO News"
+    ]
+  },
+  "crypto-web3": {
+    "label": "Crypto / Web3",
+    "description": "Cryptocurrency, blockchain, DeFi, NFTs, regulation",
+    "icon": "coin",
+    "sources": [
+      "CoinDesk",
+      "The Block",
+      "Decrypt",
+      "CoinTelegraph",
+      "Bitcoin Magazine",
+      "Blockworks",
+      "DL News"
+    ]
+  },
+  "startups-vc": {
+    "label": "Startups / VC",
+    "description": "Venture capital, fundraising, startup ecosystem",
+    "icon": "briefcase",
+    "sources": [
+      "TechCrunch Startups",
+      "Crunchbase News",
+      "Pitchbook News",
+      "SaaStr",
+      "Both Sides of the Table",
+      "First Round Review",
+      "Y Combinator Blog"
+    ]
+  },
+  "cybersecurity": {
+    "label": "Cybersecurity",
+    "description": "Security breaches, vulnerabilities, cyber threats, privacy",
+    "icon": "shield",
+    "sources": [
+      "Krebs on Security",
+      "The Hacker News",
+      "Dark Reading",
+      "Bleeping Computer",
+      "SecurityWeek",
+      "Threatpost",
+      "SC Media"
+    ]
+  },
+  "asia-pacific": {
+    "label": "Asia-Pacific",
+    "description": "News from Southeast Asia, China, Japan, Korea, India, Oceania",
+    "icon": "map",
+    "sources": [
+      "South China Morning Post",
+      "Nikkei Asia",
+      "The Diplomat",
+      "Channel News Asia",
+      "Bangkok Post",
+      "The Straits Times",
+      "Japan Times",
+      "Korea Herald",
+      "Times of India",
+      "ABC Australia"
+    ]
+  }
+}

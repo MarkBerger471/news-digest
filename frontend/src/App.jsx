@@ -1,14 +1,10 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
+import Settings from "./Settings.jsx";
 import "./index.css";
 
-const DATA_BASE_URL =
-  import.meta.env.VITE_DATA_URL || "/data";
+const DATA_BASE_URL = import.meta.env.VITE_DATA_URL || "/data";
 
-const CATEGORIES = [
-  { key: "world-news", label: "World" },
-  { key: "automotive-ev-battery", label: "Auto / EV" },
-  { key: "tech-ai", label: "Tech / AI" },
-];
+const DEFAULT_CATEGORIES = ["world-news", "automotive-ev-battery", "tech-ai"];
 
 function timeAgo(dateStr) {
   if (!dateStr) return "";
@@ -30,41 +26,94 @@ function formatDate(dateStr) {
   });
 }
 
-function Article({ article, index }) {
+function formatSummary(summary, mode) {
+  if (!summary) return "";
+  if (mode === "title") return "";
+  if (mode === "short") return summary.split(/\.\s/)[0] + ".";
+  return summary;
+}
+
+function Article({ article, index, summaryDisplay }) {
+  const [imgError, setImgError] = useState(false);
+  const summary = article.summary;
+
   return (
     <article className="article">
-      <div className="article-rank">#{index + 1}</div>
-      <h3 className="article-title">
-        <a href={article.link} target="_blank" rel="noopener noreferrer">
-          {article.title}
-        </a>
-      </h3>
-      <p className="article-summary">{article.summary}</p>
-      <div className="article-meta">
-        <span className="article-source">{article.source}</span>
-        <span className="dot">&middot;</span>
-        <span>{timeAgo(article.pubDate)}</span>
-        <span className="dot">&middot;</span>
-        <a
-          className="article-link"
-          href={article.link}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Read article &rarr;
-        </a>
+      {article.image && !imgError && (
+        <div className="article-image">
+          <img
+            src={article.image}
+            alt=""
+            loading="lazy"
+            onError={() => setImgError(true)}
+          />
+        </div>
+      )}
+      <div className="article-body">
+        <div className="article-rank">#{index + 1}</div>
+        <h3 className="article-title">
+          <a href={article.link} target="_blank" rel="noopener noreferrer">
+            {article.title}
+          </a>
+        </h3>
+        {summaryDisplay !== "title" && (
+          <p className="article-summary">
+            {formatSummary(summary, summaryDisplay)}
+          </p>
+        )}
+        <div className="article-meta">
+          <span className="article-source">{article.source}</span>
+          <span className="dot">&middot;</span>
+          <span>{timeAgo(article.pubDate)}</span>
+          <span className="dot">&middot;</span>
+          <a
+            className="article-link"
+            href={article.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read &rarr;
+          </a>
+        </div>
       </div>
     </article>
   );
+}
+
+function loadFromStorage(key, fallback) {
+  try {
+    const saved = localStorage.getItem(key);
+    return saved ? JSON.parse(saved) : fallback;
+  } catch {
+    return fallback;
+  }
 }
 
 export default function App() {
   const [digest, setDigest] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [activeTab, setActiveTab] = useState("world-news");
   const [edition, setEdition] = useState(null);
   const [availableDigests, setAvailableDigests] = useState([]);
+  const [showSettings, setShowSettings] = useState(false);
+  const [catalog, setCatalog] = useState({});
+  const [costs, setCosts] = useState([]);
+
+  const [enabledCategories, setEnabledCategories] = useState(() =>
+    loadFromStorage("enabledCategories", DEFAULT_CATEGORIES)
+  );
+  const [activeTab, setActiveTab] = useState(() => enabledCategories[0] || "world-news");
+  const [hiddenSources, setHiddenSources] = useState(
+    () => new Set(loadFromStorage("hiddenSources", []))
+  );
+  const [filters, setFilters] = useState(() =>
+    loadFromStorage("digestFilters", {
+      excludeKeywords: [],
+      requireKeywords: [],
+      maxAgeHours: 0,
+      summaryDisplay: "full",
+    })
+  );
 
   const fetchDigest = useCallback(async (filename) => {
     setLoading(true);
@@ -92,23 +141,41 @@ export default function App() {
         const data = await res.json();
         setAvailableDigests(data.digests || []);
       }
-    } catch {
-      // Index not critical
-    }
+    } catch {}
+  }, []);
+
+  const fetchCatalog = useCallback(async () => {
+    try {
+      const res = await fetch(`${DATA_BASE_URL}/catalog.json`);
+      if (res.ok) setCatalog(await res.json());
+    } catch {}
+  }, []);
+
+  const fetchCosts = useCallback(async () => {
+    try {
+      const res = await fetch(`${DATA_BASE_URL}/costs.json`);
+      if (res.ok) setCosts(await res.json());
+    } catch {}
   }, []);
 
   useEffect(() => {
     fetchDigest();
     fetchIndex();
-  }, [fetchDigest, fetchIndex]);
+    fetchCatalog();
+    fetchCosts();
+  }, [fetchDigest, fetchIndex, fetchCatalog, fetchCosts]);
+
+  // If active tab is removed from enabled, switch to first enabled
+  useEffect(() => {
+    if (!enabledCategories.includes(activeTab) && enabledCategories.length > 0) {
+      setActiveTab(enabledCategories[0]);
+    }
+  }, [enabledCategories, activeTab]);
 
   const handleEditionToggle = (ed) => {
     if (!digest) return;
-    const dateStr = digest.date;
-    const filename = `digest-${dateStr}-${ed}.json`;
-    if (availableDigests.includes(filename)) {
-      fetchDigest(filename);
-    }
+    const filename = `digest-${digest.date}-${ed}.json`;
+    if (availableDigests.includes(filename)) fetchDigest(filename);
   };
 
   const handleRefresh = () => {
@@ -116,37 +183,81 @@ export default function App() {
     fetchIndex();
   };
 
-  const articles =
-    digest?.categories?.[activeTab] || [];
+  // Apply all client-side filters
+  const articles = useMemo(() => {
+    let items = digest?.categories?.[activeTab] || [];
+
+    // Source filter
+    items = items.filter((a) => !hiddenSources.has(a.source));
+
+    // Exclude keywords
+    if (filters.excludeKeywords?.length) {
+      items = items.filter((a) => {
+        const text = `${a.title} ${a.summary}`.toLowerCase();
+        return !filters.excludeKeywords.some((kw) => text.includes(kw));
+      });
+    }
+
+    // Require keywords
+    if (filters.requireKeywords?.length) {
+      items = items.filter((a) => {
+        const text = `${a.title} ${a.summary}`.toLowerCase();
+        return filters.requireKeywords.some((kw) => text.includes(kw));
+      });
+    }
+
+    // Max age
+    if (filters.maxAgeHours > 0) {
+      const cutoff = Date.now() - filters.maxAgeHours * 3_600_000;
+      items = items.filter(
+        (a) => a.pubDate && new Date(a.pubDate).getTime() > cutoff
+      );
+    }
+
+    return items;
+  }, [digest, activeTab, hiddenSources, filters]);
+
+  // Build tabs from enabled categories
+  const tabs = enabledCategories
+    .map((key) => ({
+      key,
+      label: catalog[key]?.label || key,
+    }))
+    .filter((t) => t.key);
 
   return (
     <>
       <header className="header">
         <div className="header-top">
           <h1>News Digest</h1>
-          <div className="edition-toggle">
-            <button
-              className={`edition-btn ${edition === "morning" ? "active" : ""}`}
-              onClick={() => handleEditionToggle("morning")}
+          <button
+            className="settings-btn"
+            onClick={() => setShowSettings(true)}
+            title="Settings"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
-              AM
-            </button>
-            <button
-              className={`edition-btn ${edition === "evening" ? "active" : ""}`}
-              onClick={() => handleEditionToggle("evening")}
-            >
-              PM
-            </button>
-          </div>
+              <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+          </button>
         </div>
         <nav className="tabs">
-          {CATEGORIES.map((cat) => (
+          {tabs.map((t) => (
             <button
-              key={cat.key}
-              className={`tab ${activeTab === cat.key ? "active" : ""}`}
-              onClick={() => setActiveTab(cat.key)}
+              key={t.key}
+              className={`tab ${activeTab === t.key ? "active" : ""}`}
+              onClick={() => setActiveTab(t.key)}
             >
-              {cat.label}
+              {t.label}
             </button>
           ))}
         </nav>
@@ -155,8 +266,7 @@ export default function App() {
       <main className="content">
         {digest?.date && (
           <div className="digest-date">
-            {formatDate(digest.date)} &middot;{" "}
-            {edition === "morning" ? "Morning" : "Evening"} Edition
+            {formatDate(digest.date)} &middot; Daily Edition
           </div>
         )}
 
@@ -188,7 +298,13 @@ export default function App() {
 
         {!loading && !error && articles.length === 0 && (
           <div className="empty">
-            <p>No articles available for this category.</p>
+            <p>No articles match your current filters.</p>
+            <button
+              className="empty-settings-btn"
+              onClick={() => setShowSettings(true)}
+            >
+              Adjust Settings
+            </button>
           </div>
         )}
 
@@ -199,6 +315,7 @@ export default function App() {
                 key={article.link || i}
                 article={article}
                 index={i}
+                summaryDisplay={filters.summaryDisplay}
               />
             ))}
           </div>
@@ -206,8 +323,31 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        AI-summarized by Claude &middot; Updated twice daily
+        <div>AI-summarized by Claude &middot; Updated daily</div>
+        {costs.length > 0 && (
+          <div className="footer-cost">
+            Last run: ${costs[costs.length - 1].estimatedCostUSD.toFixed(4)}
+            {" "}&middot;{" "}
+            This month: $
+            {costs
+              .reduce((sum, c) => sum + c.estimatedCostUSD, 0)
+              .toFixed(4)}
+          </div>
+        )}
       </footer>
+
+      {showSettings && (
+        <Settings
+          catalog={catalog}
+          enabledCategories={enabledCategories}
+          setEnabledCategories={setEnabledCategories}
+          hiddenSources={hiddenSources}
+          setHiddenSources={setHiddenSources}
+          filters={filters}
+          setFilters={setFilters}
+          onClose={() => setShowSettings(false)}
+        />
+      )}
     </>
   );
 }

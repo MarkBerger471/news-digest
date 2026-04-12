@@ -4,8 +4,6 @@ on:
   schedule:
     # Morning edition: 7am Bangkok (UTC+7) = midnight UTC
     - cron: "0 0 * * *"
-    # Evening edition: 6pm Bangkok (UTC+7) = 11am UTC
-    - cron: "0 11 * * *"
   workflow_dispatch:
     inputs:
       edition:
