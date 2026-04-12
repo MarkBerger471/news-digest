@@ -11,7 +11,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: path.join(__dirname, "..", ".env") });
 
 const DATA_DIR = path.join(__dirname, "..", "data");
+const AUDIO_DIR = path.join(DATA_DIR, "audio");
 const DRY_RUN = process.argv.includes("--dry-run");
+const GOOGLE_TTS_KEY = process.env.GOOGLE_TTS_KEY;
 
 const parser = new Parser({
   timeout: 10000,
@@ -128,12 +130,7 @@ function deduplicateArticles(articles, previousTitles) {
   });
 }
 
-// Categories that get Claude-powered summaries; others get raw descriptions
-const CLAUDE_CATEGORIES = [
-  "world-news",
-  "automotive-ev-battery",
-  "tech-ai",
-];
+// All categories now get Claude summaries
 
 function rawSummaries(articles) {
   return articles.slice(0, 10).map((a, i) => ({
@@ -147,6 +144,58 @@ function rawSummaries(articles) {
   }));
 }
 
+// TTS generation
+async function generateAudio(text, outputPath) {
+  if (!GOOGLE_TTS_KEY) return false;
+  try {
+    const res = await fetch(
+      `https://texttospeech.googleapis.com/v1/text:synthesize?key=${GOOGLE_TTS_KEY}`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          input: { text },
+          voice: { languageCode: "en-US", name: "en-US-Neural2-J" },
+          audioConfig: { audioEncoding: "MP3", speakingRate: 1.0 },
+        }),
+      }
+    );
+    if (!res.ok) {
+      const err = await res.text();
+      console.error(`  TTS error: ${err.slice(0, 200)}`);
+      return false;
+    }
+    const data = await res.json();
+    await fs.writeFile(outputPath, Buffer.from(data.audioContent, "base64"));
+    return true;
+  } catch (err) {
+    console.error(`  TTS failed: ${err.message}`);
+    return false;
+  }
+}
+
+async function generateDigestAudio(digest, prefix) {
+  if (!GOOGLE_TTS_KEY) {
+    console.log("Skipping TTS — no GOOGLE_TTS_KEY set");
+    return;
+  }
+  await fs.mkdir(AUDIO_DIR, { recursive: true });
+  let count = 0;
+  for (const [catKey, articles] of Object.entries(digest.categories)) {
+    for (const article of articles) {
+      const audioFile = `${prefix}-${catKey}-${article.rank}.mp3`;
+      const audioPath = path.join(AUDIO_DIR, audioFile);
+      const text = `${article.title}. ${article.summary}`;
+      const ok = await generateAudio(text, audioPath);
+      if (ok) {
+        article.audio = `/data/audio/${audioFile}`;
+        count++;
+      }
+    }
+  }
+  console.log(`  Generated ${count} audio files (${prefix})`);
+}
+
 // Cost tracking
 let totalInputTokens = 0;
 let totalOutputTokens = 0;
@@ -154,9 +203,8 @@ let totalOutputTokens = 0;
 // Both audiences are always generated
 
 async function summarizeWithClaude(categoryKey, catConfig, articles, audience) {
-  if (DRY_RUN || !CLAUDE_CATEGORIES.includes(categoryKey)) {
-    if (!DRY_RUN) console.log(`  Using raw summaries for ${categoryKey}`);
-    else console.log(`[DRY RUN] Would summarize ${articles.length} articles for ${categoryKey}`);
+  if (DRY_RUN) {
+    console.log(`[DRY RUN] Would summarize ${articles.length} articles for ${categoryKey}`);
     return rawSummaries(articles);
   }
 
@@ -180,18 +228,26 @@ async function summarizeWithClaude(categoryKey, catConfig, articles, audience) {
     : "";
 
   const audienceInstruction = audience === "teen"
-    ? `Write summaries for teenagers aged 13-18: use simpler vocabulary, shorter sentences, relatable context, and explain any jargon. Keep it informative but accessible and engaging.`
-    : `Write summaries in standard professional news language for adults.`;
+    ? `YOUR MOST IMPORTANT RULE: Each summary MUST be 80-120 words (5-7 sentences). Short summaries are NOT acceptable.
+
+You are writing for teenagers aged 13-18 who know NOTHING about this topic. Do NOT just report what happened. Instead, write a mini-explainer that answers:
+1. WHO are the people/organizations involved? Give background (e.g. "Viktor Orbán, who has been Hungary's Prime Minister for 14 years and is known for...")
+2. WHY is this happening? What led to this moment?
+3. WHAT does it mean? Why does it matter to the world or to a teenager's life?
+4. DEFINE every term a teenager might not know (e.g. tariffs, GDP, sanctions, coalition).
+
+Tone: like a smart older friend explaining the news — conversational but informative. NEVER assume prior knowledge.`
+    : `For each article, write a 2-3 sentence summary in standard professional news language for adults.`;
 
   const message = await client.messages.create({
     model: "claude-haiku-4-5-20251001",
-    max_tokens: 4096,
+    max_tokens: audience === "teen" ? 8192 : 4096,
     messages: [
       {
         role: "user",
         content: `You are a news editor curating a "${catConfig.label}" digest (${catConfig.description}). Below are today's articles.
 
-Rank the top 10 by relevance and importance. For each, write a 2-3 sentence summary.
+Rank the top 10 by relevance and importance.
 
 ${audienceInstruction}
 ${filterInstructions}
@@ -201,7 +257,7 @@ Return ONLY valid JSON in this exact format (no markdown, no code fences):
     "rank": 1,
     "originalIndex": 1,
     "title": "Article title",
-    "summary": "2-3 sentence summary.",
+    "summary": "Summary text.",
     "source": "Source Name",
     "link": "https://...",
     "pubDate": "ISO date string"
@@ -263,8 +319,14 @@ function getDateString() {
   return bangkokTime.toISOString().split("T")[0];
 }
 
-function getEnabledCategories() {
-  // Always fetch all categories so data is available when users enable them
+async function getEnabledCategories() {
+  try {
+    const config = JSON.parse(await fs.readFile(path.join(DATA_DIR, "config.json"), "utf-8"));
+    if (config.enabledCategories && config.enabledCategories.length > 0) {
+      // Only return categories that exist in ALL_CATEGORIES
+      return config.enabledCategories.filter(c => ALL_CATEGORIES[c]);
+    }
+  } catch {}
   return Object.keys(ALL_CATEGORIES);
 }
 
@@ -277,7 +339,7 @@ async function main() {
   const dateStr = getDateString();
   console.log(`Edition: ${edition}, Date: ${dateStr}`);
 
-  const enabledCategories = getEnabledCategories();
+  const enabledCategories = await getEnabledCategories();
   console.log(`Enabled categories: ${enabledCategories.join(", ")}`);
 
   const adultDigest = {
@@ -340,20 +402,20 @@ async function main() {
     adultDigest.categories[categoryKey] = adultSummarized;
     console.log(`  Adult: ${adultSummarized.length} articles`);
 
-    // Teen version (only call Claude again for Claude categories, others are the same)
-    if (CLAUDE_CATEGORIES.includes(categoryKey)) {
-      const teenSummarized = await summarizeWithClaude(
-        categoryKey,
-        catConfig,
-        allArticles,
-        "teen"
-      );
-      teenDigest.categories[categoryKey] = teenSummarized;
-      console.log(`  Teen: ${teenSummarized.length} articles`);
-    } else {
-      teenDigest.categories[categoryKey] = adultSummarized;
-    }
+    // Teen version
+    const teenSummarized = await summarizeWithClaude(
+      categoryKey,
+      catConfig,
+      allArticles,
+      "teen"
+    );
+    teenDigest.categories[categoryKey] = teenSummarized;
+    console.log(`  Teen: ${teenSummarized.length} articles`);
   }
+
+  // Generate audio for teen digest only
+  console.log("\nGenerating audio...");
+  await generateDigestAudio(teenDigest, "teen");
 
   // Write adult digest files
   const filename = `digest-${dateStr}-${edition}.json`;

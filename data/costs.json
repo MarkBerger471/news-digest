@@ -30,5 +30,45 @@
     "outputTokens": 10874,
     "estimatedCostUSD": 0.0574,
     "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "date": "2026-04-12",
+    "edition": "morning",
+    "inputTokens": 17080,
+    "outputTokens": 17345,
+    "estimatedCostUSD": 0.083,
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "date": "2026-04-12",
+    "edition": "morning",
+    "inputTokens": 18840,
+    "outputTokens": 14214,
+    "estimatedCostUSD": 0.0719,
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "date": "2026-04-12",
+    "edition": "morning",
+    "inputTokens": 18042,
+    "outputTokens": 14009,
+    "estimatedCostUSD": 0.0705,
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "date": "2026-04-12",
+    "edition": "morning",
+    "inputTokens": 18458,
+    "outputTokens": 14454,
+    "estimatedCostUSD": 0.0726,
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "date": "2026-04-12",
+    "edition": "morning",
+    "inputTokens": 59286,
+    "outputTokens": 53082,
+    "estimatedCostUSD": 0.2598,
+    "model": "claude-haiku-4-5-20251001"
   }
 ]

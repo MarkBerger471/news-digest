@@ -29,6 +29,92 @@
   -webkit-font-smoothing: antialiased;
 }
 
+/* Teen theme — vibrant, energetic colors */
+[data-theme="teen"] {
+  --bg: #1a1025;
+  --bg-card: #261838;
+  --bg-hover: #362450;
+  --text: #f0e6ff;
+  --text-muted: #c4a8e0;
+  --text-dim: #8b6aad;
+  --accent: #e879f9;
+  --accent-alt: #67e8f9;
+  --border: #3d2858;
+  --success: #34d399;
+  --tab-active: #e879f9;
+  --tab-inactive: #6b5080;
+}
+
+[data-theme="teen"] .audience-badge {
+  background: linear-gradient(135deg, #e879f9, #67e8f9);
+  color: #1a1025;
+  font-weight: 700;
+}
+
+[data-theme="teen"] .article {
+  border-color: var(--border);
+  box-shadow: 0 0 0 0 transparent;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+[data-theme="teen"] .article:hover {
+  border-color: #e879f9;
+  box-shadow: 0 0 12px rgba(232, 121, 249, 0.15);
+}
+
+[data-theme="teen"] .article-rank {
+  background: linear-gradient(135deg, #e879f9, #67e8f9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 13px;
+}
+
+[data-theme="teen"] .header {
+  border-bottom-color: #3d2858;
+  background: linear-gradient(180deg, #1a1025 0%, #1a1025 100%);
+}
+
+[data-theme="teen"] .header h1 {
+  background: linear-gradient(135deg, #e879f9, #67e8f9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-theme="teen"] .tab.active {
+  color: #e879f9;
+  border-bottom-color: #e879f9;
+}
+
+[data-theme="teen"] .category-card.enabled {
+  border-color: #e879f9;
+}
+
+[data-theme="teen"] .category-card.enabled .category-card-icon {
+  background: rgba(232, 121, 249, 0.15);
+  color: #e879f9;
+}
+
+[data-theme="teen"] .category-toggle.on {
+  background: linear-gradient(135deg, #e879f9, #c084fc);
+}
+
+[data-theme="teen"] .settings-tab.active {
+  color: #e879f9;
+  border-bottom-color: #e879f9;
+}
+
+[data-theme="teen"] .filter-input-row button,
+[data-theme="teen"] .empty-settings-btn {
+  background: linear-gradient(135deg, #e879f9, #c084fc);
+  color: #1a1025;
+}
+
+[data-theme="teen"] .loading .spinner {
+  border-top-color: #e879f9;
+}
+
 body {
   min-height: 100dvh;
   overscroll-behavior-y: contain;
@@ -70,6 +156,22 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.audience-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: #7c3aed;
+  color: #fff;
+  letter-spacing: 0.3px;
 }
 
 .settings-btn {
@@ -241,6 +343,35 @@ body {
 
 .article-meta .dot {
   opacity: 0.4;
+}
+
+.play-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--accent);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+
+.play-btn:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent);
+}
+
+.play-btn.playing {
+  color: #f87171;
+  border-color: #f87171;
+}
+
+.play-btn.playing:hover {
+  background: rgba(248, 113, 113, 0.1);
 }
 
 /* Loading & Empty states */

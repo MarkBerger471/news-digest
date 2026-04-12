@@ -1,3 +1,16 @@
 {
-  "audience": "adult"
+  "audience": "adult",
+  "enabledCategories": [
+    "world-news",
+    "automotive-ev-battery",
+    "tech-ai",
+    "finance-markets",
+    "science-space",
+    "energy-climate",
+    "health-biotech",
+    "crypto-web3",
+    "startups-vc",
+    "cybersecurity",
+    "asia-pacific"
+  ]
 }
