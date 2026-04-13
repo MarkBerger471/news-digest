@@ -72,14 +72,32 @@ function formatSummary(summary, mode) {
 
 let currentAudio = null;
 
+const SPEED_OPTIONS = [0.75, 1, 1.25, 1.5];
+
+function getPlaybackSpeed() {
+  try { return parseFloat(localStorage.getItem("playbackSpeed")) || 1; } catch { return 1; }
+}
+
 function PlayButton({ text, audioSrc }) {
   const [playing, setPlaying] = useState(false);
+  const [speed, setSpeed] = useState(getPlaybackSpeed);
+  const [showSpeed, setShowSpeed] = useState(false);
+
+  const cycleSpeed = (e) => {
+    e.stopPropagation();
+    const idx = SPEED_OPTIONS.indexOf(speed);
+    const next = SPEED_OPTIONS[(idx + 1) % SPEED_OPTIONS.length];
+    setSpeed(next);
+    localStorage.setItem("playbackSpeed", next);
+    if (currentAudio) currentAudio.playbackRate = next;
+  };
 
   const toggle = () => {
     if (playing) {
       if (currentAudio) { currentAudio.pause(); currentAudio = null; }
       speechSynthesis.cancel();
       setPlaying(false);
+      setShowSpeed(false);
       return;
     }
 
@@ -89,28 +107,37 @@ function PlayButton({ text, audioSrc }) {
 
     if (audioSrc) {
       const audio = new Audio(audioSrc);
-      audio.onended = () => { setPlaying(false); currentAudio = null; };
-      audio.onerror = () => { setPlaying(false); currentAudio = null; };
+      audio.playbackRate = speed;
+      audio.onended = () => { setPlaying(false); setShowSpeed(false); currentAudio = null; };
+      audio.onerror = () => { setPlaying(false); setShowSpeed(false); currentAudio = null; };
       audio.play();
       currentAudio = audio;
     } else {
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.rate = 0.95;
-      utterance.onend = () => setPlaying(false);
-      utterance.onerror = () => setPlaying(false);
+      utterance.rate = speed;
+      utterance.onend = () => { setPlaying(false); setShowSpeed(false); };
+      utterance.onerror = () => { setPlaying(false); setShowSpeed(false); };
       speechSynthesis.speak(utterance);
     }
     setPlaying(true);
+    setShowSpeed(true);
   };
 
   return (
-    <button className={`play-btn ${playing ? "playing" : ""}`} onClick={toggle} title={playing ? "Stop" : "Listen"}>
-      {playing ? (
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>
-      ) : (
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+    <span className="play-controls">
+      <button className={`play-btn ${playing ? "playing" : ""}`} onClick={toggle} title={playing ? "Stop" : "Listen"}>
+        {playing ? (
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>
+        ) : (
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        )}
+      </button>
+      {showSpeed && (
+        <button className="speed-btn" onClick={cycleSpeed} title="Change speed">
+          {speed}x
+        </button>
       )}
-    </button>
+    </span>
   );
 }
 
