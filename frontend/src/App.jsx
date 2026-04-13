@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import Settings from "./Settings.jsx";
 import "./index.css";
 
@@ -78,58 +78,80 @@ function getPlaybackSpeed() {
 
 function PlayButton({ text, audioSrc }) {
   const [playing, setPlaying] = useState(false);
+  const [started, setStarted] = useState(false);
   const [speed, setSpeed] = useState(getPlaybackSpeed);
-  const [showSpeed, setShowSpeed] = useState(false);
+  const audioRef = useRef(null);
 
   const changeSpeed = (delta, e) => {
     e.stopPropagation();
     const next = Math.round((Math.min(2, Math.max(0.5, speed + delta))) * 10) / 10;
     setSpeed(next);
     localStorage.setItem("playbackSpeed", next);
-    if (currentAudio) currentAudio.playbackRate = next;
+    if (audioRef.current) audioRef.current.playbackRate = next;
   };
 
   const toggle = () => {
+    // Pause
     if (playing) {
-      if (currentAudio) { currentAudio.pause(); currentAudio = null; }
-      speechSynthesis.cancel();
+      if (audioRef.current) audioRef.current.pause();
+      speechSynthesis.pause();
       setPlaying(false);
-      setShowSpeed(false);
+      return;
+    }
+
+    // Resume existing audio
+    if (started && audioRef.current && audioRef.current.currentTime > 0) {
+      audioRef.current.playbackRate = speed;
+      audioRef.current.play();
+      currentAudio = audioRef.current;
+      setPlaying(true);
+      return;
+    }
+
+    // Resume existing speech
+    if (started && speechSynthesis.paused) {
+      speechSynthesis.resume();
+      setPlaying(true);
       return;
     }
 
     // Stop any other playing audio
-    if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+    if (currentAudio && currentAudio !== audioRef.current) {
+      currentAudio.pause();
+      currentAudio = null;
+    }
     speechSynthesis.cancel();
 
+    // Start new playback
     if (audioSrc) {
       const audio = new Audio(audioSrc);
       audio.playbackRate = speed;
-      audio.onended = () => { setPlaying(false); setShowSpeed(false); currentAudio = null; };
-      audio.onerror = () => { setPlaying(false); setShowSpeed(false); currentAudio = null; };
+      audio.onended = () => { setPlaying(false); setStarted(false); audioRef.current = null; currentAudio = null; };
+      audio.onerror = () => { setPlaying(false); setStarted(false); audioRef.current = null; currentAudio = null; };
       audio.play();
+      audioRef.current = audio;
       currentAudio = audio;
     } else {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.rate = speed;
-      utterance.onend = () => { setPlaying(false); setShowSpeed(false); };
-      utterance.onerror = () => { setPlaying(false); setShowSpeed(false); };
+      utterance.onend = () => { setPlaying(false); setStarted(false); };
+      utterance.onerror = () => { setPlaying(false); setStarted(false); };
       speechSynthesis.speak(utterance);
     }
     setPlaying(true);
-    setShowSpeed(true);
+    setStarted(true);
   };
 
   return (
     <span className="play-controls">
-      <button className={`play-btn ${playing ? "playing" : ""}`} onClick={toggle} title={playing ? "Stop" : "Listen"}>
+      <button className={`play-btn ${playing ? "playing" : ""}`} onClick={toggle} title={playing ? "Pause" : started ? "Resume" : "Listen"}>
         {playing ? (
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>
         ) : (
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
         )}
       </button>
-      {showSpeed && (
+      {started && (
         <span className="speed-controls">
           <button className="speed-btn" onClick={(e) => changeSpeed(-0.1, e)} title="Slower">-</button>
           <span className="speed-label">{speed.toFixed(1)}x</span>
