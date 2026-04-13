@@ -333,12 +333,14 @@ function getDateString() {
 async function getEnabledCategories() {
   try {
     const config = JSON.parse(await fs.readFile(path.join(DATA_DIR, "config.json"), "utf-8"));
-    if (config.enabledCategories && config.enabledCategories.length > 0) {
-      // Only return categories that exist in ALL_CATEGORIES
-      return config.enabledCategories.filter(c => ALL_CATEGORIES[c]);
+    const adultCats = (config.adultCategories || config.enabledCategories || []).filter(c => ALL_CATEGORIES[c]);
+    const teenCats = (config.teenCategories || config.enabledCategories || []).filter(c => ALL_CATEGORIES[c]);
+    if (adultCats.length > 0 || teenCats.length > 0) {
+      return { adult: adultCats, teen: teenCats };
     }
   } catch {}
-  return Object.keys(ALL_CATEGORIES);
+  const all = Object.keys(ALL_CATEGORIES);
+  return { adult: all, teen: all };
 }
 
 async function main() {
@@ -350,8 +352,11 @@ async function main() {
   const dateStr = getDateString();
   console.log(`Edition: ${edition}, Date: ${dateStr}`);
 
-  const enabledCategories = await getEnabledCategories();
-  console.log(`Enabled categories: ${enabledCategories.join(", ")}`);
+  const { adult: adultCategories, teen: teenCategories } = await getEnabledCategories();
+  // Union of both lists — fetch articles once, summarize per audience
+  const allCategoryKeys = [...new Set([...adultCategories, ...teenCategories])];
+  console.log(`Adult categories: ${adultCategories.join(", ")}`);
+  console.log(`Teen categories: ${teenCategories.join(", ")}`);
 
   const adultDigest = {
     date: dateStr,
@@ -379,7 +384,10 @@ async function main() {
       return;
     }
 
-    console.log(`\nFetching ${categoryKey}...`);
+    const forAdult = adultCategories.includes(categoryKey);
+    const forTeen = teenCategories.includes(categoryKey);
+
+    console.log(`\nFetching ${categoryKey}... (adult: ${forAdult}, teen: ${forTeen})`);
 
     const rssResults = await Promise.all(catConfig.feeds.map(fetchRSSFeed));
     const rssArticles = rssResults.flat();
@@ -399,23 +407,24 @@ async function main() {
 
     if (allArticles.length === 0) {
       console.warn(`  [${categoryKey}] No articles found`);
-      adultDigest.categories[categoryKey] = [];
-      teenDigest.categories[categoryKey] = [];
+      if (forAdult) adultDigest.categories[categoryKey] = [];
+      if (forTeen) teenDigest.categories[categoryKey] = [];
       return;
     }
 
-    // Adult + Teen summaries in parallel
-    const [adultSummarized, teenSummarized] = await Promise.all([
-      summarizeWithClaude(categoryKey, catConfig, allArticles, "adult"),
-      summarizeWithClaude(categoryKey, catConfig, allArticles, "teen"),
-    ]);
+    // Only summarize for audiences that need this category
+    const promises = [];
+    if (forAdult) promises.push(summarizeWithClaude(categoryKey, catConfig, allArticles, "adult"));
+    if (forTeen) promises.push(summarizeWithClaude(categoryKey, catConfig, allArticles, "teen"));
+    const results = await Promise.all(promises);
 
-    adultDigest.categories[categoryKey] = adultSummarized;
-    teenDigest.categories[categoryKey] = teenSummarized;
-    console.log(`  [${categoryKey}] Adult: ${adultSummarized.length}, Teen: ${teenSummarized.length}`);
+    let idx = 0;
+    if (forAdult) { adultDigest.categories[categoryKey] = results[idx++]; }
+    if (forTeen) { teenDigest.categories[categoryKey] = results[idx++]; }
+    console.log(`  [${categoryKey}] Done`);
   }
 
-  await Promise.all(enabledCategories.map(processCategory));
+  await Promise.all(allCategoryKeys.map(processCategory));
 
   // Generate audio for teen digest only
   console.log("\nGenerating audio...");

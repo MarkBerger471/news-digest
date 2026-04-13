@@ -5,10 +5,12 @@ import "./index.css";
 const DATA_BASE_URL = import.meta.env.VITE_DATA_URL || "/data";
 const AUDIENCE = import.meta.env.VITE_AUDIENCE || "adult";
 
-const DEFAULT_CATEGORIES = ["world-news", "automotive-ev-battery", "tech-ai"];
+const DEFAULT_CATEGORIES = AUDIENCE === "teen"
+  ? ["world-news", "asia-pacific", "tech-ai", "science-space", "nature-science", "energy-climate", "school-education", "sports", "finance-markets", "music-arts"]
+  : ["world-news", "automotive-ev-battery", "tech-ai"];
 
-// Master category order — must match backend/categories.js
-const CATEGORY_ORDER = [
+// Master category order per audience
+const ADULT_CATEGORY_ORDER = [
   "world-news",
   "automotive-ev-battery",
   "tech-ai",
@@ -21,6 +23,21 @@ const CATEGORY_ORDER = [
   "cybersecurity",
   "asia-pacific",
 ];
+
+const TEEN_CATEGORY_ORDER = [
+  "world-news",
+  "asia-pacific",
+  "tech-ai",
+  "science-space",
+  "nature-science",
+  "energy-climate",
+  "school-education",
+  "sports",
+  "finance-markets",
+  "music-arts",
+];
+
+const CATEGORY_ORDER = AUDIENCE === "teen" ? TEEN_CATEGORY_ORDER : ADULT_CATEGORY_ORDER;
 
 function sortByOrder(categories) {
   return CATEGORY_ORDER.filter((c) => categories.includes(c));
@@ -138,7 +155,7 @@ function Article({ article, index, summaryDisplay }) {
           >
             Read &rarr;
           </a>
-          {summary && (
+          {summary && AUDIENCE === "teen" && (
             <>
               <span className="dot">&middot;</span>
               <PlayButton text={`${article.title}. ${summary}`} audioSrc={article.audio} />

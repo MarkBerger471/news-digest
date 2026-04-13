@@ -215,6 +215,73 @@ export const ALL_CATEGORIES = {
     newsApiQuery: "Asia Pacific OR ASEAN OR China policy OR Japan economy OR India OR Southeast Asia OR Korea",
     claudeFilter: `Focus on stories with regional or global significance from the Asia-Pacific region. Include geopolitics, trade, economic developments, major policy changes, and significant events. Exclude local crime, celebrity gossip, and minor domestic stories.`,
   },
+
+  "sports": {
+    label: "Sports",
+    description: "Major sports news, football, basketball, tennis, Olympics, esports",
+    icon: "trophy",
+    feeds: [
+      { name: "ESPN", url: "https://www.espn.com/espn/rss/news" },
+      { name: "BBC Sport", url: "https://feeds.bbci.co.uk/sport/rss.xml" },
+      { name: "Sky Sports", url: "https://www.skysports.com/rss/12040" },
+      { name: "Bleacher Report", url: "https://bleacherreport.com/articles/feed" },
+      { name: "The Athletic", url: "https://theathletic.com/feed/" },
+      { name: "Sports Illustrated", url: "https://www.si.com/rss/si_topstories.rss" },
+      { name: "CBS Sports", url: "https://www.cbssports.com/rss/headlines/" },
+      { name: "Dexerto Esports", url: "https://www.dexerto.com/feed/" },
+    ],
+    newsApiQuery: "football OR basketball OR tennis OR Olympics OR FIFA OR NBA OR esports OR Champions League",
+  },
+
+  "school-education": {
+    label: "School & Education",
+    description: "Education news, college admissions, student life, learning trends",
+    icon: "book",
+    feeds: [
+      { name: "Education Week", url: "https://www.edweek.org/feed" },
+      { name: "Inside Higher Ed", url: "https://www.insidehighered.com/rss/feed" },
+      { name: "The Hechinger Report", url: "https://hechingerreport.org/feed/" },
+      { name: "EdSurge", url: "https://www.edsurge.com/articles_rss" },
+      { name: "Times Higher Education", url: "https://www.timeshighereducation.com/rss" },
+      { name: "Chronicle of Higher Ed", url: "https://www.chronicle.com/feed" },
+    ],
+    newsApiQuery: "education policy OR college admissions OR student OR university OR school OR online learning OR SAT OR scholarship",
+  },
+
+  "nature-science": {
+    label: "Nature & Science",
+    description: "Biology, physics, chemistry, wildlife, environment, natural world",
+    icon: "leaf",
+    feeds: [
+      { name: "National Geographic", url: "https://www.nationalgeographic.com/feed" },
+      { name: "Nature", url: "https://www.nature.com/nature.rss" },
+      { name: "Science Magazine", url: "https://www.science.org/rss/news_current.xml" },
+      { name: "New Scientist", url: "https://www.newscientist.com/feed/home/" },
+      { name: "Phys.org", url: "https://phys.org/rss-feed/" },
+      { name: "Live Science", url: "https://www.livescience.com/feeds/all" },
+      { name: "Science Daily", url: "https://www.sciencedaily.com/rss/all.xml" },
+      { name: "Smithsonian Magazine", url: "https://www.smithsonianmag.com/rss/latest_articles/" },
+      { name: "IFLScience", url: "https://www.iflscience.com/feed" },
+    ],
+    newsApiQuery: "biology discovery OR physics breakthrough OR chemistry OR wildlife OR nature OR animal species OR ocean OR environment research",
+  },
+
+  "music-arts": {
+    label: "Music & Arts",
+    description: "Music, concerts, movies, TV, streaming, art, culture",
+    icon: "music",
+    feeds: [
+      { name: "Pitchfork", url: "https://pitchfork.com/feed/feed-news/rss" },
+      { name: "Rolling Stone", url: "https://www.rollingstone.com/feed/" },
+      { name: "Billboard", url: "https://www.billboard.com/feed/" },
+      { name: "NME", url: "https://www.nme.com/feed" },
+      { name: "Consequence of Sound", url: "https://consequence.net/feed/" },
+      { name: "Variety", url: "https://variety.com/feed/" },
+      { name: "The Hollywood Reporter", url: "https://www.hollywoodreporter.com/feed/" },
+      { name: "Deadline", url: "https://deadline.com/feed/" },
+    ],
+    newsApiQuery: "music album OR concert tour OR movie release OR streaming OR Grammy OR Oscar OR art exhibition OR Netflix OR Spotify",
+  },
 };
 
 // Default enabled categories

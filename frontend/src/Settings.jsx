@@ -1,5 +1,11 @@
 import { useState, useMemo } from "react";
 
+const AUDIENCE = import.meta.env.VITE_AUDIENCE || "adult";
+
+const CATEGORY_ORDER = AUDIENCE === "teen"
+  ? ["world-news","asia-pacific","tech-ai","science-space","nature-science","energy-climate","school-education","sports","finance-markets","music-arts"]
+  : ["world-news","automotive-ev-battery","tech-ai","finance-markets","science-space","energy-climate","health-biotech","crypto-web3","startups-vc","cybersecurity","asia-pacific"];
+
 const ICONS = {
   globe: "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 2a8 8 0 0 1 5.3 2H6.7A8 8 0 0 1 12 4zM4 12a8 8 0 0 1 .5-2.8h15A8 8 0 0 1 20 12a8 8 0 0 1-.5 2.8h-15A8 8 0 0 1 4 12zm2.7 6h10.6A8 8 0 0 1 12 20a8 8 0 0 1-5.3-2z",
   car: "M5 11l1.5-4.5A2 2 0 0 1 8.4 5h7.2a2 2 0 0 1 1.9 1.5L19 11m-14 0h14v6a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H8v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-6zm2.5 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm9 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z",
@@ -12,6 +18,9 @@ const ICONS = {
   briefcase: "M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2",
   shield: "M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z",
   map: "M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4zm7-4v16m8-12v16",
+  trophy: "M6 9H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3m12 5h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3M6 4h12v6a6 6 0 0 1-12 0V4zm3 16h6m-3-4v4",
+  book: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15z",
+  music: "M9 18V5l12-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm12-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z",
 };
 
 function CategoryIcon({ icon, size = 20 }) {
@@ -62,8 +71,7 @@ function CategoriesPanel({ catalog, enabledCategories, setEnabledCategories }) {
       </p>
       <div className="category-grid">
         {Object.entries(catalog).sort(([a], [b]) => {
-          const order = ["world-news","automotive-ev-battery","tech-ai","finance-markets","science-space","energy-climate","health-biotech","crypto-web3","startups-vc","cybersecurity","asia-pacific"];
-          return (order.indexOf(a) === -1 ? 999 : order.indexOf(a)) - (order.indexOf(b) === -1 ? 999 : order.indexOf(b));
+          return (CATEGORY_ORDER.indexOf(a) === -1 ? 999 : CATEGORY_ORDER.indexOf(a)) - (CATEGORY_ORDER.indexOf(b) === -1 ? 999 : CATEGORY_ORDER.indexOf(b));
         }).map(([key, cat]) => {
           const enabled = enabledCategories.includes(key);
           return (
