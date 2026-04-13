@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 const ICONS = {
   globe: "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 2a8 8 0 0 1 5.3 2H6.7A8 8 0 0 1 12 4zM4 12a8 8 0 0 1 .5-2.8h15A8 8 0 0 1 20 12a8 8 0 0 1-.5 2.8h-15A8 8 0 0 1 4 12zm2.7 6h10.6A8 8 0 0 1 12 20a8 8 0 0 1-5.3-2z",
@@ -61,7 +61,10 @@ function CategoriesPanel({ catalog, enabledCategories, setEnabledCategories }) {
         immediately for display, and on the next digest generation for content.
       </p>
       <div className="category-grid">
-        {Object.entries(catalog).map(([key, cat]) => {
+        {Object.entries(catalog).sort(([a], [b]) => {
+          const order = ["world-news","automotive-ev-battery","tech-ai","finance-markets","science-space","energy-climate","health-biotech","crypto-web3","startups-vc","cybersecurity","asia-pacific"];
+          return (order.indexOf(a) === -1 ? 999 : order.indexOf(a)) - (order.indexOf(b) === -1 ? 999 : order.indexOf(b));
+        }).map(([key, cat]) => {
           const enabled = enabledCategories.includes(key);
           return (
             <button

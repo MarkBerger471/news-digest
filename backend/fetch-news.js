@@ -200,7 +200,13 @@ async function generateDigestAudio(digest, prefix) {
 let totalInputTokens = 0;
 let totalOutputTokens = 0;
 
-// Both audiences are always generated
+// Timeout wrapper — skip to raw summaries if Claude takes too long
+function withTimeout(promise, ms) {
+  return Promise.race([
+    promise,
+    new Promise((_, reject) => setTimeout(() => reject(new Error(`Timeout after ${ms}ms`)), ms)),
+  ]);
+}
 
 async function summarizeWithClaude(categoryKey, catConfig, articles, audience) {
   if (DRY_RUN) {
@@ -208,6 +214,7 @@ async function summarizeWithClaude(categoryKey, catConfig, articles, audience) {
     return rawSummaries(articles);
   }
 
+  try {
   const client = new Anthropic();
 
   const top20 = articles.slice(0, 20);
@@ -239,7 +246,7 @@ You are writing for teenagers aged 13-18 who know NOTHING about this topic. Do N
 Tone: like a smart older friend explaining the news — conversational but informative. NEVER assume prior knowledge.`
     : `For each article, write a 2-3 sentence summary in standard professional news language for adults.`;
 
-  const message = await client.messages.create({
+  const message = await withTimeout(client.messages.create({
     model: "claude-haiku-4-5-20251001",
     max_tokens: audience === "teen" ? 8192 : 4096,
     messages: [
@@ -273,7 +280,7 @@ Source URLs for reference:
 ${top20.map((a, i) => `${i + 1}. ${a.link}`).join("\n")}`,
       },
     ],
-  });
+  }), 60000);
 
   // Track token usage
   totalInputTokens += message.usage?.input_tokens || 0;
@@ -304,6 +311,10 @@ ${top20.map((a, i) => `${i + 1}. ${a.link}`).join("\n")}`,
       image: a.image || null,
       pubDate: a.pubDate,
     }));
+  }
+  } catch (err) {
+    console.error(`  Claude failed for ${categoryKey} (${audience}): ${err.message}`);
+    return rawSummaries(articles);
   }
 }
 
@@ -360,58 +371,51 @@ async function main() {
 
   const previousTitles = await loadPreviousTitles();
 
-  for (const categoryKey of enabledCategories) {
+  // Process all categories in parallel
+  async function processCategory(categoryKey) {
     const catConfig = ALL_CATEGORIES[categoryKey];
     if (!catConfig) {
       console.warn(`Unknown category: ${categoryKey}, skipping`);
-      continue;
+      return;
     }
 
     console.log(`\nFetching ${categoryKey}...`);
 
     const rssResults = await Promise.all(catConfig.feeds.map(fetchRSSFeed));
     const rssArticles = rssResults.flat();
-    console.log(`  RSS: ${rssArticles.length} articles`);
+    console.log(`  [${categoryKey}] RSS: ${rssArticles.length} articles`);
 
     const newsApiArticles = await fetchNewsAPI(
       categoryKey,
       catConfig.newsApiQuery
     );
-    console.log(`  NewsAPI: ${newsApiArticles.length} articles`);
+    console.log(`  [${categoryKey}] NewsAPI: ${newsApiArticles.length} articles`);
 
     const allArticles = deduplicateArticles(
       [...rssArticles, ...newsApiArticles],
       previousTitles
     );
-    console.log(`  After dedup: ${allArticles.length} articles`);
+    console.log(`  [${categoryKey}] After dedup: ${allArticles.length} articles`);
 
     if (allArticles.length === 0) {
-      console.warn(`  No articles found for ${categoryKey}`);
+      console.warn(`  [${categoryKey}] No articles found`);
       adultDigest.categories[categoryKey] = [];
       teenDigest.categories[categoryKey] = [];
-      continue;
+      return;
     }
 
-    // Adult version
-    const adultSummarized = await summarizeWithClaude(
-      categoryKey,
-      catConfig,
-      allArticles,
-      "adult"
-    );
-    adultDigest.categories[categoryKey] = adultSummarized;
-    console.log(`  Adult: ${adultSummarized.length} articles`);
+    // Adult + Teen summaries in parallel
+    const [adultSummarized, teenSummarized] = await Promise.all([
+      summarizeWithClaude(categoryKey, catConfig, allArticles, "adult"),
+      summarizeWithClaude(categoryKey, catConfig, allArticles, "teen"),
+    ]);
 
-    // Teen version
-    const teenSummarized = await summarizeWithClaude(
-      categoryKey,
-      catConfig,
-      allArticles,
-      "teen"
-    );
+    adultDigest.categories[categoryKey] = adultSummarized;
     teenDigest.categories[categoryKey] = teenSummarized;
-    console.log(`  Teen: ${teenSummarized.length} articles`);
+    console.log(`  [${categoryKey}] Adult: ${adultSummarized.length}, Teen: ${teenSummarized.length}`);
   }
+
+  await Promise.all(enabledCategories.map(processCategory));
 
   // Generate audio for teen digest only
   console.log("\nGenerating audio...");

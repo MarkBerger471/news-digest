@@ -7,6 +7,25 @@ const AUDIENCE = import.meta.env.VITE_AUDIENCE || "adult";
 
 const DEFAULT_CATEGORIES = ["world-news", "automotive-ev-battery", "tech-ai"];
 
+// Master category order — must match backend/categories.js
+const CATEGORY_ORDER = [
+  "world-news",
+  "automotive-ev-battery",
+  "tech-ai",
+  "finance-markets",
+  "science-space",
+  "energy-climate",
+  "health-biotech",
+  "crypto-web3",
+  "startups-vc",
+  "cybersecurity",
+  "asia-pacific",
+];
+
+function sortByOrder(categories) {
+  return CATEGORY_ORDER.filter((c) => categories.includes(c));
+}
+
 function timeAgo(dateStr) {
   if (!dateStr) return "";
   const diff = Date.now() - new Date(dateStr).getTime();
@@ -276,12 +295,11 @@ export default function App() {
   }, [digest, activeTab, hiddenSources, filters]);
 
   // Build tabs from enabled categories
-  const tabs = enabledCategories
+  const tabs = sortByOrder(enabledCategories)
     .map((key) => ({
       key,
       label: catalog[key]?.label || key,
-    }))
-    .filter((t) => t.key);
+    }));
 
   return (
     <>
