@@ -188,5 +188,64 @@
       "Times of India",
       "ABC Australia"
     ]
+  },
+  "sports": {
+    "label": "Sports",
+    "description": "Major sports news, football, basketball, tennis, Olympics, esports",
+    "icon": "trophy",
+    "sources": [
+      "ESPN",
+      "BBC Sport",
+      "Sky Sports",
+      "Bleacher Report",
+      "The Athletic",
+      "Sports Illustrated",
+      "CBS Sports",
+      "Dexerto Esports"
+    ]
+  },
+  "school-education": {
+    "label": "School & Education",
+    "description": "Education news, college admissions, student life, learning trends",
+    "icon": "book",
+    "sources": [
+      "Education Week",
+      "Inside Higher Ed",
+      "The Hechinger Report",
+      "EdSurge",
+      "Times Higher Education",
+      "Chronicle of Higher Ed"
+    ]
+  },
+  "nature-science": {
+    "label": "Nature & Science",
+    "description": "Biology, physics, chemistry, wildlife, environment, natural world",
+    "icon": "leaf",
+    "sources": [
+      "National Geographic",
+      "Nature",
+      "Science Magazine",
+      "New Scientist",
+      "Phys.org",
+      "Live Science",
+      "Science Daily",
+      "Smithsonian Magazine",
+      "IFLScience"
+    ]
+  },
+  "music-arts": {
+    "label": "Music & Arts",
+    "description": "Music, concerts, movies, TV, streaming, art, culture",
+    "icon": "music",
+    "sources": [
+      "Pitchfork",
+      "Rolling Stone",
+      "Billboard",
+      "NME",
+      "Consequence of Sound",
+      "Variety",
+      "The Hollywood Reporter",
+      "Deadline"
+    ]
   }
 }

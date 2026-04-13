@@ -70,9 +70,10 @@ function CategoriesPanel({ catalog, enabledCategories, setEnabledCategories }) {
         immediately for display, and on the next digest generation for content.
       </p>
       <div className="category-grid">
-        {Object.entries(catalog).sort(([a], [b]) => {
-          return (CATEGORY_ORDER.indexOf(a) === -1 ? 999 : CATEGORY_ORDER.indexOf(a)) - (CATEGORY_ORDER.indexOf(b) === -1 ? 999 : CATEGORY_ORDER.indexOf(b));
-        }).map(([key, cat]) => {
+        {Object.entries(catalog)
+          .filter(([key]) => CATEGORY_ORDER.includes(key))
+          .sort(([a], [b]) => CATEGORY_ORDER.indexOf(a) - CATEGORY_ORDER.indexOf(b))
+          .map(([key, cat]) => {
           const enabled = enabledCategories.includes(key);
           return (
             <button
