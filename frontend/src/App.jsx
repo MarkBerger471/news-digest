@@ -72,8 +72,6 @@ function formatSummary(summary, mode) {
 
 let currentAudio = null;
 
-const SPEED_OPTIONS = [0.75, 1, 1.25, 1.5];
-
 function getPlaybackSpeed() {
   try { return parseFloat(localStorage.getItem("playbackSpeed")) || 1; } catch { return 1; }
 }
@@ -83,10 +81,9 @@ function PlayButton({ text, audioSrc }) {
   const [speed, setSpeed] = useState(getPlaybackSpeed);
   const [showSpeed, setShowSpeed] = useState(false);
 
-  const cycleSpeed = (e) => {
+  const changeSpeed = (delta, e) => {
     e.stopPropagation();
-    const idx = SPEED_OPTIONS.indexOf(speed);
-    const next = SPEED_OPTIONS[(idx + 1) % SPEED_OPTIONS.length];
+    const next = Math.round((Math.min(2, Math.max(0.5, speed + delta))) * 10) / 10;
     setSpeed(next);
     localStorage.setItem("playbackSpeed", next);
     if (currentAudio) currentAudio.playbackRate = next;
@@ -133,9 +130,11 @@ function PlayButton({ text, audioSrc }) {
         )}
       </button>
       {showSpeed && (
-        <button className="speed-btn" onClick={cycleSpeed} title="Change speed">
-          {speed}x
-        </button>
+        <span className="speed-controls">
+          <button className="speed-btn" onClick={(e) => changeSpeed(-0.1, e)} title="Slower">-</button>
+          <span className="speed-label">{speed.toFixed(1)}x</span>
+          <button className="speed-btn" onClick={(e) => changeSpeed(0.1, e)} title="Faster">+</button>
+        </span>
       )}
     </span>
   );

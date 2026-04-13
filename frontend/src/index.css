@@ -380,23 +380,43 @@ body {
   gap: 4px;
 }
 
+.speed-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
 .speed-btn {
   background: none;
   border: 1px solid var(--border);
   color: var(--text-muted);
   cursor: pointer;
-  padding: 2px 6px;
-  border-radius: 10px;
-  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 12px;
   font-family: inherit;
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   transition: all 0.15s;
+  line-height: 1;
 }
 
 .speed-btn:hover {
   background: var(--bg-hover);
   border-color: var(--accent);
   color: var(--accent);
+}
+
+.speed-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-muted);
+  min-width: 28px;
+  text-align: center;
 }
 
 /* Loading & Empty states */
