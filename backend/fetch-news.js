@@ -11,9 +11,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: path.join(__dirname, "..", ".env") });
 
 const DATA_DIR = path.join(__dirname, "..", "data");
-const AUDIO_DIR = path.join(DATA_DIR, "audio");
 const DRY_RUN = process.argv.includes("--dry-run");
-const GOOGLE_TTS_KEY = process.env.GOOGLE_TTS_KEY;
 
 const parser = new Parser({
   timeout: 10000,
@@ -145,65 +143,6 @@ function rawSummaries(articles) {
 }
 
 // TTS generation
-async function generateAudio(text, outputPath) {
-  if (!GOOGLE_TTS_KEY) return false;
-  try {
-    const res = await fetch(
-      `https://texttospeech.googleapis.com/v1/text:synthesize?key=${GOOGLE_TTS_KEY}`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          input: { text },
-          voice: { languageCode: "en-US", name: "en-US-Neural2-J" },
-          audioConfig: { audioEncoding: "MP3", speakingRate: 1.0 },
-        }),
-      }
-    );
-    if (!res.ok) {
-      const err = await res.text();
-      console.error(`  TTS error: ${err.slice(0, 200)}`);
-      return false;
-    }
-    const data = await res.json();
-    await fs.writeFile(outputPath, Buffer.from(data.audioContent, "base64"));
-    return true;
-  } catch (err) {
-    console.error(`  TTS failed: ${err.message}`);
-    return false;
-  }
-}
-
-async function generateDigestAudio(digest, prefix) {
-  if (!GOOGLE_TTS_KEY) {
-    console.log("Skipping TTS — no GOOGLE_TTS_KEY set");
-    return;
-  }
-  await fs.mkdir(AUDIO_DIR, { recursive: true });
-  const tasks = [];
-  for (const [catKey, articles] of Object.entries(digest.categories)) {
-    for (const article of articles) {
-      const audioFile = `${prefix}-${catKey}-${article.rank}.mp3`;
-      const audioPath = path.join(AUDIO_DIR, audioFile);
-      const text = `${article.title}. ${article.summary}`;
-      tasks.push({ article, audioFile, audioPath, text });
-    }
-  }
-  // Process in batches of 10 to avoid rate limits
-  let count = 0;
-  for (let i = 0; i < tasks.length; i += 10) {
-    const batch = tasks.slice(i, i + 10);
-    const results = await Promise.all(batch.map(t => generateAudio(t.text, t.audioPath)));
-    results.forEach((ok, j) => {
-      if (ok) {
-        batch[j].article.audio = `/data/audio/${batch[j].audioFile}`;
-        count++;
-      }
-    });
-  }
-  console.log(`  Generated ${count} audio files (${prefix})`);
-}
-
 // Cost tracking
 let totalInputTokens = 0;
 let totalOutputTokens = 0;
@@ -433,10 +372,6 @@ async function main() {
   }
 
   await Promise.all(allCategoryKeys.map(processCategory));
-
-  // Generate audio for teen digest only
-  console.log("\nGenerating audio...");
-  await generateDigestAudio(teenDigest, "teen");
 
   // Write adult digest files
   const filename = `digest-${dateStr}-${edition}.json`;

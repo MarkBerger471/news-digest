@@ -76,9 +76,10 @@ function getPlaybackSpeed() {
   try { return parseFloat(localStorage.getItem("playbackSpeed")) || 1; } catch { return 1; }
 }
 
-function PlayButton({ text, audioSrc }) {
+function PlayButton({ text }) {
   const [playing, setPlaying] = useState(false);
   const [started, setStarted] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [speed, setSpeed] = useState(getPlaybackSpeed);
   const audioRef = useRef(null);
 
@@ -90,11 +91,10 @@ function PlayButton({ text, audioSrc }) {
     if (audioRef.current) audioRef.current.playbackRate = next;
   };
 
-  const toggle = () => {
+  const toggle = async () => {
     // Pause
     if (playing) {
       if (audioRef.current) audioRef.current.pause();
-      speechSynthesis.pause();
       setPlaying(false);
       return;
     }
@@ -108,44 +108,48 @@ function PlayButton({ text, audioSrc }) {
       return;
     }
 
-    // Resume existing speech
-    if (started && speechSynthesis.paused) {
-      speechSynthesis.resume();
-      setPlaying(true);
-      return;
-    }
-
     // Stop any other playing audio
     if (currentAudio && currentAudio !== audioRef.current) {
       currentAudio.pause();
       currentAudio = null;
     }
-    speechSynthesis.cancel();
 
-    // Start new playback
-    if (audioSrc) {
-      const audio = new Audio(audioSrc);
+    // Fetch TTS on demand
+    setLoading(true);
+    try {
+      const res = await fetch(`/api/tts?text=${encodeURIComponent(text)}`);
+      if (!res.ok) throw new Error("TTS failed");
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const audio = new Audio(url);
       audio.playbackRate = speed;
       audio.onended = () => { setPlaying(false); setStarted(false); audioRef.current = null; currentAudio = null; };
       audio.onerror = () => { setPlaying(false); setStarted(false); audioRef.current = null; currentAudio = null; };
       audio.play();
       audioRef.current = audio;
       currentAudio = audio;
-    } else {
+      setPlaying(true);
+      setStarted(true);
+    } catch {
+      // Fallback to browser TTS
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.rate = speed;
       utterance.onend = () => { setPlaying(false); setStarted(false); };
       utterance.onerror = () => { setPlaying(false); setStarted(false); };
       speechSynthesis.speak(utterance);
+      setPlaying(true);
+      setStarted(true);
+    } finally {
+      setLoading(false);
     }
-    setPlaying(true);
-    setStarted(true);
   };
 
   return (
     <span className="play-controls">
-      <button className={`play-btn ${playing ? "playing" : ""}`} onClick={toggle} title={playing ? "Pause" : started ? "Resume" : "Listen"}>
-        {playing ? (
+      <button className={`play-btn ${playing ? "playing" : ""} ${loading ? "loading" : ""}`} onClick={toggle} disabled={loading} title={loading ? "Loading..." : playing ? "Pause" : started ? "Resume" : "Listen"}>
+        {loading ? (
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="spin"><circle cx="12" cy="12" r="10" strokeDasharray="30 60"/></svg>
+        ) : playing ? (
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>
         ) : (
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
@@ -206,7 +210,7 @@ function Article({ article, index, summaryDisplay }) {
           {summary && AUDIENCE === "teen" && (
             <>
               <span className="dot">&middot;</span>
-              <PlayButton text={`${article.title}. ${summary}`} audioSrc={article.audio} />
+              <PlayButton text={`${article.title}. ${summary}`} />
             </>
           )}
         </div>
