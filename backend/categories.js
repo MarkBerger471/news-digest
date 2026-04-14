@@ -23,7 +23,7 @@ export const ALL_CATEGORIES = {
       { name: "Times of India", url: "https://timesofindia.indiatimes.com/rssfeedstopstories.cms" },
     ],
     newsApiQuery: "geopolitics OR international relations OR global economy OR trade war OR G7 OR NATO OR UN OR climate summit OR world leader",
-    claudeFilter: `STRICT FILTER: Only include stories with GLOBAL significance — geopolitics, international diplomacy, trade, macroeconomics, wars/conflicts between nations, major policy shifts, climate agreements, global health crises, etc. EXCLUDE all local crime, domestic violence, local accidents, human interest stories, celebrity news, and anything that only affects a single city or community. If in doubt, leave it out.`,
+    claudeFilter: `STRICT FILTER: Only include stories with GLOBAL significance — geopolitics, international diplomacy, trade, macroeconomics, wars/conflicts between nations, major policy shifts, climate agreements, global health crises, etc. ABSOLUTELY EXCLUDE: celebrity news, entertainment, royal family gossip, sports, Hollywood, music artists, influencers, reality TV, personal scandals, local crime, domestic violence, local accidents, human interest stories, and anything that only affects a single city or community. If a story is primarily about a celebrity or entertainer, it does NOT belong here regardless of the outlet that published it. If in doubt, leave it out.`,
   },
 
   "automotive-ev-battery": {
