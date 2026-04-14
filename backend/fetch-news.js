@@ -180,18 +180,26 @@ async function generateDigestAudio(digest, prefix) {
     return;
   }
   await fs.mkdir(AUDIO_DIR, { recursive: true });
-  let count = 0;
+  const tasks = [];
   for (const [catKey, articles] of Object.entries(digest.categories)) {
     for (const article of articles) {
       const audioFile = `${prefix}-${catKey}-${article.rank}.mp3`;
       const audioPath = path.join(AUDIO_DIR, audioFile);
       const text = `${article.title}. ${article.summary}`;
-      const ok = await generateAudio(text, audioPath);
+      tasks.push({ article, audioFile, audioPath, text });
+    }
+  }
+  // Process in batches of 10 to avoid rate limits
+  let count = 0;
+  for (let i = 0; i < tasks.length; i += 10) {
+    const batch = tasks.slice(i, i + 10);
+    const results = await Promise.all(batch.map(t => generateAudio(t.text, t.audioPath)));
+    results.forEach((ok, j) => {
       if (ok) {
-        article.audio = `/data/audio/${audioFile}`;
+        batch[j].article.audio = `/data/audio/${batch[j].audioFile}`;
         count++;
       }
-    }
+    });
   }
   console.log(`  Generated ${count} audio files (${prefix})`);
 }
