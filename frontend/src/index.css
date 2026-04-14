@@ -393,6 +393,47 @@ body {
   gap: 4px;
 }
 
+.podcast-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.podcast-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.podcast-btn:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.podcast-btn.loading {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.podcast-btn .spin {
+  animation: spin 1s linear infinite;
+}
+
 .speed-controls {
   display: inline-flex;
   align-items: center;

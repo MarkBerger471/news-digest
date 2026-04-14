@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   const GOOGLE_TTS_KEY = process.env.GOOGLE_TTS_KEY;
   if (!GOOGLE_TTS_KEY) {
     return res.status(500).json({ error: "TTS not configured" });
@@ -37,4 +37,4 @@ export default async function handler(req, res) {
   } catch (err) {
     return res.status(500).json({ error: err.message });
   }
-}
+};
