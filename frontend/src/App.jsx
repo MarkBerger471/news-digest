@@ -256,6 +256,59 @@ function PodcastPlayer({ category }) {
   );
 }
 
+function ArticlePodcast({ title, summary }) {
+  const [playing, setPlaying] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [started, setStarted] = useState(false);
+  const audioRef = useRef(null);
+
+  const toggle = async () => {
+    if (playing) {
+      if (audioRef.current) audioRef.current.pause();
+      setPlaying(false);
+      return;
+    }
+    if (started && audioRef.current && audioRef.current.currentTime > 0) {
+      audioRef.current.play();
+      currentAudio = audioRef.current;
+      setPlaying(true);
+      return;
+    }
+    if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+    setLoading(true);
+    try {
+      const params = new URLSearchParams({ title, summary });
+      const res = await fetch(`/api/podcast?${params}`);
+      if (!res.ok) throw new Error();
+      const blob = await res.blob();
+      const audio = new Audio(URL.createObjectURL(blob));
+      audio.onended = () => { setPlaying(false); setStarted(false); audioRef.current = null; currentAudio = null; };
+      audio.onerror = () => { setPlaying(false); setStarted(false); audioRef.current = null; currentAudio = null; };
+      audio.play();
+      audioRef.current = audio;
+      currentAudio = audio;
+      setPlaying(true);
+      setStarted(true);
+    } catch {
+      setPlaying(false);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <button className={`podcast-article-btn ${loading ? "loading" : ""}`} onClick={toggle} disabled={loading} title={loading ? "Generating..." : playing ? "Pause" : "Podcast"}>
+      {loading ? (
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="spin"><circle cx="12" cy="12" r="10" strokeDasharray="30 60"/></svg>
+      ) : playing ? (
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>
+      ) : (
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+      )}
+    </button>
+  );
+}
+
 function Article({ article, index, summaryDisplay }) {
   const [imgError, setImgError] = useState(false);
   const summary = article.summary;
@@ -301,6 +354,8 @@ function Article({ article, index, summaryDisplay }) {
             <>
               <span className="dot">&middot;</span>
               <PlayButton text={`${article.title}. ${summary}`} />
+              <span className="dot">&middot;</span>
+              <ArticlePodcast title={article.title} summary={summary} />
             </>
           )}
         </div>
