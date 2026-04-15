@@ -149,10 +149,13 @@ let totalOutputTokens = 0;
 
 // Timeout wrapper — skip to raw summaries if Claude takes too long
 function withTimeout(promise, ms) {
+  let timer;
   return Promise.race([
     promise,
-    new Promise((_, reject) => setTimeout(() => reject(new Error(`Timeout after ${ms}ms`)), ms)),
-  ]);
+    new Promise((_, reject) => {
+      timer = setTimeout(() => reject(new Error(`Timeout after ${ms}ms`)), ms);
+    }),
+  ]).finally(() => clearTimeout(timer));
 }
 
 async function summarizeWithClaude(categoryKey, catConfig, articles, audience) {
@@ -371,7 +374,11 @@ async function main() {
     console.log(`  [${categoryKey}] Done`);
   }
 
-  await Promise.all(allCategoryKeys.map(processCategory));
+  // Process in batches of 5 to avoid Claude rate limits
+  for (let i = 0; i < allCategoryKeys.length; i += 5) {
+    const batch = allCategoryKeys.slice(i, i + 5);
+    await Promise.all(batch.map(processCategory));
+  }
 
   // Write adult digest files
   const filename = `digest-${dateStr}-${edition}.json`;
