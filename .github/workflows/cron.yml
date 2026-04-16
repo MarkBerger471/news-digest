@@ -1,9 +1,9 @@
 name: News Digest Cron
 
 on:
-  schedule:
-    # Morning edition: 7am Bangkok (UTC+7) = midnight UTC
-    - cron: "0 0 * * *"
+  # schedule:
+  #   # Morning edition: 7am Bangkok (UTC+7) = midnight UTC
+  #   - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
       edition:
