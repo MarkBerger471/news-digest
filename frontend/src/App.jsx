@@ -605,7 +605,7 @@ export default function App() {
 
         {!loading && !error && articles.length > 0 && (
           <>
-          <PodcastPlayer category={activeTab} />
+          {AUDIENCE === "teen" && <PodcastPlayer category={activeTab} />}
           <div className="article-list">
             {articles.map((article, i) => (
               <Article
