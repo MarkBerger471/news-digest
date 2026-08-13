@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-06-14",
-    "edition": "morning",
-    "inputTokens": 37039,
-    "outputTokens": 29287,
-    "estimatedCostUSD": 0.1468,
-    "model": "claude-haiku-4-5-20251001"
-  },
-  {
     "date": "2026-06-15",
     "edition": "morning",
     "inputTokens": 38812,
@@ -477,6 +469,14 @@
     "inputTokens": 55771,
     "outputTokens": 49670,
     "estimatedCostUSD": 0.2433,
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "date": "2026-08-13",
+    "edition": "morning",
+    "inputTokens": 56249,
+    "outputTokens": 50091,
+    "estimatedCostUSD": 0.2454,
     "model": "claude-haiku-4-5-20251001"
   }
 ]
