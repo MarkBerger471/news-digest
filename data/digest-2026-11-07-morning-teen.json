@@ -1,0 +1,928 @@
+{
+  "date": "2026-11-07",
+  "edition": "morning",
+  "audience": "teen",
+  "generatedAt": "2026-11-07T03:16:55.092Z",
+  "categories": {
+    "world-news": [
+      {
+        "rank": 1,
+        "title": "US urges China to honour Busan trade deal commitments",
+        "summary": "The United States is pressing China to follow through on promises made in the Busan trade deal, a major agreement between President Trump and Chinese leader Xi Jinping. The deal was designed to reduce tariffs (taxes on imported goods) and ease restrictions on technology sales between the two countries. This matters because the US and China are the world's two largest economies, and their trade relationship affects prices of everything from phones to clothes globally. If China doesn't keep its promises, the US might reimpose tariffs, which could make products more expensive and slow economic growth worldwide. Trade negotiations between superpowers shape global markets, so teens should care about whether these deals actually work.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 2,
+        "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+        "summary": "Qatar's Prime Minister is urging the United States and Iran to negotiate an end to their ongoing conflict without delay. Qatar, a Middle Eastern country, often serves as a mediator between countries because it maintains relationships with both the US and Iran. The conflict between the US and Iran has caused regional instability, affected oil prices, and drawn in other nations. If a peace deal happens, it could reduce military tensions in the Middle East and stabilize global energy markets—which affects gas prices everywhere. This is significant because even though most teenagers don't live in the Middle East, the region's conflicts influence international politics, oil supplies, and global security for everyone.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
+        "pubDate": "2026-11-07",
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "Spain's rail authorities face European fraud probe after Urda rail disaster",
+        "summary": "European prosecutors are investigating whether Spain's railway system misused EU funding (money from European Union countries) that was supposed to improve train safety and infrastructure. A major train crash in Urda, Spain killed 69 people, raising questions about whether safety upgrades were actually completed as promised. The EU (a 27-country political and economic union) is concerned that public money meant for protecting citizens may have been wasted or stolen. This investigation matters because it affects trust in how governments spend taxpayer money across Europe, and it highlights how international oversight works to hold countries accountable. When infrastructure like railways isn't properly maintained or funded, it puts millions of daily commuters at risk.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-11-07",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26ed/live/81d3a0d0-d9ee-11f1-bbe5-797ee05bee69.jpg"
+      },
+      {
+        "rank": 4,
+        "title": "New wave of bomb threats hit European airlines",
+        "summary": "Airlines across Europe have received dozens of bomb threats in recent days, forcing flight cancellations and security lockdowns, though no actual explosives have been found. These threats appear to be coordinated hoaxes—false alarms designed to create panic and disrupt transportation. Hoax bomb threats are serious crimes that waste emergency resources and terrify travelers. This situation demonstrates how vulnerable critical infrastructure (systems like airports that society depends on) can be targeted to cause chaos, and it raises questions about security protocols across Europe. Investigators are working to identify who's behind the threats, as disrupting international air travel affects business, tourism, and connects to larger concerns about terrorism and extremism.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-11-07",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c047/live/33f77d10-d9ed-11f1-a701-fddedf244c16.jpg"
+      },
+      {
+        "rank": 5,
+        "title": "AI stocks climb after trillions wiped from market values",
+        "summary": "Technology company stocks, particularly those in artificial intelligence (AI—computer systems that can learn and make decisions), have recovered after investors panicked and sold massive amounts of shares. Investors had worried that a Democratic election victory would slow down AI development through stricter regulations. When investors lose confidence in stocks, trillions of dollars in value can disappear almost instantly, affecting retirement savings, pensions, and economic growth. Stock market movements this dramatic signal deeper concerns about how different political parties approach technology regulation. This matters to teenagers because AI is reshaping education, job markets, and how we interact with technology, so policies that speed up or slow AI development will directly impact your future careers and opportunities.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-11-07",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdde/live/9036f7e0-da01-11f1-93e1-3b657b665bcf.jpg"
+      },
+      {
+        "rank": 6,
+        "title": "EU tells TikTok to fix 'harmful' For You feed, threatens fines",
+        "summary": "The European Union's regulatory commission is ordering TikTok to change its recommendation algorithm—the software that decides which videos appear on users' feeds—because it's allegedly leading people \"down rabbit holes they cannot easily escape from.\" This means the algorithm might be showing increasingly extreme or addictive content that can radicalize users or harm mental health. The EU can fine TikTok billions of euros (the EU's currency) if it doesn't comply, making this a serious threat to the company's business. This is globally significant because the EU sets some of the world's strictest tech regulations, and other countries often follow its lead. Teenagers should care because this fight is about whether tech companies can manipulate what you see online without your awareness.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/news/2026/11/6/eu-tells-tiktok-to-fix-harmful-for-you-feed-threatens-fines?traffic_source=rss",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 7,
+        "title": "Paraguay's Santiago Pena under arrest, new president Pedro Alliana sworn in",
+        "summary": "Paraguay's former president Santiago Pena has been arrested as political turmoil grips the South American nation, with Pedro Alliana being sworn in as the new leader. The crisis was triggered by the collapse of Ueno Bank, a major financial institution, which devastated many citizens' savings and exposed potential corruption. When banks fail suddenly, it can cause economic collapse, unemployment, and political instability in entire regions. Paraguay's situation demonstrates how financial scandals can topple governments and shows that political crises in smaller countries still matter globally because they affect trade relationships and regional stability in Latin America. Leadership changes this dramatic, especially ones involving arrests, signal deeper institutional problems that can spread to neighboring countries.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss",
+        "pubDate": "2026-11-07",
+        "image": null
+      },
+      {
+        "rank": 8,
+        "title": "New Zealanders head to polls on final day of voting",
+        "summary": "New Zealand is holding elections where voters are choosing their next government in what polls suggest will be a closely contested race. More than half of voters have already cast early ballots, indicating high engagement in the democratic process. While New Zealand might seem geographically distant, its elections matter internationally because the country is part of key regional alliances (like the \"Five Eyes\" intelligence partnership with the US, UK, Canada, and Australia) and has significant trade relationships. The election results could influence New Zealand's foreign policy on issues like China relations, climate action, and Pacific island diplomacy. Understanding how democracies work globally—including in smaller countries—helps you see how voting shapes international relationships and policy.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/news/2026/11/6/new-zealanders-head-to-polls-on-final-day-of-voting?traffic_source=rss",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 9,
+        "title": "CDC reports more than 5,000 measles cases, highest number in 35 years",
+        "summary": "The US Centers for Disease Control (CDC) has reported over 5,000 measles cases—the highest number in 35 years—with children and teenagers making up nearly 60 percent of confirmed cases. Measles is a highly contagious viral disease that can cause serious complications including brain damage and death, but it's preventable through vaccination. This outbreak signals a concerning decline in vaccination rates, likely due to vaccine hesitancy and misinformation spreading online. The resurgence matters globally because measles spreads across borders and can spark international outbreaks if not controlled. As a teenager, this directly affects you because measles outbreaks in schools threaten your health and peers' health, and understanding vaccine science helps you make informed decisions about your own health.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/news/2026/11/7/cdc-reports-more-than-5000-measles-cases-highest-number-in-35-years?traffic_source=rss",
+        "pubDate": "2026-11-07",
+        "image": null
+      },
+      {
+        "rank": 10,
+        "title": "Russian extremist group denies sending hoax bomb threats",
+        "summary": "A Russian extremist group has denied responsibility for the bomb threats that have targeted European airlines this week, though investigators are still determining who actually sent them. Extremist groups—organizations that use violence or intimidation for political or ideological goals—sometimes claim responsibility for attacks to maximize fear, or deny involvement if the action doesn't match their typical tactics. These bomb hoaxes, whether from Russian extremists or other actors, reflect broader tensions between Russia and Europe over Ukraine and geopolitical influence. The threats demonstrate how extremist groups use international travel infrastructure to create chaos and advance their causes. Understanding who's behind these attacks matters because it reveals patterns of hostility between nations and helps governments strengthen security to protect civilians.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-11-07",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddd/live/b610ac80-d9da-11f1-b441-2b33b063138f.jpg"
+      }
+    ],
+    "science-space": [
+      {
+        "rank": 1,
+        "title": "Hera probe gets 1st good look at asteroid system clobbered by NASA's DART mission",
+        "summary": "The European Space Agency's Hera spacecraft has captured close-up images of the Didymos binary asteroid system — a pair of space rocks orbiting each other. This is historic because in 2022, NASA intentionally crashed its DART (Double Asteroid Redirection Test) spacecraft into this asteroid to test if we could change an asteroid's trajectory. Think of it like throwing a ball at a moving target to see if you can knock it off course. Hera is now investigating what that collision actually did to the asteroid, helping scientists understand whether asteroid deflection could work as a planetary defense strategy if a dangerous space rock ever headed toward Earth. This matters because it's our first real-world test of humanity's ability to protect itself from asteroid impacts.",
+        "source": "Space.com",
+        "link": "https://www.space.com/space-exploration/asteroid-comet-missions/hera-probe-gets-1st-good-luck-at-asteroid-system-clobbered-by-nasas-dart-mission-space-photo-of-the-day-for-nov-6-2026",
+        "pubDate": "2026-11-06",
+        "image": "https://cdn.mos.cms.futurecdn.net/XzwAXoLgWNRFQYjCaDCG9A-1920-80.jpg"
+      },
+      {
+        "rank": 2,
+        "title": "Giant exoplanet emerges from the dark when the James Webb Space Telescope turns out the starlight",
+        "summary": "Astronomers using the James Webb Space Telescope (JWST) — the most powerful space observatory ever built — have discovered a massive exoplanet (a planet orbiting a star outside our solar system) by filtering out the blinding light from its host star. Normally, detecting exoplanets is like trying to spot a firefly next to a searchlight; the star's glare makes it nearly impossible to see the planet directly. By using special imaging techniques to block out the starlight, researchers can finally see these distant worlds in infrared light. This breakthrough demonstrates how JWST is revolutionizing our ability to study planets around other stars and search for signs of life. It shows that there could be potentially habitable worlds we've never been able to observe before.",
+        "source": "Space.com",
+        "link": "https://www.space.com/astronomy/exoplanets/giant-exoplanet-emerges-from-the-dark-when-the-james-webb-space-telescope-turns-out-the-starlight",
+        "pubDate": "2026-11-06",
+        "image": "https://cdn.mos.cms.futurecdn.net/wBy8Spn5h2GF3fZmTit74h-1920-80.png"
+      },
+      {
+        "rank": 3,
+        "title": "AST SpaceMobile announces new 'Blacklift' rocket, targets 2028 launch debut",
+        "summary": "AST SpaceMobile, a company focused on providing internet access from space, has announced plans to build and launch its own rocket called Blacklift, with a target debut in 2028. Rather than paying other companies to launch their broadband satellites (specialized devices that beam internet signals to Earth), AST SpaceMobile wants vertical integration — meaning they'll handle their own launches. Blacklift represents competition in the commercial spaceflight industry, which is becoming increasingly crowded as companies like SpaceX prove rockets can be reusable and affordable. This matters because more launch providers mean lower launch costs, making it cheaper to get satellites into orbit and potentially bringing internet to remote areas worldwide. It's a sign that space technology is becoming more democratized and accessible to private companies.",
+        "source": "Space.com",
+        "link": "https://www.space.com/space-exploration/launches-spacecraft/ast-spacemobile-announces-new-blacklift-rocket-targets-2028-launch-debut",
+        "pubDate": "2026-11-06",
+        "image": "https://cdn.mos.cms.futurecdn.net/5xcziDsQosAzwaJEameuc8-1920-80.jpg"
+      },
+      {
+        "rank": 4,
+        "title": "M30's Sparkling Stars",
+        "summary": "NASA and the European Space Agency released a stunning image from the Hubble Space Telescope showing Messier 30 (M30), a globular cluster — a spherical collection of hundreds of thousands of stars tightly bound together by gravity. The cluster is named after Charles Messier, an 18th-century French astronomer who cataloged fuzzy objects in the sky that early telescopes couldn't clearly resolve and that people often mistook for comets (icy space objects with glowing tails). Globular clusters like M30 are among the oldest structures in the universe, containing ancient stars that formed billions of years ago. By studying these stellar neighborhoods, astronomers learn about the early history of galaxies and how stars evolve over cosmic time. This sparkling cluster serves as a window into the universe's distant past.",
+        "source": "NASA",
+        "link": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+        "pubDate": "2026-11-05",
+        "image": null
+      },
+      {
+        "rank": 5,
+        "title": "You can see another galaxy with the naked eye — here's how to find it",
+        "summary": "The Andromeda galaxy — the closest large galaxy to our Milky Way, located about 2.5 million light-years away — is actually visible to the naked eye under dark skies, making it the most distant object humans can see without binoculars or telescopes. A light-year is the distance light travels in one year through space; essentially, when you look at Andromeda, you're seeing light that left that galaxy millions of years ago, giving you a glimpse into the past. Many people struggle to locate Andromeda not because it's invisible, but because they don't know where to look or because light pollution from cities drowns it out. This article serves as a guide to finding this neighboring galaxy and understanding that what seems like a faint smudge is actually another vast collection of hundreds of billions of stars. It connects you directly to the cosmic neighborhood surrounding Earth.",
+        "source": "Space.com",
+        "link": "https://www.space.com/stargazing/you-can-see-another-galaxy-with-the-naked-eye-heres-how-to-find-it",
+        "pubDate": "2026-11-06",
+        "image": "https://cdn.mos.cms.futurecdn.net/duoP5jTBba4quRcKTuY2Yd-1920-80.jpg"
+      },
+      {
+        "rank": 6,
+        "title": "SpaceX launches mystery mission for US Space Force in gorgeous sunset liftoff from California",
+        "summary": "SpaceX successfully launched its 125th rocket of 2026 from California on November 6, carrying a classified (secret) payload for the U.S. Space Force. SpaceX, founded by Elon Musk in 2002, has become the world's leading commercial spaceflight company and now conducts regular missions for the military, government agencies, and private companies. The classified nature means details about the satellite or equipment being launched aren't publicly disclosed for national security reasons. This launch highlights how SpaceX has transformed space from a purely government domain into a commercial industry where private companies handle most U.S. spaceflight needs. SpaceX's productivity — 125 launches in a single year — demonstrates how reusable rocket technology has made spaceflight routine, affordable, and accessible in ways that seemed impossible just two decades ago.",
+        "source": "Space.com",
+        "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432",
+        "pubDate": "2026-11-06",
+        "image": "https://cdn.mos.cms.futurecdn.net/q9Z9sqFyvcTuBggqZ6hKgV-1920-80.jpg"
+      },
+      {
+        "rank": 7,
+        "title": "What's that bright 'star' in the early morning sky? It's not a star at all!",
+        "summary": "Venus, the second planet from the Sun and often called Earth's 'sister planet' because of its similar size, has become brilliantly visible in the early morning eastern sky as it approaches its peak brightness later in November. Many stargazers mistake Venus for a star because it's the brightest object in the night sky after the Moon, often appearing before sunrise or shortly after sunset depending on the time of year. Venus's extreme brightness comes from its thick, highly reflective atmosphere composed mainly of carbon dioxide and sulfuric acid clouds. This sky event is a perfect opportunity for teenagers to experience naked-eye astronomy without equipment and understand how planets differ from stars — planets reflect sunlight while stars produce their own light. Watching Venus's changing position and brightness throughout the month connects you to the solar system's mechanics in real time.",
+        "source": "Space.com",
+        "link": "https://www.space.com/stargazing/whats-that-bright-star-in-the-early-morning-sky-its-not-a-star-at-all",
+        "pubDate": "2026-11-06",
+        "image": "https://cdn.mos.cms.futurecdn.net/kv8mtQKdbpsTsbNskhXDAJ-1920-80.jpg"
+      },
+      {
+        "rank": 8,
+        "title": "APOD: 2026 November 5 – Enceladus in Silhouette",
+        "summary": "This Astronomy Picture of the Day features Enceladus, one of Saturn's moons, captured in silhouette as it passes in front of the planet. Enceladus has become one of astronomy's most exciting targets because it harbors a subsurface ocean — liquid water trapped beneath its icy crust — making it a leading candidate in the search for extraterrestrial life. The silhouette perspective, likely captured by Saturn-orbiting spacecraft, reveals the moon's icy, cratered surface and demonstrates the dramatic differences in scale between Saturn and its moons. Scientists are particularly interested in Enceladus because geysers shoot water vapor and organic compounds from beneath the surface into space, suggesting hydrothermal activity similar to Earth's deep-sea vents where life thrives without sunlight. This image reminds us that our solar system contains worlds potentially habitable and worthy of future exploration missions to search for microbial life.",
+        "source": "NASA",
+        "link": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette/",
+        "pubDate": "2026-11-05",
+        "image": null
+      },
+      {
+        "rank": 9,
+        "title": "I finally got my hands on the Unistellar Envision smart binoculars with augmented reality",
+        "summary": "Unistellar has released the Envision smart binoculars, which combine traditional 10x50 binoculars (magnifying objects 10 times and having a 50-millimeter lens for brightness) with augmented reality (AR) technology — digital overlays that appear in your field of view to identify celestial objects. When you point these binoculars at the night sky, the AR system automatically labels stars, constellations, planets, and even deep-sky objects like nebulae and galaxies in real time, essentially turning the sky into an interactive learning tool. This represents a major shift in how people engage with astronomy; instead of needing extensive star charts, apps, and prior knowledge, amateur stargazers can instantly understand what they're looking at. The technology democratizes astronomy by removing barriers to entry and making it accessible and engaging for teenagers who might otherwise find traditional stargazing intimidating. It's a perfect example of how consumer technology is transforming how we explore and understand the universe.",
+        "source": "Space.com",
+        "link": "https://www.space.com/stargazing/skywatching-kit/i-finally-got-my-hands-on-the-unistellar-envision-smart-binoculars-with-augmented-reality-for-the-night-sky-heres-what-theyre-like",
+        "pubDate": "2026-11-06",
+        "image": "https://cdn.mos.cms.futurecdn.net/7yXGDzF7HxY57c9RaCMbwC-1920-80.jpg"
+      },
+      {
+        "rank": 10,
+        "title": "On this day in space! Nov. 6, 1572: A German astronomer discovers the Tycho supernova with the naked eye",
+        "summary": "On November 6, 1572, German astronomer Wolfgang Schulër observed a supernova — a massive stellar explosion where a dying star briefly outshines an entire galaxy — using only his naked eye, leading to what's now called the Tycho supernova (named after the more famous Danish astronomer Tycho Brahe who also observed it). Before telescopes were invented, this was an extraordinary event because supernovae are rare and dramatically brighten the night sky over weeks or months, yet most people of that era believed the heavens never changed. Observers of this supernova initially thought they were witnessing a new star being born, not realizing they were watching stellar destruction on a cosmic scale. This 454-year-old observation represents a pivotal moment in astronomy when naked-eye observations began revealing the universe's violent, dynamic nature and challenged prevailing beliefs that the cosmos was static and unchanging. Understanding supernovae today has led to Nobel Prize-winning discoveries about dark energy and the universe's expansion.",
+        "source": "Space.com",
+        "link": "https://www.space.com/space-exploration/on-this-day-in-space-november-6-2026",
+        "pubDate": "2026-11-06",
+        "image": "https://cdn.mos.cms.futurecdn.net/PhL2SdiCdgsj8d5pLcuUBn-1920-80.jpg"
+      }
+    ],
+    "finance-markets": [
+      {
+        "rank": 1,
+        "title": "US stocks stage tepid recovery after $3.2tn rout fuelled by AI fears",
+        "summary": "The US stock market experienced a massive $3.2 trillion loss—that's the total value of companies traded on US exchanges dropping by trillions of dollars in a short period—primarily because investors got scared about artificial intelligence (AI) investments. Think of it like everyone panicking and selling their video game consoles because they worried about a new gaming trend. While the market did recover somewhat, the comeback was weak compared to historical patterns after major crashes. This matters because stock market health affects retirement savings, college funds, and overall economic confidence. When people lose faith in markets, businesses struggle to raise money for growth, potentially leading to job losses and economic slowdown.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/088ed252-ea9c-4b61-b2d1-37295fd0f7c2?syn-25a6b1a6=1",
+        "pubDate": "2026-11-06",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fee4b4ad2-8780-4e4a-85a6-cbbe5fa51f76.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "rank": 2,
+        "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+        "summary": "Anthropic, an AI company that created Claude (a popular AI assistant competing with ChatGPT), plans to go public through an IPO—that means selling shares of the company to regular investors on the stock market—before Thanksgiving, valuing itself at $1.5 trillion. To understand scale: that's about the same value as Apple or Saudi Arabia's oil wealth. An IPO is when a private company becomes public, allowing anyone to buy ownership pieces. Despite the recent tech stock crash and investor nervousness about AI companies, Anthropic is moving forward, betting people will keep investing in artificial intelligence. This matters because it shows which companies investors still trust during uncertain times, and could signal whether AI hype is recovering or if the panic continues.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1",
+        "pubDate": "2026-11-06",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F75de8a82-8e75-43c3-a4a2-76d844741bc0.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "rank": 3,
+        "title": "US warns China it must 'immediately' meet terms of Busan trade deal",
+        "summary": "The United States is pressuring China to fulfill promises made in the Busan trade deal—an international agreement about buying and selling goods between countries. Specifically, the US says China isn't supplying enough rare earths (special metals used in phones, electric cars, and military equipment) and other critical materials that America needs. Think of it like a group project where one person promised to bring snacks but keeps failing to show up. Rare earths are crucial for modern technology, so controlling their supply gives China significant global power. This tension matters because trade wars can raise prices on everyday products for teenagers, slow economic growth, and create international conflict. It also shows how dependent the world is on specific countries for essential materials.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
+        "pubDate": "2026-11-06",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb9a6dc5c-b18f-4c9f-88a7-7d19051d5618.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "rank": 4,
+        "title": "China Extends Gold-Buying Streak to Two Years as Prices Drop",
+        "summary": "China's central bank—the government institution controlling the country's money supply and financial system—has been continuously buying gold for two straight years, even as gold prices fell almost 7% and dropped below $4,000 per ounce. Central banks buy gold as a safety net, like keeping cash under your mattress, to protect their economy during uncertain times. China buying massive amounts of gold signals they're preparing for potential economic trouble or geopolitical conflict, similar to how you might save extra lunch money if you're worried about future job security. This matters globally because when powerful countries hoard gold, it affects currency values and international trade. For teenagers, this hints at rising global economic nervousness, which could eventually impact jobs, college costs, and investment opportunities as you enter the adult workforce.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-07/china-extends-gold-buying-streak-to-two-years-as-prices-drop",
+        "pubDate": "2026-11-07",
+        "image": null
+      },
+      {
+        "rank": 5,
+        "title": "US believes Nvidia's Huang had romantic relationship with alleged Chinese spy",
+        "summary": "Jensen Huang, the CEO (chief executive officer) of Nvidia—the most valuable semiconductor (computer chip) company in the world—is reportedly under US intelligence investigation for allegedly having a romantic relationship with a Chinese executive recruited to spy on the company. Semiconductors are the brains of all computers and AI systems, making Nvidia extremely important to US national security and technological leadership. Espionage means stealing secrets for a foreign government, and if China obtained Nvidia's technology, it could boost their military and AI capabilities while weakening American advantages. This matters because it highlights how serious nations treat technological competition—if confirmed, it would show how far countries go to steal competitive advantages. For teenagers, it's a reminder that business rivalries between countries now involve spying, security breaches, and geopolitical competition that affects which countries dominate future technology.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+        "pubDate": "2026-11-06",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1ed6c0f3-c692-4ded-bbe5-a309ff2020c9.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "rank": 6,
+        "title": "Beijing Vows to Hit Back Against US Sanctions on China Companies",
+        "summary": "China's government announced it will retaliate against US sanctions—government-imposed punishments restricting trade—placed on two Chinese companies for dealing with a mysterious third party. Sanctions are like freezing someone's bank account and banning them from doing business, used when countries want to punish rule-breaking. China is signaling it won't accept these restrictions without fighting back, threatening to take unspecified 'necessary measures' which could mean counter-sanctions against American companies. This escalating conflict between the world's two largest economies matters because trade wars hurt everyone: prices rise on imported goods, companies lose money, and jobs disappear. For teenagers, tit-for-tat sanctions between the US and China could eventually make phones, clothes, and technology more expensive while affecting your parents' job security and future employment opportunities.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-07/beijing-vows-to-hit-back-against-us-sanctions-on-china-companies",
+        "pubDate": "2026-11-07",
+        "image": null
+      },
+      {
+        "rank": 7,
+        "title": "Low-profile Wall Street firm to double down on Anthropic despite tech rout",
+        "summary": "A relatively unknown Wall Street investment firm called XN has accumulated a $5.3 billion stake—that means owning shares worth $5.3 billion—in Anthropic, an AI company, even as the broader technology sector crashed and investors panicked about tech stocks. A 'stake' is like owning a piece of a business; XN now owns a significant part of Anthropic. Despite the recent $3.2 trillion market crash and widespread fears about overvalued AI companies, this firm is betting heavily that Anthropic will succeed long-term. This matters because it shows serious money managers still believe in AI's future, even when everyone else is scared. It also demonstrates that major wealth is concentrated in the hands of a few firms making huge bets on technology, which gives them enormous power over which companies survive and which fail.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/538bfe46-7051-4e3d-8ff3-ad71c861a1f7?syn-25a6b1a6=1",
+        "pubDate": "2026-11-06",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F54548bdd-cb35-49b2-a072-08b482808e03.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "rank": 8,
+        "title": "Trump has taught the world that tariffs are useless",
+        "summary": "This article argues that former US President Donald Trump's use of tariffs—taxes on imported goods meant to protect American businesses—ultimately backfired and damaged the economy, demonstrated by Republicans losing badly in midterm elections. Tariffs are supposed to make foreign products more expensive so Americans buy domestic goods instead, protecting local jobs and industries. However, Trump's aggressive tariffs in 2017-2020 actually raised prices for everyday Americans, hurt businesses that relied on imported materials, and angered trading partners who retaliated with their own tariffs. This matters because it shows how political decisions about trade directly affect your wallet: when tariffs exist, your family pays more for clothes, electronics, and food. The election results suggest voters rejected this approach, potentially changing how the US handles trade policy going forward, which affects global economics and future job opportunities.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/aab95234-0b9a-4b95-b1e5-d932669076d5?syn-25a6b1a6=1",
+        "pubDate": "2026-11-06",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa51d2206-6f87-4df8-889a-5f68d5a6754a.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "rank": 9,
+        "title": "Braskem Owners Pull Funding Offer as Debt Talks Hit Snag",
+        "summary": "Braskem SA, a major Brazilian petrochemical company (makes chemicals derived from oil used in plastics and materials), is struggling to negotiate with creditors—people and institutions it owes money to—about restructuring its debt. The owners were offering to inject fresh capital (invest more money) into the company to help it pay back debts, but withdrew that offer when negotiations stalled. When companies can't pay debts, it's like a person maxing out credit cards; creditors get nervous about losing their money. Brazil's economy depends partly on Braskem's success, so its financial problems ripple through the country. This matters because it shows how corporate debt crises can spread: if Braskem fails, workers lose jobs, suppliers lose customers, and Brazil's entire economy weakens. For teenagers considering careers or investments, corporate bankruptcies demonstrate why understanding debt and financial responsibility matters at every scale.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-06/braskem-shareholders-pull-funding-offer-as-debt-talks-hit-snags",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 10,
+        "title": "AI-Generated Movie Heading Theaters",
+        "summary": "Fable Studio, a small film company with just 30 employees, created an AI-generated animated feature film called 'Gods Don't Give Gifts' that will release in theaters, showing artificial intelligence has moved from experimental videos to mainstream entertainment. The film still required human directors, writers, voice actors, and artists working alongside AI tools, not replacing them entirely. This represents a major shift in how movies get made: instead of hiring hundreds of people for animation, studios can use AI to speed up production while keeping creative human input. This matters because it signals how AI will transform creative industries and job markets; many animation, design, and production jobs may disappear or change dramatically in coming years. For teenagers planning careers, this is a real-world example of how technology disrupts traditional industries, making it essential to develop adaptable, creative skills that AI can't easily replace.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/videos/2026-11-06/ai-generated-movie-heading-theaters-video",
+        "pubDate": "2026-11-06",
+        "image": null
+      }
+    ],
+    "tech-ai": [
+      {
+        "rank": 1,
+        "title": "OpenAI raises an additional $11 billion at a $1.25 trillion valuation",
+        "summary": "OpenAI, the company behind ChatGPT, just raised $11 billion in new funding, bringing its total value to $1.25 trillion—making it one of the world's most valuable companies. To put this in perspective, a trillion dollars is a thousand billion; only a handful of companies worldwide are worth this much. OpenAI is the leader in generative AI (artificial intelligence that creates text, images, and code), and investors are betting huge sums that AI will transform society. This massive valuation shows how much money is flowing into AI right now, though some worry companies are spending too fast without making enough profit yet. The funding could eventually reach $20 billion, signaling that the AI boom is accelerating faster than most people expected.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 2,
+        "title": "After the midterms, is the AI industry in for a rough two years?",
+        "summary": "Voters across America just rejected data center expansion in nearly all ballot measures they voted on—a major political shift that could slow down AI companies' plans. Data centers are massive warehouse-like buildings filled with computer servers that run AI systems and store data; they require enormous amounts of electricity and water. The Democratic victories in recent midterm elections mean lawmakers who care about environmental and community concerns will have more power. Communities are pushing back because data centers drive up electricity costs, strain power grids, and create noise and pollution. This could force AI companies like OpenAI and Google to delay building new data centers, ultimately slowing their ability to offer new AI services. This moment shows that AI's rapid growth is colliding with real-world limits and public opposition.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+        "summary": "China's intelligence agency allegedly recruited Alice Huang, an executive at Megaspeed (an Nvidia customer), to spy on Nvidia CEO Jensen Huang and steal information about advanced AI chips. Nvidia designs the powerful processors that power AI systems worldwide, making them incredibly valuable. The goal was reportedly to get advanced chips into China despite U.S. export restrictions meant to prevent China from developing military AI capabilities. This incident highlights the intense geopolitical competition over AI technology—the U.S. and China are racing to build the best AI, and each side fears the other will gain a decisive advantage. Espionage like this shows how seriously governments take AI dominance and how vulnerable companies are to foreign intelligence operations. It's a real-world example of how AI isn't just a tech story—it's becoming a national security and global power issue.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+        "pubDate": "2026-11-06",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      },
+      {
+        "rank": 4,
+        "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+        "summary": "Despite everyone talking about an AI revolution, companies are actually spending less on AI services lately—a troubling sign that contradicts investor hype. Anthropic (an AI company competing with OpenAI) is about to go public (meaning it'll sell shares to regular investors), which requires proving the AI market will keep growing. The data shows that while people are using AI more, they're not paying more for it; companies are cutting prices and being smarter about costs. This creates a problem: investors expect AI companies to make tons of profit, but if spending stays flat while costs stay high, profitability becomes harder. The situation reveals a gap between the optimistic narrative about AI transforming everything and the reality that the AI industry is struggling to monetize its products. For teenagers, this means the AI boom might cool down, affecting which tech companies succeed and which ones struggle.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 5,
+        "title": "All the latest updates on AI data centers",
+        "summary": "Data centers—the massive, energy-hungry warehouses powering AI—are becoming a hot-button political issue as communities push back against their expansion. These facilities contain thousands of servers running AI systems and cost billions to build, but they consume enormous amounts of electricity, drive up power bills for nearby residents, and can strain local water supplies. Tech giants like OpenAI, Google, and Amazon want to build more data centers to power their AI ambitions, but voters in multiple regions have rejected these projects. Environmental groups worry that rushing to build data centers will increase pollution and reliance on fossil fuels, while companies argue that clean energy can power the future. The conflict shows that technological progress isn't just about innovation—it's also about balancing community concerns, environmental impact, and the needs of companies. This battle will likely shape which AI companies can scale up and where they'll build facilities.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+        "pubDate": "2026-11-06",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      },
+      {
+        "rank": 6,
+        "title": "Crusoe sells troubled Wyoming data center project to Google",
+        "summary": "Crusoe Energy, a startup that builds data centers, sold its struggling Wyoming project to Google, highlighting how difficult and expensive it is to build AI data center infrastructure. Building a massive data center costs billions of dollars and takes years of permitting, construction, and testing. Crusoe couldn't complete the project alone, so it sold to Google, which has unlimited capital and the expertise to finish it. This deal reveals a harsh truth: only huge companies like Google, Amazon, and Microsoft can afford to build the specialized facilities AI requires. For smaller startups trying to compete in AI, this is bad news—they can't build their own infrastructure and may have to partner with giants or go out of business. The deal also shows that even experienced energy companies struggle with the complexity of modern data center development, especially when facing regulatory hurdles and community opposition.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 7,
+        "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+        "summary": "Meta (Facebook's parent company) is adding new customizable features to its Muse AI assistant, letting users build personalized app-like experiences called 'Spaces' within the Muse app. Think of Spaces as custom dashboards: you could create a shopping hub, school dashboard, music tracker, or game, all powered by AI. You simply describe what you want, and Muse builds it for you and connects it to services you already use like Gmail, Google Calendar, and Notion. This is a smart strategy—instead of building one AI assistant for everyone, Meta is letting AI customize itself to each person's unique needs. For teenagers, this means AI is becoming more personalized and useful for daily tasks like organizing schoolwork or tracking music preferences. It also shows how AI companies are competing by making their assistants more integrated into your digital life, moving beyond just chatbots to becoming personal digital assistants.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 8,
+        "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+        "summary": "Security researchers discovered that hundreds of servers containing Artex—a hacking tool used for legitimate security testing—were left exposed on the internet, letting anyone download and use them. Penetration testing tools like Artex are used by cybersecurity experts to find vulnerabilities in systems before bad actors do, but in the wrong hands, they become weapons for actual hacking. This massive security fail shows how careless companies can be with dangerous tools, leaving them open like an unlocked door with a sign that says 'hackers welcome.' The exposure created enormous risk: malicious actors could have used these tools to break into banks, hospitals, government systems, or personal devices. The incident highlights a critical problem in AI and cybersecurity: powerful tools are getting easier to access, but security practices aren't keeping up. For teenagers, this is a reminder that your personal data and privacy are constantly at risk from both negligent companies and intentional hackers.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 9,
+        "title": "Starlink Mobile: SpaceX's major mobile carrier ambitions",
+        "summary": "Elon Musk's SpaceX is entering the mobile phone market with Starlink Mobile, planning to compete with carriers like AT&T, Verizon, and T-Mobile by using satellites instead of ground-based cell towers. SpaceX has already launched thousands of satellites that can connect directly to phones without traditional infrastructure. The company just partnered with Qualcomm to build 5G networks across tens of thousands of cell sites starting in 2027, and is reportedly trying to buy Boost Mobile to gain existing customers. This is revolutionary because satellite-based service could reach remote areas and potentially offer cheaper plans by disrupting the existing telecom monopoly. For teenagers, Starlink Mobile could eventually mean more affordable phone plans and better coverage in rural areas where current carriers don't invest. However, it also shows how tech billionaires like Musk are using their wealth to enter and reshape established industries, changing the competitive landscape.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
+        "pubDate": "2026-11-06",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB355_SPACEX_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      },
+      {
+        "rank": 10,
+        "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+        "summary": "Amazon is adding a new feature to Alexa (its AI voice assistant) that lets users text instead of speak to get shopping help, rolling out to millions of users soon. Previously, Amazon blocked integration with Meta's Muse AI assistant, but now it's adding competing AI features directly to Alexa itself. This move shows how companies are turning AI assistants into shopping tools—Amazon wants you to use Alexa not just to play music or check weather, but to buy things. The text feature is useful for privacy (you don't have to say 'buy this' out loud) and for situations where voice commands don't work well (like in a noisy place). For teenagers, this matters because AI is becoming the primary way companies want you to shop, making purchasing faster and easier, which could encourage spending more. It also shows how companies use AI not just to be helpful, but to increase profits by making buying as frictionless as possible.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+        "pubDate": "2026-11-06",
+        "image": null
+      }
+    ],
+    "energy-climate": [
+      {
+        "rank": 1,
+        "title": "'Simply staggering': Rapidly developing 'super El Niño' on track to peak in December",
+        "summary": "A \"super El Niño\" — an unusually intense version of a natural climate pattern that warms the Pacific Ocean — is expected to peak by late 2026 and push global temperatures to record levels. El Niño occurs every few years when warm water spreads across the Pacific, affecting weather worldwide. Scientists are calling this development \"staggering\" because it's intensifying faster than expected, which means 2026 could become the hottest year on record. This matters because extreme heat increases risks of droughts, floods, and wildfires globally, affecting food production and where people can safely live. Understanding these natural climate patterns helps predict future warming and prepare communities for climate impacts.",
+        "source": "Carbon Brief",
+        "link": "https://www.carbonbrief.org/simply-staggering-rapidly-developing-super-el-nino-on-track-to-peak-in-december",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 2,
+        "title": "State of the climate: 2026 likely to tie with 2024 as the warmest year on record",
+        "summary": "With three-quarters of 2026 already complete, scientists are virtually certain this year will either be the warmest or second-warmest year ever recorded. This follows 2024, which was already a record-breaking hot year, showing an alarming trend of consecutive years setting new temperature records. The warming is driven by climate change caused primarily by human activities like burning fossil fuels (coal, oil, and gas), which release greenhouse gases that trap heat in Earth's atmosphere. When years keep breaking heat records back-to-back, it signals that global warming isn't just happening — it's accelerating. This directly affects teenagers' futures through sea-level rise, changing weather patterns, and ecosystem collapse that threaten food security and migration patterns.",
+        "source": "Carbon Brief",
+        "link": "https://www.carbonbrief.org/state-of-the-climate-2026-likely-to-tie-with-2024-as-the-warmest-year-on-record",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "World's largest liquid-air storage facility comes online in China",
+        "summary": "China has launched the world's largest liquid-air energy storage facility in Qinghai, generating 60 megawatts of power with 600 megawatt-hours of storage capacity — enough to power a medium-sized city for 10 hours. Liquid-air energy storage (LAES) works by cooling air to extremely cold temperatures and storing it, then heating and expanding it back to gas to spin turbines and generate electricity. This technology is crucial for renewable energy because solar and wind power are intermittent — they only work when the sun shines or wind blows — so we need ways to store excess energy for when it's needed. This facility proves that long-duration storage is becoming commercially viable and domestically manufacturable, which is essential for countries transitioning away from fossil fuels. For teenagers, this means a cleaner energy future is becoming technically possible.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/06/worlds-largest-liquid-air-storage-facility-comes-online-in-china/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 4,
+        "title": "Longi achieves 35.31% efficiency in perovskite-silicon tandem solar cell based on self-assembled molecules",
+        "summary": "Chinese solar manufacturer Longi has created a breakthrough solar cell combining perovskite and silicon materials that achieves 35.25% efficiency — meaning it converts 35% of sunlight into electricity, a record for this type of technology. Traditional silicon solar panels, which you see on roofs, are around 20-22% efficient, so this is a major leap forward. Perovskite-silicon tandem cells work by stacking two light-absorbing layers, letting more of the sun's spectrum be captured instead of wasted as heat. The cells also showed impressive durability, retaining 94% of their power after 1,500 hours of continuous operation, proving they won't quickly degrade. Why it matters: More efficient solar cells mean smaller panels can generate the same power, making solar energy cheaper and faster to install — critical for replacing fossil fuels globally.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/06/longi-achieves-35-31-efficiency-in-perovskite-silicon-tandem-solar-cell-based-on-self-assembled-molecules/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 5,
+        "title": "UK climate minister Katie White: COP31 must respond to 'really scary' science",
+        "summary": "Katie White, the UK's climate minister, is warning that the upcoming COP31 climate conference in Turkey must take urgent action based on alarming new climate science. COP stands for \"Conference of the Parties,\" where nearly every country on Earth negotiates climate agreements and emissions reduction targets. White describes the latest climate data as \"really scary,\" reflecting growing concern that countries aren't moving fast enough to limit warming. The COP31 meeting is critical because nations need to commit to stronger targets and funding to help developing countries transition away from coal and fossil fuels. For teenagers: This shows that even government officials are sounding alarms about the severity of climate change, emphasizing that global coordination and immediate action are necessary to prevent the worst outcomes.",
+        "source": "Carbon Brief",
+        "link": "https://www.carbonbrief.org/uk-climate-minister-katie-white-cop31-must-respond-to-really-scary-science",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 6,
+        "title": "Sodium-ion batteries approach cost parity with LFP, with 70 GWh covered by supply agreements",
+        "summary": "Sodium-ion batteries are rapidly becoming cost-competitive with lithium iron phosphate (LFP) batteries, which currently dominate the market for energy storage and electric vehicles. Over 70 gigawatt-hours of sodium-ion supply agreements are already signed globally — GWh is a measure of energy storage capacity. Although sodium-ion batteries have higher upfront costs, they could offer 21% lower total cost of ownership over 20 years because they last longer, are more abundant, and less dependent on mining rare materials like lithium. Sodium is more common than lithium, making batteries cheaper and more sustainable to produce long-term. Why this matters: Battery technology is the backbone of electric vehicles and renewable energy storage, so cheaper alternatives accelerate the world's transition away from fossil fuels and reduce reliance on mining that damages ecosystems.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 7,
+        "title": "Türkiye targets 175 GW of solar, wind capacity by 2040",
+        "summary": "Turkey (Türkiye) has announced an ambitious renewable energy goal: increasing its total solar and wind power capacity to 175 gigawatts by 2040, raising renewables' share of the country's electricity from 63% today to 77%. This is a significant commitment because Turkey currently relies heavily on fossil fuels, particularly natural gas imports from Russia, which makes energy expensive and creates geopolitical vulnerability. By pivoting to homegrown solar and wind, Turkey can reduce energy costs, create jobs, and improve energy independence. The country has excellent wind and solar resources, especially in its coastal and central regions. For teenagers: This shows how countries worldwide are realizing that renewable energy isn't just good for climate — it's economically smart and builds resilience against energy market disruptions and international conflicts over fossil fuel supplies.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/06/turkiye-targets-175-gw-of-solar-wind-capacity-by-2040/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 8,
+        "title": "U.S. startup secures $9 million to scale production of 22.33%-efficient perovskite solar modules",
+        "summary": "RadianX, a U.S. startup, has raised $9 million in funding to scale up production of perovskite solar modules with 22.33% efficiency, targeting smaller applications like IoT devices (Internet of Things — smart devices that connect to the internet, like smart home sensors). The company plans to build an automated production line with 6 megawatts of capacity. Perovskite is a promising material because it's cheaper than silicon, can be printed onto flexible surfaces, and works in low-light conditions better than traditional panels. While 22% efficiency sounds lower than advanced silicon cells, perovskite's flexibility and lower manufacturing costs make it ideal for powering distributed devices worldwide. Why it matters: If perovskite technology scales successfully, it could bring solar power to billions of IoT devices, sensors in agriculture, and remote areas without grid electricity, extending clean energy access globally.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/06/u-s-startup-secures-9-million-to-scale-production-of-22-33-efficient-perovskite-solar-modules/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 9,
+        "title": "The Hydrogen Stream: H2 turbines can push LCOHS to around $0.62/kg",
+        "summary": "Australian researchers have discovered that hydrogen gas turbines can provide cost-effective backup power during periods of low solar production, with production costs around $0.62 per kilogram. Hydrogen produced from renewable electricity can be stored underground (in geological cavities) and later burned in turbines to generate electricity when solar or wind isn't available. LCOHS stands for \"Levelized Cost of Hydrogen Storage,\" a measure comparing hydrogen's cost to other energy sources. This approach is cheaper than using fuel cells (which convert hydrogen back to electricity less efficiently) and works better than battery storage for multi-day energy gaps. Why it matters: Hydrogen is emerging as a crucial technology for storing renewable energy long-term and powering heavy industries like steel and cement that are hard to electrify, making it essential for complete decarbonization of the global economy.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/06/the-hydrogen-stream-h2-turbines-can-push-lcohs-to-around-0-62-kg/",
+        "pubDate": "2026-11-06",
+        "image": null
+      },
+      {
+        "rank": 10,
+        "title": "CB Live: Carbon Brief's team at COP17 on the nature talks' key outcomes",
+        "summary": "Carbon Brief journalists hosted a livestream to explain outcomes from COP17, the UN's biodiversity conference focused on protecting nature and ecosystems. While COP discussions typically focus on climate change and greenhouse gases, COP17 addressed nature conservation — the interconnected crisis of species extinction and habitat loss happening simultaneously with climate change. Scientists increasingly recognize that addressing climate and nature together is essential because healthy forests, wetlands, and oceans both store carbon and protect biodiversity. Key outcomes likely included commitments to protect certain percentages of land and ocean from development, fund conservation in developing countries, and integrate nature protection into economic planning. For teenagers: This shows that solving the climate crisis isn't just about switching to renewables — it requires protecting natural ecosystems that regulate climate, provide food, clean air and water, and maintain the biological diversity our survival depends on.",
+        "source": "Carbon Brief",
+        "link": "https://www.carbonbrief.org/cb-live-carbon-briefs-team-at-cop17-on-the-nature-talks-key-outcomes",
+        "pubDate": "2026-11-06",
+        "image": null
+      }
+    ],
+    "music-arts": [
+      {
+        "rank": 1,
+        "title": "Macklemore Accuses U.S. Arenas of Turning Down Free Palestine Tour",
+        "summary": "Macklemore is a Grammy-winning rapper known for socially conscious music and activism. He performed sold-out benefit concerts across Europe to raise money for organizations providing humanitarian aid to Gaza, a region experiencing an ongoing humanitarian crisis. However, when he tried to bring the same tour to the United States, he claims nine major venues rejected the dates once they learned the shows were fundraisers for Palestine. This raises important questions about free speech, corporate censorship, and whether entertainment venues should be able to cancel events based on political content. The controversy highlights how artists' activism can create real obstacles to touring and performing.",
+        "source": "Pitchfork",
+        "link": "https://pitchfork.com/story/macklemore-accuses-arenas-of-turning-down-free-palestine-tour/",
+        "pubDate": "2024-12-20",
+        "image": "https://media.pitchfork.com/photos/6aee136206e89e006e0fae05/master/pass/macklemore-paris-free-palestine-zoe-rain-261029-zoe-rain-4374.jpg"
+      },
+      {
+        "rank": 2,
+        "title": "Macklemore Says Nine U.S. Venues Turned Down 'Free Palestine' Tour",
+        "summary": "Macklemore, a politically outspoken rapper with multiple Grammy Awards, successfully ran benefit concerts throughout Europe supporting Gaza humanitarian organizations, but faced significant resistance when attempting to replicate the tour in America. Nine major U.S. venues allegedly cancelled or refused to book dates after learning about the Palestine fundraising mission, according to the artist. This situation illustrates the tension between artistic freedom and corporate gatekeeping in the music industry, where large venues can effectively silence political speech by denying access to their stages. For teenagers interested in music and activism, this demonstrates how even successful artists face real consequences when their political beliefs challenge institutional positions. The incident sparks broader conversations about who controls public spaces and whose voices get amplified.",
+        "source": "Rolling Stone",
+        "link": "https://www.rollingstone.com/music/music-news/macklemore-us-venues-free-palestine-tour-1235654083/",
+        "pubDate": "2024-12-20",
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "Nick Cave Launches 2027 Tour",
+        "summary": "Nick Cave is a legendary Australian musician and songwriter who's been a major influence on rock, alternative, and indie music for over four decades, known for his dark, poetic lyrics and intense live performances. His new tour concept, called 'Conversations With Nick Cave: An Evening of Talk & Music,' combines a Q&A format where he directly answers audience questions with live musical performances, creating an intimate experience rather than a traditional concert. This innovative tour format matters because it reflects how established artists are reimagining what a concert can be, blending fan interaction with performance in ways younger audiences increasingly expect. The 2027 dates give fans years to anticipate what will likely be a unique, personal experience with one of music's most respected artists.",
+        "source": "Pitchfork",
+        "link": "https://pitchfork.com/story/nick-cave-launches-2027-tour/",
+        "pubDate": "2024-12-20",
+        "image": "https://media.pitchfork.com/photos/6aed376e2e98f66215d0ae12/master/pass/GettyImages-2288494541.jpg"
+      },
+      {
+        "rank": 4,
+        "title": "Future, Drake, and Travis Scott Join Forces for 'Ya Hit'",
+        "summary": "Future, Drake, and Travis Scott are three of hip-hop's biggest superstars who have collectively influenced modern rap music with their distinctive sounds and massive commercial success. Their collaboration on 'Ya Hit' marks a rare team-up between these competing titans, appearing together on the first track from Future's upcoming album. This matters to music fans because when top-tier artists work together, it often signals important musical moments and can introduce listeners to new creative directions. The song also features Loe Shimmy, another rising artist benefiting from association with these established names. For teenagers following hip-hop trends, this collaboration represents the kind of star-studded project that dominates streaming playlists and social media conversations.",
+        "source": "Pitchfork",
+        "link": "https://pitchfork.com/story/future-drake-and-travis-scott-join-forces-for-ya-hit/",
+        "pubDate": "2024-12-20",
+        "image": "https://media.pitchfork.com/photos/6aedf288ac3c503f2a26a483/master/pass/drake-future-travis-scott.jpg"
+      },
+      {
+        "rank": 5,
+        "title": "Hear Fiona Apple and the Bolt Cutters Cover Mother Earth's 'Revolution'",
+        "summary": "Fiona Apple is a critically acclaimed singer-songwriter known for her complex, jazz-influenced music and fierce artistic independence, while the Bolt Cutters is her backing band that creates intricate, rhythmic soundscapes. Together, they've covered Mother Earth's 'Revolution,' a classic soul and funk song with powerful social messaging about systemic change. This cover was recorded for the 'Right Now' album, which functions as a benefit project where all proceeds go to Doctors Without Borders, a humanitarian organization providing medical care in crisis zones worldwide. The collaboration matters because it shows how contemporary artists honor classic protest songs while using their platform to raise money for real-world humanitarian causes. This demonstrates how music can bridge generations and connect past activism with present-day charitable work.",
+        "source": "Rolling Stone",
+        "link": "https://www.rollingstone.com/music/music-news/fiona-apple-the-bolt-cutters-cover-mother-earth-revolution-1235654198/",
+        "pubDate": "2024-12-20",
+        "image": null
+      },
+      {
+        "rank": 6,
+        "title": "Willi Carlisle Says Life Is Dead Serious, Life Is a Joke on the Brilliant 'Universal Bubba'",
+        "summary": "Willi Carlisle is an Ozarks-based singer-songwriter gaining recognition for his nuanced approach to American storytelling through music, capturing the complex lives of working-class characters. His new double album 'Universal Bubba' was produced by Tyler Childers, a respected figure in Americana and country music known for his artistic integrity. The album explores the duality of life—simultaneously profound and absurd—through heartbreaking yet humorous songs celebrating everyday American workers and characters. This project matters because it represents an important trend in contemporary music where artists move beyond simple narratives to capture the messy reality of people's lives. For teenagers discovering music beyond mainstream pop, this represents the kind of authentic, character-driven storytelling that's gaining traction among listeners seeking deeper artistic content.",
+        "source": "Rolling Stone",
+        "link": "https://www.rollingstone.com/music/music-album-reviews/willi-carlisle-the-universal-bubba-1235653832/",
+        "pubDate": "2024-12-20",
+        "image": null
+      },
+      {
+        "rank": 7,
+        "title": "Listen to Olivia Rodrigo's New Song 'Take Me Home (4 Christmas)'",
+        "summary": "Olivia Rodrigo is a pop superstar who rose to fame through the Disney+ series 'High School Musical: The Musical: The Series' and has since become one of Gen Z's defining artists with albums tackling heartbreak and growing up. Her new holiday song 'Take Me Home (4 Christmas)' offers a humorous, relatable twist on Christmas music by focusing on hungover brunches with someone's mom rather than traditional holiday sentiment. The song matters because it reflects how modern artists are reimagining holiday music to feel more authentic to contemporary experiences, moving away from generic festive cheer toward genuine, funny moments. For teenagers who feel alienated by traditional Christmas content, Rodrigo's irreverent approach provides representation of a more realistic holiday experience that many can laugh and relate to.",
+        "source": "Pitchfork",
+        "link": "https://pitchfork.com/story/listen-to-olivia-rodrigos-new-song-take-me-home-4-christmas/",
+        "pubDate": "2024-12-20",
+        "image": "https://media.pitchfork.com/photos/6aebd73d891075d9a7f6873c/master/pass/orod.jpg"
+      },
+      {
+        "rank": 8,
+        "title": "Go Fishing With Twisted Teens in Video for 'I Spend My Time Crying'",
+        "summary": "Twisted Teens is an emerging indie-pop band creating buzz with their fresh, youthful approach to alternative music that resonates with teenagers exploring independent music beyond mainstream radio. The music video for 'I Spend My Time Crying' uses fishing as a metaphorical backdrop, blending contemplative imagery with introspective songwriting that addresses emotional vulnerability. The band's new album 'The Holy Cross Tigers' just released, marking an important milestone for what appears to be a developing artistic project. This matters because Twisted Teens represents the type of emerging artist that platforms like Pitchfork promote to introduce listeners to tomorrow's potentially influential musicians. For teenagers interested in discovering new music beyond what algorithms recommend, this represents exactly the kind of fresh, relatable content that indie music communities celebrate.",
+        "source": "Pitchfork",
+        "link": "https://pitchfork.com/story/go-fishing-with-twisted-teens-in-new-video-for-i-spend-my-time-crying/",
+        "pubDate": "2024-12-20",
+        "image": "https://media.pitchfork.com/photos/6aecf3e7b0fa15a54106afbe/master/pass/TwistedTeens_2026_promo_18_MartinCrudo_2250x1500_300%20(4).jpg"
+      },
+      {
+        "rank": 9,
+        "title": "Tegan and Sara Celebrate the Season With 'I Love Christmas' and 'A December to Remember'",
+        "summary": "Tegan and Sara are identical twin sisters from Canada who've been making indie and pop music for over two decades, known for their catchy melodies and authentic songwriting that explores identity, relationships, and belonging. They've released two new Christmas songs—'I Love Christmas' and 'A December to Remember'—that intentionally challenge the assumption that everyone celebrates or enjoys the holiday season. The artists emphasize that these songs work for both Christmas enthusiasts and people who find the holiday challenging or alienating, recognizing the diversity of holiday experiences. This approach matters because it acknowledges that not everyone has positive holiday feelings, and music should reflect that reality rather than forcing cheerfulness onto listeners who don't feel it. For teenagers navigating complicated family situations or depression during the holidays, this inclusive perspective offers validation and representation in popular music.",
+        "source": "Rolling Stone",
+        "link": "https://www.rollingstone.com/music/music-news/tegan-and-sara-i-love-christmas-december-to-remember-videos-1235654055/",
+        "pubDate": "2024-12-20",
+        "image": null
+      },
+      {
+        "rank": 10,
+        "title": "Flo Milli Wins Dismissal of Copyright Lawsuit Over 'Never Lose Me' Beat Sample",
+        "summary": "Flo Milli is an emerging female rapper known for her confident, witty music and presence in contemporary hip-hop. Her 2023 hit 'Never Lose Me' faced a copyright lawsuit from someone claiming ownership of a beat sample used in the song. A judge ruled in Flo Milli's favor, determining that the person bringing the lawsuit didn't actually own the rights to the beat sample, meaning the legal claims had no merit. This case matters because it illustrates how music production works—artists frequently sample (use snippets of) existing songs, and copyright ownership becomes complex and contested. For teenagers interested in music production, this demonstrates that sampling requires careful legal navigation, but also that artists have protections when they properly clear samples or when claimants can't prove ownership.",
+        "source": "Billboard",
+        "link": "https://www.billboard.com/pro/flo-milli-wins-never-lose-me-copyright-lawsuit-dismissal/",
+        "pubDate": "2024-12-20",
+        "image": null
+      }
+    ],
+    "sports": [
+      {
+        "rank": 1,
+        "title": "Whole Australia team knew of sandpaper use - Khawaja",
+        "summary": "Usman Khawaja, a former Australia cricket opener, has just revealed that the entire Australian cricket team knew about ball-tampering (illegally roughing up the cricket ball with sandpaper to gain an unfair advantage) during their 2018 Test series against South Africa. This is massive because ball-tampering is one of cricket's biggest scandals—it's cheating that gets players banned for years. The original incident, called \"Sandpapergate,\" shocked the world when it happened, but Khawaja's claim that everyone knew about it suggests the cheating was team-wide, not just individual players. This reopens one of sports' biggest controversies and could lead to further investigations into whether more players should face punishment for covering it up.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/cjdx33kyzk3lo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-11-01",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7397/live/29b455a0-da27-11f1-a78c-49bd6dfbb9b5.jpg"
+      },
+      {
+        "rank": 2,
+        "title": "WTA chair apologises to Pegula for airing of 'diva' comment",
+        "summary": "Jessica Pegula, an American professional tennis player, was embarrassed when the Women's Tennis Association (WTA)—the organization that runs women's pro tennis—accidentally broadcast her private comment calling younger player Mirra Andreeva a \"diva\" during a practice session. The WTA chair Valerie Camillo apologized for this breach of privacy, which went viral and damaged Pegula's reputation. This incident exposed how the WTA records audio on practice courts, raising concerns about player privacy and safety. The WTA has now promised to disable audio recordings at future events like the WTA Finals. It's a reminder that in the social media age, anything you say can be recorded and shared—even when you think you're speaking privately.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/ckpdgg87ye3po?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-11-01",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9fc/live/18726650-da2d-11f1-ab60-69d917fc430c.jpg"
+      },
+      {
+        "rank": 3,
+        "title": "Is Palmer's England career over under Tuchel?",
+        "summary": "Cole Palmer, a talented English footballer who plays for Chelsea, has been left out of Thomas Tuchel's latest England national team squad, raising serious questions about his international future. Tuchel, who recently became England's head coach (the person who selects and manages the national team), appears to have different plans than previous managers. Palmer is a young, in-form player who many fans thought would be a key part of England's future, so his exclusion is surprising and worrying for both him and England supporters. Phil McNulty, the BBC's chief football writer, suggests Palmer may need to perform exceptionally well at club level to convince Tuchel he deserves another chance. This shows how quickly a player's international career can change depending on who's in charge.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c9e8ll62rp68o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-11-01",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bce3/live/a576c690-d9ec-11f1-bbe5-797ee05bee69.jpg"
+      },
+      {
+        "rank": 4,
+        "title": "Lampard feels hair pull should have led to Coventry penalty",
+        "summary": "In Everton's 3-1 victory over Coventry City in the Premier League (England's top football division), Coventry manager Frank Lampard—a legendary former England player—is furious about three key refereeing decisions that went against his team. Most controversially, Lampard claims a player had his hair pulled during the match, which should have resulted in a penalty kick (a free shot from 12 yards that's almost impossible to miss). VAR (Video Assistant Referee technology that reviews controversial decisions) failed to overturn any of these calls, leading Lampard to publicly criticize both the referees and the VAR system. This highlights the ongoing frustration in football about inconsistent refereeing and whether technology is actually helping or hurting the game. When managers this prominent complain, it puts pressure on officials to improve.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cr15jj0yy8xeo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-11-01",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f45/live/bd3a26b0-da36-11f1-bde4-c13870167801.jpg"
+      },
+      {
+        "rank": 5,
+        "title": "Alcaraz beats Fritz to help Jodar reach ATP finals",
+        "summary": "Carlos Alcaraz, one of tennis's brightest young superstars, survived an incredible scare at the Paris Masters by saving two match points—situations where his opponent was just one point away from winning—against American Taylor Fritz in a thrilling quarter-final match. Alcaraz eventually won, but this was an incredibly close call that shows even the best players sometimes struggle. Fritz's defeat meant he missed out on qualifying for the ATP Finals, the year-end tournament where only the top eight players compete for the sport's biggest prizes outside the four Grand Slams. Interestingly, Alcaraz's victory helped his Spanish teammate Rafael Jodar qualify for the ATP Finals instead. This match demonstrates how unpredictable and dramatic professional tennis can be, with matches often decided by just a few crucial points.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/c6e9lldl3lpjo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-11-01",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0b1/live/b1030f60-da2c-11f1-ab60-69d917fc430c.jpg"
+      },
+      {
+        "rank": 6,
+        "title": "'A beautiful story' as Bellingham brothers called up",
+        "summary": "Jobe Bellingham has just been called up to England's senior national football team, and what makes this special is that his older brother Jude Bellingham is already a superstar in the same team. The brothers playing together for England represents a rare and touching moment in football, though some people were surprised by Jobe's selection because he's still relatively young and new to international football. However, the England coaching staff clearly believe he's ready for the highest level. This is described as \"a beautiful story\" because it shows how family support and shared ambition can help young players reach their dreams—Jude's success likely inspired his younger brother, and now they'll represent their country together. It's the kind of heartwarming narrative that reminds us sports isn't just about winning; it's about human connections.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c5x2vvjy2rpeo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-11-01",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/90e1/live/6e8557d0-d9d5-11f1-9e5a-c30c5e3d8c85.jpg"
+      },
+      {
+        "rank": 7,
+        "title": "Six tries and a big win - but were Ireland ruthless?",
+        "summary": "Ireland's rugby union team demolished Argentina 42-12 in the Nations Championship (an international rugby competition between the top nations), scoring an impressive six tries (touchdowns in rugby). Despite the massive victory, Ireland's coach Andy Farrell and captain Tadhg Beirne admitted they weren't as dominant or clinical as they could have been—they left points on the field by not capitalizing on every opportunity. This mentality shows how top teams think: even when winning by 30 points, elite coaches believe they should have done even better. In rugby, a \"try\" is worth five points and is the sport's most important scoring method, so six tries demonstrates Ireland's attacking power. This win reinforces Ireland as one of the world's top rugby nations, though their self-criticism suggests they know they'll face even tougher challenges ahead.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmde88ppx39go?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-11-01",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/238a/live/a0d1cbc0-da3d-11f1-a9ed-ff1feb533701.jpg"
+      },
+      {
+        "rank": 8,
+        "title": "England 'disappointment' fuels Dewsbury-Hall's Everton heroics",
+        "summary": "Kiernan Dewsbury-Hall, an Everton midfielder, responded to the disappointment of being left out of England's national team squad by delivering a stunning performance and crucial goal in Everton's incredible 3-1 comeback victory over Coventry City. Dewsbury-Hall's ability to turn negative emotions into positive performances on the pitch is the hallmark of a professional athlete—rather than sulking, he used the rejection as motivation. Everton's comeback from behind was dramatic and shows the resilience of the team, with Dewsbury-Hall playing a key role in their revival. This victory pushed Everton up to fifth place in the Premier League table, which is a strong position in England's top football division. Stories like this demonstrate how setbacks can fuel athletic performance when players have the right mentality.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cm4g114p9e7go?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-11-01",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8417/live/c55f7ff0-da38-11f1-bde4-c13870167801.jpg"
+      },
+      {
+        "rank": 9,
+        "title": "Ferrari's Hamilton-Leclerc problem - and other F1 stories to follow",
+        "summary": "The Sao Paulo Grand Prix (a Formula 1 race in Brazil) is being described as the first real test of the emerging championship battle for next season, with particular focus on Ferrari's pairing of Lewis Hamilton (a seven-time world champion who recently joined Ferrari from Mercedes) and Charles Leclerc (Ferrari's star driver). Ferrari, one of motorsport's most prestigious teams, faces the challenge of managing two world-class drivers with equal ambitions—a situation that has caused internal team conflict historically. This race will provide early clues about whether Hamilton and Leclerc can work together effectively or if tensions will emerge. Formula 1 fans are particularly interested in how the legendary Hamilton will perform in his first season with Ferrari, a team he's never raced for before despite its legendary status. The dynamics between these teammates will shape the entire 2025 championship battle.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/formula1/articles/cm62y4283534o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-11-01",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/511a/live/712d8810-da0f-11f1-bbd1-cf41b7fd4e9b.jpg"
+      },
+      {
+        "rank": 10,
+        "title": "Fritz misses out on ATP Finals after squandering chance to beat Alcaraz",
+        "summary": "American tennis star Taylor Fritz had his dreams of reaching the prestigious ATP Finals (the year-end championship for the world's top eight male players) crushed when he squandered two match points against Carlos Alcaraz at the Paris Masters. A match point is when you're just one point away from winning—missing two in a row is heartbreaking and will likely haunt Fritz for months. The ATP Finals are worth enormous prize money and ranking points, making qualification one of tennis's most valuable achievements. Fritz's loss means he falls just short of making the exclusive eight-player field that competes in Turin, Italy later this month. This kind of near-miss is psychologically devastating in professional sports and serves as a reminder that at the elite level, closing out matches when you have the chance is absolutely crucial. Fritz will have to wait until next season for another opportunity.",
+        "source": "Sky Sports",
+        "link": "https://www.skysports.com/tennis/news/12040/13608938/paris-masters-taylor-fritz-squanders-match-points-against-carlos-alcaraz-as-defeat-ends-hopes-of-reaching-atp-finals",
+        "pubDate": "2024-11-01",
+        "image": "https://e1.365dm.com/26/11/1920x1080/skysports-taylor-fritz-paris-masters-tnnis_7399236.jpg?20261106162314"
+      }
+    ],
+    "asia-pacific": [
+      {
+        "rank": 1,
+        "title": "How North Korea turns child prodigies into crypto thieves",
+        "summary": "North Korea's government, led by dictator Kim Jong-un, has built a sophisticated hacking program that recruits the country's smartest middle school students—about 200 per year—and trains them to become elite cybercriminals. These hackers are rewarded with luxury apartments, money, and privileges in exchange for stealing cryptocurrency and conducting cyberattacks. One notable heist involved stealing $6.3 billion from Binance, a major cryptocurrency exchange platform. Cryptocurrency is digital money that exists only online, and exchanges are platforms where people buy and sell it. This reveals how authoritarian regimes use technology and their brightest citizens for illegal activities to generate revenue and avoid international sanctions (penalties imposed by other countries). It matters because it shows how isolated nations circumvent global financial restrictions, and it demonstrates the growing threat of state-sponsored cybercrime affecting regular people's digital security worldwide.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/news/asia/east-asia/article/3373627/how-north-korea-turns-child-prodigies-crypto-thieves",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/07/7421ddc8-21de-4899-a775-43a76c52c925_afd6934e.jpg?itok=6XJ3t4eM&v=1794020386"
+      },
+      {
+        "rank": 2,
+        "title": "By all memes: why Asia's Gen Z are revolting",
+        "summary": "Across Asia, teenagers and young adults are using memes and social media to organize anti-government protests, targeting specific policies and injustices they see as unfair. Asia's Gen Z—defined roughly as people born between the mid-1990s and early 2010s—represent about 1 billion young people, or 60 percent of the world's adolescents according to the UN. These digital-native activists are leveraging internet culture and humor to mobilize their peers and challenge the political establishment before what they fear becomes their future. Memes are humorous images or videos spread online that people remix and share. This matters because it shows how a massive generation with unprecedented access to technology and global information is reshaping activism and politics across the region, potentially forcing governments to address youth concerns about democracy, jobs, and climate change.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/week-asia/politics/article/3373473/all-memes-why-asias-gen-z-are-revolting",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/06/cb9d6243-54a7-4721-b1d9-6486e67b6553_29f583f8.jpg?itok=GYn1cgxA&v=1793961174"
+      },
+      {
+        "rank": 3,
+        "title": "Myanmar's will to fight money laundering questioned as tougher curbs loom",
+        "summary": "Myanmar's military government is facing pressure from the Financial Action Task Force (FATF), an international watchdog organization that monitors money laundering and terrorist financing worldwide. The FATF has warned that if Myanmar doesn't improve its financial safeguards and anti-corruption measures by a deadline, the country could face even stricter international financial restrictions. Money laundering is when criminals hide illegally obtained money by moving it through the banking system to make it appear legitimate. If Myanmar gets blacklisted, it would make it much harder for businesses to access international banking, severely damaging the country's economy. This matters because Myanmar is already struggling economically due to political instability and military rule, and further isolation could worsen poverty and instability in a key Southeast Asian nation.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/week-asia/politics/article/3373586/myanmars-will-fight-money-laundering-questioned-tougher-curbs-loom",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/06/39ecc984-9337-4866-9ae8-b1c1230b1adc_6bccce8b.jpg?itok=Jgj2zUSc&v=1793966509"
+      },
+      {
+        "rank": 4,
+        "title": "Is Russia's seizure of Japan Tobacco assets the last straw for Tokyo amid frosty ties?",
+        "summary": "Russian President Vladimir Putin signed a decree seizing the assets of Japan Tobacco International (JTI), a major Japanese company operating in Russia, transferring them to Russian government control. Japan's government formally protested and demanded the assets be returned, viewing this as potentially the breaking point in already damaged relations between the two countries. Assets are valuable property, equipment, or financial holdings owned by a company. This seizure appears to be Russia's retaliation against Japan for supporting Western sanctions—economic penalties—against Russia following its invasion of Ukraine. The incident matters because it shows how geopolitical conflicts (tensions between countries over power and influence) spill into business, threatening Japanese companies globally and potentially pushing Japan closer to Western allies, which could reshape Asia-Pacific politics and economics.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/week-asia/politics/article/3373624/russias-seizure-japan-tobacco-assets-last-straw-tokyo-amid-frosty-ties",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/07/f7baa7f0-bead-46f0-9822-e2a828db0b32_2f638303.jpg?itok=EyKu-kaH&v=1794012186"
+      },
+      {
+        "rank": 5,
+        "title": "HKUST president Nancy Ip wins UNESCO prize for Alzheimer's research",
+        "summary": "Nancy Ip Yuk-yu, president of Hong Kong University of Science and Technology (HKUST), received the UNESCO-Equatorial Guinea International Prize for Research in the Life Sciences, recognizing her groundbreaking neuroscience research. Her work has significantly advanced how scientists diagnose and monitor Alzheimer's disease, a degenerative brain condition that causes memory loss and affects millions of elderly people worldwide. UNESCO is the United Nations organization dedicated to education, science, and culture, and this prize is one of the world's most prestigious scientific honors. Ip's research matters because Alzheimer's is a major global health challenge, especially as populations age, and better early detection could lead to more effective treatments. This recognition also highlights Asia's growing contributions to cutting-edge medical science and positions Hong Kong as a hub for world-class research.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/news/hong-kong/education/article/3373626/hkust-president-nancy-ip-wins-unesco-prize-alzheimers-research",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/07/346ac311-6b91-4c35-a608-c727119392fd_0d1c7aa7.jpg?itok=uWixJMH9&v=1794019513"
+      },
+      {
+        "rank": 6,
+        "title": "Green Hydrogen: India's Big Ambitions, Costly Realities",
+        "summary": "India's government has set ambitious goals to become a major producer and exporter of green hydrogen—clean fuel produced using renewable energy like solar and wind power—but the country faces significant obstacles including high production costs, inadequate infrastructure, and uncertain domestic demand. Green hydrogen is seen globally as a solution to climate change because it produces only water when burned, unlike fossil fuels that release carbon dioxide. India wants to position itself as a leader in this emerging industry, but currently, producing green hydrogen is expensive compared to traditional fuels, there aren't enough pipelines and facilities to handle it, and few companies or countries are buying it yet. This matters because India is a major energy consumer with growing climate commitments, and successfully developing green hydrogen could create jobs, reduce pollution, and establish India as a clean energy superpower. However, without government support and technological breakthroughs, these dreams may remain out of reach.",
+        "source": "The Diplomat",
+        "link": "https://thediplomat.com/2026/11/green-hydrogen-indias-big-ambitions-costly-realities/",
+        "pubDate": "2026-11-01",
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-07-005734.jpg"
+      },
+      {
+        "rank": 7,
+        "title": "Hong Kong draws growing interest from Irish firms seeking expansion across Asia",
+        "summary": "Irish companies are increasingly viewing Hong Kong as an ideal base for expanding their businesses across Asia, according to Padraig Seif, president of the Irish Chamber of Commerce in Hong Kong. This interest is growing because of concerns about US tariffs—taxes imposed on imported goods—and the ongoing complications from Brexit (Britain's exit from the European Union), which has made European business more complicated. Tariffs increase the cost of doing business, making companies seek alternatives like Asia. Hong Kong's strategic location, financial infrastructure, and access to Asian markets make it attractive for Irish firms looking to escape Western economic headwinds. This matters because it reflects a shift in global business patterns, with companies relocating away from traditional Western markets toward Asia, particularly China. It also shows how Hong Kong remains a crucial international business hub despite political tensions, benefiting from Europe's economic challenges.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/news/hong-kong/article/3373552/hong-kong-draws-growing-interest-irish-firms-seeking-expansion-across-asia",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/06/551407d7-bbef-4555-a8e9-d2359db59fe4_53d19563.jpg?itok=qlE7NRSO&v=1793957044"
+      },
+      {
+        "rank": 8,
+        "title": "AI-generated cats showcasing rural life, Chinese cuisine land major brand sponsorships",
+        "summary": "A Chinese social media account called 'Meow Ziqi' features three AI-generated cats that cook traditional Chinese dishes and practice heritage crafts, attracting 1.76 million followers and over 500 million views since launching in April. AI (artificial intelligence) refers to computer systems designed to mimic human behavior and creativity. The account draws obvious parallels to Li Ziqi, a real influencer who became globally famous by creating cinematic videos of rural Chinese life and traditional cooking for over 56 million followers. Meow Ziqi has already secured major brand sponsorships, showing that audiences enjoy this content whether created by humans or AI. This matters because it reveals how artificial intelligence is reshaping entertainment and marketing in China, blurring the line between authentic human experience and computer-generated content. It also demonstrates the power of cultural content to attract global audiences and generate significant commercial value.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/news/people-culture/china-personalities/article/3373622/ai-generated-cats-showcasing-rural-life-chinese-cuisine-land-major-brand-sponsorships",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/07/9962d89a-6c35-4be5-b7f1-195fb19b7bb1_10f9cce1.jpg?itok=f6Dydl7O&v=1794008134"
+      },
+      {
+        "rank": 9,
+        "title": "Sanae Takaichi slammed online for praising calligraphy without mentioning China",
+        "summary": "Japanese Prime Minister Sanae Takaichi faced online backlash after posting on social media to celebrate Japan's shodo (traditional calligraphy) art form without acknowledging its origins in China. UNESCO released its annual nominations for the Representative List of Intangible Cultural Heritage of Humanity—a prestigious list recognizing cultural practices worth preserving—and both Japanese shodo and Chinese cuisine were nominated. Shodo is the ancient art of beautiful handwriting using ink and brushes, which developed in China centuries ago before spreading to Japan, Korea, and other Asian countries. Critics accused Takaichi of downplaying historical facts and fostering nationalist sentiment by erasing China's cultural contributions. This matters because it reflects growing tensions between Japan and China over cultural attribution and national pride in East Asia, and it shows how social media can rapidly amplify diplomatic controversies and shape public opinion about international relations.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/news/china/diplomacy/article/3373580/sanae-takaichi-slammed-online-praising-calligraphy-without-mentioning-china",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/06/71c0000d-b4c6-40cd-985a-af7f441bd5e8_4c6116c7.jpg?itok=xsUhlOg0&v=1793964325"
+      },
+      {
+        "rank": 10,
+        "title": "Iran's nuclear programme: US offers US$20 million reward for information",
+        "summary": "The United States is offering up to $20 million in reward money plus possible relocation assistance for anyone providing information about Iran's nuclear weapons program, including details about facilities, equipment, and personnel involved. This reward comes through the State Department's 'Rewards for Justice' program, which has historically used financial incentives to encourage whistleblowers—people with insider knowledge—to expose sensitive information. President Donald Trump stated that Iran wants to negotiate a deal to end military conflict in the region. The US is concerned Iran is developing nuclear weapons, which would be destabilizing in the Middle East. This offer matters because it shows the Trump administration's aggressive approach to Iran policy and demonstrates how intelligence agencies use financial incentives to gather critical information. It also reflects ongoing tensions between the US and Iran over nuclear weapons, an issue that affects global security and oil prices.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/news/world/united-states-canada/article/3373625/irans-nuclear-programme-us-offers-us20-million-reward-information",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/07/8978bea8-0a55-4eee-a57d-1bf9253ea02e_0d415751.jpg?itok=1vO7f1y9&v=1794017043"
+      }
+    ],
+    "school-education": [
+      {
+        "rank": 1,
+        "title": "Survey: Most Parents Want Students to Use AI in School — With Strong Safeguards",
+        "summary": "A new survey reveals that most parents support schools teaching artificial intelligence (AI)—the technology behind ChatGPT and other smart tools—but with important safety rules in place. However, the survey found a major problem: about 4 in 10 teachers have received zero training on how to teach AI or use it in classrooms. This matters to you because AI is becoming increasingly important in jobs and daily life, so learning about it in school could give you a real advantage. The gap between parent expectations and teacher preparedness shows schools are struggling to catch up with rapid technological change. Parents want their kids to understand this technology early, but teachers need proper training and resources first to make it happen safely and effectively.",
+        "source": "EdSurge",
+        "link": "https://www.edsurge.com/news/survey-most-parents-want-students-to-use-ai-in-school-with-strong-safeguards",
+        "pubDate": "2026-11-05",
+        "image": null
+      },
+      {
+        "rank": 2,
+        "title": "Tech companies enlist colleges to help them train data center workers",
+        "summary": "Major technology companies like Google, Microsoft, and Amazon are building massive data centers—giant warehouse-like facilities filled with thousands of servers and computers that power AI and cloud computing services. These companies are now partnering with colleges to train workers for jobs in these data centers, creating new career opportunities you might not have heard of before. A data center worker maintains and manages the physical infrastructure that keeps the internet running and handles AI processing. This matters because it shows how the AI boom is creating real jobs right now, not just in the distant future. Colleges are stepping up to train students for these roles, which means new education programs are emerging that could lead to well-paying careers without necessarily needing a four-year degree. This represents a shift in how companies and schools work together to prepare the next generation of workers.",
+        "source": "The Hechinger Report",
+        "link": "https://hechingerreport.org/tech-companies-enlist-colleges-to-help-them-train-data-center-workers/",
+        "pubDate": "2026-11-05",
+        "image": "https://i0.wp.com/hechingerreport.org/wp-content/uploads/2026/11/HE-data-center-training-feat-scaled.jpg?fit=1024%2C683&amp;ssl=1"
+      },
+      {
+        "rank": 3,
+        "title": "How Teachers Are Turning the Midterms Into a Nonpartisan Civics Lesson",
+        "summary": "Teachers across the country are using recent midterm elections—the nationwide elections held every two years to choose members of Congress—as a real-world teaching opportunity to help students understand how government and voting work. A new survey shows that many young people feel like elected officials (politicians in power) don't listen to them, yet surprisingly, more students plan to vote in future elections than in 2024. This is significant because it shows teachers are successfully making civics (the study of government and citizenship) relevant and engaging by connecting it to actual current events. By turning elections into nonpartisan lessons—meaning they're not favoring one political party over another—teachers help students think critically about politics without being told what to believe. This approach is helping young people see voting and political participation as something that actually matters to their lives and futures.",
+        "source": "EdSurge",
+        "link": "https://www.edsurge.com/news/how-teachers-are-turning-the-midterms-into-a-nonpartisan-civics-lesson",
+        "pubDate": "2026-11-05",
+        "image": null
+      },
+      {
+        "rank": 4,
+        "title": "Child care and pre-K measures won big in midterms",
+        "summary": "During recent midterm elections, voters in several states approved ballot measures that would provide more funding for child care and pre-kindergarten (pre-K) programs—educational programs for children ages three to five before they start kindergarten. Several newly elected Democratic officials made these programs central to their campaigns, and voters responded positively, showing this is a priority for families. This matters to you because better child care and pre-K access affects your younger siblings and community, plus it reflects how education policy is shifting toward early childhood development. For example, Maine's governor-elect Hannah Pingree specifically campaigned on universal child care, meaning accessible child care for all families regardless of income. These wins suggest that voters believe investing in early education and helping families afford child care is important for the country's future. This could mean more working parents can afford care for their kids, which reduces family stress and helps young children get better educational starts.",
+        "source": "The Hechinger Report",
+        "link": "https://hechingerreport.org/child-care-and-pre-k-measures-won-big-in-midterms/",
+        "pubDate": "2026-11-05",
+        "image": "https://i0.wp.com/hechingerreport.org/wp-content/uploads/2026/11/EC-ballot-110426-scaled.jpg?fit=1024%2C683&amp;ssl=1"
+      },
+      {
+        "rank": 5,
+        "title": "Coco Gauff continues HBCU advocacy with huge donation",
+        "summary": "Tennis superstar Coco Gauff, a Grand Slam champion (meaning she's won multiple major professional tennis tournaments), has donated an additional $150,000 to support students at HBCUs—Historically Black Colleges and Universities. HBCUs are colleges that were founded before 1964 with the primary mission of educating African American students, during a time when most other universities didn't accept Black students. Gauff's donation shows how successful athletes are using their platform and wealth to address educational inequality and expand access to higher education. This matters because college is expensive, and scholarships and donations like this can make the difference between whether someone can afford to attend college or not. By investing in HBCUs specifically, Gauff is helping ensure that Black students have access to quality higher education and the opportunity to build successful careers. Her continued advocacy demonstrates that education access remains an important issue, and that influential people can use their success to help others pursue their dreams.",
+        "source": "ClutchPoints",
+        "link": "https://clutchpoints.com/hbcu/coco-gauff-continues-hbcu-advocacy-with-huge-donation/",
+        "pubDate": "2026-11-05",
+        "image": "https://s.yimg.com/lo/mysterio/api/9c86c3563e31410581410177f6743888992a792e5cafe94083d819b3113dd153/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fclutchpoints_articles_939%2F039c9d2a474f0d18d62fd0bc8288d7e0.jpg"
+      },
+      {
+        "rank": 6,
+        "title": "What Playgrounds Can Teach Us About AI in Schools",
+        "summary": "This article uses playgrounds as a metaphor to explore how schools should approach AI education—comparing the need to learn AI to how kids learn to manage risk while playing. Just like playgrounds have some rules and supervision to keep kids safe while still allowing them to explore and take reasonable risks, AI education needs guardrails (safety measures) but shouldn't prevent students from actually learning and experimenting with the technology. The article suggests that completely banning or pausing AI in schools might protect students from some risks, but it could also leave them unprepared for a world where AI skills are increasingly essential. This matters to your education because it argues that the best approach isn't total protection—it's guided learning that teaches you to use AI responsibly while understanding its limitations and dangers. The playground analogy helps explain why overly restrictive policies might actually harm your future opportunities by preventing you from developing skills employers will demand. Teachers need to find the balance between safety and real learning experiences.",
+        "source": "EdSurge",
+        "link": "https://www.edsurge.com/news/what-playgrounds-can-teach-us-about-ai-in-schools",
+        "pubDate": "2026-11-05",
+        "image": "https://images.ctfassets.net/eflsecw4kznd/2jOm7XvW253AQfOHxnTYXO/995290f1745e8bc3bbefb47ab6713675/IMG_0002.png?auto=compress%2Cformat&w=1600&h=800&fit=crop"
+      },
+      {
+        "rank": 7,
+        "title": "Does an AI Pause Protect Students, or Leave Some Behind?",
+        "summary": "Some schools and education leaders have proposed putting a 'pause' on AI in classrooms—meaning they want to temporarily stop using or teaching AI until they figure out better safety rules and teacher training. However, this article questions whether pausing AI actually protects students or instead disadvantages them by preventing them from learning critical skills they'll need. The debate centers on AI literacy—understanding how artificial intelligence works, its capabilities, and its limitations—which experts increasingly view as essential knowledge, similar to reading and math skills. This matters to you because the decisions schools make now about AI will directly affect what skills you develop and whether you'll be prepared for college and careers. Students who learn AI early might have significant advantages over those who don't, making this a question of educational equity (fairness in access to opportunities). The article suggests that rather than pausing entirely, schools should focus on teaching AI safely and responsibly, ensuring all students—regardless of their school's resources—get the chance to develop these crucial future skills.",
+        "source": "EdSurge",
+        "link": "https://www.edsurge.com/news/does-an-ai-pause-protect-students-or-leave-some-behind",
+        "pubDate": "2026-11-05",
+        "image": null
+      },
+      {
+        "rank": 8,
+        "title": "'Special education teachers shun schools for home lessons'",
+        "summary": "An educator in Nigeria has raised concerns that special education teachers—teachers trained to work with students who have learning disabilities, physical disabilities, or other special needs—are leaving traditional schools to offer private lessons in students' homes. These private lessons often pay more money than school positions, creating a crisis where students with special needs in schools are losing experienced teachers. This matters because students with special needs rely on trained specialists to help them learn effectively, and when these teachers leave public schools, it undermines inclusive education—the practice of educating all students, regardless of ability, together in regular classrooms. The shortage of special education teachers in schools means students with disabilities may not receive the specialized support they need to succeed academically. This trend highlights broader challenges in education systems where qualified professionals are drawn away from public schools by higher-paying private opportunities, ultimately harming the students who most need expert support.",
+        "source": "The Punch",
+        "link": "https://punchng.com/special-education-teachers-shun-schools-for-home-lessons/",
+        "pubDate": "2026-11-05",
+        "image": "https://cdn.punchng.com/wp-content/uploads/2026/11/06014135/md-school_1793925695-1200x630.webp"
+      },
+      {
+        "rank": 9,
+        "title": "24 Ways to Improve Your Graduation Rate",
+        "summary": "Cool Cat Teacher shared strategies from Los Alamitos High School about how to improve graduation rates—the percentage of students who successfully complete high school and receive their diploma. Los Alamitos High School achieved the notable goal of graduating every single student in their school, a remarkable accomplishment that educators across the country want to replicate. The article outlines 24 different approaches schools can use to support students in finishing high school, addressing barriers that prevent some students from graduating. This matters to you because graduation rates directly affect your future opportunities; a high school diploma is typically required for college and most stable career paths. The strategies likely include things like better academic support, mental health services, addressing attendance problems, and connecting struggling students with resources they need. By studying what makes some schools successful at getting all their students to graduate, other schools can adopt similar practices, helping more teenagers like you complete your education successfully.",
+        "source": "Cool Cat Teacher",
+        "link": "https://www.coolcatteacher.com/e1024/",
+        "pubDate": "2026-11-05",
+        "image": "https://www.coolcatteacher.com/wp-content/uploads/2026/11/graduation-rate-peer-mentoring-blog-featured-1024.jpg"
+      },
+      {
+        "rank": 10,
+        "title": "NTA extends Joint CSIR UGC NET December 2026 application deadline to November 9",
+        "summary": "The National Testing Agency (NTA)—India's official organization responsible for administering major educational entrance exams—has extended the application deadline for the Joint CSIR-UGC NET (National Eligibility Test) examination to November 9, 2026, without charging a late fee. The CSIR-UGC NET is a highly competitive exam in India that determines eligibility for research positions and university teaching jobs in science fields, making it a crucial qualification for students pursuing advanced careers in research and academia. This extension gives students who haven't yet applied more time to register for the December 2026 exam without penalty, meaning they won't have to pay extra money for applying after the original deadline. This matters to students in India pursuing advanced degrees or research careers because missing application deadlines can derail educational plans, so this extension provides essential relief and opportunity. The decision shows how testing organizations try to balance strict timelines with practical accommodations for students facing challenges in preparing and applying for major exams.",
+        "source": "The Times of India",
+        "link": "https://timesofindia.indiatimes.com/education/news/nta-extends-joint-csir-ugc-net-december-2026-application-deadline-to-november-9-direct-link-to-apply-here/articleshow/135591037.cms",
+        "pubDate": "2026-11-05",
+        "image": "https://static.toiimg.com/thumb/msid-135591166,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+      }
+    ],
+    "nature-science": [
+      {
+        "rank": 1,
+        "title": "In Vivo CRISPR Base Editing of ANGPTL3 for Durable Lipid Lowering",
+        "summary": "Researchers have achieved a breakthrough using CRISPR gene editing—a tool that acts like molecular scissors to precisely cut and modify DNA—to treat high cholesterol directly inside patients' bodies. CRISPR base editing is an advanced version that makes targeted changes to genetic code without cutting both DNA strands, reducing harmful side effects. This study demonstrates that editing the ANGPTL3 gene can lower lipid levels (fats in the blood that clog arteries) durably, meaning the benefits last long-term. High cholesterol causes heart disease and stroke, making this potentially life-changing for millions of people. This represents one of the first successful uses of CRISPR inside living patients rather than in laboratory cells, marking a major milestone in treating genetic diseases.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/s41586-026-11233-9",
+        "pubDate": "2026-01-15",
+        "image": null
+      },
+      {
+        "rank": 2,
+        "title": "Novel gene therapy lets drug dampen brain cell activity, reducing seizures",
+        "summary": "Chinese researchers successfully treated three epilepsy patients using chemogenetics, a cutting-edge approach that combines genetics and chemistry to control brain activity. Epilepsy causes uncontrollable seizures when brain cells fire electrical signals chaotically, sometimes leading to injury or death. The team genetically modified patients' brain cells to respond to a specific drug, allowing doctors to calm overactive neural firing when needed. Think of it like installing a dimmer switch in the brain instead of just an on-off button—giving doctors precise control. This marks the first successful human trial of chemogenetics, opening doors to treating not just epilepsy but potentially depression, Parkinson's, and other brain disorders. The approach is gentler than traditional brain surgery and more targeted than current medications.",
+        "source": "Science Magazine",
+        "link": "https://www.science.org/content/article/novel-gene-therapy-lets-drug-dampen-brain-cell-activity-reducing-seizures",
+        "pubDate": "2026-01-15",
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "An unexpected feedback loop may be driving mega heatwaves",
+        "summary": "Scientists have discovered a hidden mechanism amplifying extreme heatwaves: dry soil and high atmospheric pressure create a feedback loop that makes heat worse. When soil dries out during heat, it can't absorb solar energy through evaporation (the cooling process where water turns to vapor), so more heat stays trapped near the ground. High-pressure weather systems then trap this heat like a lid on a pot, intensifying temperatures further. This explains why Europe and other regions are experiencing record-breaking heatwaves much earlier and more severely than climate models predicted—the models didn't fully account for this amplification effect. Understanding this mechanism is crucial because heatwaves kill thousands of people annually and threaten food production globally. This discovery helps scientists improve their predictions for future extreme weather.",
+        "source": "New Scientist",
+        "link": "https://www.newscientist.com/article/2597676-an-unexpected-feedback-loop-may-be-driving-mega-heatwaves/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+        "pubDate": "2026-01-15",
+        "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_319534708.jpg"
+      },
+      {
+        "rank": 4,
+        "title": "Less than 4 minutes of vigorous exercise a day could halve your dementia risk",
+        "summary": "A new study reveals that short bursts of intense physical activity—like sprinting, carrying heavy groceries, or rushing for a bus—can significantly reduce dementia risk by up to 50 percent. Dementia is a brain condition where people lose memory and thinking abilities, devastating both patients and families. Vigorous exercise means pushing your heart rate high, not just casual walking; think of it as exercise intense enough to make conversation difficult. Researchers found that even four minutes daily of this high-intensity activity showed major protective effects on brain health. The mechanism isn't completely clear, but vigorous exercise appears to improve blood flow to the brain, reduce inflammation, and strengthen neural connections. This is exciting news because it proves you don't need hours at a gym—brief, intense activity fits into any teenager's busy schedule and offers real health benefits.",
+        "source": "New Scientist",
+        "link": "https://www.newscientist.com/article/2597936-less-than-4-minutes-of-vigorous-exercise-a-day-could-half-your-dementia-risk/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+        "pubDate": "2026-01-15",
+        "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_319661875.jpg"
+      },
+      {
+        "rank": 5,
+        "title": "AI can track a single bird over time—based solely on its song",
+        "summary": "Artificial intelligence scientists have developed an algorithm (a set of computer instructions) that can identify and track individual birds using only their unique songs, without needing physical tags or direct observation. Every bird species has different calls, and amazingly, individual birds within the same species have slightly different song patterns—like human voices. This AI system learns these subtle differences and can recognize the same bird over weeks or months just by listening to recordings. Tracking bird populations is crucial for conservation because birds indicate environmental health; declining bird numbers signal ecosystem problems. Traditional tracking methods involve physically catching and tagging birds, which stresses them and can injure them. This gentler AI approach lets researchers monitor bird health and migration patterns continuously and remotely. This technology could revolutionize wildlife conservation by making it less invasive and more efficient.",
+        "source": "Science Magazine",
+        "link": "https://www.science.org/content/article/ai-can-track-a-single-bird-over-time-based-solely-its-song",
+        "pubDate": "2026-01-15",
+        "image": null
+      },
+      {
+        "rank": 6,
+        "title": "Parkinson's may be driven by 'vicious cycle' that disrupts brain waste drainage",
+        "summary": "Neuroscientists have uncovered a troubling cycle in Parkinson's disease: toxic protein clumps accumulate in the brain, and simultaneously, the brain's waste-removal system breaks down, causing the harmful proteins to build up more. Parkinson's causes tremors, stiffness, and difficulty moving because a brain chemical called dopamine gradually disappears. The disease involves alpha-synuclein proteins misfold and clump together like tangled wires, damaging brain cells. The brain normally flushes out waste through the glymphatic system (imagine it like a dishwasher for the brain), but Parkinson's disrupts this process. When waste removal fails, more toxic proteins accumulate, which further damages the waste system—creating a vicious cycle. Understanding this mechanism is revolutionary because it suggests treatments could break the cycle by either clearing existing protein clumps or restoring waste drainage. This could eventually lead to stopping or reversing Parkinson's progression rather than just managing symptoms.",
+        "source": "New Scientist",
+        "link": "https://www.newscientist.com/article/2597911-parkinsons-may-be-driven-by-vicious-cycle-that-disrupts-brain-waste-drainage/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+        "pubDate": "2026-01-15",
+        "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_319524460.jpg"
+      },
+      {
+        "rank": 7,
+        "title": "Record-breaking, fast-spinning magnet could help uncover new physics",
+        "summary": "Physicists have created an extraordinarily powerful magnet barely wider than a human hair that spins at record-breaking speeds, potentially revealing undiscovered physics laws. This magnet spins so rapidly it's among the fastest-spinning objects ever created. The extreme conditions it generates—intense magnetic fields combined with rapid rotation—could help scientists study exotic states of matter and fundamental forces that don't exist under normal circumstances. Quantum technology relies on precise control of magnetic fields and particle behavior at microscopic scales, and this magnet provides unprecedented control capabilities. The device could help test predictions from theoretical physics about how particles behave in extreme conditions. Think of it like a scientific microscope for the invisible world—by studying matter under extreme conditions, physicists can discover new fundamental principles governing the universe. These discoveries could eventually lead to breakthroughs in technology we can't yet imagine, similar to how quantum mechanics discoveries led to smartphones and computers.",
+        "source": "New Scientist",
+        "link": "https://www.newscientist.com/article/2597816-record-breaking-fast-spinning-magnet-could-help-uncover-new-physics/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+        "pubDate": "2026-01-15",
+        "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_319645963.jpg"
+      },
+      {
+        "rank": 8,
+        "title": "These AI agents design your perfect robot-powered lab — and run it for you",
+        "summary": "Artificial intelligence systems can now autonomously design and operate robotic laboratory setups, dramatically accelerating scientific research. These AI agents function like robot scientists: they decide which experiments to run, design the robotic lab configuration needed, and then execute the experiments with minimal human intervention. This is transformative because scientific research often involves tedious, repetitive experiments, and human scientists waste time on logistics rather than creative thinking. An autonomous AI-powered lab can work 24/7 without fatigue, run hundreds of experiments simultaneously, and process results instantly. The AI learns from each experiment, adjusting its approach based on outcomes—similar to how you'd improve a recipe after trying it multiple times. This could accelerate drug discovery, material science, and biological research by months or years. However, questions remain about oversight: scientists still need to validate that AI-designed experiments are scientifically sound and ethically conducted. This technology represents the future of research.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/d41586-026-03587-x",
+        "pubDate": "2026-01-15",
+        "image": null
+      },
+      {
+        "rank": 9,
+        "title": "A robot called GIMLI will explore a lunar cave for a future moon base",
+        "summary": "NASA is preparing for human lunar colonization by sending GIMLI, a specialized robot, to explore caves on the Moon ahead of human astronauts. GIMLI stands for a cave-exploring mission designed to map subsurface lunar environments that could shelter future moon bases. Lunar caves are scientifically valuable because they protect against extreme temperature swings (from 260°F in sunlight to -280°F in shadow), cosmic radiation, and micrometeorites. Underground caves could provide natural shelter for human habitats, reducing construction costs and keeping astronauts safe. GIMLI will map cave systems, collect samples, and test equipment in these harsh environments before humans arrive. This robotic reconnaissance is essential because moon bases represent humanity's next major space achievement—serving as stepping stones for Mars exploration and establishing permanent human presence beyond Earth. The international space race to build a moon base is intensifying, with multiple countries planning lunar bases within the next decade.",
+        "source": "New Scientist",
+        "link": "https://www.newscientist.com/article/2597780-a-robot-called-gimli-will-explore-a-lunar-cave-for-a-future-moon-base/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+        "pubDate": "2026-01-15",
+        "image": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_319405592.jpg"
+      },
+      {
+        "rank": 10,
+        "title": "Cholera bacterium's good deed: inspiring a glue with rare properties",
+        "summary": "Scientists have discovered that the cholera bacterium—which causes a severe diarrheal disease that kills thousands annually—produces a protein that could inspire new ultra-strong, biocompatible adhesives. The bacterium secretes a natural glue to attach itself to intestinal cells during infection, and this glue has remarkable properties: it remains sticky in wet environments where normal adhesives fail, and it's made from biological materials that don't harm living tissue. Researchers are reverse-engineering this bacterial adhesive to create medical applications like surgical glues that work inside the body, waterproof bandages for wound healing, and implant coatings. This exemplifies biomimicry—copying nature's solutions to solve human problems. The cholera protein contains unusual chemical structures that maintain adhesive strength in conditions where other glues dissolve or degrade. While cholera remains a public health threat, understanding its biology could lead to life-saving medical innovations. This shows how studying dangerous diseases sometimes yields unexpected benefits for human health.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/d41586-026-03630-x",
+        "pubDate": "2026-01-15",
+        "image": null
+      }
+    ]
+  }
+}
