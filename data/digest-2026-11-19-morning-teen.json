@@ -1,0 +1,928 @@
+{
+  "date": "2026-11-19",
+  "edition": "morning",
+  "audience": "teen",
+  "generatedAt": "2026-11-19T04:35:43.178Z",
+  "categories": {
+    "tech-ai": [
+      {
+        "rank": 1,
+        "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+        "summary": "Satya Nadella is the CEO of Microsoft, one of the world's largest tech companies that makes Windows, Office, and cloud services. He's predicting that AI agents—software that can think and act like humans to complete tasks—will completely change how the internet makes money. Right now, most websites (like Google, Amazon, and YouTube) make money through advertising: they show you ads while you browse. But if AI agents start shopping and searching for you automatically, companies won't be able to show you ads anymore, so they'll have to find new ways to earn money. This matters because it could reshape which tech companies stay powerful and how every website you use pays its bills.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 2,
+        "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is 'unpatchable'",
+        "summary": "Satya Nadella warned that much of the critical infrastructure—the systems that power hospitals, power grids, water systems, and banks—can't be easily fixed (or 'patched') against new AI-powered cyberattacks. When hackers use AI to break into systems, traditional security updates often can't stop them fast enough. This is dangerous because if criminals use AI to attack these essential services, millions of people could lose power, water, or access to hospitals. Nadella mentioned this while downplaying a recent Microsoft Outlook outage, but his warning highlights a serious problem: as AI gets more powerful, our defenses aren't keeping up, putting everyday people's safety at risk.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: 'It's time to start running'",
+        "summary": "Palmer Luckey is the founder of Anduril, a defense technology company, and he's sounding the alarm about AI-powered cyberattacks. He's saying that hackers using AI to break into computer systems are getting better faster than companies can defend against them, and that outdated technology (old systems that haven't been updated) makes this problem worse. When Luckey says 'it's time to start running,' he means people and organizations need to take urgent action now before it's too late. This matters to you because cyberattacks could affect everything from your school's computers to hospitals to the power grid. The scariest part is that AI is making attacks smarter and more automated, so traditional defenses aren't working anymore.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 4,
+        "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+        "summary": "Satya Nadella, Microsoft's CEO, offered buyouts to 60,000 employees—basically paying them to voluntarily leave their jobs instead of doing traditional layoffs where the company forces people out. The main reason? AI. But not in the way you'd think—Nadella isn't replacing workers with AI robots. Instead, Microsoft is shifting its entire business strategy to focus on AI, which means some roles are becoming less important while new AI-focused jobs are becoming critical. By offering buyouts, Nadella lets employees who don't want to work on AI leave with money, while keeping people excited about the company's AI future. This shows how rapidly AI is transforming the tech industry and forcing companies to completely reorganize how they hire and what skills they need.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 5,
+        "title": "Anthropic prices IPO at $83 a share, above projected range",
+        "summary": "Anthropic, an AI company, just went public through something called an IPO (Initial Public Offering), which means regular people can now buy stock (tiny ownership pieces) in the company. The company priced its shares at $83 each, which is higher than analysts expected, valuing the entire company at $1.5 trillion when you count all future earnings potential (called 'fully diluted'). Anthropic is one of the biggest AI safety companies—it focuses on making AI systems that are safer and less likely to cause harm. This IPO matters because it shows how much investors believe AI companies are worth and how much money is flowing into the AI industry right now. For context, $1.5 trillion is more than the entire GDP of most countries, showing just how valuable and important AI is becoming to our global economy.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 6,
+        "title": "The nation's largest school districts consider ditching Google Search",
+        "summary": "New York, Los Angeles, and Chicago public schools are thinking about abandoning Google Search because Google is forcing them to use its new AI tool called Gemini if they want to keep using Search. Starting next year, schools can't turn off Gemini's AI features without also losing Google Search entirely. This matters because schools have traditionally used Google Search as a free, essential tool for learning, but Google is saying 'Search and AI are now mixed together, so you have to accept the AI features.' Teachers and administrators are worried because Gemini's AI might give wrong answers, could collect students' data, or might not be appropriate for young learners. This shows a bigger problem: tech companies are using their power to force users to accept new technologies they might not want, and there's limited choice for alternatives.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+        "pubDate": "2026-11-18",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK255_Google_Gemini_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      },
+      {
+        "rank": 7,
+        "title": "Elon Musk tries to explain what's going on with Ukraine and Starlink",
+        "summary": "Elon Musk, who owns SpaceX (which provides Starlink satellite internet), got into a public dispute with Ukrainian President Volodymyr Zelenskyy over how Starlink is being used. Musk claims Zelenskyy is lying about service disruptions and is trying to illegally use Starlink (a civilian system meant for regular people) for military purposes to fight Russia's invasion. Zelenskyy fired back, saying Ukraine desperately needs Starlink to stay connected and defend itself. This matters because Starlink is one of the few ways Ukraine can maintain communications during the war, and Musk's willingness to restrict access could have life-or-death consequences for millions of people. It also highlights how powerful one tech billionaire has become—Musk can essentially control internet access for an entire country, raising serious questions about whether that much power should rest in one person's hands.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/tech/1037448/elon-musk-ukraine-starlink-starshield-nyt-dealbook",
+        "pubDate": "2026-11-18",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK022_ELON_MUSK_CVIRGINIA_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      },
+      {
+        "rank": 8,
+        "title": "Tech lawsuits defined 2026 — and lawmakers want more",
+        "summary": "Congress is trying to pass new laws to protect people (especially kids) from online harms like deepfakes (fake videos of real people) and predators on platforms. Right now, many tech companies use something called 'forced arbitration'—a contract rule that forces customers to settle disputes privately with the company instead of suing them in court. This means if someone is harmed on a platform like Roblox, they can't take the company to court; they have to go through the company's private system instead. Lawmakers are calling to end this practice so victims can actually sue tech companies. This matters because predators have allegedly groomed children on platforms like Roblox, but the platform uses forced arbitration to avoid public lawsuits, keeping these incidents hidden. Stronger laws would give teens and families real legal power against tech companies that don't protect them.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+        "pubDate": "2026-11-18",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK470_AI_LAW_CVIRGINIA_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      },
+      {
+        "rank": 9,
+        "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang's exit",
+        "summary": "Jensen Huang was the founder and CEO of Nvidia, the company that makes the specialized computer chips (called GPUs) that power almost all AI systems in the world. He recently stepped down, and Colette Kress, Nvidia's president, temporarily took over as interim CEO (temporary leader). Satya Nadella at Microsoft publicly expressed confidence that Kress and Nvidia will stay strong even without Huang. This matters because Nvidia is absolutely crucial to AI development—without their chips, companies can't build or run AI systems. When major leadership changes happen at crucial companies, investors worry about whether the company will stay innovative and powerful. Nadella's public confidence is meant to calm investors and assure the tech world that Nvidia's future is secure, which helps keep the entire AI industry stable.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 10,
+        "title": "The leaked Lenovo Legion Go Beam could be the affordable handheld we need",
+        "summary": "Lenovo is a computer hardware company, and they might be announcing a new handheld gaming PC called the Legion Go Beam. Handheld gaming PCs are small computers that let you play full video games on the go (like a Nintendo Switch but more powerful). Recently, Lenovo's other handheld models have gotten really expensive—over $1,000 or $2,000—which puts them out of reach for most people. The leaked Legion Go Beam appears to be designed as an affordable alternative, bringing the price back down to something reasonable. This matters because it shows how competition in gaming tech is heating up, and companies are finally listening to customers who want powerful handheld gaming without paying a fortune. For gamers and tech fans, this could mean better choices and lower prices for portable gaming devices.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/games/1036819/the-leaked-lenovo-legion-go-beam-could-be-the-affordable-handheld-we-need",
+        "pubDate": "2026-11-18",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Exclusive-image-of-the-unannounced-Lenovo-Legion-Go-Beam-gaming-handheld-in-white-with-lime-green-accents.jpg?quality=90&#038;strip=all&#038;crop=2.6,4.9777777777778,89.2,87.911111111111"
+      }
+    ],
+    "finance-markets": [
+      {
+        "rank": 1,
+        "title": "Anthropic raises $81bn in record IPO",
+        "summary": "Anthropic, an artificial intelligence company founded to create safer AI systems, just went public (meaning regular people can now buy its stock) in what's being called the biggest stock market debut ever. An IPO—initial public offering—is when a private company sells shares to the public for the first time. This deal is bigger than SpaceX's historic 2023 debut, which shows how much investors believe AI is the future. Anthropic competes with OpenAI (maker of ChatGPT) and was founded by former OpenAI researchers who wanted a different approach to AI development. This record-breaking IPO signals that investors are betting massive money on AI companies, even though AI regulation and safety concerns are still being debated globally.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/62c0510b-ca65-441e-9baf-675b93903b9e?syn-25a6b1a6=1",
+        "pubDate": "2026-11-19",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F5576ecb8-b4f7-4253-8b53-481d02b68328.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "rank": 2,
+        "title": "Anthropic IPO Hands Korean Tycoon's Firm $3 Billion Windfall",
+        "summary": "SK Telecom, South Korea's largest mobile company owned by billionaire Chey Tae-won, made a $3 billion profit from Anthropic's historic IPO because it invested early in the AI startup. A windfall is unexpected money gained suddenly. This shows how early investors in promising companies can see their bets pay off enormously—SK Telecom took a risk years ago betting on Anthropic, and now that risk has turned into billions. This also highlights how global tech competition works: South Korean companies are actively investing in cutting-edge AI to stay competitive with American and Chinese tech giants. The windfall demonstrates that strategic early investments in emerging technologies can deliver extraordinary returns for major corporations and their shareholders.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-hands-sk-hynix-tycoon-s-firm-3-billion-windfall",
+        "pubDate": "2026-11-19",
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "Trump, Xi and Putin to hold high-stakes trilateral summit",
+        "summary": "US President Donald Trump, Chinese leader Xi Jinping, and Russian President Vladimir Putin are meeting together in Shenzhen, China—a rare and historically significant event that hasn't happened in this exact format before. This trilateral (three-way) meeting matters because these three countries control enormous military, economic, and political power globally. Trump meeting with Xi and Putin simultaneously sends a message about how he wants to reshape global relationships and US foreign policy. The meeting is happening amid tensions over Ukraine, Taiwan, US-China trade disputes, and AI technology control. For teens, this matters because decisions made by these three leaders affect everything from global stability to technological development to economic opportunities, potentially influencing jobs, education, and future career prospects worldwide.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/fcf6d27b-a04c-4cef-8b03-ce2423566f1f",
+        "pubDate": "2026-11-19",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F3ca0f7b5-cbd6-496f-ab21-05242b5fbb2d.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "rank": 4,
+        "title": "SoftBank regrets 'mistake' of not backing Anthropic, says Son",
+        "summary": "Masayoshi Son, the billionaire founder of Japan's SoftBank (a massive tech investment company), publicly admitted he made a mistake by not investing in Anthropic earlier, while his company was already investing heavily in rival OpenAI instead. This is significant because SoftBank has been one of the world's most successful venture capital firms—companies that invest in startups—and Son's admission highlights how even expert investors sometimes misjudge which companies will succeed. Son's regret underscores the high stakes in AI competition: by backing OpenAI instead of Anthropic, SoftBank positioned itself on what turned out to be the \"safer bet,\" but missed out on even bigger returns from Anthropic's record IPO. This shows that in rapidly evolving industries like AI, even billionaires and experienced investors struggle to predict winners, and strategic decisions made years ago have enormous consequences today.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/08086201-6359-47ec-8854-70462ad5a4c0?syn-25a6b1a6=1",
+        "pubDate": "2026-11-19",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe7adae50-2b5b-4772-9948-3c0067df68aa.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "rank": 5,
+        "title": "Low-profile VCs set for $100bn windfall from Anthropic IPO",
+        "summary": "A group of lesser-known venture capital (VC) firms—companies that invest in startups—are about to become extraordinarily wealthy from Anthropic's IPO, with some expected to gain around $100 billion collectively. VCs are investment companies that bet money on early-stage startups hoping they'll become hugely successful. These particular investors stayed relatively quiet and unknown to the public, but their early bets on Anthropic are paying off massively. This story matters because it shows how wealth is created in modern economies: take calculated risks on promising startups years before they become famous, and if you're right, you can multiply your money many times over. It also demonstrates that you don't need to be famous (like Elon Musk or Jeff Bezos) to build enormous wealth—patient investors who believe in emerging technology and can afford to wait for payoffs can achieve extraordinary financial success.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d?syn-25a6b1a6=1",
+        "pubDate": "2026-11-19",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F6ea8405c-d541-4899-be2b-34b3ebf85ead.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "rank": 6,
+        "title": "Copper Rebounds After Rout as Physical Tightness Persists",
+        "summary": "Copper prices dramatically fell 6% in one day—the biggest drop since April 2025—as investors quickly sold off their positions, but prices are now recovering slightly. Copper is a crucial metal used in electronics, construction, and renewable energy systems, so its price affects everything from your phone to solar panels to power lines. The initial crash happened because investors who had bet on copper prices rising (betting it would benefit from AI boom and US tariffs) suddenly reversed course and sold everything. A rout is a sudden, sharp market decline; physical tightness means there's limited actual copper available to buy. This matters economically because copper is a leading indicator—when copper prices drop, it often signals investors expect slower economic growth ahead. For teens, copper price swings affect future technology costs and the pace of renewable energy adoption, which impacts climate goals and your generation's environmental future.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-19/copper-rebounds-after-rout-as-physical-tightness-persists",
+        "pubDate": "2026-11-19",
+        "image": null
+      },
+      {
+        "rank": 7,
+        "title": "Treasuries Draw Record Demand From South Korean Investors",
+        "summary": "South Korean investors bought record amounts of US Treasuries (basically loans they're giving to the US government) in September, reversing a previous pattern of selling. Treasuries are bonds—you lend money to the government and they pay you back with interest over time. South Korean investors are buying these because US interest rates (the percentage you earn) have climbed higher, making them more attractive, and because they want to diversify away from South Korea's stock market (which is heavily weighted toward semiconductor chips). This matters because it shows how global capital flows work: when one country's interest rates become attractive, investors worldwide shift money toward it. For the US government, this steady foreign investment helps finance government spending and keeps interest rates manageable. For teens, this demonstrates how interconnected the global economy is—decisions by Korean companies affect American government finances, which ripple back to affect everyone's opportunities.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-19/treasuries-draw-record-demand-from-south-korean-investors",
+        "pubDate": "2026-11-19",
+        "image": null
+      },
+      {
+        "rank": 8,
+        "title": "Australian Dollar Erases 2026 Gain as Rate-Cut Bets Increase",
+        "summary": "Australia's currency (the Australian dollar) lost all its value gains for the year against the US dollar after weak employment numbers convinced investors that Australia's central bank will cut interest rates soon. When a central bank cuts interest rates, it makes borrowing cheaper but savings less rewarding, usually signaling economic weakness. The Australian dollar weakened because investors move money away from currencies with falling interest rates—if Australia cuts rates, the money you earn from holding Australian dollars decreases, so investors prefer the US dollar instead. Currency movements matter because they affect international trade: when Australia's currency weakens, Australian exports become cheaper for foreigners to buy (good for Australian companies), but importing foreign goods becomes more expensive for Australians (bad for consumers). This example shows how economic signals ripple across global markets, with employment data in one country triggering currency shifts that affect international business everywhere.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-19/australian-dollar-set-to-shed-2026-gain-on-rba-rate-cut-bets",
+        "pubDate": "2026-11-19",
+        "image": null
+      },
+      {
+        "rank": 9,
+        "title": "Nvidia accelerates pay rises as interim CEO seeks to lift staff morale",
+        "summary": "Nvidia, the world's dominant artificial intelligence chip company, is rapidly raising employee salaries as its interim CEO tries to boost worker morale during a period of internal instability. Interim means temporary—the interim CEO is filling in while founder Jensen Huang \"manoeuvres\" (strategically works) to return to leadership. AI chips are the essential hardware that powers all large language models like ChatGPT and Anthropic's Claude, making Nvidia extraordinarily valuable and influential in the AI boom. The company is raising salaries to keep talented engineers from leaving to competitors and to maintain focus during leadership uncertainty. This matters because tech talent competition affects which companies win the AI race, which determines whose AI tools dominate globally. For teens interested in tech careers, Nvidia's aggressive salary increases show that AI skills are extremely in-demand, potentially offering lucrative career paths in coming years.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/9ee78a67-fcab-4e43-bee7-09c9244e76b8?syn-25a6b1a6=1",
+        "pubDate": "2026-11-19",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fefca8bee-d502-4ab3-b1a4-f55bb1c06f27.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "rank": 10,
+        "title": "Musk says he feels 'foolish' for donating nearly $500mn to Republicans",
+        "summary": "Elon Musk, the world's richest person and CEO of Tesla and SpaceX, publicly regretted donating nearly $500 million to Republican causes and Donald Trump's campaign because his political donations didn't influence voters the way he expected. This is notable because Musk, who has enormous wealth and influence, is admitting that throwing money at politics didn't deliver the political outcomes he wanted—voters ultimately make their own choices regardless of billionaire funding. Campaign donations are controversial because they raise questions about whether wealthy individuals get disproportionate political influence compared to ordinary citizens. Musk's regret highlights the limits of money in politics: even billionaires can't simply buy political outcomes. For teens, this demonstrates important civics lessons about democracy and power: voting decisions ultimately rest with voters, wealth doesn't automatically translate to political control, and even influential billionaires sometimes miscalculate political strategy. This also shows how public figures' statements can shape culture and what society values.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/1af0d736-d5e5-4601-989d-638c9cea74b2?syn-25a6b1a6=1",
+        "pubDate": "2026-11-19",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8393a4fc-e24f-4bcc-9afe-6d860e8e72da.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      }
+    ],
+    "science-space": [
+      {
+        "rank": 1,
+        "title": "NASA Data Clinches First-of-Its-Kind Stellar Merger",
+        "summary": "Astronomers, funded by NASA, made an unprecedented discovery: they watched a star slightly smaller than our Sun spiral into and merge with a massive puffy supergiant star in the Andromeda galaxy (our nearest large galaxy neighbor, 2.5 million light-years away). The researchers nicknamed the resulting merged star \"Bao\" and believe it may have been \"rejuvenated\" by the collision, essentially getting a second life. NASA's James Webb Space Telescope (the most powerful space telescope ever built) confirmed this groundbreaking observation with quick follow-up images. This discovery matters because it shows us that stars can collide and merge in ways scientists had theorized but never directly witnessed before, helping us understand how stars evolve and interact across the universe.",
+        "source": "NASA",
+        "link": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 2,
+        "title": "Astronomers Witness a Star Eating Its Companion in 1st-of-Its-Kind Observation",
+        "summary": "For the first time ever, astronomers have directly observed a star engulfing its stellar companion—imagine watching one star literally consume another star orbiting nearby. This event, called a stellar merger or cannibalism, happens when two stars are locked in orbit around each other and gravity pulls them closer until they collide and combine into one object. While scientists predicted this should happen in space based on computer models and theory, actually seeing it happen with telescopes is revolutionary. This observation helps astronomers understand the life cycles of binary star systems (pairs of stars orbiting together) and how stars evolve over millions of years. The discovery provides real-world evidence for processes that shape galaxies and influence how stars are born, live, and die throughout the universe.",
+        "source": "Space.com",
+        "link": "https://www.space.com/astronomy/stars/astronomers-witness-a-star-eating-its-companion-in-1st-of-its-kind-observation",
+        "pubDate": "2026-11-18",
+        "image": "https://cdn.mos.cms.futurecdn.net/ymKLsjWDynHPya4mqALR6S-1920-80.jpg"
+      },
+      {
+        "rank": 3,
+        "title": "'A Shotgun Marriage': Why Are NASA's SkyFall Mars Helicopters Riding on a Nuclear Rocket?",
+        "summary": "NASA is planning to send two advanced helicopters called SkyFall to Mars, but they'll hitch a ride on the agency's first-ever nuclear-powered rocket—and some space experts think this combination is risky. A nuclear rocket uses nuclear reactions (not explosions) to generate extreme heat that propels a spacecraft, making it much faster and more efficient than traditional rockets for long journeys. The term \"shotgun marriage\" means forcing two unlikely partners together, and critics worry that combining two experimental, high-stakes missions increases the chances that if one fails, it could jeopardize the other. SkyFall helicopters could explore Mars's terrain more flexibly than rovers (wheeled vehicles), but the nuclear rocket technology is still unproven at this scale. This matters because getting to Mars safely and successfully is crucial for future human exploration and understanding whether life ever existed on the Red Planet.",
+        "source": "Space.com",
+        "link": "https://www.space.com/astronomy/mars/a-shotgun-marriage-why-are-nasas-skyfall-mars-helicopters-riding-on-a-nuclear-rocket",
+        "pubDate": "2026-11-18",
+        "image": "https://cdn.mos.cms.futurecdn.net/5WC4k7CxeW2EBfXrzQcUGV-1920-80.png"
+      },
+      {
+        "rank": 4,
+        "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch",
+        "summary": "NASA, working with aerospace companies Northrop Grumman and SpaceX, is preparing to launch a Cygnus cargo spacecraft to the International Space Station (ISS—the orbiting laboratory where astronauts live and conduct experiments 250 miles above Earth) on Sunday, November 29, 2026. The mission, called CRS-25 (Commercial Resupply Services mission 25), will carry approximately 11,000 pounds of scientific investigations, supplies, and equipment needed by the astronauts living aboard the station. This resupply mission is routine but essential—the ISS requires regular deliveries of food, water, spare parts, and new research equipment to keep operations running smoothly. NASA will hold a media briefing on Monday, November 23 to discuss details before launch. These cargo missions are vital because they keep the ISS functioning as humanity's permanent foothold in space and enable the groundbreaking scientific research conducted there.",
+        "source": "NASA",
+        "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
+        "pubDate": "2026-11-23",
+        "image": null
+      },
+      {
+        "rank": 5,
+        "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
+        "summary": "NASA launched a new competition challenging American companies to design and build prototypes of mid-power Hall effect thrusters—advanced electric propulsion systems that could revolutionize space exploration. A Hall effect thruster works by using electricity to accelerate a gas (the propellant), creating thrust to push spacecraft forward, similar to how an ion drive works in science fiction. Unlike traditional chemical rockets that burn fuel explosively, electric thrusters are far more efficient, allowing spacecraft to travel longer distances on less fuel—crucial for deep-space missions to Mars, asteroids, and beyond. These thrusters are especially important for satellites that need to stay operational for years and for long-duration exploration missions where fuel weight matters. By holding this competition (called a \"prize challenge\"), NASA encourages innovation from private companies and helps develop the next-generation propulsion technology that will make future space missions faster, cheaper, and more capable.",
+        "source": "NASA",
+        "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 6,
+        "title": "Earth Is Missing Over a Billion Years of Geological History. Scientists May Have Discovered Why",
+        "summary": "Scientists have identified a major mystery in Earth's geological record: vast periods of time—sometimes spanning over a billion years—appear to be completely missing from the rock layers (called strata) that geologists study. Imagine if someone erased huge chapters from history books, leaving no evidence they ever existed; that's what's happening in Earth's rock record. The answer may lie deep underground in geological processes that happened long ago. Geologists are now investigating how erosion, plate tectonics (the movement of Earth's crust), and other forces could have removed these ancient rock layers without leaving obvious traces. This matters because understanding Earth's complete geological history helps scientists better predict natural disasters like earthquakes and volcanic eruptions, understand how life evolved on our planet, and model how Earth's climate and environment change over extremely long timescales—insights that could help us prepare for future environmental challenges.",
+        "source": "Space.com",
+        "link": "https://www.space.com/astronomy/earth/earth-is-missing-over-a-billion-years-of-geological-history-scientists-may-have-discovered-why",
+        "pubDate": "2026-11-18",
+        "image": "https://cdn.mos.cms.futurecdn.net/Ct8s5Y3wQjNajro5V9RcA8-1920-80.jpg"
+      },
+      {
+        "rank": 7,
+        "title": "Empire State Building Goes Gold for Voyager",
+        "summary": "The iconic Empire State Building in New York City was illuminated in gold on November 17, 2026, to celebrate NASA's Voyager 1 spacecraft reaching an extraordinary milestone: it passed one light-day away from Earth, a distance that no other human-made object has ever traveled. One light-day means the distance light travels in one day—about 16 billion miles—demonstrating Voyager's incredible 50-year journey into deep space. The gold color symbolizes the Golden Record, a gold-plated copper phonograph record carried aboard Voyager 1 that contains sounds and images representing Earth and human civilization, intended as a message to any potential alien life forms. Launched in 1977, Voyager 1 is humanity's most distant ambassador, still transmitting data back to Earth despite being billions of miles away. This achievement represents the pinnacle of human space exploration and shows how far our technology has come—and how curious humans are about the cosmos.",
+        "source": "NASA",
+        "link": "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/",
+        "pubDate": "2026-11-17",
+        "image": null
+      },
+      {
+        "rank": 8,
+        "title": "India's SatLeo Labs Wants to Build a 'Thermometer for Earth' in Space",
+        "summary": "An Indian space-tech startup called SatLeo Labs is developing satellites that could function as a giant \"thermometer for Earth,\" providing real-time temperature data from space to help predict and prevent climate disasters. SatLeo's satellites would collect infrared data (heat radiation invisible to our eyes) from Earth's surface and atmosphere continuously, creating detailed temperature maps that scientists and governments can use to anticipate extreme weather events, droughts, flooding, and other climate emergencies. Traditional weather monitoring is slower and less comprehensive; satellite data would provide near-instant global coverage. This innovation matters enormously because climate change is accelerating, and early warning systems could save lives and help communities prepare for disasters. India, as a developing nation vulnerable to severe weather events, is in a strong position to lead this technology. If successful, SatLeo Labs would demonstrate how private companies and emerging spacefaring nations can tackle global challenges using satellite technology—potentially making climate prediction more accessible worldwide.",
+        "source": "Space.com",
+        "link": "https://www.space.com/space-exploration/satellites/indias-satleo-labs-wants-to-build-a-thermometer-for-earth-in-space",
+        "pubDate": "2026-11-18",
+        "image": "https://cdn.mos.cms.futurecdn.net/iY9n9bEWJZWyd7hgYcYw8a-1920-80.png"
+      },
+      {
+        "rank": 9,
+        "title": "ULA Traces Vulcan Centaur Rocket Failure to 'Inadequate Fuel Supply' to 1st-Stage Engines",
+        "summary": "United Launch Alliance (ULA), a major American rocket company, investigated a launch failure on November 15, 2026, and determined the cause was inadequate fuel reaching the first-stage engines of their new Vulcan Centaur rocket. A rocket's first stage is the initial engines that lift the entire vehicle off the ground—it's the most powerful and critical part of any launch. If fuel doesn't flow properly to these engines, they can't generate enough thrust, causing the rocket to fail. This discovery is important for rocket development because identifying what went wrong allows engineers to fix the problem and prevent future failures. ULA is working to become a major competitor in the commercial spaceflight industry, launching satellites and cargo to orbit, so reliability is essential for their business and NASA's missions. The investigation and fix will likely delay future Vulcan Centaur launches, but ultimately make the rocket safer and more dependable for the satellites and astronauts it's designed to carry.",
+        "source": "Space.com",
+        "link": "https://www.space.com/space-exploration/launches-spacecraft/ula-traces-vulcan-centaur-rocket-failure-to-inadequate-fuel-supply-to-1st-stage-engines",
+        "pubDate": "2026-11-18",
+        "image": "https://cdn.mos.cms.futurecdn.net/pDQTFKmA9sjianZWKjMwMe-1920-80.jpg"
+      },
+      {
+        "rank": 10,
+        "title": "What Is the Moon Base?",
+        "summary": "NASA is working on an ambitious project to return astronauts to the Moon and establish humanity's first permanent lunar outpost, called the Moon Base. Unlike the Apollo missions in the 1960s and 70s, when astronauts visited the Moon for just a few days, the Moon Base will allow astronauts to live, work, and conduct extended scientific research on the lunar surface for weeks or even months at a time. An outpost is a permanent or semi-permanent settlement, like a research station in Antarctica. The Moon Base will serve as a testing ground for technologies and procedures humans will need to eventually travel to Mars and explore deeper space. Astronauts will study the Moon's geology, search for water ice that could support future missions, and conduct experiments that benefit Earth. This project matters because it represents humanity's long-term vision for space exploration—the Moon is our nearest neighbor in space and the perfect stepping stone for deeper cosmic exploration and discovering whether life ever existed elsewhere in our solar system.",
+        "source": "NASA",
+        "link": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-moon-base/",
+        "pubDate": "2026-11-18",
+        "image": "https://www.youtube.com/embed/oy8DGEQNnTg"
+      }
+    ],
+    "world-news": [
+      {
+        "rank": 1,
+        "title": "Trump, Xi and Putin to meet at historic trilateral China summit",
+        "summary": "For the first time ever, the leaders of the three most powerful nations—Donald Trump (US), Xi Jinping (China), and Vladimir Putin (Russia)—are meeting together at the APEC summit in Shenzhen, China. This is unprecedented geopolitical significance because these three countries represent competing global superpowers with major conflicts and tensions between them. Trump represents the United States, which is the world's largest economy; Xi leads China, the second-largest economy and a rising superpower; and Putin leads Russia, which is currently at war with Ukraine and isolated by Western sanctions (economic penalties imposed by other countries). The meeting could reshape global alliances, determine how conflicts like Ukraine are resolved, and affect trade relationships that impact every teenager's future. What they discuss—from nuclear weapons to trade deals to military conflicts—will influence world stability for years to come.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit?traffic_source=rss",
+        "pubDate": "2026-11-19",
+        "image": null
+      },
+      {
+        "rank": 2,
+        "title": "What do Trump, Putin and Xi want from their Shenzhen meeting?",
+        "summary": "The three global leaders are meeting with very different goals and agendas that could reshape world politics. Trump wants to negotiate trade deals that benefit the US and potentially end the Ukraine war; Xi wants to strengthen China's global influence and secure economic partnerships; Putin wants to end Western isolation and find allies against sanctions. Each leader brings decades of geopolitical baggage—Trump and Putin have tense relationships with China, while Xi seeks to position China as a peacemaker. These negotiations matter because decisions made here affect international trade (the buying and selling of goods between countries), military alliances, and whether conflicts escalate or end. For teenagers, this means their future job prospects, the cost of products they buy, and even the likelihood of wider global conflicts depend on what these three leaders agree to.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting?traffic_source=rss",
+        "pubDate": "2026-11-19",
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+        "summary": "The International Court of Justice (ICJ)—the UN's highest court for disputes between nations—is about to make a historic decision: whether Myanmar's military committed genocide (the deliberate attempt to destroy an entire ethnic or religious group) against the Rohingya people. In 2017, Myanmar's military launched a brutal crackdown that killed thousands and forced over 730,000 Rohingya to flee to neighboring Bangladesh, creating a massive humanitarian crisis. The country bringing the case, The Gambia, argues this was systematic genocide; Myanmar claims it was fighting terrorism. This matters enormously because if Myanmar is found guilty, it would be the first time a nation has ever been convicted of genocide by an international court, setting a precedent that could protect vulnerable minorities worldwide. For teenagers, this case defines what international justice means and whether powerful nations can actually be held accountable for mass atrocities.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-11-19",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67fc/live/b89f41e0-e336-11f1-9479-d17d3e98c29d.jpg"
+      },
+      {
+        "rank": 4,
+        "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+        "summary": "Israel has launched a ground military operation inside Gaza that allegedly violates a ceasefire agreement (a truce to stop fighting), according to Hamas, which controls Gaza and is designated as a terror organization by many Western countries. The 'Yellow Line' is a boundary set during ceasefire negotiations; Israel claims it's dismantling Hamas 'terror tunnels' (underground passages used for military purposes), while Hamas says this is a flagrant violation of the agreed-upon terms. This matters because Gaza is a densely populated territory with 2.3 million Palestinians living in poverty and conflict; every military operation there risks civilian casualties and destabilizes the region. The incident shows how fragile the ceasefire is and how quickly Israeli-Palestinian tensions can reignite into broader warfare. For teenagers globally, this conflict affects Middle East stability, refugee crises, and international humanitarian concerns about civilian protection in war zones.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-11-19",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee79/live/56061990-e382-11f1-a094-5fdc692f3e33.jpg"
+      },
+      {
+        "rank": 5,
+        "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+        "summary": "Ukrainian forces are engaged in a secret underground battle with Russian troops inside abandoned Soviet-era gas pipelines in the Kharkiv region of Ukraine—a 'shadow war' that happens beneath the surface, hidden from Russian surveillance drones. These tunnels represent a strategic advantage because drones cannot detect or attack fighters underground, making it one of the few places Ukrainians can safely operate. This unconventional warfare is a direct result of Russia's invasion, which began in 2022 and has killed hundreds of thousands; Ukraine has been forced to innovate militarily to survive. The pipeline battles symbolize how desperate and prolonged this conflict has become—the war has shifted from conventional battles to underground tunnels. For teenagers worldwide, this ongoing war affects global energy prices (which impact everything from heating to transportation costs), international diplomacy, and NATO's future role in Europe.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-11-19",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a52/live/a0e1e280-e36b-11f1-99b6-a35a62fa4264.jpg"
+      },
+      {
+        "rank": 6,
+        "title": "Crimean Bridge attacked again, Russian official says",
+        "summary": "Ukraine has launched another attack on the Crimean Bridge, the major infrastructure link connecting Russia to Crimea—a peninsula that Russia forcibly annexed (took over) in 2014. The head of Crimea reported that traffic was suspended following the attack, disrupting the supply line Russia relies on to support its occupation and military operations. This bridge is strategically vital because it's Russia's main route to supply troops and equipment in Crimea and southern Ukraine; destroying it would cripple Russia's military logistics. The repeated attacks show Ukraine's determination to disrupt Russian supply lines despite being militarily outmatched in conventional warfare. For teenagers, this demonstrates how Ukraine is fighting back asymmetrically (using unconventional tactics when you're the weaker side), and each successful attack potentially weakens Russia's ability to continue its invasion, affecting the war's trajectory and potentially millions of lives.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-11-19",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e29a/live/4b7210d0-e3ad-11f1-b942-5da5bfac5a5a.jpg"
+      },
+      {
+        "rank": 7,
+        "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+        "summary": "A Russian national was arrested in the United States for conducting espionage (spying) against Palantir, a major defense technology company that provides critical surveillance and data analysis tools to the US military and Ukraine. Prosecutors say the suspect followed Palantir employees, carried fake US identification documents, and possessed two Russian passports—classic signs of professional espionage. This case reveals Russia's desperation to understand and disrupt US support for Ukraine, since Palantir's technology gives Ukraine a crucial military advantage in tracking Russian movements and planning operations. The arrest demonstrates that the Ukraine war extends beyond the battlefield into intelligence operations on US soil, showing Russia's willingness to conduct illegal activities in America. For teenagers, this illustrates how modern conflicts involve cyber warfare, industrial espionage, and intelligence agencies, and shows that geopolitical tensions can directly reach into everyday life even in countries not directly at war.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-11-19",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb01/live/85dba110-e39d-11f1-a094-5fdc692f3e33.jpg"
+      },
+      {
+        "rank": 8,
+        "title": "Hegseth unveils new US-Venezuela military deal",
+        "summary": "Pete Hegseth, the US Defense Secretary (the official responsible for US military operations), announced a new military agreement with Venezuela during his first visit since Nicolas Maduro, Venezuela's authoritarian president, was captured by US forces. This deal signals a major geopolitical shift in Latin America—Venezuela has been a close ally of Russia and China, so this military partnership represents the US reasserting influence in its own hemisphere. The agreement likely includes military aid, intelligence sharing, and possibly joint operations against leftist movements that threaten US interests in the region. This matters because Venezuela controls the world's largest proven oil reserves, making it economically crucial; a shift in its allegiances affects global energy prices and geopolitical balance in the Americas. For teenagers, this demonstrates how regime change (removing a government from power) creates opportunities for new alliances, and how military deals reshape international relationships and regional power dynamics.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/11/19/hegseth-unveils-new-us-venezuela-military-deal?traffic_source=rss",
+        "pubDate": "2026-11-19",
+        "image": null
+      },
+      {
+        "rank": 9,
+        "title": "Miami court convicts US-Haitian pastor over 2021 assassination of president",
+        "summary": "A US-based Haitian pastor, Christian Emmanuel Sanon, was convicted in Miami of orchestrating the 2021 assassination of Haitian President Jovenel Moïse, who was killed in a brazen attack on his private residence. Prosecutors proved that Sanon sought to replace Moïse as president and hired mercenaries (soldiers for hire) to carry out the murder, destabilizing Haiti's already fragile government. This case reveals how assassination plots can originate from US soil and how foreign leaders remain vulnerable to violence, even in their own homes, which is a profound security concern for nations worldwide. The conviction demonstrates that even when you flee to the United States, you can be extradited (sent back to face justice) and prosecuted for crimes committed abroad. For teenagers, this case highlights how political instability in developing nations like Haiti often involves conspiracy, violence, and foreign involvement, and how US courts sometimes become venues for justice in international crimes.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/news/2026/11/19/miami-court-convicts-us-haitian-pastor-over-2021-assassination-of-president?traffic_source=rss",
+        "pubDate": "2026-11-19",
+        "image": null
+      },
+      {
+        "rank": 10,
+        "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
+        "summary": "Ukrainian forces are conducting operations in an ancient Soviet tunnel system in the Kharkiv region, where Russian surveillance drones cannot operate, making it a rare safe zone in an otherwise heavily monitored war zone. These underground tunnels, originally built as gas pipelines during the Soviet era, have become critical strategic positions because they allow Ukrainian soldiers to move, resupply, and conduct operations without fear of aerial attack. The phrase 'the drones don't fly here' perfectly captures why this underground front line matters—in modern warfare, controlling airspace through drones often determines victory, so finding places where drones are useless gives Ukraine a tactical advantage. This adaptation shows Ukraine's military innovation and desperation; they're forced to fight in unconventional ways because Russia has superior air power and technology. For teenagers understanding modern conflict, this demonstrates that geography, infrastructure, and adaptation matter as much as military hardware, and that asymmetric warfare often involves creative use of existing landscapes.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-11-19",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b0a9/live/16401180-e337-11f1-9479-d17d3e98c29d.jpg"
+      }
+    ],
+    "energy-climate": [
+      {
+        "rank": 1,
+        "title": "Q&A: What is the Belém-Antalya mechanism for a 'just transition'?",
+        "summary": "The COP31 climate summit in Antalya, Turkey is expected to launch the Belém-Antalya mechanism, a new framework designed to help poorer countries transition away from fossil fuels fairly. A \"just transition\" means ensuring that workers and communities dependent on coal, oil, and gas industries aren't left behind economically when those industries shut down. Think of it like this: if a coal mining town suddenly loses its main employer, a just transition provides retraining programs, new jobs, and financial support so people don't suffer. This mechanism is crucial because many developing nations worry that switching to clean energy will hurt their economies, so this agreement aims to provide financial and technical help to make the switch smoother and fairer for everyone involved.",
+        "source": "Carbon Brief",
+        "link": "https://www.carbonbrief.org/qa-what-is-the-belem-antalya-mechanism-for-a-just-transition",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 2,
+        "title": "EU reaches provisional deal to accelerate renewable energy permitting",
+        "summary": "The European Union has reached a major agreement to speed up the process of building new solar and wind power projects across all 27 member states. Currently, getting permission to build a renewable energy project can take years due to bureaucratic red tape and environmental reviews, which slows down Europe's shift to clean energy. This new deal dramatically cuts those wait times by streamlining the approval process. EU member states now have 18 months to update their national laws to follow these new faster rules. This matters because Europe wants to meet ambitious climate goals, and renewable energy is key to that—but projects sitting in approval queues for years don't help anyone. Faster permitting means more solar panels and wind turbines can actually get built and start generating clean electricity sooner.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/18/eu-reaches-provisional-deal-to-accelerate-renewable-energy-permitting",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "'Simply staggering': Rapidly developing 'super El Niño' on track to peak in December",
+        "summary": "A \"super El Niño\"—an unusually strong warming of ocean waters in the Pacific Ocean—is expected to reach peak intensity in late 2026 and will push global average temperatures to record highs. El Niño is a natural climate pattern that occurs every few years when warm water spreads across the Pacific, disrupting weather patterns worldwide and causing droughts, floods, and hurricanes in different regions. Scientists describe this super El Niño as \"simply staggering\" because it's exceptionally powerful. This directly affects teenagers' lives through extreme weather events, food shortages, and water scarcity in various parts of the world. When combined with human-caused climate change from greenhouse gases, these natural weather patterns make global warming worse, which is why climate scientists are sounding the alarm about this perfect storm of warming happening simultaneously.",
+        "source": "Carbon Brief",
+        "link": "https://www.carbonbrief.org/simply-staggering-rapidly-developing-super-el-nino-on-track-to-peak-in-december",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 4,
+        "title": "Perovskite solar manufacturing could generate $7.92 billion in domestic value addition over India over 15 years",
+        "summary": "India is exploring a new type of solar panel technology called perovskite, which is cheaper and more efficient than traditional silicon solar panels currently used worldwide. A new study shows that if India builds factories to manufacture perovskite solar panels domestically, it could create $7.92 billion in economic value over the next 15 years while reducing the country's dependence on importing expensive solar equipment from other nations. Perovskite panels use different materials (halide crystals instead of silicon) that are easier to produce and can generate electricity more efficiently, especially in hot climates like India's. This matters because it could make solar energy affordable for millions of Indians who don't have electricity access, create thousands of jobs in manufacturing, and boost India's economy—all while fighting climate change. It's a win-win: cleaner energy and economic development happening together.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/18/perovskite-solar-technology-could-unlock-inr-74000-crore-in-domestic-value-addition-for-india-over-15-years-isma-p3c-study/",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 5,
+        "title": "Indonesia secures carbon market agreement with Norway at COP31",
+        "summary": "Indonesia and Norway have signed a Mitigation Outcome Purchase Agreement (MOPA) at the COP31 climate summit, a deal where Norway will pay Indonesia money to reduce carbon dioxide emissions. Think of it like this: Norway, a wealthy nation with high emissions from its oil industry, is essentially buying carbon credits—basically purchasing proof that Indonesia is cutting its emissions through forest protection and clean energy projects. This agreement is significant because it creates financial incentives for developing countries like Indonesia to protect their rainforests and invest in renewable energy instead of relying solely on oil and coal. For Indonesia, this provides billions in climate finance that can fund green projects and protect the world's third-largest rainforest, which is crucial for absorbing carbon dioxide. It's controversial but pragmatic: rich countries can help fund climate action in poorer nations while meeting their own emission reduction targets.",
+        "source": "Energy Monitor",
+        "link": "https://www.energymonitor.ai/news/indonesia-carbon-agreement-norway-cop31",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 6,
+        "title": "Fossil-fuel CO2 emissions set to dip in 2026 as Iran conflict hits oil use",
+        "summary": "Carbon dioxide emissions from burning fossil fuels and cement production are expected to drop by about 0.4% in 2026 to 38.2 billion tonnes, primarily because conflict in Iran is disrupting global oil supply and usage. When oil is harder to get, countries use less of it, which temporarily reduces emissions—but this isn't the solution we need because it's caused by geopolitical conflict, not by switching to clean energy. Geopolitical means conflicts between nations and their governments. This news highlights something important: even a small dip in emissions gets headlines, yet we need massive, sustained reductions to prevent catastrophic climate change. Scientists emphasize that one year of slightly lower emissions doesn't mean we're fixing climate change; we need permanent structural shifts toward renewable energy, electric vehicles, and green industries that last decades, not temporary disruptions caused by wars.",
+        "source": "Carbon Brief",
+        "link": "https://www.carbonbrief.org/analysis-fossil-fuel-co2-emissions-set-to-dip-in-2026-as-iran-conflict-hits-oil-use",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 7,
+        "title": "ADB supports 1 GW solar, storage pipeline in Bangladesh",
+        "summary": "The Asian Development Bank (ADB), an international organization that finances development projects in Asia, is providing advisory services and helping attract over $1 billion in private investment for solar and battery storage projects in Bangladesh. These five projects will generate 1 gigawatt (GW) of clean electricity—enough to power roughly 500,000 homes in Bangladesh. Battery storage is crucial because solar panels only generate electricity during the day, so storage systems keep energy for use at night, making renewable energy reliable. Bangladesh, a densely populated developing nation vulnerable to climate change and sea-level rise, desperately needs clean energy to reduce emissions while meeting growing electricity demand as it develops economically. This project demonstrates how international development banks can mobilize private investment alongside government support to accelerate renewable energy deployment in countries that couldn't afford these projects alone, creating both climate and economic benefits.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/18/adb-supports-1-gw-solar-storage-pipeline-in-bangladesh/",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 8,
+        "title": "Analysis: Which countries have sent the most delegates to COP31?",
+        "summary": "The COP31 climate summit in Antalya, Turkey has registered over 92,000 attendees, potentially making it the largest UN climate conference ever held. COP31 refers to the 31st Conference of the Parties to the UN climate treaty, where nearly every country on Earth sends government officials, scientists, business leaders, and environmental advocates to negotiate climate agreements. More delegates typically means more competing interests and complex negotiations, but also more opportunity for ambitious global climate action. The massive attendance shows how seriously the world is taking climate change—this many people traveling to one conference also highlights climate action's growing economic and political importance. Understanding which countries send the most delegates reveals which nations have the most influence in shaping global climate policy and which regions are most invested in climate solutions, though it's also worth noting that sometimes more people doesn't mean better outcomes.",
+        "source": "Carbon Brief",
+        "link": "https://www.carbonbrief.org/analysis-which-countries-have-sent-the-most-delegates-to-cop31",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 9,
+        "title": "Google signs PPA to buy 50MW geothermal power from Quaise Energy",
+        "summary": "Google has signed a Power Purchase Agreement (PPA)—a contract to buy electricity—with Quaise Energy to acquire 50 megawatts (MW) of geothermal power from Project Obsidian in Central Oregon. Geothermal energy harnesses heat from deep underground to generate electricity without producing greenhouse gases, and it's reliable 24/7 unlike solar and wind which depend on weather. A PPA is essentially Google committing to purchase all the electricity this project generates, which provides the financial certainty that Quaise Energy needs to build the facility. This matters because tech giants like Google consume enormous amounts of electricity to run data centers, AI systems, and cloud services, and they're increasingly committing to source that power from renewables to reduce their carbon footprint. By signing this deal, Google signals that geothermal technology is becoming commercially viable, which encourages investment and innovation in this clean energy sector.",
+        "source": "Energy Monitor",
+        "link": "https://www.energymonitor.ai/news/google-signs-ppa-50mw-quaise-energy/",
+        "pubDate": "2026-11-18",
+        "image": null
+      },
+      {
+        "rank": 10,
+        "title": "States of uncertainty",
+        "summary": "Community solar programs in the United States, which allow renters and people without suitable roofs to benefit from shared solar installations, face significant uncertainty after several major policy changes. The federal government terminated the Solar for All program in 2025, cutting $7 billion in funding that was helping lower-income families access affordable solar energy. Additional changes include new \"domestic content requirements\" (rules forcing projects to use American-made parts) and removal of some tax credits that made solar affordable. The One Big Beautiful Bill Act (OBBBA) introduced new rules that are reshaping the market. These changes hit the solar sector hard because they reduced funding and created regulatory confusion, though demand from consumers remains strong. For teenagers, this demonstrates how quickly climate progress can stall when government policies change—renewable energy depends not just on technology but on stable political support and funding that can disappear when administrations shift priorities.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/18/states-of-uncertainty/",
+        "pubDate": "2026-11-18",
+        "image": null
+      }
+    ],
+    "music-arts": [
+      {
+        "rank": 1,
+        "title": "Billie Eilish, Harry Styles, and Sam Fender Headlining Glastonbury 2027",
+        "summary": "Glastonbury is one of the world's biggest music festivals, held every summer in England and known for surprise performances and massive cultural moments. This year's 2027 lineup includes superstar Billie Eilish (who dominated music as a teenager), Harry Styles (former One Direction member turned solo sensation), and Sam Fender (a rising British rock star). The festival also features Cher performing in the \"legend slot\"—a special honor for iconic artists—plus electronic pioneers Massive Attack, indie darlings the xx, and legendary synth-pop band Kraftwerk. Glastonbury matters because it's where artists make career-defining moments and it reflects what's popular in music right now. For teens, this is basically the ultimate festival bucket-list event.",
+        "source": "Pitchfork",
+        "link": "https://pitchfork.com/story/billie-eilish-harry-styles-and-sam-fender-headlining-glastonbury-2027/",
+        "pubDate": "2026-12-15",
+        "image": "https://media.pitchfork.com/photos/6afd8487dba640b9661dd694/master/pass/glastonbury-2027-headliners.jpg"
+      },
+      {
+        "rank": 2,
+        "title": "Taylor Swift Honors Brooks & Dunn at 2026 CMA Awards",
+        "summary": "Taylor Swift, one of the biggest music superstars ever, made a rare appearance at the Country Music Association Awards to present Brooks & Dunn with the Willie Nelson Lifetime Achievement Award. This award is country music's highest honor, given to artists who've fundamentally shaped the genre over decades. Brooks & Dunn are a legendary duo who defined 1990s country music with hits like \"Boot Scootin' Boogie.\" Swift's return to the CMA stage after 13 years is significant because it shows mutual respect between pop and country worlds—she started in country before becoming a global pop icon. For teens, this represents how artists honor those who came before them and shaped their careers, emphasizing legacy in music.",
+        "source": "Rolling Stone",
+        "link": "https://www.rollingstone.com/music/music-country/taylor-swift-speech-cma-awards-brooks-and-dunn-1235660421/",
+        "pubDate": "2026-11-11",
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "Taylor Swift Performs at 2026 CMA Awards",
+        "summary": "Taylor Swift returned to the Country Music Association Awards stage after 13 years, performing her hit song \"Our Song\" alongside legendary musician Keith Urban. This performance marked a major moment because Swift rarely does country music anymore—she's now primarily a pop superstar—making her CMA appearance especially noteworthy. She also performed \"I Knew It, I Knew You\" and reworked her 2006 hit \"Our Song,\" showing her roots in country music. CMA Awards are like the \"Grammys of country,\" recognizing the year's best country music achievements. This performance matters because it bridges two music worlds and reminds audiences of Swift's journey from country singer to global phenomenon.",
+        "source": "Rolling Stone",
+        "link": "https://www.rollingstone.com/music/music-country/taylor-swift-cma-awards-performance-1235656541/",
+        "pubDate": "2026-11-11",
+        "image": null
+      },
+      {
+        "rank": 4,
+        "title": "Summer Walker Files $20 Million Cross-Complaint Against Interscope",
+        "summary": "Summer Walker, an R&B artist who rose to fame with her dreamy hit \"Playing Games,\" is in a legal battle with Interscope Records, one of the world's biggest record labels. Record labels are companies that sign artists, produce their music, and handle distribution—basically they control an artist's career in many ways. Walker's label sued her first, claiming she'd owe $50 million if she broke her 2017 record deal (a contract committing her to work with them). Walker fired back with a cross-complaint (her own lawsuit) for $20 million, suggesting the label treated her unfairly. This matters because it shows how power imbalances in the music industry can trap artists in bad deals, and it's part of a bigger conversation about artists fighting for independence and fair treatment.",
+        "source": "Rolling Stone",
+        "link": "https://www.rollingstone.com/music/music-news/summer-walker-cross-complaint-interscope-lvrn-contract-1235660594/",
+        "pubDate": "2026-11-15",
+        "image": null
+      },
+      {
+        "rank": 5,
+        "title": "Don Toliver Releasing New Album Nitrous",
+        "summary": "Don Toliver, a Houston rapper signed to Cactus Jack (the label run by rapper Travis Scott), is releasing a new album called Nitrous next month. This is his second album of the year, which is unusual—most artists release one album annually—showing Toliver's creative momentum. Toliver recently earned Grammy nominations, which are music's highest honors, putting him in the spotlight and proving he's one of rap's rising stars. What's notable is that he self-produced much of this project, meaning he's not just rapping but also creating the beats and production himself, showing artistic control. For teens into hip-hop, this represents how modern rappers are more hands-on creators than ever, blending roles that used to be separate jobs.",
+        "source": "Pitchfork",
+        "link": "https://pitchfork.com/story/don-toliver-releasing-new-album-nitrous-next-month/",
+        "pubDate": "2026-12-10",
+        "image": "https://media.pitchfork.com/photos/6afda32925cefe7c5be74f5a/master/pass/don-toliver-album.jpg"
+      },
+      {
+        "rank": 6,
+        "title": "Waxahatchee Hosting Songwriting Workshop",
+        "summary": "Katie Crutchfield, the artist behind Waxahatchee, is hosting an online songwriting workshop through School of Song, a platform for learning music skills. Waxahatchee is known for indie-folk-rock music that's become increasingly popular, and Crutchfield is respected as both a talented musician and thoughtful songwriter. The workshop runs for four weeks and teaches aspiring musicians how to write songs from scratch. This matters because it democratizes music education—anyone with internet access can learn songwriting from a successful artist without expensive private lessons. For teens interested in making music, this represents how artists today are sharing their knowledge directly with fans, breaking down barriers between professionals and beginners.",
+        "source": "Pitchfork",
+        "link": "https://pitchfork.com/story/enroll-now-for-the-waxahatchee-songwriting-workshop/",
+        "pubDate": "2026-12-01",
+        "image": "https://media.pitchfork.com/photos/6afde64806aaa46ca1afb88e/master/pass/waxahatchee-songwriting.jpg"
+      },
+      {
+        "rank": 7,
+        "title": "Belle and Sebastian Reissuing Classic Album With New Rarities",
+        "summary": "Belle and Sebastian, an influential Scottish indie-pop band from the late 1990s, is reissuing their classic album \"If You're Feeling Sinister\" with a bonus LP of previously unreleased tracks. A \"bonus LP\" is extra material that wasn't originally released, giving fans new content alongside the original album. The reissue includes an unearthed track called \"Colette and the Mystery Girl\" from a bonus album called \"Lisa Helps the Blind.\" Belle and Sebastian are considered indie-pop pioneers who influenced countless modern bands with their gentle, storytelling approach to music. This reissue matters because it's how record labels preserve musical history and give older albums new life, allowing new generations of listeners to discover important music.",
+        "source": "Pitchfork",
+        "link": "https://pitchfork.com/story/belle-and-sebastian-reissuing-if-youre-feeling-sinister-with-new-rarities-album/",
+        "pubDate": "2026-12-08",
+        "image": "https://media.pitchfork.com/photos/6afdb5be06aaa46ca1afb71d/master/pass/belle-sebastian-sinister-reissue.jpeg"
+      },
+      {
+        "rank": 8,
+        "title": "Erika de Casier Releases New Song 'Whispers'",
+        "summary": "Erika de Casier, a Dutch R&B and electronic music artist, released a new song called \"Whispers\" co-produced by Eurohead, who's collaborated with underground rap stars Bladee and Yung Lean. These collaborators represent the experimental, internet-born rap and electronic music scene that's reshaping modern music. Eurohead's involvement signals that de Casier is pushing into more experimental territory, blending R&B smoothness with underground production styles. This matters because it shows how modern artists cross genre boundaries and work with producers from different musical worlds, creating hybrid sounds. For teens, this represents the globalized, internet-connected music scene where artists from different countries collaborate instantly and blend styles in innovative ways.",
+        "source": "Pitchfork",
+        "link": "https://pitchfork.com/story/listen-to-erika-de-casiers-new-song-whispers/",
+        "pubDate": "2026-12-12",
+        "image": "https://media.pitchfork.com/photos/6afdbe692ccb5dc77dc1052b/master/pass/Erika%20de%20Casier,%20photo%20courtesy%20of%20the%20artist.jpg"
+      },
+      {
+        "rank": 9,
+        "title": "2026 CMA Awards Winners Announced",
+        "summary": "The Country Music Association Awards, also known as the CMAs, held their 60th annual ceremony, celebrating the year's best country music achievements. The CMAs award categories include Entertainer of the Year, Album of the Year, and New Artist of the Year—basically the \"Grammys\" of country music. These awards are voted on by country music industry professionals and fans, making them highly respected and culturally significant. The winners represent what's currently popular and critically acclaimed in country music, influencing what radio stations play and what fans listen to. For teens, awards shows like the CMAs matter because they legitimize artists and genres, and the winners often become more famous and influential in popular culture.",
+        "source": "Rolling Stone",
+        "link": "https://www.rollingstone.com/music/music-country/2026-cma-awards-winners-list-1235657666/",
+        "pubDate": "2026-11-11",
+        "image": null
+      },
+      {
+        "rank": 10,
+        "title": "Harold Budd and Robin Guthrie's Film Score Coming to Vinyl",
+        "summary": "Harold Budd and Robin Guthrie, two legendary ambient and experimental musicians, created the score for the film \"Mysterious Skin,\" which is coming to vinyl. A \"score\" is the instrumental music that accompanies a movie, setting mood and emotion. Director Gregg Araki praised the score as \"much more than mere background music: It's the heart and soul of the whole movie,\" meaning the music is as important as the film itself. Vinyl is the classic record format making a comeback among music lovers and collectors. This matters because it shows how film scores are increasingly recognized as serious art, not just background noise, and how classical/ambient musicians influence visual media. For teens, this represents the intersection of music and film as collaborative art forms.",
+        "source": "Pitchfork",
+        "link": "https://pitchfork.com/story/harold-budd-and-robin-guthries-mysterious-skin-score-coming-to-vinyl/",
+        "pubDate": "2026-12-09",
+        "image": "https://media.pitchfork.com/photos/6afdcf432ccb5dc77dc10557/master/pass/2005-11%20Robin%20Guthrie%20&%20Harold%20Budd%20-%20Los%20Angeles%20%5BPhoto%20Credit%20Ted%20Grudowski%5D%20(1).jpg"
+      }
+    ],
+    "nature-science": [
+      {
+        "rank": 1,
+        "title": "First observation of a giant star swallowing its neighbour",
+        "summary": "Astronomers have directly observed something that was once only theory: a giant star consuming a smaller companion star orbiting nearby. This discovery, made by scientists using advanced telescopes, provides rare real-time evidence of stellar cannibalism—a phenomenon thought to be common in space but rarely caught in action. When massive stars reach the end of their lives and expand dramatically (called becoming a 'red giant'), they can engulf neighboring stars close enough to be trapped by their gravitational pull. This matters because understanding how stars interact helps us comprehend cosmic evolution and the ultimate fate of star systems like our own. The observation gives astronomers crucial data about how binary star systems behave and die.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/d41586-026-03784-8",
+        "pubDate": "2026-01-20",
+        "image": null
+      },
+      {
+        "rank": 2,
+        "title": "Are T cell 'engagers' the next big thing in autoimmune disease treatment?",
+        "summary": "Scientists are developing a new type of engineered antibody called 'T cell engagers' that could revolutionize treatment for autoimmune diseases—conditions where the immune system mistakenly attacks the body's own cells, like rheumatoid arthritis or lupus. Unlike current therapies that completely shut down immune cells (which can be dangerous and even fatal), T cell engagers work like skilled referees, directing immune cells to target only the problematic cells causing disease while sparing healthy ones. Researchers at major medical institutions have shown these engineered proteins can produce remissions (long-term disease relief) with better safety profiles than older cell therapy approaches. This breakthrough matters because millions of teenagers and adults suffer from autoimmune diseases, and current treatments often come with serious side effects. This innovation could offer safer, more effective relief for millions.",
+        "source": "Science Magazine",
+        "link": "https://www.science.org/content/article/are-t-cell-engagers-next-big-thing-autoimmune-disease-treatment",
+        "pubDate": "2026-01-20",
+        "image": null
+      },
+      {
+        "rank": 3,
+        "title": "Glucose-powered implant brings devices for treating diabetes a step closer",
+        "summary": "Biomedical engineers have developed an experimental implant powered by glucose—the sugar in your bloodstream—that could lead to revolutionary self-powered medical devices for diabetes management. Currently, medical implants need batteries or external power sources, limiting what they can do and requiring frequent replacements or recharging. This glucose-powered technology uses the body's natural metabolism as an energy source, meaning the device could theoretically work indefinitely without external power. The breakthrough involves special materials and chemical processes that extract energy from glucose molecules while they're circulating in the blood. For the 537 million adults living with diabetes worldwide, this could mean implants that continuously monitor blood sugar and automatically deliver insulin without ever needing a battery change—potentially transforming daily diabetes management.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/d41586-026-03377-5",
+        "pubDate": "2026-01-20",
+        "image": null
+      },
+      {
+        "rank": 4,
+        "title": "Kings of the jungle? This early human had surprising survival skills that rivalled ours",
+        "summary": "Paleontologists studying fossils and archaeological evidence have discovered that early human ancestors possessed survival capabilities comparable to modern humans, challenging long-held beliefs that intelligence and tool use were uniquely modern. Research from multiple universities shows these ancient hominins hunted large prey, used sophisticated tools, and adapted to challenging environments with remarkable ingenuity—abilities scientists previously thought required modern human brains. By analyzing fossilized remains, hunting patterns, and evidence of tool craftsmanship, researchers reconstructed how these ancestors competed successfully in ecosystems dominated by powerful predators. This matters because it reshapes our understanding of human evolution, suggesting that the journey to modern intelligence occurred over millions of years rather than through a single dramatic leap. Understanding our ancestors' capabilities helps us appreciate how gradually—and pragmatically—intelligence evolved.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/d41586-026-03777-7",
+        "pubDate": "2026-01-20",
+        "image": null
+      },
+      {
+        "rank": 5,
+        "title": "Tropical land-use intensification reshapes biodiversity in expected and unexpected ways",
+        "summary": "An international team of environmental scientists studied how converting tropical rainforests for agriculture—like palm oil plantations, cattle ranching, or crop farms—fundamentally changes which animal and plant species survive in these regions. The research revealed that while some biodiversity loss was predictable (endangered species disappearing), other changes were surprising: certain opportunistic species thrived in disturbed habitats, and ecosystem functions shifted in counterintuitive ways. Scientists from conservation organizations and universities across Africa, South America, and Asia analyzed decades of data to understand these complex patterns. This research matters because tropical regions harbor roughly half of Earth's species, and agricultural expansion destroys rainforests at alarming rates—yet we still don't fully understand all consequences. The findings help policymakers and conservationists predict and potentially mitigate biodiversity collapse when land-use decisions must be made.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/d41586-026-03602-1",
+        "pubDate": "2026-01-20",
+        "image": null
+      },
+      {
+        "rank": 6,
+        "title": "Senate panel derails Trump's controversial pick for NSF director",
+        "summary": "The U.S. Senate rejected James O'Neill, a businessperson with no scientific background or academic credentials, as the proposed director of the National Science Foundation (NSF)—the federal agency distributing billions of dollars annually to researchers pursuing everything from physics to biology to climate science. O'Neill, a Trump administration appointee, faced bipartisan opposition from Senate committee members who argued that leading a scientific institution requires deep understanding of research methodology, academic culture, and scientific ethics. The NSF director's role involves evaluating grant proposals and setting funding priorities that influence the direction of American science for years, making expertise crucial. This matters because leadership decisions affect which research gets funded and how science advances: choosing energy technology over climate research, for example, reshapes national priorities. The rejection signals that even Republican senators believe scientific leadership demands actual scientific qualifications.",
+        "source": "Science Magazine",
+        "link": "https://www.science.org/content/article/senate-panel-derails-trump-s-controversial-pick-nsf-director",
+        "pubDate": "2026-01-20",
+        "image": null
+      },
+      {
+        "rank": 7,
+        "title": "NIH director calls for new probe of controversial COVID-19 origin paper",
+        "summary": "Dr. Vivek Murthy, director of the National Institutes of Health (NIH), is requesting that Nature Medicine journal investigate whether a prominent paper challenging the theory that COVID-19 came from an engineered virus was secretly written or heavily influenced by former NIH leaders attempting to shape scientific consensus. The paper in question argued against the 'lab-leak' theory, but Murthy now questions whether its authorship was authentic and transparent. This matters because the COVID-19 origin remains scientifically disputed, and if powerful government officials influenced research to support particular conclusions without disclosure, it undermines scientific integrity—the principle that research should follow evidence, not politics. The controversy highlights how science can be manipulated when institutions prioritize preferred narratives over honest investigation. This sets a precedent: scientific integrity in institutions like NIH is under scrutiny, affecting public trust in government-funded research globally.",
+        "source": "Science Magazine",
+        "link": "https://www.science.org/content/article/nih-director-calls-new-probe-controversial-covid-19-origin-paper",
+        "pubDate": "2026-01-20",
+        "image": null
+      },
+      {
+        "rank": 8,
+        "title": "Microbiome home tests are taking off. Can they be trusted?",
+        "summary": "Direct-to-consumer microbiome testing kits—boxes you can buy online to analyze the bacteria in your gut or on your skin without visiting a doctor—are becoming increasingly popular, but scientists question whether these tests provide reliable, actionable health information. Your microbiome is the community of trillions of microorganisms living in and on your body, influencing digestion, immunity, and mental health, so understanding it seems valuable. However, these commercial tests often lack scientific validation, use inconsistent methodology, and may misinterpret results in ways that lead consumers to unnecessary dietary changes or unproven supplements. Medical researchers and microbiologists warn that while microbiome science is legitimate, most home tests oversimplify complex biological data into oversold conclusions. This matters to teenagers because direct-to-consumer wellness products often target young people, and misleading microbiome data could drive expensive, unnecessary health interventions. Understanding test reliability helps you evaluate scientific legitimacy versus marketing hype.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/d41586-026-03710-y",
+        "pubDate": "2026-01-20",
+        "image": null
+      },
+      {
+        "rank": 9,
+        "title": "Last remaining NIH-owned chimpanzees will retire to a sanctuary next year",
+        "summary": "The National Institutes of Health announced that 33 chimpanzees—the last animals remaining at a U.S. government research facility—will be transferred to an accredited sanctuary in 2027, marking the end of a decades-long transition away from invasive primate research. Beginning in 2015, the NIH gradually phased out research using chimpanzees, recognizing both ethical concerns and improved alternatives like computer modeling and human tissue studies that can answer scientific questions without animal suffering. These remaining animals have been in captivity for their entire lives, often used in hepatitis and other disease research that caused them physical and psychological stress. This matters because it reflects evolving scientific ethics: the medical research community increasingly acknowledges that chimpanzees' cognitive abilities, emotional complexity, and genetic similarity to humans make invasive testing morally questionable. The transition demonstrates how scientific progress can include more humane approaches to medical discovery.",
+        "source": "Science Magazine",
+        "link": "https://www.science.org/content/article/last-remaining-nih-owned-chimpanzees-will-retire-sanctuary-next-year",
+        "pubDate": "2026-01-20",
+        "image": null
+      },
+      {
+        "rank": 10,
+        "title": "How to make AI data centres more sustainable",
+        "summary": "Technology companies and environmental researchers are developing strategies to reduce the enormous environmental impact of artificial intelligence data centers—massive warehouse facilities housing thousands of computers that consume vast amounts of electricity to train and run AI models like ChatGPT. AI development currently uses so much energy that it's comparable to some countries' total electricity consumption, contributing significantly to carbon emissions and placing strain on power grids. Scientists and engineers are exploring solutions including more efficient cooling systems, renewable energy sources, specialized computer chips designed specifically for AI workloads, and algorithms that require less computational power. This matters to your generation because AI is rapidly becoming central to technology you use daily—from social media recommendations to college application systems—yet most people don't realize AI's environmental cost. Understanding and addressing this hidden carbon footprint is essential for ensuring technological progress doesn't accelerate climate change, making sustainability a critical frontier in AI development.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/d41586-026-03708-6",
+        "pubDate": "2026-01-20",
+        "image": null
+      }
+    ],
+    "school-education": [
+      {
+        "rank": 1,
+        "title": "Job pipelines for Black and Latino students 'dry up' after attacks on DEI and affirmative action",
+        "summary": "In 2023, the Supreme Court (America's highest court) ruled that colleges can no longer consider race when deciding which students to admit—ending affirmative action policies that had existed for decades. This decision is now having a ripple effect on job opportunities. Companies that once actively recruited diverse interns and employees from colleges like Occidental are pulling back, leaving Black and Latino students with fewer career pathways. DEI (Diversity, Equity, and Inclusion) programs—initiatives designed to create fair opportunities for underrepresented groups—are being eliminated or scaled back nationwide. For you: this affects how accessible internships and entry-level jobs become for students from marginalized communities, potentially widening the wealth gap between racial groups over time.",
+        "source": "The Hechinger Report",
+        "link": "https://hechingerreport.org/job-pipelines-for-black-and-latino-students-dry-up-after-dei-and-affirmative-action-attacks/",
+        "pubDate": "2024-11-18",
+        "image": "https://i0.wp.com/hechingerreport.org/wp-content/uploads/2026/12/AA-art.jpeg?fit=1024%2C576&amp;ssl=1"
+      },
+      {
+        "rank": 2,
+        "title": "South Korea offers $75,000 bounties to catch AI-assisted exam cheats",
+        "summary": "South Korea, a country obsessed with academic achievement and home to some of the world's fastest internet speeds, is facing a serious problem: students are using artificial intelligence (AI—computer programs that can think and learn) to cheat on exams. The government is so concerned that it's offering massive cash rewards—up to $75,000—to anyone who reports exam cheating involving AI. This shows how quickly technology is changing education and how desperate schools are to maintain fair testing. South Korea already has extreme pressure around college entrance exams, where one test can determine your entire future. For you: this is a preview of challenges your generation will face—as AI gets better, schools will need new ways to catch cheating and prove what you actually know versus what a computer knows.",
+        "source": "Business Standard",
+        "link": "https://www.business-standard.com/world-news/south-korea-offers-75-000-bounties-to-catch-ai-assisted-exam-cheats-126111800212_1.html",
+        "pubDate": "2024-11-18",
+        "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-02/11/full/1739253766-7474.jpg"
+      },
+      {
+        "rank": 3,
+        "title": "A New Classroom Use for Artificial Intelligence: Grade the Chat, Not Just the Answer",
+        "summary": "Teachers and researchers are discovering a new way to use AI in classrooms: instead of just grading whether a student's final answer is correct or wrong, AI can analyze the entire conversation and thought process. This matters because how you get to an answer is often more important than the answer itself—it shows whether you actually understand the material or just got lucky. AI can track when students genuinely think through a problem versus when they're using chatbots to do the work for them. This technology could help teachers give better feedback and catch cheating earlier. For you: this means teachers might soon have tools to see your actual learning process, not just your test scores, which could make grades more fair but also means less room to hide if you're not putting in real effort.",
+        "source": "EdSurge",
+        "link": "https://www.edsurge.com/news/a-new-classroom-use-for-artificial-intelligence-grade-the-chat-not-just-the-answer",
+        "pubDate": "2024-11-18",
+        "image": null
+      },
+      {
+        "rank": 4,
+        "title": "STUDENT VOICE: Schools teach students what to learn, but rarely teach them how to learn",
+        "summary": "Here's a frustrating reality: schools spend years teaching you algebra, chemistry, and history, but they almost never teach you *how* to actually learn effectively. Most students who get bad grades assume they're just not smart enough, when the real problem is they don't know evidence-based strategies—techniques proven by science to work better. Things like how memory works, why stress affects your ability to focus, the importance of sleep for learning, and proper study methods are almost never covered in class, even though they're crucial to academic success. This student-written piece argues that understanding *how* your brain learns should be part of the curriculum. For you: learning these skills could completely transform your grades and reduce stress, but most schools don't prioritize teaching them even though the research is clear.",
+        "source": "The Hechinger Report",
+        "link": "https://hechingerreport.org/student-voice-schools-teach-students-what-to-learn-but-rarely-teach-them-how-to-learn",
+        "pubDate": "2024-11-18",
+        "image": "https://i0.wp.com/hechingerreport.org/wp-content/uploads/2026/11/oped-ayodele-111026-scaled.jpg?fit=1024%2C683&amp;ssl=1"
+      },
+      {
+        "rank": 5,
+        "title": "66% of Indian Master's students in UK work alongside studies; financial pressure on international students",
+        "summary": "A major survey of over 95,000 students found that more than half of Master's students in British universities work part-time jobs while studying full-time—and among Indian students specifically, that number jumps to 66 percent. This reveals serious financial pressure on international students (students studying in a country different from their home country), who often pay much higher tuition fees than local students. Working while doing an intensive Master's program is exhausting and can hurt academic performance, but many students have no choice because they can't afford to live and study without income. The survey is called the Postgraduate Taught Experience Survey, and it tracks student wellbeing. For you: if you're considering studying abroad for college, understand that many international students struggle financially and have to balance work and school, which impacts their mental health and grades.",
+        "source": "The Times of India",
+        "link": "https://timesofindia.indiatimes.com/education/study-abroad/66-of-indian-masters-students-in-uk-work-alongside-studies-a-new-advance-he-survey-highlights-growing-financial-pressure-on-international-students/articleshow/135947715.cms",
+        "pubDate": "2024-11-18",
+        "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-135948340/135948340.jpg"
+      },
+      {
+        "rank": 6,
+        "title": "COLUMN: Will the blue wave reopen job opportunities for Black and Hispanic students?",
+        "summary": "Following the Supreme Court's decision to ban affirmative action in college admissions, students at Howard University—a historically Black college (HBCU)—are offering advice to prospective students: attend an HBCU instead of trying to get into predominantly white universities. HBCUs are colleges founded specifically to educate Black students, and they have historically provided safe spaces and strong networks for Black professionals. This opinion piece questions whether recent political changes (the \"blue wave\" refers to Democratic electoral victories) might bring back job opportunities for Black and Hispanic graduates, or if students should continue relying on the strong alumni networks at HBCUs. For you: this debate highlights how college choice isn't just about academics—it's about access to jobs, mentorship, and community, and that's especially true for students from underrepresented groups.",
+        "source": "The Hechinger Report",
+        "link": "https://hechingerreport.org/column-will-the-blue-wave-reopen-job-opportunities-for-black-and-hispanic-students/",
+        "pubDate": "2024-11-18",
+        "image": "https://i0.wp.com/hechingerreport.org/wp-content/uploads/2026/12/hbcu.jpeg?fit=1024%2C683&amp;ssl=1"
+      },
+      {
+        "rank": 7,
+        "title": "How a class on climate change leaves students feeling 'energized'",
+        "summary": "A philosophy professor at Vassar College (a highly regarded private university) created a climate change course that's unexpectedly compelling—and it makes students feel optimistic rather than doom-and-gloom. Jeffrey Seidman, who normally teaches classic philosophy texts by thinkers like Aristotle and Plato, designed this class to focus on climate solutions rather than just the problems. By studying what's actually working to address climate change—renewable energy, policy innovations, technological breakthroughs—students leave feeling empowered and motivated rather than depressed. This matters because climate anxiety is real for your generation; you're inheriting environmental challenges but often only hear about problems, not solutions. For you: this shows how the way a topic is taught makes a huge difference in whether you feel hopeless or energized about the future, and good education should inspire you to take action.",
+        "source": "The Hechinger Report",
+        "link": "https://hechingerreport.org/how-a-class-on-climate-change-leaves-students-feeling-energized/",
+        "pubDate": "2024-11-18",
+        "image": "https://i0.wp.com/hechingerreport.org/wp-content/uploads/2026/11/cc-newsletter-111526-1-scaled.jpg?fit=1024%2C576&amp;ssl=1"
+      },
+      {
+        "rank": 8,
+        "title": "The Day the Take-Home Essay Died: How I Stopped Grading AI and Started Designing Real Learning",
+        "summary": "A teacher discovered that traditional take-home essay assignments—where students write papers at home without direct supervision—became useless once generative AI (like ChatGPT) became widely available. Students could now submit AI-written essays that were technically perfect but proved nothing about what they actually learned. Instead of just banning AI or trying to catch cheaters, this teacher completely redesigned assignments to make AI irrelevant—creating hands-on learning experiences where students had to apply knowledge in ways AI couldn't fake. This shift from \"catch cheating\" to \"redesign learning\" is spreading through schools nationwide. For you: this means teachers are finally adapting to AI by changing what they actually ask you to do, which could mean less busywork and more authentic projects that actually teach skills employers want.",
+        "source": "EdSurge",
+        "link": "https://www.edsurge.com/news/the-day-the-take-home-essay-died-how-i-stopped-grading-ai-and-started-designing-real-learning",
+        "pubDate": "2024-11-18",
+        "image": null
+      },
+      {
+        "rank": 9,
+        "title": "Fewer students, more teachers: Districts balk at cutting staff even as enrollment falls",
+        "summary": "School districts across America are facing a problem: enrollment (the number of students attending) is dropping, but districts refuse to cut teachers and close schools, even though it's causing serious budget crises. Seattle Public Schools faced this exact issue nearly 40 years ago when auditors recommended closing low-enrollment schools to save money, but community outcry stopped them. Now in 2024, the same problem has returned—fewer kids are enrolling (partly due to declining birth rates and families moving away), but instead of making tough budget decisions, districts are keeping all schools and staff open, which means less money for each student's education. This is a real dilemma: closing schools hurts communities and stability, but keeping them open means budget shortfalls that affect everything from supplies to programs. For you: this affects the quality of your education and local schools' ability to offer clubs, sports, and advanced classes.",
+        "source": "The Hechinger Report",
+        "link": "https://hechingerreport.org/fewer-students-more-teachers-districts-balk-at-cutting-staff-even-as-enrollment-falls",
+        "pubDate": "2024-11-18",
+        "image": "https://i0.wp.com/hechingerreport.org/wp-content/uploads/2026/11/Education-School-Closures-JY-107-scaled.jpg?fit=1024%2C683&amp;ssl=1"
+      },
+      {
+        "rank": 10,
+        "title": "Can AI Tell How Well Teachers Notice? Researchers Are Testing It.",
+        "summary": "Researchers are exploring whether artificial intelligence can measure a specific teaching skill: the ability to notice what students are struggling with and respond helpfully. Good teachers have a talent for picking up on confusion, frustration, or misunderstanding—even before students ask for help—and adjusting their teaching accordingly. The question is whether AI can analyze classroom interactions and accurately measure this skill, then provide feedback to teachers faster than traditional human evaluation methods can. If it works, it could help train better teachers by giving them real data about their strengths and weaknesses. This is part of a larger trend of using AI for educational improvement rather than just grading or administration. For you: this research could eventually lead to teachers getting better feedback about their practice, which means higher-quality instruction in your classes, but raises privacy questions about recording and analyzing classroom conversations.",
+        "source": "EdSurge",
+        "link": "https://www.edsurge.com/news/can-ai-tell-how-well-teachers-notice-researchers-are-testing-it",
+        "pubDate": "2024-11-18",
+        "image": null
+      }
+    ],
+    "sports": [
+      {
+        "rank": 1,
+        "title": "Duckett ton & impressive bowlers give England series win",
+        "summary": "England's cricket team has dominated Australia in a one-day international (ODI) series, winning decisively in Hobart. Ben Duckett, one of England's key batsmen, scored a century (100 runs), which is a major individual achievement in cricket. This isn't just about one game—England swept the entire series, meaning they won multiple matches convincingly, which is a huge statement of dominance. Cricket's ODI format involves each team batting once for 50 overs (innings), and England's bowlers (pitchers) were particularly impressive, taking many wickets (outs). This victory shows England is in excellent form heading into major tournaments and proves they can beat one of cricket's traditional powerhouses.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/c6vg28end00xo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-01-01T00:00:00Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4340/live/03972910-e346-11f1-99aa-0f40b013ad11.jpg"
+      },
+      {
+        "rank": 2,
+        "title": "Alcaraz continues winning run despite injury concern",
+        "summary": "Carlos Alcaraz, one of tennis's brightest young stars, is on an incredible winning streak even though he's dealing with an injury. At the ATP Finals (the year-end championship for top male players), he defeated Daniil Medvedev, who is ranked fifth in the world, in a dominant performance. Alcaraz's ability to win while injured shows how talented he is—most players would struggle or sit out matches. The ATP Finals is one of tennis's most prestigious tournaments where only the best eight players compete, making this win particularly impressive. His late-season form suggests he's peaking at exactly the right time, which could make him dangerous in future major tournaments like the Australian Open.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/cmdx1erlpqkxo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-01-01T00:00:00Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a7c/live/1b8e03d0-e365-11f1-9f51-4bfc31543510.jpg"
+      },
+      {
+        "rank": 3,
+        "title": "Littler shocked by brilliant Wattimena at Grand Slam",
+        "summary": "Luke Littler, the defending champion (last year's winner) of the Grand Slam of Darts, has been knocked out in a shocking upset by Jermaine Wattimena. Littler is one of darts' biggest stars—he's young, talented, and was the favorite to win again. However, Wattimena played an absolutely brilliant match, winning 10-8, which means he scored 10 legs (individual games) while Littler only got 8. The Grand Slam of Darts is one of the sport's most prestigious tournaments, so this upset is a massive deal. This shows that even the best players can have off days, and it opens the door for other competitors to make deep runs in the tournament. The darts community was shocked but also impressed by Wattimena's exceptional performance under pressure.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/darts/articles/crlyenxw18d7o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-01-01T00:00:00Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5960/live/a91fb6e0-e39b-11f1-9290-8f31de41e6ea.jpg"
+      },
+      {
+        "rank": 4,
+        "title": "The tightest survival scrap for years? Why it's not too early to worry",
+        "summary": "In the Premier League (England's top football division), several major clubs are currently in the relegation zone—meaning they're at risk of being demoted to a lower division if they finish in the bottom three. Crystal Palace, Sunderland, and even Manchester United, one of football's most successful teams ever, are all struggling. Relegation (being demoted) is a huge deal because it means less money, smaller stadiums, and playing against weaker teams next season. The article suggests this could be the tightest battle in years to avoid going down, with many teams stuck in a tight points race at the bottom. Even though it's still early in the season, players, fans, and coaches are already worried because falling too far behind now could make it nearly impossible to catch up later in the season.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cj3vgp36z063o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-01-01T00:00:00Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f51/live/09641460-e33d-11f1-a094-5fdc692f3e33.png"
+      },
+      {
+        "rank": 5,
+        "title": "The sandpaper plot - who was there, who said what?",
+        "summary": "Cameron Bancroft, an Australian cricketer, has made explosive allegations about a major scandal in cricket involving the illegal use of sandpaper to alter a cricket ball. This scandal (sometimes called 'Sandpapergate') rocked the sport when it was initially discovered, as using sandpaper to roughen one side of the ball gives bowlers an unfair advantage. Bancroft's new allegations are raising fresh questions about who knew what and when they knew it—suggesting other players and officials might have been involved beyond those previously punished. The scandal damaged Australia's cricket reputation internationally and led to suspensions for key players. This story matters because it shows how even elite athletes sometimes cheat, and how important integrity is in sports—when fans discover dishonesty, it shakes their trust in the entire sport.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/cqwy41w3zydgo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-01-01T00:00:00Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5ea/live/792a2740-e35f-11f1-a898-e7da1c1ebbf0.jpg"
+      },
+      {
+        "rank": 6,
+        "title": "Joint-record six referee errors in last Premier League weekend",
+        "summary": "In just one weekend of Premier League matches, there were six official mistakes by referees—the joint-highest number ever recorded in a single round of games. The Premier League's Key Match Incidents Panel reviews controversial decisions after matches to determine if referees got calls wrong. These errors matter hugely because incorrect decisions can change match outcomes, affect which teams stay up or go down, and cost players millions in prize money or bonuses. With more errors happening, there's growing debate about whether the Premier League needs better technology, better-trained referees, or more use of VAR (Video Assistant Referee, which reviews controversial calls). This is a big deal because football fans are increasingly frustrated when they see clear mistakes that affect their team's season, and it raises questions about fairness and professionalism at sport's highest level.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c69q8jy924y4o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-01-01T00:00:00Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d44c/live/1634e590-e345-11f1-99aa-0f40b013ad11.jpg"
+      },
+      {
+        "rank": 7,
+        "title": "Zverev to defend himself against fresh lawsuit",
+        "summary": "Alexander Zverev, currently the world number one tennis player, is facing a new lawsuit (legal action) that alleges he misrepresented (lied about) the outcome of a domestic abuse trial. This is an extremely serious allegation because it suggests he wasn't truthful about a court case involving domestic abuse. Zverev has previously faced domestic abuse accusations, which he has denied. This new lawsuit complicates his situation by suggesting he may have made false statements about how that case was resolved or what it concluded. His legal team says he will defend himself vigorously in court. This matters because professional athletes are role models, especially to younger fans, and allegations about dishonesty and abuse raise serious questions about character and accountability, even at the highest levels of elite sport.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/c60rkq9kweego?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-01-01T00:00:00Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/025a/live/adda27f0-e36a-11f1-9f51-4bfc31543510.jpg"
+      },
+      {
+        "rank": 8,
+        "title": "Divide and conquer - now maverick Erasmus plans online watchalong",
+        "summary": "Rassie Erasmus, the head coach of the South African rugby team (the Springboks), is known for being a 'maverick'—meaning he breaks rules and does unconventional things—especially when criticizing referees and officials. Now he's planning an online 'watchalong,' where he'll watch his team's upcoming game against Ireland and presumably provide live commentary and criticism of the officials' decisions. Erasmus has a history of publicly attacking referees on social media, which is controversial because coaches are supposed to show respect for officials. Despite these controversies, he remains hugely popular in South Africa because he's won major tournaments and his team plays exciting rugby. This matters because it raises questions about where the line is between passionate coaching and disrespecting the sport's rules, and whether famous coaches should face consequences for their behavior like regular players do.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg28v20xy0o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-01-01T00:00:00Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2423/live/8de02db0-e364-11f1-9f51-4bfc31543510.jpg"
+      },
+      {
+        "rank": 9,
+        "title": "FA explored legal challenge to Infantino staying on",
+        "summary": "Gianni Infantino is the current president of FIFA (the international governing body for soccer worldwide), and he's planning to run for a fourth term in office, which would make him president for many more years. England's Football Association (FA) considered challenging his eligibility—meaning they looked into whether he was actually allowed to run again based on FIFA's own rules. However, the FA decided not to pursue a legal challenge because they believed they would lose the case in court. Infantino has been controversial during his presidency, with some critics saying he's made questionable decisions. This story matters because FIFA controls soccer globally, so its president wields enormous power over the sport that billions of people watch and play, making his leadership crucial to the sport's future.",
+        "source": "BBC Sport",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cm3eg1w4ypz5o?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2024-01-01T00:00:00Z",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8c1/live/e7141200-e37f-11f1-b879-03485a55c082.jpg"
+      },
+      {
+        "rank": 10,
+        "title": "Chelsea snatch late winner vs PSG to move top of WCL table",
+        "summary": "Chelsea Women's Football Club scored a dramatic last-minute goal to defeat Paris Saint-Germain (PSG), moving to the top of the Women's Champions League table. Veerle Buurman scored the winning goal late in the match, securing a 1-0 victory. The Women's Champions League is the top European competition for female soccer players, so winning this prestigious trophy would be huge for Chelsea. Scoring late in matches is exciting and shows mental toughness—teams that can score when it matters most often win tournaments. This victory puts Chelsea in an excellent position to potentially win the entire competition, which would bring prestige and validate women's soccer as a serious, competitive sport at the highest level. The win demonstrates that women's football is increasingly competitive and dramatic, attracting millions of fans worldwide.",
+        "source": "Sky Sports",
+        "link": "https://www.skysports.com/football/chelsea-women-vs-paris-saint-germain-women/report/578268",
+        "pubDate": "2024-01-01T00:00:00Z",
+        "image": "https://e1.365dm.com/26/11/1920x1080/skysports-buurman-chelsea-veerle_7409927.jpg?20261118215413"
+      }
+    ],
+    "asia-pacific": [
+      {
+        "rank": 1,
+        "title": "Trump, Xi, and Putin Are Having a Trilateral Summit. But What's on the Agenda?",
+        "summary": "For the first time, US President Donald Trump, Chinese President Xi Jinping, and Russian President Vladimir Putin are meeting together at the APEC summit in Shenzhen. This is hugely significant because these three leaders represent the world's most powerful nations, and their relationship shapes global politics. Trump wants to discuss nuclear weapons (the missiles each country can launch), Putin wants to talk about ending the war in Ukraine, while China would prefer to avoid both topics. Think of it like three students who don't always get along finally sitting down together—what they discuss matters to everyone. The best outcome might just be a friendly photo, but even that shows these superpowers are willing to communicate rather than ignore each other, which reduces the risk of dangerous conflicts.",
+        "source": "The Diplomat",
+        "link": "https://thediplomat.com/2026/11/trump-xi-and-putin-are-having-a-trilateral-summit-but-whats-on-the-agenda/",
+        "pubDate": "2026-11-01",
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-18-224658.jpg"
+      },
+      {
+        "rank": 2,
+        "title": "The China-US AI Hotline Needs to Be Different",
+        "summary": "China and the US are setting up a special communication line—like a direct phone connection—specifically to discuss artificial intelligence (AI) safety risks. This matters because AI is becoming incredibly powerful and both countries are racing to develop it, but neither fully understands what could go wrong. Historically, similar hotlines between superpowers (like the Cold War 'red phone') have failed when crises actually happened. The article explains that this new AI hotline must actually work during emergencies, not just sit unused. If the US and China can communicate clearly about AI dangers, they might prevent accidents or misunderstandings that could escalate into larger conflicts. Without it, two rival superpowers developing advanced technology without talking could be really risky for the whole world.",
+        "source": "The Diplomat",
+        "link": "https://thediplomat.com/2026/11/the-china-us-ai-hotline-needs-to-be-different/",
+        "pubDate": "2026-11-01",
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-19-001102.jpg"
+      },
+      {
+        "rank": 3,
+        "title": "How a little-known Beijing AI safety group became an adviser to China's tech giants",
+        "summary": "A small organization in Beijing called an AI safety group has quietly become super influential, advising China's biggest technology companies on how to develop artificial intelligence safely. The organization exists because China's leader Xi Jinping has made AI safety a priority at international meetings like APEC. Think of them as quality-control experts who make sure companies don't accidentally create AI that could harm people. This matters because China is one of the world's AI leaders alongside the US, and how they develop this technology affects everyone globally. The group's influence shows China is serious about managing AI risks, which is important because unchecked AI development could cause problems we haven't even imagined yet. When powerful countries take safety seriously, it's good for everyone using technology.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/tech/tech-trends/article/3374905/how-little-known-beijing-ai-safety-group-became-adviser-chinas-tech-giants",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/18/ec82f41b-3eaf-414d-98f7-0acdc0ba4805_9504dd01.jpg?itok=jPg-kD1i&v=1794995767"
+      },
+      {
+        "rank": 4,
+        "title": "Angry over 'indignity', Myanmar to review future ties with Asean",
+        "summary": "Myanmar's military leader Min Aung Hlaing, who took power in a coup (a forceful, illegal takeover) in 2021, is now angry at ASEAN (the Association of Southeast Asian Nations—a regional alliance of ten countries). He feels disrespected by the organization and says Myanmar might leave. This is dramatic because Myanmar has been an ASEAN member for decades, and leaving would weaken the entire alliance. The coup happened because Min Aung Hlaing didn't accept election results, and it triggered a civil war that's still ongoing. He's now promising to hold peace talks in February, hoping to end the fighting within five years. If Myanmar actually leaves ASEAN, it would reshape Southeast Asian politics and show that regional organizations are struggling to keep members when disagreements happen.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/news/asia/southeast-asia/article/3374989/angry-over-indignity-myanmar-review-future-ties-asean",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/f80bb65d-29b5-4e33-9823-e28359219efe_c4638693.jpg?itok=53w6MoiO&v=1795056624"
+      },
+      {
+        "rank": 5,
+        "title": "Vietnam's Opening in Fractured Asia-Pacific Supply Chains",
+        "summary": "Global supply chains—the networks that move products from factories to stores—are changing in a way that benefits Vietnam. For years, companies used 'just-in-time' ordering, meaning they ordered products only when needed to save money and space. But now they're switching to 'just-in-case' ordering, keeping extra stock to avoid shortages if something goes wrong (like wars or natural disasters). Vietnam has advantages here: it's geographically positioned between major markets, has cheaper labor than some neighbors, and has stable politics compared to other Asian countries. This shift could bring more factories and jobs to Vietnam as companies build backup production outside China. For teenagers, this means Vietnam's economy might grow faster, creating opportunities, while also showing how global events like trade wars reshape where things get made.",
+        "source": "The Diplomat",
+        "link": "https://thediplomat.com/2026/11/vietnams-opening-in-fractured-asia-pacific-supply-chains/",
+        "pubDate": "2026-11-01",
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/10/thediplomat_2026-10-29-232416.jpg"
+      },
+      {
+        "rank": 6,
+        "title": "Can Singapore Get the South China Sea COC Over the Finish Line in 2027?",
+        "summary": "Singapore is trying to finalize a 'Code of Conduct' (COC)—basically a rulebook—for the South China Sea, one of the world's most contested areas where multiple countries claim territory. The agreement is 80% complete, but after years of negotiations through ASEAN, it still isn't finished. The South China Sea contains valuable shipping routes and resources, and tensions between countries like China, Vietnam, and the Philippines have caused conflicts. A code of conduct would establish rules so countries can't just do whatever they want in disputed areas, reducing military confrontations. If Singapore can push this through in 2027, it could prevent wars and protect the region's peace. For you, this matters because the South China Sea affects global trade prices and stability, plus it shows how hard it is to get rival nations to agree on sharing resources.",
+        "source": "The Diplomat",
+        "link": "https://thediplomat.com/2026/11/can-singapore-get-the-south-china-sea-coc-over-the-finish-line-in-2027/",
+        "pubDate": "2026-11-01",
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-17-095730.jpg"
+      },
+      {
+        "rank": 7,
+        "title": "US launched unarmed ICBM test hours before Trump's Air Force One landed in China",
+        "summary": "Just hours before President Trump arrived in China for the APEC summit, the US military tested an intercontinental ballistic missile (ICBM)—a nuclear-capable rocket that can travel thousands of miles. The test happened at Vandenberg Space Force Base in California and used an unarmed missile (no warhead) so it was just a practice. The timing is controversial because testing nuclear weapons technology right before meeting China's leader could look like a threat or intimidation tactic. ICBMs are the most powerful weapons on Earth, and when superpowers test them, it sends political messages. Some people think the timing was intentional to show strength during negotiations, while others worry it could make China feel threatened. This shows how even military tests become international diplomacy, and misunderstandings about weapons can create dangerous tensions between countries.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/news/china/military/article/3374979/us-launched-unarmed-icbm-test-hours-trumps-air-force-one-landed-china",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/377be208-74ad-4c0d-809b-7dc4aa222723_effd087a.jpg?itok=FYKDHA7J&v=1795052283"
+      },
+      {
+        "rank": 8,
+        "title": "What Would the 'Finlandization' of Taiwan Look Like?",
+        "summary": "This article explores 'Finlandization'—a term from Cold War history meaning a country stays independent but accepts a powerful neighbor's demands to avoid conflict. Finland did this with the Soviet Union for decades. The question is: could Taiwan follow this model with China? Taiwan is currently independent and runs its own government, but China claims it should be part of mainland China. Some people suggest Taiwan could stay semi-independent while being friendly to China, avoiding war. However, Taiwan's democracy and freedoms are very different from what China offers, so many Taiwanese people reject this idea. This matters because China-Taiwan relations are one of the world's most dangerous situations—if conflict erupted, it would affect global trade and stability massively. Understanding what Finlandization means helps you see the complicated choices smaller countries face between freedom and safety.",
+        "source": "The Diplomat",
+        "link": "https://thediplomat.com/2026/11/what-would-the-finlandization-of-taiwan-look-like/",
+        "pubDate": "2026-11-01",
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-19-002919.jpg"
+      },
+      {
+        "rank": 9,
+        "title": "The Manila Summit: Promise and Peril for India's Quad Chairmanship",
+        "summary": "India is now leading the Quad, an alliance of four democracies—India, the US, Japan, and Australia—formed to balance China's growing power in the Indo-Pacific region. This is a big responsibility because India has never hosted a major Quad leaders' summit on its own soil before, even though the alliance restarted in 2021. The summit matters because it shows India is stepping up as a regional leader and trying to keep the Indo-Pacific balanced between different powers. The article mentions both promise (this could strengthen democracy in Asia) and peril (it's risky because things could go wrong internationally). For teenagers, this shows how countries form alliances based on shared values like democracy, and how India is becoming more important in global politics. India's leadership could shape Asian stability for decades to come.",
+        "source": "The Diplomat",
+        "link": "https://thediplomat.com/2026/11/the-manila-summit-promise-and-peril-for-indias-quad-chairmanship/",
+        "pubDate": "2026-11-01",
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-18-195802.jpg"
+      },
+      {
+        "rank": 10,
+        "title": "Malaysians question slow response over 'false' mobile flood warning trial",
+        "summary": "Malaysia planned to launch a nationwide emergency alert system that would send flood warnings directly to people's phones, with the first test scheduled for Thursday. However, the communications regulator waited until nearly midnight Wednesday—just hours before the test—to cancel it and tell people it wasn't happening. Malaysians who had been preparing for weeks were frustrated by this last-minute notice and questioned why officials waited so long to communicate the change. Flood warnings are really important in Malaysia because heavy rain causes regular flooding that damages homes and costs lives, so a reliable alert system could save people. This incident reveals problems with government communication and emergency preparedness, showing that even when good systems are being built, poor coordination can undermine them. For you, it's a lesson in how technology alone isn't enough—government agencies need to communicate clearly with the public they serve.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/week-asia/health-environment/article/3374998/malaysians-question-slow-response-over-false-mobile-flood-warning-trial",
+        "pubDate": "2026-11-01",
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/cfa27a78-ddf0-4974-86ad-c072b3eac325_82b27565.jpg?itok=qfC98lHE&v=1795061398"
+      }
+    ]
+  }
+}
