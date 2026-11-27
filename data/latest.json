@@ -1,1019 +1,1019 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "edition": "evening",
   "audience": "adult",
-  "generatedAt": "2026-11-26T05:32:14.968Z",
+  "generatedAt": "2026-11-27T05:27:11.536Z",
   "categories": {
     "automotive-ev-battery": [
       {
         "rank": 1,
-        "title": "New graphite could enable faster charging",
-        "summary": "Researchers at Rice University have developed a process to produce synthetic graphite for fast-charging lithium-ion batteries in just 0.2 seconds, significantly reducing energy usage and production costs for anode material. This breakthrough could substantially improve EV charging speeds and reduce battery manufacturing expenses across the industry.",
+        "title": "IONNA opens 22-bay charging hub in California and adds Tesla Autocharge",
+        "summary": "US charging network IONNA has opened a flagship 22-bay charging station in Westminster, California, with peak power output of 400 kW, marking a significant expansion of high-speed charging infrastructure. The opening coincides with the expansion of automatic charging authentication to Tesla vehicles, with support for Stellantis brands vehicles scheduled to follow in December.",
         "source": "Electrive",
-        "link": "https://www.electrive.com/2026/11/25/new-graphite-could-enable-faster-charging/",
-        "pubDate": "2026-11-25",
-        "image": "https://www.electrive.com/media/2026/11/202611-batterie-graphit-rice-university-400x267.jpg"
+        "link": "https://www.electrive.com/2026/11/26/ionna-opens-22-bay-charging-hub-in-california-and-adds-tesla-autocharge/",
+        "pubDate": "2026-11-26",
+        "image": "https://www.electrive.com/media/2026/11/auto-2026-01-28-400x267.jpg"
       },
       {
         "rank": 2,
-        "title": "Tata Group's British battery cell factory faces delays",
-        "summary": "Tata Group's battery cell manufacturing facility in Somerset, UK is experiencing construction difficulties with a second contractor dropping out within five months. The delays raise concerns about achieving the planned completion target next year, impacting the company's domestic battery production capacity.",
+        "title": "Mercedes-Benz GLA test drive: compact SUV with 800-volt architecture and two-tonne towing capacity",
+        "summary": "The new Mercedes-Benz GLA 350 4MATIC electric demonstrates advanced engineering with its 800-volt architecture, 85-kWh battery, and two-speed transmission, delivering high efficiency and reduced charging times in the competitive compact electric SUV segment. The vehicle combines practical features including a large frunk, two-ton towing capacity, and the new MB.OS operating system.",
         "source": "Electrive",
-        "link": "https://www.electrive.com/2026/11/25/tata-groups-british-battery-cell-factory-faces-delays/",
-        "pubDate": "2026-11-25",
-        "image": "https://www.electrive.com/media/2024/02/agratas-2024-01-min-400x267.jpg"
+        "link": "https://www.electrive.com/2026/11/26/mercedes-benz-gla-test-drive-compact-suv-with-800-volt-architecture-and-two-tonne-towing-capacity/",
+        "pubDate": "2026-11-26",
+        "image": "https://www.electrive.com/media/2026/11/mercedes-benz-gla-350-4matic-elektrisch-fahrbericht-car-review-martin-westerhoff-foto-andre-tillmann-mercedes-benz-hintergrund-background-400x267.jpg"
       },
       {
         "rank": 3,
-        "title": "UK's East Midlands region invests in 189 electric buses",
-        "summary": "The UK's East Midlands region has secured £47.55 million in government investment to deploy 189 battery-electric buses, replacing diesel vehicles and improving regional air quality. The initiative represents a major public transit electrification effort supported by four schemes valued at over £100 million in total.",
+        "title": "Allego secures financing package of up to €720 million euros",
+        "summary": "Dutch charging infrastructure operator Allego has announced a financing package worth nearly €720 million to support its expansion operations. The substantial funding reflects the company's significant capital requirements, particularly as it pursues expansion into the UK market.",
         "source": "Electrive",
-        "link": "https://www.electrive.com/2026/11/25/uks-east-midlands-region-invests-in-189-electric-buses/",
-        "pubDate": "2026-11-25",
-        "image": "https://www.electrive.com/media/2026/11/mayor-claire-ward-backs-east-midlands-electric-bus-investment-400x267.jpeg"
+        "link": "https://www.electrive.com/2026/11/26/allego-secures-financing-package-of-up-to-e720-million-euros/",
+        "pubDate": "2026-11-26",
+        "image": "https://www.electrive.com/media/2026/07/allego-ladestation-charging-station-400x267.jpeg"
       },
       {
         "rank": 4,
-        "title": "BYD starts deploying Flash Chargers in Malaysia",
-        "summary": "BYD has launched its Flash Charger infrastructure in Malaysia, coinciding with the new Denza D9's availability featuring second-generation Blade battery technology. The megawatt-level charging network will soon become accessible to all EV brands, expanding Malaysia's charging ecosystem.",
+        "title": "Subaru E-Outback to launch in UK from £49,995",
+        "summary": "Subaru has confirmed UK pricing for its new all-electric flagship, the E-Outback, with the electric SUV starting at £49,995 across four trim levels. Initial customer deliveries are scheduled for early 2027.",
         "source": "Electrive",
-        "link": "https://www.electrive.com/2026/11/25/byd-starts-deploying-flash-chargers-in-malaysia/",
-        "pubDate": "2026-11-25",
-        "image": "https://www.electrive.com/media/2026/11/byd-flash-charger-malaysia-400x267.jpg"
+        "link": "https://www.electrive.com/2026/11/26/subaru-e-outback-to-launch-in-uk-from-49995/",
+        "pubDate": "2026-11-26",
+        "image": "https://www.electrive.com/media/2026/11/auto-2026-01-27-400x267.jpg"
       },
       {
         "rank": 5,
-        "title": "General Motors to transition to native NACS charging ports in South Korea",
-        "summary": "General Motors has extended its North American Charging Standard (NACS) agreement with Tesla to include South Korea, moving away from regional charging standards. This represents a significant standardization milestone for the global EV charging infrastructure landscape.",
-        "source": "Electrive",
-        "link": "https://www.electrive.com/2026/11/25/general-motors-to-transition-to-native-nacs-charging-ports-in-south-korea/",
-        "pubDate": "2026-11-25",
-        "image": "https://www.electrive.com/media/2026/08/general-motors-gm-nacs-ladeport-usa-2026-400x267.jpg"
-      },
-      {
-        "rank": 6,
-        "title": "Electric Porsche 718 Boxster heads for series production",
-        "summary": "Porsche's all-electric 718 Boxster is advancing toward series production with an anticipated world premiere in Q1 2027. The vehicle will feature switchable virtual transmission and synthetic six-cylinder boxer engine sound, positioning itself as the most powerful 718 variant to date.",
-        "source": "Electrive",
-        "link": "https://www.electrive.com/2026/11/25/electric-porsche-718-boxster-heads-for-series-production/",
-        "pubDate": "2026-11-25",
-        "image": "https://www.electrive.com/media/2026/11/01-porsche-718-boxster-cayman-2026-400x267.jpg"
-      },
-      {
-        "rank": 7,
-        "title": "Hyundai launches Neira three-row EV in Indonesia",
-        "summary": "Hyundai has launched the Neira, its first locally produced seven-seat electric vehicle in Indonesia, following its near-production prototype showcase three months earlier. The model expands Hyundai's EV portfolio in Southeast Asia's growing electric vehicle market.",
-        "source": "Electrive",
-        "link": "https://www.electrive.com/2026/11/25/hyundai-launches-neira-three-row-ev-in-indonesia/",
-        "pubDate": "2026-11-25",
-        "image": "https://www.electrive.com/media/2026/11/hyundai-neira-indonesia-launch-400x214.jpg"
-      },
-      {
-        "rank": 8,
-        "title": "Suzuki Ignis Electric celebrates world premiere",
-        "summary": "Suzuki has unveiled its new electric microcar Ignis, marking the brand's return to the European market. At 3.57 meters in length, the vehicle will become Germany's smallest fully-fledged electric car upon its 2027 market launch.",
-        "source": "Electrive",
-        "link": "https://www.electrive.com/2026/11/25/suzuki-ignis-electric-celebrates-world-premiere-german-market-launch-in-summer-2027/",
-        "pubDate": "2026-11-25",
-        "image": "https://www.electrive.com/media/2026/11/01-suzuki-ignis-2026-400x267.jpg"
-      },
-      {
-        "rank": 9,
-        "title": "Karsan to build 35 trolleybuses for Bologna",
-        "summary": "Turkish manufacturer Karsan has secured a contract from Bologna's public transport operator TPER to supply 35 units of its 18-meter e-ATA trolleybus. The contract includes a contractual option for an additional 35 units, strengthening Karsan's presence in European electric public transit.",
-        "source": "Electrive",
-        "link": "https://www.electrive.com/2026/11/25/karsan-to-build-35-trolleybuses-for-bologna/",
-        "pubDate": "2026-11-25",
-        "image": "https://www.electrive.com/media/2026/11/karsan-eata-18-trolleybus-e-bus-e-gelenkbus-2026-400x267.jpg"
-      },
-      {
-        "rank": 10,
-        "title": "VW ID. Cross R-Line Now Available to Order",
-        "summary": "Volkswagen's ID. Cross R-Line variant is now available for order in Germany with a 99 kW motor and 37 kWh battery, with the flagship 166 kW model launching in March 2027. The sportier R-Line equipment enhances the mid-size electric SUV's market positioning.",
+        "title": "The Mayor of the East Midlands is Backing a £47.55 Million Investment to Bring 189 Battery-Electric Buses",
+        "summary": "The East Midlands Combined County Authority has approved a £47.55 million investment to introduce 189 battery-electric buses to replace older diesel vehicles and improve regional air quality. The funding will cover the acquisition of new buses and associated charging infrastructure.",
         "source": "CleanTechnica",
-        "link": "https://cleantechnica.com/2026/11/25/vw-id-cross-r-line-now-available-to-order-model-launch-with-99-kw-flagship-model-with-166-kw-to-follow/",
-        "pubDate": "2026-11-25",
-        "image": null
-      }
-    ],
-    "finance-markets": [
-      {
-        "rank": 1,
-        "title": "Nvidia halts chip shipments to south-east Asia",
-        "summary": "Nvidia has suspended chip shipments to southeast Asia in response to escalating US export controls aimed at restricting Chinese access to advanced artificial intelligence computing hardware. The move reflects intensifying geopolitical tensions over semiconductor technology and the race for AI dominance.",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370?syn-25a6b1a6=1",
-        "pubDate": "2026-11-26",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F066458fc-340c-4667-bca6-e51fc992a343.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-      },
-      {
-        "rank": 2,
-        "title": "Software stocks spared in tech rout as AI narrative shifts",
-        "summary": "Semiconductor and software shares are now tracking closely as investors reassess the beneficiaries and losers of the artificial intelligence boom, signaling a potential rotation in technology sector valuations. The shift suggests growing skepticism about whether AI investments can sustain near-term returns.",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/90b82a64-4f58-45d7-8a6a-4c2730545b65?syn-25a6b1a6=1",
-        "pubDate": "2026-11-26",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdee35e75-b4a0-4e1c-a3e7-6ea4f9cfa554.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-      },
-      {
-        "rank": 3,
-        "title": "Bank of Korea raises interest rates amid AI chip boom",
-        "summary": "South Korea's central bank increased its benchmark interest rate by a quarter-point to 3.25 percent, marking the third rate hike this year as the country navigates economic growth driven by artificial intelligence chip demand. The move reflects broader monetary policy tightening across Asia in response to inflation concerns.",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/823af978-e22b-49a4-a2a1-52867a6520fa",
-        "pubDate": "2026-11-26",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fadec4995-dc2e-4f9e-994f-067dce469ae4.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-      },
-      {
-        "rank": 4,
-        "title": "Japan Life Insurers Complicate Yen Fight With Record Low Hedging",
-        "summary": "Japan's major life insurance companies have reduced currency hedging to record lows, undermining the government's efforts to strengthen the yen through coordinated monetary policy interventions. The hedging pullback reflects domestic insurers' strategic shift and complicates the Bank of Japan's currency management objectives.",
-        "source": "Bloomberg",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-26/japan-life-insurers-complicate-yen-fight-with-record-low-hedging",
-        "pubDate": "2026-11-26",
-        "image": null
-      },
-      {
-        "rank": 5,
-        "title": "Dubai Seals Deal to Form $159 Billion Islamic Banking Giant",
-        "summary": "Dubai Islamic Bank has agreed to acquire Emirates Islamic Bank in an all-stock transaction that will establish one of the world's largest listed Islamic banking groups with combined assets of approximately $159 billion. The merger strengthens the Islamic banking sector and consolidates regional financial services capabilities.",
-        "source": "Bloomberg",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-25/dubai-bank-merger-to-create-159-billion-islamic-lending-giant",
+        "link": "https://cleantechnica.com/2026/11/25/the-mayor-of-the-east-midlands-is-backing-a-47-55-million-investment-to-bring-189-battery-electric-buses/",
         "pubDate": "2026-11-25",
         "image": null
       },
       {
         "rank": 6,
-        "title": "US Tariff Plan Raises Stakes for India to Clinch Trade Deal",
-        "summary": "Announced US tariff rates have pressured India to accelerate trade negotiations or face elevated levies, creating significant uncertainty for Indian exporters and investors regarding the trade outlook. The development underscores escalating trade tensions and their potential impact on emerging market economies.",
-        "source": "Bloomberg",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-25/us-tariff-proposal-raises-stakes-for-india-to-clinch-trade-deal",
-        "pubDate": "2026-11-25",
-        "image": null
+        "title": "Changan Subsidiary Avatr Expands into Switzerland",
+        "summary": "Chinese automaker Avatr, a Changan subsidiary, is expanding into the Swiss market with its 07L and 06T models scheduled for 2027, with distribution handled by Kamps Import AG and Schmohl AG. Vehicles will be priced from approximately 59,900 CHF (€65,500) with spring 2027 delivery anticipated.",
+        "source": "Electrive",
+        "link": "https://www.electrive.com/2026/11/26/changan-subsidiary-avatr-expands-into-switzerland/",
+        "pubDate": "2026-11-26",
+        "image": "https://www.electrive.com/media/2026/11/avatr-schweiz-switzerland-signing-2026jpg-scaled-1-400x267.jpg"
       },
       {
         "rank": 7,
-        "title": "Mrs Takaichi vs Mrs Watanabe: Japan's coming financial clash",
-        "summary": "Japan's monetary policy normalization has empowered household investors to seek higher returns, creating potential market volatility as retail participation increases significantly. The dynamic between policymakers and retail investors may increasingly influence Japanese financial markets.",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/e6adc42b-2851-4122-80cc-326312d823ee?syn-25a6b1a6=1",
+        "title": "Kim Long Motor delivers 100 electric sleeper buses in Vietnam",
+        "summary": "Vietnamese electric commercial vehicle manufacturer Kim Long Motor has delivered a fleet of 100 electric sleeper buses to Futa Bus Lines, a major domestic operator based in Ho Chi Minh City. The vehicles are now in service on intercity routes, demonstrating growing adoption of electric transportation in Southeast Asia.",
+        "source": "Electrive",
+        "link": "https://www.electrive.com/2026/11/26/kim-long-motor-delivers-100-electric-sleeper-buses-in-vietnam/",
         "pubDate": "2026-11-26",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F18a8a7c1-e023-423b-a9f3-892dd8b26cab.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+        "image": "https://www.electrive.com/media/2026/11/kimlong99-ev-g34-fleet-400x267.jpg"
       },
       {
         "rank": 8,
-        "title": "Australia Firms See Inflation Holding Over 4% for Next 12 Months",
-        "summary": "Australian businesses expect inflation will remain above the Reserve Bank's 2-3 percent target band throughout the next twelve months despite five rate increases implemented this year. The persistent inflation expectations suggest potential headwinds for central bank policy normalization in Australia.",
-        "source": "Bloomberg",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-26/australia-firms-see-inflation-holding-over-4-for-next-12-months",
+        "title": "Nissan recognises Aviloo's battery tests",
+        "summary": "Nissan Automotive Europe has officially recognized Austrian battery diagnostics specialist Aviloo as an independent provider for assessing battery condition in used electric vehicles. Aviloo's battery certificates can now be incorporated into Nissan's Certified Pre-Owned program, enhancing transparency in the secondhand EV market.",
+        "source": "Electrive",
+        "link": "https://www.electrive.com/2026/11/26/nissan-recognises-aviloos-battery-tests/",
         "pubDate": "2026-11-26",
-        "image": null
+        "image": "https://www.electrive.com/media/2024/05/aviloo-2024-03-min-400x267.jpg"
       },
       {
         "rank": 9,
-        "title": "Stocks advance in Asia after volatile US trading over AI risks",
-        "summary": "Asian equities recovered following volatile US trading driven by concerns about the sustainability of artificial intelligence sector gains and technology share performance. The regional rally reflects investor attempts to stabilize portfolios amid ongoing uncertainty about AI investment valuations.",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679",
+        "title": "UK energy price cap increase could add up to £9 to EV charging costs",
+        "summary": "Rising energy prices in the UK from January 2027 threaten to increase home EV charging costs by up to £9, potentially eroding some cost advantages of electric vehicle ownership. The impact will vary significantly depending on individual suppliers and tariffs, with households on standard variable rate deals facing the greatest immediate pressure.",
+        "source": "Electrive",
+        "link": "https://www.electrive.com/2026/11/26/uk-energy-price-cap-increase-could-add-up-to-9-to-ev-charging-costs/",
         "pubDate": "2026-11-26",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff1bd4d3b-316a-4258-ab5b-a9f7fe705ea1.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+        "image": "https://www.electrive.com/media/2026/08/ohme-smart-charging-wallbox-ireland-2026-400x267.webp"
       },
       {
         "rank": 10,
-        "title": "Latest Oil Market News and Analysis for Nov. 26",
-        "summary": "Oil prices extended gains as ongoing Middle East hostilities threatened to disrupt the region's crude export recovery, supporting energy commodity valuations. Geopolitical instability in a key petroleum-producing region continues to underpin crude market support.",
-        "source": "Bloomberg",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-25/latest-oil-market-news-and-analysis-for-nov-26",
-        "pubDate": "2026-11-25",
-        "image": null
+        "title": "Stagecoach brings 21 electric buses into service in North Devon",
+        "summary": "Stagecoach South West has deployed 21 battery-electric buses in North Devon, marking the first phase of its broader electric bus rollout across the region. The vehicles have entered service from the operator's Barnstaple depot, following earlier deployments in Exeter and Torbay.",
+        "source": "Electrive",
+        "link": "https://www.electrive.com/2026/11/26/stagecoach-brings-21-electric-buses-into-service-in-north-devon/",
+        "pubDate": "2026-11-26",
+        "image": "https://www.electrive.com/media/2026/11/auto-2026-01-26-400x267.jpg"
       }
     ],
     "world-news": [
       {
         "rank": 1,
-        "title": "US announces new tariffs on host of countries including China",
-        "summary": "The United States has announced new tariff levies targeting multiple major trading partners, including China and the European Union. This trade policy announcement has significant implications for global commerce and international economic relations.",
+        "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+        "summary": "Ukraine's President Zelensky has expressed frustration with the United States, stating it is concentrating insufficiently on pressuring Russia and questioning the appropriateness of Trump's characterization of Vladimir Putin as a friend. The statement reflects ongoing tensions between Kyiv and Washington regarding US foreign policy priorities in the Ukraine-Russia conflict.",
         "source": "BBC World",
-        "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-        "pubDate": "2026-11-26",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg"
+        "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+        "pubDate": "2026-11-27",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20f7/live/d0e75f10-e9e6-11f1-ab41-f1f84c0c758a.jpg"
       },
       {
         "rank": 2,
-        "title": "Ukraine attacks Russian military base, says five planes struck",
-        "summary": "Ukrainian forces conducted a significant military strike on a Russian airbase in the Nizhny Novgorod region, reportedly destroying five aircraft. The attack represents an escalation in the ongoing Russia-Ukraine conflict.",
+        "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to 'pull back'",
+        "summary": "Ukrainian President Zelenskyy has warned of an imminent major Russian military offensive as President Trump claims he has urged Putin to reduce military aggression in Europe. The statement underscores escalating tensions between Russian and Ukrainian forces and divergent diplomatic approaches.",
         "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss",
-        "pubDate": "2026-11-26",
+        "link": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+        "pubDate": "2026-11-27",
         "image": null
       },
       {
         "rank": 3,
-        "title": "Kim Jong Un says North Korea should widen deployment of tactical nukes",
-        "summary": "North Korean leader Kim Jong Un has called for expanded deployment of tactical nuclear weapons, warning that attempts to deny the country's nuclear status would constitute an act of war. The statement underscores escalating tensions on the Korean Peninsula.",
+        "title": "Estonia closing land borders with Russia to keep out spies",
+        "summary": "Estonia has announced plans to close its land border crossings with Russia by December 1 as part of heightened security measures against espionage. The move reflects NATO member concerns regarding Russian intelligence operations and hybrid warfare tactics in the Baltic region.",
         "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
-        "pubDate": "2026-11-26",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/estonia-closing-land-borders-with-russia-to-keep-out-spies?traffic_source=rss",
+        "pubDate": "2026-11-27",
         "image": null
       },
       {
         "rank": 4,
-        "title": "Brazil blasts 'unacceptable' new US tariff proposals",
-        "summary": "President Lula's office has strongly rejected newly proposed US tariffs, declaring Brazil will not capitulate to pressure and intends to pursue a negotiated resolution. The rebuke reflects growing international tensions over protectionist trade policies.",
-        "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/news/2026/11/26/brazil-blasts-unacceptable-new-us-tariff-proposals?traffic_source=rss",
-        "pubDate": "2026-11-26",
-        "image": null
+        "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+        "summary": "Two Italian technicians working for German defense contractor Rheinmetall were killed in a strike in Kuwait, with Iran denying involvement in the attack. The incident highlights ongoing regional tensions and security risks for foreign nationals operating in the Middle East.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o",
+        "pubDate": "2026-11-27",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ece/live/c83dee70-e9f4-11f1-9c56-b1b6306ef9e3.png"
       },
       {
         "rank": 5,
-        "title": "Has global jihadism failed, or is it simply changing shape?",
-        "summary": "Analysis suggests jihadist organizations are increasingly prioritizing local grievances over coordinated global terrorism operations, raising questions about whether the movement represents a fundamental strategic shift. The evolution has significant implications for international counterterrorism policy.",
-        "source": "BBC World",
-        "link": "https://www.bbc.co.uk/news/articles/cmx2x4e0n5jro?at_medium=RSS&at_campaign=rss",
-        "pubDate": "2026-11-26",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae31/live/2d66b8d0-e8d9-11f1-99a1-253766e7ad8b.jpg"
-      },
-      {
-        "rank": 6,
-        "title": "US stocks fall further as fears over AI intensify",
-        "summary": "Major US stock indexes declined sharply with the technology-dominated Nasdaq falling nearly 4 percent amid intensified investor concerns about artificial intelligence. The market volatility reflects broader uncertainty about the economic implications of AI technology.",
-        "source": "BBC World",
-        "link": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
-        "pubDate": "2026-11-26",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg"
-      },
-      {
-        "rank": 7,
-        "title": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
-        "summary": "New imagery shows the transformed surface of an asteroid that was deliberately impacted by a spacecraft four years ago as part of a planetary defense test. The findings provide valuable data on the feasibility of altering asteroid trajectories.",
-        "source": "BBC World",
-        "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
-        "pubDate": "2026-11-26",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8562/live/1f8d5d00-e8ec-11f1-a094-5fdc692f3e33.jpg"
-      },
-      {
-        "rank": 8,
-        "title": "Israeli judges recommend dropping most serious charges against Netanyahu",
-        "summary": "Israeli judges have recommended dismissal of the most serious charges in one of three cases against Prime Minister Benjamin Netanyahu, citing low conviction likelihood. Netanyahu's legal challenges remain a significant factor in Israeli political dynamics.",
-        "source": "BBC World",
-        "link": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
-        "pubDate": "2026-11-26",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d91d/live/f0a5ecf0-e8fa-11f1-99b6-a35a62fa4264.jpg"
-      },
-      {
-        "rank": 9,
-        "title": "Puerto Rico's Supreme Court cancels major power contract",
-        "summary": "Puerto Rico's Supreme Court has ended Luma Energy's utility operations through a five-to-four ruling following prolonged legal disputes. The decision has major implications for the island's electrical infrastructure and energy policy.",
+        "title": "Trump downplays Russia, China support for Iran during talks with US troops",
+        "summary": "President Trump has minimized concerns regarding Russian and Chinese military support for Iran while addressing US troops deployed to the Gulf region. The remarks reflect Trump's approach to geopolitical challenges in the Middle East and broader great power competition.",
         "source": "Al Jazeera",
-        "link": "https://www.aljazeera.com/news/2026/11/26/puerto-ricos-supreme-court-cancels-major-power-contract?traffic_source=rss",
-        "pubDate": "2026-11-26",
+        "link": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss",
+        "pubDate": "2026-11-27",
         "image": null
       },
       {
-        "rank": 10,
-        "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-        "summary": "A fuel tanker overturned on a busy ring road in Cairo, triggering a massive fire that killed 31 people and injured 21 others. The incident represents a major transportation and public safety emergency in Egypt's capital.",
+        "rank": 6,
+        "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+        "summary": "New Zealand's right-leaning National Party-led coalition has fallen short of securing a parliamentary majority by one seat following recent elections. The outcome creates significant uncertainty regarding government formation and policy direction in the country.",
         "source": "BBC World",
-        "link": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-        "pubDate": "2026-11-26",
-        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d4b/live/5e57daf0-e91f-11f1-9108-c5b270b0703d.jpg"
+        "link": "https://www.bbc.co.uk/news/articles/c670278qk879o",
+        "pubDate": "2026-11-27",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg"
+      },
+      {
+        "rank": 7,
+        "title": "New Zealand's Opportunity Party poised to become election kingmaker",
+        "summary": "New Zealand's newly-elected Opportunity Party now holds a pivotal position to determine whether parliament swings toward the political left or right. The party's coalition decision will be instrumental in determining government formation and policy priorities.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/new-zealands-opportunity-party-poised-to-become-election-kingmaker?traffic_source=rss",
+        "pubDate": "2026-11-27",
+        "image": null
+      },
+      {
+        "rank": 8,
+        "title": "At least 13 Niger soldiers killed in Sanam armed attack",
+        "summary": "At least thirteen soldiers from Niger's National Guard were killed in an armed attack in Tillaberi near the Mali border, with the perpetrators remaining unidentified. The attack underscores ongoing security challenges in the Sahel region amid persistent militant and bandit activities.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack?traffic_source=rss",
+        "pubDate": "2026-11-27",
+        "image": null
+      },
+      {
+        "rank": 9,
+        "title": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
+        "summary": "A German boat dealer is suspected of supplying small boats and engines used by migrant smuggling gangs operating in the English Channel, with allegedly nearly one-third of early 2026 crossings involving his products. The discovery highlights transnational human trafficking networks and cross-border law enforcement challenges.",
+        "source": "BBC World",
+        "link": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo",
+        "pubDate": "2026-11-27",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b4ee/live/c6384f50-e984-11f1-99b6-a35a62fa4264.png"
+      },
+      {
+        "rank": 10,
+        "title": "Asian stock markets rise after earlier tech rout",
+        "summary": "Stock indices in Japan, South Korea, Australia, and Hong Kong experienced gains following earlier technology sector declines, while New Zealand markets dipped amid election-related uncertainty. The movement reflects broader investor sentiment and regional economic responses to global market volatility.",
+        "source": "Al Jazeera",
+        "link": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss",
+        "pubDate": "2026-11-27",
+        "image": null
       }
     ],
     "science-space": [
       {
         "rank": 1,
-        "title": "Hera spacecraft gets 1st up-close look at stadium-sized hole punched in asteroid by NASA DART mission",
-        "summary": "NASA's Hera spacecraft has captured the first detailed images of a stadium-sized impact crater created by the agency's DART kinetic impactor mission on a distant asteroid. This landmark observation provides critical data on planetary defense capabilities and asteroid surface characteristics following humanity's first intentional collision with an asteroid.",
-        "source": "Space.com",
-        "link": "https://www.space.com/astronomy/asteroids/hera-spacecraft-gets-1st-up-close-look-at-stadium-sized-hole-punched-in-asteroid-by-nasa-dart-mission",
-        "pubDate": "2026-11-25",
-        "image": "https://cdn.mos.cms.futurecdn.net/NjNgXEyBEC5QKcUS4QYVGH-1920-80.png"
+        "title": "Has AI just cracked Internet encryption? Rumoured 'bombshell' stuns scientists",
+        "summary": "Scientists are examining claims that artificial intelligence may have compromised widely-used internet encryption protocols, potentially representing a significant breakthrough in computational cryptography. The alleged development has generated considerable attention within the research community pending peer review and verification of the findings.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/d41586-026-03875-6",
+        "pubDate": "2026-11-26",
+        "image": null
       },
       {
         "rank": 2,
-        "title": "Green light for Starmind: SpaceX gets approval to deploy 1 million AI satellites",
-        "summary": "The Federal Communications Commission has approved SpaceX's plan to deploy one million Starmind artificial intelligence-powered data center satellites into orbit. This unprecedented authorization could fundamentally reshape satellite infrastructure and global data processing capabilities in space.",
-        "source": "Space.com",
-        "link": "https://www.space.com/space-exploration/launches-spacecraft/green-light-for-starmind-spacex-gets-approval-to-deploy-1-million-ai-satellites",
-        "pubDate": "2026-11-25",
-        "image": "https://cdn.mos.cms.futurecdn.net/Y2b9XP3PZ2w8rCDW9psmjS-1920-80.jpg"
+        "title": "Chromosome 'glue' could boost fertility by stabilizing ageing eggs",
+        "summary": "Researchers have identified a molecular mechanism that stabilizes aging eggs through a protein complex acting as chromosome 'glue,' offering potential therapeutic applications for enhancing fertility in older women. This discovery could have significant implications for reproductive medicine and assisted reproductive technologies.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/d41586-026-03874-7",
+        "pubDate": "2026-11-26",
+        "image": null
       },
       {
         "rank": 3,
-        "title": "Pakistani astronaut becomes 1st international visitor to China's Tiangong space station",
-        "summary": "Pakistan's Muhammad Zeeshan Ali arrived at China's Tiangong space station aboard Shenzhou-24, marking the first international astronaut visit to the Chinese orbital outpost. This milestone represents a significant step in international space cooperation and demonstrates expanding access to China's independent space station program.",
+        "title": "Rocket Lab sending Japanese satellite to orbit on Thanksgiving Day launch",
+        "summary": "Rocket Lab is preparing to launch a Japanese satellite for Synspective, marking the company's 14th mission for the Tokyo-based Earth observation firm. The Thanksgiving Day launch demonstrates continued commercial space activity and international partnership in satellite deployment.",
         "source": "Space.com",
-        "link": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-becomes-1st-international-visitor-to-chinas-tiangong-space-station-photos",
-        "pubDate": "2026-11-25",
-        "image": "https://cdn.mos.cms.futurecdn.net/ggDj48avvvarVWRD8tDCah-1920-80.png"
+        "link": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-sending-japanese-satellite-to-orbit-on-thanksgiving-day-launch-watch-it-live",
+        "pubDate": "2026-11-26",
+        "image": "https://cdn.mos.cms.futurecdn.net/5fu2jLB5FYDbB2bLUEjaTD-1920-80.jpg"
       },
       {
         "rank": 4,
-        "title": "NASA Eyes Crop Candidates for Future Menus",
-        "summary": "NASA researchers are conducting field tests on various crops, including strawberries and other produce, to identify viable food sources for astronauts during long-duration missions to the Moon and Mars. These cultivation studies are essential for ensuring nutritional variety and psychological well-being during extended deep-space exploration.",
-        "source": "NASA",
-        "link": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
-        "pubDate": "2026-11-25",
-        "image": null
+        "title": "On this day in space! Nov. 26, 2011: NASA's 2-ton nuclear-powered Curiosity rover launches to Mars",
+        "summary": "NASA's Curiosity rover, a two-ton nuclear-powered rover, launched toward Mars on November 26, 2011, marking a pivotal moment in planetary exploration. The mission has since become one of the most successful and productive Mars missions in history.",
+        "source": "Space.com",
+        "link": "https://www.space.com/space-exploration/on-this-day-in-space-november-26-2026",
+        "pubDate": "2026-11-26",
+        "image": "https://cdn.mos.cms.futurecdn.net/s6uK2uLH5pLBWGLCdwEJJn-1920-80.jpg"
       },
       {
         "rank": 5,
-        "title": "NASA's Hubble Views Ocean of Stars in Groundwork for Roman",
-        "summary": "Hubble Space Telescope observations of a dense stellar region are providing crucial reference data to prepare scientists for upcoming observations by the Nancy Grace Roman Space Telescope. This survey work will enable researchers to better characterize stars and detect exoplanets in complex galactic environments.",
-        "source": "NASA",
-        "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
-        "pubDate": "2026-11-25",
-        "image": null
+        "title": "Venus shines at its brightest in the predawn sky this week",
+        "summary": "Venus reaches peak brightness in the predawn sky this week, providing an excellent opportunity for skywatchers to observe Earth's neighboring planet at its most brilliant. The article provides guidance on locating the planet during optimal viewing conditions.",
+        "source": "Space.com",
+        "link": "https://www.space.com/stargazing/venus-shines-at-its-brightest-in-the-predawn-sky-this-week-heres-where-to-look-nov-27-2026",
+        "pubDate": "2026-11-26",
+        "image": "https://cdn.mos.cms.futurecdn.net/L8EGfoybRtmyRMkZgLF48Z-1920-80.jpg"
       },
       {
         "rank": 6,
-        "title": "Dual proofs of legendary Riemann hypothesis stun mathematicians",
-        "summary": "Mathematicians have announced dual proofs related to the legendary Riemann hypothesis, one of mathematics' most significant unsolved problems with profound implications for cryptography and number theory. This development represents a major advancement in pure mathematics with potential applications across multiple scientific and technological fields.",
-        "source": "Nature",
-        "link": "https://www.nature.com/articles/d41586-026-03853-y",
-        "pubDate": "2026-11-25",
-        "image": null
+        "title": "Cosmic 'betta fish' glows in spectacular nebula portrait",
+        "summary": "The Dark Energy Camera has captured a striking image of the Betta Fish Nebula, showcasing brilliant blue coloration across the cosmic landscape. The photograph highlights the visual beauty of deep-space astronomical observations.",
+        "source": "Space.com",
+        "link": "https://www.space.com/astronomy/cosmic-betta-fish-glows-in-spectacular-nebula-portrait-space-photo-of-the-day-for-nov-26-2026",
+        "pubDate": "2026-11-26",
+        "image": "https://cdn.mos.cms.futurecdn.net/jmDeT3Pp9Fe2CMvTWKNHSc-1920-80.png"
       },
       {
         "rank": 7,
-        "title": "Satellites watch volcanic eruptions add new beaches on Iwo Jima",
-        "summary": "Recent satellite imagery documents how a volcanic eruption near Iwo Jima has significantly altered the Japanese island's topography by creating new land extending its beaches. This remote sensing observation provides valuable data on rapid geological changes and volcanic activity in the western Pacific region.",
-        "source": "Space.com",
-        "link": "https://www.space.com/astronomy/earth/satellites-watch-volcanic-eruptions-add-new-beaches-on-iwo-jima-space-photo-of-the-day-for-nov-25-2026",
-        "pubDate": "2026-11-25",
-        "image": "https://cdn.mos.cms.futurecdn.net/M7kfhVaefcfvdpMp4CWBk5-1920-80.png"
+        "title": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
+        "summary": "NASA's Astronomy Picture of the Day features a compelling image of the Milky Way captured over Lençóis, with professional astronomical explanation provided. The image exemplifies the agency's daily commitment to sharing cosmic photography with the public.",
+        "source": "NASA",
+        "link": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
+        "pubDate": "2026-11-26",
+        "image": null
       },
       {
         "rank": 8,
-        "title": "Eye of the Sahara",
-        "summary": "The International Space Station captured detailed imagery of the Richat Structure, a 100-million-year-old eroded geological dome in Mauritania formed by ancient igneous activity and crustal uplift. This distinctive circular formation continues to fascinate scientists studying planetary geology and Earth's dynamic surface processes.",
-        "source": "NASA",
-        "link": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
-        "pubDate": "2026-11-25",
+        "title": "Orangutans face bleak future after Indonesia's devastating wildfires",
+        "summary": "Indonesia's recent wildfires have created severe threats to orangutan populations and their habitat, with significant conservation implications for the endangered species. The environmental crisis underscores the critical need for wildlife protection measures in Southeast Asia.",
+        "source": "Nature",
+        "link": "https://www.nature.com/articles/d41586-026-03828-z",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 9,
-        "title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
-        "summary": "NASA has renamed and expanded its Small Business Supplier Development Program to strengthen the domestic aerospace industrial base and support future exploration missions. The agency announced a new Mentor-Protégé Agreement between The Boeing Company and GRACE, fostering innovation and capability development among small business partners.",
-        "source": "NASA",
-        "link": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
-        "pubDate": "2026-11-25",
-        "image": null
+        "title": "Every smart telescope reviewed and highly rated that is cheaper for Black Friday",
+        "summary": "Multiple manufacturers including Unistellar, ZWO, Vaonis, and Dwarflab are offering significant Black Friday discounts on smart telescopes, making advanced astronomical observation tools more accessible to consumers. The sales provide entry-level and intermediate options for astronomy enthusiasts.",
+        "source": "Space.com",
+        "link": "https://www.space.com/stargazing/skywatching-kit/every-smart-telescope-weve-reviewed-and-highly-rate-that-is-cheaper-for-black-friday-full-list",
+        "pubDate": "2026-11-26",
+        "image": "https://cdn.mos.cms.futurecdn.net/qoeRGJKGjDM7T5s8wiAjLB-1920-80.jpg"
       },
       {
         "rank": 10,
-        "title": "APOD: 2026 November 25 – SPHEREx Seeing Through Dust",
-        "summary": "NASA's Astronomy Picture of the Day features the SPHEREx mission's capabilities for observing celestial objects through interstellar dust obscuration. This infrared space telescope represents an important advancement in observational astronomy for studying star formation and dust distribution across the universe.",
+        "title": "NASA+ Content Coming to Big Screen at Greenbelt, Maryland Cinema",
+        "summary": "NASA announced that NASA+ streaming content will be featured theatrically at The Greenbelt Cinema in Maryland, expanding the agency's reach to new audiences through traditional cinema venues. The initiative fulfills NASA's mandate to share space exploration stories broadly while increasing public engagement with agency content.",
         "source": "NASA",
-        "link": "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/",
-        "pubDate": "2026-11-25",
+        "link": "https://www.nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema/",
+        "pubDate": "2026-11-26",
         "image": null
       }
     ],
     "tech-ai": [
       {
         "rank": 1,
-        "title": "FCC approves SpaceX plan to put AI data centers in space",
-        "summary": "The FCC has authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of its \"Starmind\" initiative, marking the first approval for a full constellation of AI satellites in space. The approval requires SpaceX to deploy at least one satellite by 2033, positioning the company ahead of competitors like Google and Blue Origin pursuing similar space-based AI infrastructure.",
+        "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+        "summary": "Nvidia has instructed manufacturing partners to halt server shipments to Malaysia, Singapore, Thailand, and Indonesia as part of U.S. efforts to prevent advanced AI chips from reaching China. This move reflects escalating geopolitical tensions and regulatory pressure surrounding semiconductor exports to Asia.",
         "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
-        "pubDate": "2026-11-25",
+        "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 2,
-        "title": "S&P considers Nvidia credit downgrade over governance and 'key man' risks",
-        "summary": "S&P Global is evaluating a credit rating downgrade for Nvidia to AA-, citing governance concerns and dependency risks associated with key leadership. The potential downgrade reflects investor concerns about the semiconductor giant's corporate structure and succession planning.",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-        "pubDate": "2026-11-25",
-        "image": null
+        "title": "Android app developers will soon have to share their address publicly",
+        "summary": "Google announced a policy requiring independent Android app developers to publicly disclose phone numbers and addresses starting next year to comply with European Union's Digital Services Act. The requirement has raised privacy concerns among developers, though Google plans to enforce the change globally with a February 1, 2027 deadline.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+        "pubDate": "2026-11-26",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007893/acastro_STK112_android_02.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
       },
       {
         "rank": 3,
-        "title": "Character.AI's plan to auction off users' private chats challenged by state AGs",
-        "summary": "State attorneys general are challenging Character.ai's bankruptcy sale plan that would transfer sensitive personal data from over 21 million U.S. user accounts, including 2.1 million accounts registered to minors. The legal challenge highlights growing concerns over privacy protections for user data in AI company bankruptcies.",
+        "title": "X finally gets parental controls after 20 years",
+        "summary": "Elon Musk's social network X has introduced parental controls for teenage users, enabling parents and guardians to manage content visibility on the platform. The feature addresses long-standing requests for child safety mechanisms on the social media platform.",
         "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-        "pubDate": "2026-11-25",
+        "link": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 4,
-        "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-        "summary": "OpenAI is consolidating ChatGPT's Chat and Work experiences into a single platform with unified usage metering, which may cause heavy users to encounter rate limits more quickly. The merger represents a significant shift in how the company manages its dual-tier offering.",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-        "pubDate": "2026-11-25",
-        "image": null
+        "title": "Federal judge blocks the FCC from reviewing ABC's licenses early",
+        "summary": "A U.S. District Judge has blocked the Federal Communications Commission from conducting an early review of ABC's broadcast licenses and rejected motions to dismiss the network's First Amendment lawsuit. The judge indicated ABC is likely to succeed in its retaliation claim against the FCC.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
+        "pubDate": "2026-11-26",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25840497/STKP211_BRENDAN_CARR_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
       },
       {
         "rank": 5,
-        "title": "1Password said hackers broke into its internal systems, but customer passwords are safe",
-        "summary": "Password manager 1Password disclosed that an attacker accessed an employee's corporate account and obtained some customer information, though passwords and vault contents remained secure. The breach poses phishing risks to affected users despite the protection of core security credentials.",
+        "title": "Grand Theft Auto VI proves why efficiency isn't a virtue",
+        "summary": "Grand Theft Auto VI became one of the most successful entertainment launches of all time, demonstrating the value of painstaking human craftsmanship over algorithmic efficiency. The timing coincided with Anthropic's public market entry, highlighting the contrast between AI-driven optimization and artisanal game development.",
         "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
-        "pubDate": "2026-11-25",
+        "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 6,
-        "title": "Jensen Huang broke Nvidia's code of conduct, and his employees may not forget it",
-        "summary": "Nvidia CEO Jensen Huang violated the company's own code of conduct, raising questions about corporate culture and governance standards at the semiconductor firm. The incident underscores potential tensions between leadership and employee expectations of ethical compliance.",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
-        "pubDate": "2026-11-25",
-        "image": null
+        "title": "GTA VI developers vote against unionization",
+        "summary": "Workers at Rockstar Games voted against unionization, with only 25 percent supporting a formal recognition agreement from the Independent Workers Union of Great Britain. Despite the failed vote, union organizers indicated they would continue organizing efforts among Rockstar employees.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
+        "pubDate": "2026-11-26",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Jason_and_Lucia_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
       },
       {
         "rank": 7,
-        "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-        "summary": "New York has enacted a five-year ban on AI chatbot toys following research from Common Sense Media documenting significant safety failures, including exposure to inappropriate content and risks to child emotional development. The ban represents the first state-level regulatory action restricting AI toy sales.",
+        "title": "The canceled Tesla Cybertruck is the fastest-selling used truck in America",
+        "summary": "Despite its controversial design and production challenges, the Tesla Cybertruck became the fastest-selling used truck in America, averaging just 39.1 days on the market compared to the industry average of 65.5 days. The strong used-market performance underscores demand for the unconventional vehicle.",
         "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+        "link": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
         "pubDate": "2026-11-25",
         "image": null
       },
       {
         "rank": 8,
-        "title": "Anthropic's Dario Amodei calls accusations of surrendering human control to AI 'absurd'",
-        "summary": "Anthropic CEO Dario Amodei dismissed rival accusations that he advocates surrendering human agency to artificial intelligence, while acknowledging that leading AI companies increasingly automate their own research and model development. The statement reflects ongoing industry debate over appropriate levels of AI autonomy.",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-        "pubDate": "2026-11-25",
-        "image": null
+        "title": "Why GTA VI's version of Florida feels so real",
+        "summary": "Grand Theft Auto VI's fictional rendition of Florida stands as the studio's most lifelike setting, featuring functioning buses and trains, explorable buildings, and meticulous environmental detail. The exceptional sense of place contributes significantly to the game's massive appeal alongside its anticipated release and relatable characters.",
+        "source": "The Verge",
+        "link": "https://www.theverge.com/entertainment/1042629/gta-6-city-design",
+        "pubDate": "2026-11-26",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/1a20dbee8d365-screenshotUrl.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
       },
       {
         "rank": 9,
-        "title": "Amazon loses its latest attempt to get out of handling more recall notices",
-        "summary": "A U.S. District Court ruled that Amazon must recall over 400,000 hazardous products, rejecting the company's argument that it operates as a logistics provider rather than a distributor. The ruling establishes that Amazon bears responsibility for recalling third-party products sold through its platform.",
-        "source": "The Verge",
-        "link": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
-        "pubDate": "2026-11-25",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23935558/acastro_STK103__01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        "title": "A month with the iPhone Duo has changed how I use my phone",
+        "summary": "Apple's foldable iPhone Duo has demonstrated meaningful impacts on user behavior, including increased book reading and reduced mindless scrolling habits. The device's unique form factor has prompted users to reconsider their daily digital consumption patterns.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/",
+        "pubDate": "2026-11-26",
+        "image": null
       },
       {
         "rank": 10,
-        "title": "Google's patent for custom AI video feeds paints a bleak picture of entertainment's future",
-        "summary": "Google filed a patent for a system called My Channel designed to generate personalized AI video feeds and advertisements based on user data, though the patent has been rejected. Consumer advocates worry that Google may appeal or resubmit an amended version, potentially bringing the contentious technology to market.",
-        "source": "The Verge",
-        "link": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
-        "pubDate": "2026-11-25",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-25-at-11.34.07-AM.png?quality=90&#038;strip=all&#038;crop=2.859375,3.7218027238494,93.788122558594,91.658221639303"
+        "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
+        "summary": "Europe's Hera mission has observed the aftermath of NASA's DART asteroid deflection experiment, revealing an unexpectedly chaotic impact site. The findings provide valuable scientific data on the consequences of kinetic impact technology for planetary defense.",
+        "source": "Ars Technica",
+        "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+        "pubDate": "2026-11-26",
+        "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/hera_arrival1-1020x648.jpg"
       }
     ],
-    "crypto-web3": [
+    "finance-markets": [
       {
         "rank": 1,
-        "title": "Bill to lock up U.S. government bitcoin for 20 years advances to full House",
-        "summary": "Legislation to establish a Strategic Bitcoin Reserve and lock up U.S. government-held bitcoin for two decades has cleared committee and advanced toward a full House vote. The bill faces significant time pressure as Congress is expected to adjourn within weeks, narrowing the window for passage.",
-        "source": "CoinDesk",
-        "link": "https://www.coindesk.com/policy/2026/11/26/strategic-bitcoin-reserve-bill-to-lock-up-u-s-government-held-bitcoin-for-20-years-goes-to-full-house",
-        "pubDate": "2026-11-26",
-        "image": "https://cdn.sanity.io/images/s3y3vcno/production/38dbb071b32fcb91851960b8e6a23e3075028fbc-6000x4000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        "title": "Chinese households shed trillions in consumer debt",
+        "summary": "Chinese households are reducing consumer debt as a three-year decline in mortgage borrowing extends to other consumer loans, signaling weakening domestic demand. This deleveraging trend reflects broader economic challenges in China's consumption-driven recovery.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/8c5e0298-58f0-47e9-a843-513178d9fa2e?syn-25a6b1a6=1",
+        "pubDate": "2026-11-27",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa2b7ebea-a862-42b6-8b87-af74dc1bd906.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
       },
       {
         "rank": 2,
-        "title": "Justice Department takes aim at billions in crypto fraud proceeds in historic 'largest ever crackdown'",
-        "summary": "The Justice Department announced what it characterized as its largest-ever crackdown on crypto fraud, targeting billions in proceeds as part of an administration directive to combat fraudulent activity in the digital asset space. This enforcement action signals heightened regulatory scrutiny of illegal crypto operations.",
-        "source": "The Block",
-        "link": "https://www.theblock.co/news/regulation/2026-11-25-justice-department-takes-aim-billions-crypto-fraud-proceeds-largest-ever-crackdown-446711",
-        "pubDate": "2026-11-25",
-        "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/gettyimages-2306567079-594x594-1.jpg"
+        "title": "Tech stocks set for worst month in four years as volatility surges",
+        "summary": "Technology stocks face their worst monthly performance in four years as market volatility disrupts the dominant artificial intelligence trade and investors struggle to price future earnings accurately. The sharp reversal underscores growing uncertainty in the tech sector.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
+        "pubDate": "2026-11-27",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb3711a43-730a-49c2-934d-f8bb6229ae1e.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
       },
       {
         "rank": 3,
-        "title": "Sens. Warren, Van Hollen lead push to scrap SEC's Regulation Crypto and innovation exemption",
-        "summary": "Senators Elizabeth Warren and Chris Van Hollen sent letters to SEC Chair Atkins demanding the rescission of the innovation exemption and Regulation Crypto, signaling ongoing legislative pressure to tighten crypto regulatory frameworks. This move reflects continued congressional skepticism toward the SEC's approach to crypto oversight.",
-        "source": "The Block",
-        "link": "https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756",
-        "pubDate": "2026-11-25",
-        "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/gettyimages-2305951485-594x594-1.jpg"
+        "title": "China Stocks Rally After Rare Midday Statement on Market Support",
+        "summary": "Chinese equities rallied following an unusual mid-day statement from the State Council reaffirming support for the capital market and pledging additional supportive policies. The rare intervention highlights government commitment to stabilizing markets amid economic headwinds.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release",
+        "pubDate": "2026-11-27",
+        "image": null
       },
       {
         "rank": 4,
-        "title": "Ukrainian lawmakers pass crypto tax and regulation bill expected to bring in $330 million",
-        "summary": "Ukraine's parliament passed comprehensive crypto tax and regulation legislation expected to generate approximately $330 million in added government revenue. The measure represents a significant step toward formal crypto regulation within the country, though the timeline for implementation remains uncertain.",
-        "source": "CoinDesk",
-        "link": "https://www.coindesk.com/business/2026/11/25/ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-usd330-million",
-        "pubDate": "2026-11-25",
-        "image": "https://cdn.sanity.io/images/s3y3vcno/production/3cce92a0af48494a2126025022b398babc564bcf-1920x1200.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        "title": "The US and Europe have opposite economic problems",
+        "summary": "The United States and Europe face divergent economic challenges, with wealth hoarding among the rich constraining growth in America while stagnation threatens the European middle class. These structural differences require distinct policy responses from policymakers in each region.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/047e1a9d-0448-4ccd-aaec-c5c06125d111?syn-25a6b1a6=1",
+        "pubDate": "2026-11-27",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F606762bb-784b-43d9-854d-ea10b88b8e20.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
       },
       {
         "rank": 5,
-        "title": "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles",
-        "summary": "Established crypto industry figures are expressing heightened concern about further downside risk as bitcoin declines, with Galaxy Digital warning of potential losses below key support levels and analysts citing macro headwinds from AI and quantum computing fears. Sentiment indicators show near-rock-bottom market conditions typically associated with capitulation phases.",
-        "source": "CoinDesk",
-        "link": "https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles",
-        "pubDate": "2026-11-25",
-        "image": "https://cdn.sanity.io/images/s3y3vcno/production/b5759e58dbca079ac7f62cea4739a25c5f08d150-2280x1284.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        "title": "Stocks Extend Recovery on AI Trade, Treasuries Dip: Markets Wrap",
+        "summary": "Global equities extended gains into a second consecutive day as investor appetite returned to artificial intelligence-related stocks following weeks of heightened volatility. Bond yields rose as improved risk sentiment reduced safe-haven demand for Treasury securities.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
+        "pubDate": "2026-11-27",
+        "image": null
       },
       {
         "rank": 6,
-        "title": "Fidelity files for spot Chainlink ETF with planned Nasdaq listing",
-        "summary": "Fidelity submitted an SEC filing to launch a spot Chainlink exchange-traded fund with a planned Nasdaq listing, expanding its institutional crypto investment offerings beyond bitcoin and ether. The move reflects continued institutional asset manager interest in diversifying digital asset exposure.",
-        "source": "The Block",
-        "link": "https://www.theblock.co/news/business/2026-11-25-fidelity-chainlink-etf-nasdaq-listing-446735",
-        "pubDate": "2026-11-25",
-        "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/GettyImages-1341548354.jpg"
+        "title": "Latest Oil Market News and Analysis for Nov. 27",
+        "summary": "Oil prices tracked toward their first weekly gain this month as escalating attacks on Middle Eastern energy infrastructure and shipping tankers raised concerns about potential export disruptions. Geopolitical tensions continue to support crude valuations amid broader market uncertainty.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-26/latest-oil-market-news-and-analysis-for-nov-27",
+        "pubDate": "2026-11-27",
+        "image": null
       },
       {
         "rank": 7,
-        "title": "Bitcoin miners hit by hashrate hijacking attack exploiting unencrypted connections",
-        "summary": "Braiins warned that attackers are exploiting unencrypted miner connections to redirect computing power and steal bitcoin mining rewards in an ongoing security breach. The vulnerability highlights infrastructure risks within mining operations and the importance of encryption protocols.",
-        "source": "The Block",
-        "link": "https://www.theblock.co/news/ecosystems/2026-11-25-bitcoin-miners-hit-hashrate-hijacking-attack-exploiting-unencrypted-connections-446723",
-        "pubDate": "2026-11-25",
-        "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/GettyImages-1371375644-scaled.jpg"
+        "title": "'A changed man.' How will Jensen Huang lead Nvidia now?",
+        "summary": "Questions surround whether Nvidia's management structure and corporate governance will be reformed under Jensen Huang's continued leadership, with employees, analysts, and legal experts expressing concerns. The inquiry reflects broader corporate accountability issues at the semiconductor giant.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/2a98efa0-2c2d-47e3-99a9-e00fbe699c34?syn-25a6b1a6=1",
+        "pubDate": "2026-11-27",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa0d8167d-3266-4707-b0b4-54308c9fb2dd.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
       },
       {
         "rank": 8,
-        "title": "EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending",
-        "summary": "The European Banking Authority renewed its call for the European Commission to establish regulatory rules governing crypto firms that provide client access to decentralized finance lending protocols. The request underscores ongoing European regulatory efforts to bring DeFi services within formal oversight frameworks.",
-        "source": "CoinDesk",
-        "link": "https://www.coindesk.com/policy/2026/11/25/eu-bank-watchdog-seeks-european-commission-rules-for-crypto-firms-offering-defi-lending",
-        "pubDate": "2026-11-25",
-        "image": "https://cdn.sanity.io/images/s3y3vcno/production/1b8af97c895160d3ed27ac10e9be7535ee79e1d6-3673x2449.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        "title": "Mahanadi Coalfields Shares Flat in Debut After $969 Million IPO",
+        "summary": "Mahanadi Coalfields Ltd. began trading near its initial public offering price in its debut on the National Stock Exchange following a 969 million dollar listing. The muted market reception marks the first major IPO since Indian regulators prohibited gray-market pricing disclosures.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-27/mahanadi-coalfields-set-for-mumbai-debut-after-969-million-ipo",
+        "pubDate": "2026-11-27",
+        "image": null
       },
       {
         "rank": 9,
-        "title": "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show",
-        "summary": "Two SEC-registered funds valuing Ripple stock as of September 30 assessed the company 70% apart, with the lower valuation barely exceeding what another fund paid for shares in 2018. The wide valuation disparity highlights ongoing uncertainty surrounding Ripple's worth amid its ongoing legal challenges.",
-        "source": "CoinDesk",
-        "link": "https://www.coindesk.com/markets/2026/11/26/ripple-is-worth-usd90-a-share-to-one-fund-and-usd300-to-another-sec-filings-show",
-        "pubDate": "2026-11-26",
-        "image": "https://cdn.sanity.io/images/s3y3vcno/production/3fdb04bd3eb1c1413ad0d70e8d1e464ee4866ad9-1500x1000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        "title": "Treasuries Retreat as Gains in Equities Sap Demand for Havens",
+        "summary": "Treasury prices fell in light holiday trading as rising equity markets reduced investor demand for safe-haven assets following the Thanksgiving break. The sell-off reflects improving risk sentiment across global markets.",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-27/treasuries-retreat-as-gains-in-equities-sap-demand-for-havens",
+        "pubDate": "2026-11-27",
+        "image": null
       },
       {
         "rank": 10,
-        "title": "South Korean crypto exchange Bithumb warns of phishing after deeper October breach probe",
-        "summary": "South Korea's second-largest crypto exchange Bithumb confirmed its trading systems were not compromised but warned that stolen customer records could be misused in future phishing scams. The security incident underscores ongoing operational risks facing major exchange platforms.",
-        "source": "CoinDesk",
-        "link": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe",
-        "pubDate": "2026-11-25",
-        "image": "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        "title": "Kalshi's next big bet: 'microinsurance' for small businesses",
+        "summary": "Financial platform Kalshi is pivoting toward microinsurance products for small businesses to offset declining revenues from sports wagering amid mounting regulatory pressures. The expansion into conventional financial services represents a strategic diversification for the prediction markets operator.",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/587198a8-ac15-46b2-83f2-f6e181ccd7cd?syn-25a6b1a6=1",
+        "pubDate": "2026-11-27",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1c37cfeb-f193-4a7a-b36a-feb7ac870245.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
       }
     ],
     "health-biotech": [
       {
         "rank": 1,
-        "title": "Pharmalittle: We're reading about Sanofi buying Insmed, Roche touting its breast cancer pill, and more",
-        "summary": "Sanofi is acquiring biotech company Insmed for $41 billion, marking the largest biopharma acquisition in years and providing the French pharmaceutical giant with two newly approved drugs to strengthen its pipeline. This major deal signals significant industry consolidation and represents a major strategic bet for Sanofi's growth beyond its legacy franchise Dupixent.",
-        "source": "STAT News",
-        "link": "https://www.statnews.com/pharmalot/2026/11/24/sanofi-buying-insmed-roche-breast-cancer-pill/?utm_campaign=rss",
-        "pubDate": "2026-11-24",
-        "image": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-1024x576.jpg"
+        "title": "Sanofi, with $41B Insmed buy, inks year's biggest biopharma acquisition",
+        "summary": "Sanofi announced a $41 billion acquisition of Insmed, marking the largest biopharma deal of the year and a significant strategic bet to strengthen its immunology and rare disease portfolio. The acquisition includes two approved commercial drugs and a pipeline of respiratory therapies, positioning Sanofi for major revenue growth beyond its blockbuster Dupixent product.",
+        "source": "BioPharma Dive",
+        "link": "https://www.biopharmadive.com/news/sanofi-insmed-acquisition-deal-immunology-rare-disease/875627/",
+        "pubDate": "2026-11-26",
+        "image": "https://imgproxy.divecdn.com/FBR1IQNmU9Hqatva496Zg2G8JMHsqV0UGsf4LMARqYo/g:nowe:189:144/c:1776:1003/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS80OTY5MDc4MzcxMl8yYTc1ZmQ5M2MyX28uanBn.webp"
       },
       {
         "rank": 2,
-        "title": "Roche's potential breast cancer blockbuster drug wins second FDA nod",
-        "summary": "Roche's breast cancer pill has received its second FDA clearance within a week, this time for use in early-stage breast cancer following surgical treatment. The rapid successive approvals position the drug as a potential blockbuster with expanded market opportunity across multiple cancer indications.",
-        "source": "STAT News",
-        "link": "https://www.statnews.com/2026/11/24/biotech-news-roche-potential-breast-cancer-blockbluster-drug-wins-second-fda-nod/?utm_campaign=rss",
-        "pubDate": "2026-11-24",
-        "image": "https://www.statnews.com/wp-content/uploads/2020/04/GettyImages-138036935-1024x576.jpg"
+        "title": "FDA clears Roche's oral SERD as treatment in early-stage breast cancer",
+        "summary": "The FDA approved Roche's oral selective estrogen receptor degrader (SERD) for early-stage breast cancer treatment, representing a significant therapeutic advance in oncology. Analysts project the drug could become a multibillion-dollar product, addressing a substantial market opportunity in breast cancer care.",
+        "source": "BioPharma Dive",
+        "link": "https://www.biopharmadive.com/news/fda-roche-wilserdly-breast-cancer-approval-early-stage/875563/",
+        "pubDate": "2026-11-26",
+        "image": "https://imgproxy.divecdn.com/_Jl91qpyunJWe-csdceqrcSO_PmI-VBjWQO1KOBqP58/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xOTM3MjY1MDU5LmpwZw==.webp"
       },
       {
         "rank": 3,
+        "title": "FDA approves BridgeBio muscular dystrophy drug",
+        "summary": "The FDA approved BridgeBio's novel treatment for muscular dystrophy, with pricing set at nearly $1 million annually, marking an important therapeutic option for patients with limited treatment alternatives. Wall Street analysts project blockbuster sales potential for the medicine, which demonstrated improvements in patient mobility and respiratory function.",
+        "source": "BioPharma Dive",
+        "link": "https://www.biopharmadive.com/news/fda-bridgebio-welgemda-limb-girdle-muscle-disorder-approval/875610/",
+        "pubDate": "2026-11-26",
+        "image": "https://imgproxy.divecdn.com/OR8SxLe6A-mfa2L56w6SQj-pPoUqhUUQiBQvTR5zGx4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDEzMjg5OTM2LmpwZw==.webp"
+      },
+      {
+        "rank": 4,
+        "title": "Lilly buys Huntington's drug developer LoQus23 in potentially $725M deal",
+        "summary": "Eli Lilly acquired LoQus23 in a deal valued up to $725 million to gain access to a potentially first-in-class Huntington's disease treatment targeting the MSH3 protein. The acquisition represents Lilly's strategic expansion into neurodegenerative diseases and addresses a significant unmet medical need in genetic neurological disorders.",
+        "source": "BioPharma Dive",
+        "link": "https://www.biopharmadive.com/news/lilly-loqus-huntingtons-drug-acquisition-deal/875448/",
+        "pubDate": "2026-11-26",
+        "image": "https://imgproxy.divecdn.com/QYrn4AL-LTvRLRqpV7pdxYRRCrtu_8cR3zIhOGsRcEY/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xODgwMzQzMTAwLmpwZw==.webp"
+      },
+      {
+        "rank": 5,
+        "title": "In a fertility advance, engineered molecular glue stabilizes chromosomes in aging eggs",
+        "summary": "Researchers developed an engineered protein system that can restore normal chromosome connections in aging mouse eggs, offering a potential breakthrough for improving fertility outcomes in women of advanced maternal age. The finding raises hopes for future applications in IVF treatments and understanding age-related reproductive decline.",
+        "source": "STAT News",
+        "link": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/?utm_campaign=rss",
+        "pubDate": "2026-11-26",
+        "image": "https://www.statnews.com/wp-content/uploads/2026/11/Meta-phase-II-spindle-1024x576.jpg"
+      },
+      {
+        "rank": 6,
+        "title": "Kymera eczema pill meets goals in mid-stage trial",
+        "summary": "Kymera's oral protein degrader drug achieved efficacy comparable to biologic treatments in a Phase 2 trial for eczema, positioning it as a potential competitive threat to Sanofi and Regeneron's market-leading Dupixent. The result supports the company's claim that the small-molecule approach could offer patients an alternative treatment modality.",
+        "source": "BioPharma Dive",
+        "link": "https://www.biopharmadive.com/news/kymera-eczema-pill-phase2-data-protein-degrader-dupixent-ebglyss/875462/",
+        "pubDate": "2026-11-26",
+        "image": "https://imgproxy.divecdn.com/bHeki-RcmamHWZ337AesYqx0-vgLVnsXCVdnZnNyTHA/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjQ0MTEwNTU2LmpwZw==.webp"
+      },
+      {
+        "rank": 7,
         "title": "FDA approves Cogent's drug for rare stomach cancer",
-        "summary": "The FDA has approved Cogent Biosciences' stomach cancer treatment in combination with Pfizer's established drug Sutent, providing a new therapeutic option for patients with this rare malignancy. The approval demonstrates the continued value of combination therapy approaches in oncology.",
+        "summary": "The FDA granted clearance to Cogent Biosciences for a novel stomach cancer treatment designed to be used in combination with Pfizer's Sutent, expanding therapeutic options for this rare malignancy. The approval marks a significant milestone for Cogent and addresses an area of oncology with limited treatment alternatives.",
         "source": "STAT News",
         "link": "https://www.statnews.com/2026/11/25/biotech-news-fda-approves-cogents-drug-for-rare-stomach-cancer/?utm_campaign=rss",
         "pubDate": "2026-11-25",
         "image": "https://www.statnews.com/wp-content/uploads/2025/11/AdobeStock_917911475-1024x576.jpeg"
       },
       {
-        "rank": 4,
-        "title": "Medicare sets 2028 prices for 13 new drugs under Biden-era law",
-        "summary": "Medicare has established 2028 prices for 13 newly approved drugs under the Inflation Reduction Act, with steep reductions affecting medicines nearing or past patent expiration as cost controls expand. The pricing reflects the growing regulatory momentum to control pharmaceutical costs through government negotiation.",
-        "source": "BioPharma Dive",
-        "link": "https://www.biopharmadive.com/news/inflation-reduction-act-2028-final-medicare-drug-price/875717/",
-        "pubDate": "2026-11-25",
-        "image": "https://imgproxy.divecdn.com/yNFj1iOXXiGXHrvNzMITrI7Zf52PfwK1rovRc0StZW8/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMDQ3NTA1MDAwLmpwZw==.webp"
-      },
-      {
-        "rank": 5,
-        "title": "STAT+: We're reading about BioNTech founders' oncology startup, a long-acting GSK drug, and more",
-        "summary": "The cofounders of BioNTech are pursuing approximately $1 billion in funding to establish a new oncology-focused company, signaling continued entrepreneurial momentum among leading vaccine technology pioneers. The venture represents a significant capital deployment in the competitive oncology drug development space.",
-        "source": "STAT News",
-        "link": "https://www.statnews.com/pharmalot/2026/11/25/biontech-founders-oncology-startup-gsk-egpa-drug-exdensur/?utm_campaign=rss",
-        "pubDate": "2026-11-25",
-        "image": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-1024x576.jpg"
-      },
-      {
-        "rank": 6,
-        "title": "Bayer pulls blockbuster drug from Germany over pricing dispute",
-        "summary": "Bayer has withdrawn its blockbuster Kerendia drug from Germany over a reimbursement pricing dispute, highlighting escalating tensions between pharmaceutical manufacturers and European governments regarding innovative medicine pricing. The pullback underscores the challenging regulatory environment facing drugmakers in key developed markets.",
-        "source": "Endpoints News",
-        "link": "https://endpoints.news/bayer-pulls-blockbuster-drug-from-germany-over-pricing-dispute/",
-        "pubDate": "2026-11-25",
-        "image": null
-      },
-      {
-        "rank": 7,
-        "title": "Bristol Myers reports one Phase 3 success, one failure in Sotyktu lupus trials",
-        "summary": "Bristol Myers Squibb has encountered mixed results in its Phase 3 lupus development program for Sotyktu, its oral TYK2 inhibitor, with one trial succeeding and another failing to meet endpoints. The setback complicates the company's efforts to expand the drug's indication beyond its currently approved uses.",
-        "source": "Endpoints News",
-        "link": "https://endpoints.news/bristol-myers-reports-one-phase-3-success-one-failure-in-sotyktu-lupus-trials/",
-        "pubDate": "2026-11-25",
-        "image": null
-      },
-      {
         "rank": 8,
-        "title": "Why Medicare's 2027 physician pay changes worry some specialists",
-        "summary": "Proposed cuts to Medicare physician payment rates for certain same-day services in 2027 are raising concerns among specialists regarding their financial sustainability and practice viability. The reimbursement adjustments reflect ongoing tensions in the healthcare system between cost containment and adequate provider compensation.",
-        "source": "STAT News",
-        "link": "https://www.statnews.com/2026/11/25/medicare-physician-fee-schedule-change-worry-some-specialists/?utm_campaign=rss",
-        "pubDate": "2026-11-25",
-        "image": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_84737739-1024x576.jpeg"
+        "title": "FDA again turns back Capricor Duchenne cell therapy",
+        "summary": "The FDA rejected Capricor's deramiocel cell therapy for Duchenne muscular dystrophy for the second time, citing serious data integrity violations that compromised study findings. The rejection highlights regulatory scrutiny around data quality in cell and gene therapy development and represents a significant setback for the company's Duchenne treatment program.",
+        "source": "BioPharma Dive",
+        "link": "https://www.biopharmadive.com/news/capricor-fda-duchenne-cell-therapy-deramiocel/875384/",
+        "pubDate": "2026-11-26",
+        "image": "https://imgproxy.divecdn.com/UHOwaGASkSOZu5tkCqlZFUN1J8iwEOtrvxyd3eILYVs/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eV9kdWNoZW5uZS5qcGc=.webp"
       },
       {
         "rank": 9,
-        "title": "Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment",
-        "summary": "New enrollment data reveal a significant decline in international graduate student admissions, a critical component of the U.S. biomedical research workforce, despite court challenges to restrictive policies. The trend threatens the pipeline of scientific talent essential to American biomedical innovation.",
-        "source": "STAT News",
-        "link": "https://www.statnews.com/2026/11/25/foreign-students-us-biomedical-science-enrollment-drop-trump/?utm_campaign=rss",
-        "pubDate": "2026-11-25",
-        "image": "https://www.statnews.com/wp-content/uploads/2026/11/GettyImages-1231721993-1024x576.jpg"
+        "title": "Pharming pauses Ruconest production, warns of supply interruption",
+        "summary": "Pharming announced a production halt for its marketed hereditary angioedema drug Ruconest due to manufacturing issues at a third-party facility, with the company notifying the FDA of potential supply disruptions. The pause could impact patient access to treatment for this rare genetic disorder.",
+        "source": "Endpoints News",
+        "link": "https://endpoints.news/pharming-pauses-ruconest-production-warns-of-supply-interruption/",
+        "pubDate": "2026-11-26",
+        "image": null
       },
       {
         "rank": 10,
-        "title": "GSK's autoimmune success; AbbVie drug gets expanded label for vitiligo",
-        "summary": "GSK's autoimmune therapy Exdensur has demonstrated non-inferior disease remission rates compared to its competitor Nucala in Phase 3 testing, while AbbVie has secured an expanded label for its vitiligo treatment. The approvals add to the growing portfolio of immunology-focused therapies addressing significant unmet medical needs.",
+        "title": "Bayer goes to Hansoh for ADC deal worth $150M up front",
+        "summary": "Bayer entered a partnership with Chinese biotech firm Hansoh Pharma for antibody-drug conjugate (ADC) development, with $150 million upfront, as dealmaking with China's biotech industry continues to accelerate. The collaboration reflects major pharmaceutical companies' continued interest in accessing innovative early-stage assets from Chinese developers.",
         "source": "Endpoints News",
-        "link": "https://endpoints.news/gsks-autoimmune-success-abbvie-drug-gets-expanded-label-for-vitiligo/",
-        "pubDate": "2026-11-25",
+        "link": "https://endpoints.news/bayer-goes-to-hansoh-for-adc-deal-worth-150m-up-front/",
+        "pubDate": "2026-11-26",
         "image": null
       }
     ],
     "cybersecurity": [
       {
         "rank": 1,
-        "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
-        "summary": "Microsoft released updates addressing nearly 1,100 security vulnerabilities across Windows and supported software during this month's Patch Tuesday. The patch batch includes 63 critical flaws, notably a zero-day vulnerability in Microsoft Outlook, alongside significant security updates from Adobe, Apple, Google, and Mozilla.",
+        "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+        "summary": "A security vulnerability in Optimizely's platform allowed attackers to inject malware into at least 178 major websites including BBC, CNN, Equifax, Ledger, and Zoom over a 24-hour period. The incident exposed millions of users to data-stealing malicious software and was compounded by the lack of strict content source enforcement across popular websites.",
         "source": "Krebs on Security",
-        "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+        "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
         "pubDate": "2026-11-01",
         "image": null
       },
       {
         "rank": 2,
-        "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-        "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) disclosed a cybersecurity incident involving unauthorized access to a limited subset of its systems and took preventive measures to take systems offline. The bureau, which collects suspicious activity reports and Bank Secrecy Act filings from financial institutions, is managing the breach response.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
-        "pubDate": "2026-11-01",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJn89Gr-RFxS6UFEzrbUZ5Ys11fK1OwvmMYUPl29eJudnlmmp7Q34p8O0DqV8SvGu4whZke8tiysvZNQWeE4Tm3zRhJSpojYAagBXGUEVM5w6lAw2Z5C-lfRaC2IwOYrnwQSWxwso31woM4CSoluNEjA3N0gFe0RQpsV0r3MCobiKFArLMa1or-QTIBcQ/s1600/fincern.jpg"
-      },
-      {
-        "rank": 3,
-        "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-        "summary": "Password management software 1Password disclosed a security incident affecting its backend systems that resulted in unauthorized access to some customer information and source code. The company emphasized that customer password vaults and other secrets remained uncompromised despite the breach.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-        "pubDate": "2026-11-01",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbu9vulg5_P2PLmwCbF5nNRu8UujJDFNLLCGackgRWjz4lmkQcAom8TerCouyPh1pF8sgBAiJTwO7qAQN3kLVd-_0e7czxqhyphenhyphenUQuSG6WyCJvoNsI92X7tl1ukE6h8QDLmQBUBJaKBCyTYXjaGMUeaczy-sTIjMvDHdQjphWmWyCsUyIG4Y7WD4J2FoQfgY/s1600/1password.jpg"
-      },
-      {
-        "rank": 4,
-        "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a critical remote code execution vulnerability in Drupal core (CVE-2026-132165, CVSS 9.8) to its Known Exploited Vulnerabilities catalog with a mandatory patch deadline of November 27, 2026 for federal agencies. The vulnerability, known as Fail2Install, is currently being actively exploited in the wild.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-        "pubDate": "2026-11-01",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbChdPRqvJHt9cIG4Z1W9o12tl4thtxIDNNcntDjmIytSIC1PWvOytT0JjY0OJtnba6UVJcEmqNxgOMuWxX2pvNJzjQ70-CIeruqZEDdgaDG66Lv2T6lLMv8cEhrXRie1gcaLz6OoNw6f2822s2yz8jl958kok6WpHmZ7p_n3TRWTdEWSpr1le5T28kFQO/s1600/drupal.gif"
-      },
-      {
-        "rank": 5,
-        "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-        "summary": "An unknown threat actor has compromised 24 Check Point Security Management servers across 22 organizations worldwide using artificial intelligence-driven offensive tooling in a campaign tracked as GreyNoise Threat 13 (GT13). Targeted sectors include financial services, energy, and government entities globally.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
-        "pubDate": "2026-11-01",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzxhgIKTt8K5ep8a4qHW9dDpkSYcBC5D1CWgkvvh9Ee5DRlNRSg-2UcZZVNoXrHXVTeIcdzj47FFcSz6gAssLknSDf6f0JDyQCoH51D4GYLSju_wh4smA6-2yE3Z7I30SPeuY8LOKA__Y9xPiU66t1aPsHTzuRnX0QUq2iadcKXFfv7ZhAhcXti_BDnrmu/s1600/code.jpg"
-      },
-      {
-        "rank": 6,
-        "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
-        "summary": "Cybersecurity researchers discovered 13 malicious NuGet packages designed to target Windows .NET developers through fake take-home job assessments, with most posing as legitimate WinUI 3 and Windows Presentation Foundation button controls. The campaign represents a supply chain attack leveraging developer recruitment tactics to distribute malware.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
-        "pubDate": "2026-11-01",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt0w3YJQrn6VoUVUTTj46NLfeL_JJE-sDoxKsuBe-_OxBtQ3iX8AZTZ1CEn39-N5TGKYd-0ZKdOT43UwAWUbpIXlFdDwhyphenhyphenEKpkQVVJYJVodQRHyz0pJeKEvJIJgUpAEQqXizajmrriq9Mj1aqioeK1Zug__X26Ra4HwzFg8ImTajGc6b7Ck9LW2OCIpPoa/s1600/dotnet.jpg"
-      },
-      {
-        "rank": 7,
-        "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-        "summary": "Palo Alto Networks Unit 42 disclosed multiple waves of vishing attacks orchestrated by Com-affiliated threat actors since August 2026 that compromised cloud accounts and led to data theft and extortion attempts. The attacks targeted financial services, healthcare, legal services, and construction companies across the U.S., U.K., and Australia.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
-        "pubDate": "2026-11-01",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCQn2zL8-RpfdhDeb1Zmyn46vLk1s9lerpXtGlcMkN5IGF9nlhEejtwoOXwhznjS7JVrix_FeG_G6yJ6Jb8mI31CU4Mi2dndKvLp-4nG4wWsqMaBpI60HFIk5d8_5uIxj6XEjSt4sixJYkJN8Xeqs4OrgSzOPK48esNtXbQ_FgtVe67B_WZkfpuUSEiD7/s1600/vishing.jpg"
-      },
-      {
-        "rank": 8,
-        "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
-        "summary": "An attacker executed operating system commands on six production servers of Hex.pm, a critical package registry for Elixir and Erlang developers, exploiting a maximum-severity remote code execution vulnerability that existed in the codebase since February 2016. The maintenance team deployed patches to all affected servers within approximately 15 minutes of detecting the initial malicious request.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
-        "pubDate": "2026-11-01",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBxy4VIOekOumZfm8RElWJl6ZTKoIJ1QLc3U7ynLQ8p9PCqm_kYX1T-akwbZwbthTYcNwfVW-aWbRB4wIkvbUeM_gvQmnw8EH-hpY0542jCwFUAaI2mNEXGE3dct9K4JKFURV1smdERZlx4tV1zCy3AbS_NwF4o926_KSW-OKMPfDXT2gWbbZ4lKjFm6Y/s1600/hex-hack.jpg"
-      },
-      {
-        "rank": 9,
-        "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-        "summary": "The United Kingdom imposed economic sanctions against Cryptomus, a cryptocurrency platform serving as a major financial conduit for ransomware payments, narcotics trafficking, darknet markets, and cybercrime services. The sanctions aim to disrupt Cryptomus's role in helping Russia circumvent existing international financial restrictions.",
+        "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+        "summary": "A pair of critical vulnerabilities in PHP core software affect nearly 70 percent of websites and allow attackers to seize full control of affected servers. Working exploits for these flaws are already being actively exploited in the wild, potentially causing widespread site outages.",
         "source": "Krebs on Security",
-        "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+        "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
         "pubDate": "2026-10-01",
         "image": null
       },
       {
-        "rank": 10,
-        "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-        "summary": "Threat actors are actively exploiting two newly patched security vulnerabilities in GeoServer (CVE-2026-120705 with CVSS 8.6 and CVE-2026-129243), including an arbitrary file read flaw that allows attackers to access local files readable by the GeoServer process. Researchers warn of potential unauthenticated remote code execution attack chains.",
+        "rank": 3,
+        "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+        "summary": "Drupal has disclosed a highly critical vulnerability tracked as CVE-2026-136716 that allows site takeover and is currently being exploited in the wild. The flaw relates to improper checking for unusual or exceptional conditions and addresses remaining vulnerable installation states.",
         "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+        "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
         "pubDate": "2026-11-01",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhi8jBS9UW1bUouUo2cLun5A5rtqPOFJoVQctV4ZsoX9uuMottAxM0HLjLZrvTVGU1GtrewszjOwVMBkvHgyFIBsOndc049nwMidNiVnnoKCOePOhy-XDsjiVjxFvubbxn-Z6ca8VJAxxgLmyQ9KGYBRMWV5GP2et02dmXzcG3jKJw1p_njPdaPuJAaxAz1/s1600/geoserver.png"
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy2EcytpsKiKLhUfvQEADKBG6Ht2NprR2VIhIXPJcNQMIGqKT20l0afBPUVhehKFhRzpkHvl3Qu_qaPjFL3L4UsLYH3L4C1DM63zqskhJV1UAjaPqONaEbNkBFsxVDX2jpPZrMym52WvBx2pHktUiRfdXOcp_23xjTdUOxxjxJtI906XLMmw258Bjah1J2/s1600/drupal-rce.png"
+      },
+      {
+        "rank": 4,
+        "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+        "summary": "A North Korea-linked threat group has planted Python loaders in over 7,600 GitHub repositories as part of the PolinRider campaign, with evidence suggesting the activity began in February 2025. The malware hides within utility packages and conftest.py files, activating when Python imports the files.",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+        "pubDate": "2026-11-01",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgquhPuqGJrSE3xNpn5ZUELVAv-Y7qXqkHgpw7nbVqCay4gyraYO5NNE12rAGzuqk_zhreNwcyzjZf3vZZB5C4teohyuppUP-JlP41PQiLu-hGEFCsqMZO0T6MoaVk-uY818yaTaiJaX-d2O0h0RER22knXbUQc7qnwIcVbleLQrEspMQ8btNa4Q9mFrmue/s1600/gitcat.jpg"
+      },
+      {
+        "rank": 5,
+        "title": "Who Runs the Ransomware Group Qilin?",
+        "summary": "Cybercrime group Qilin has become the world's most active ransomware affiliate program with at least 365 victim organizations claimed in the past three months. Security researchers have attributed the group's administration to a 36-year-old man in St. Petersburg, Russia, based on operational security mistakes made over the past decade.",
+        "source": "Krebs on Security",
+        "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+        "pubDate": "2026-11-01",
+        "image": null
+      },
+      {
+        "rank": 6,
+        "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+        "summary": "Google and industry partners have successfully dismantled a botnet comprising over 1.3 million Android TV set-top boxes that were secretly harvesting internet connections and conducting advertising fraud. The takedown is expected to sever access to more than 10 million additional compromised IoT systems, including Android-based healthcare devices.",
+        "source": "Krebs on Security",
+        "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+        "pubDate": "2026-11-01",
+        "image": null
+      },
+      {
+        "rank": 7,
+        "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+        "summary": "The chief technology officer and co-founder of ransomwarehelp.com has been indicted for wire fraud after an FBI sting operation revealed the company was simply purchasing decryption keys from attackers and charging victims inflated markups for non-existent recovery services. The six-year-old Florida business falsely claimed to use advanced cryptographic tools to restore ransomware-locked data.",
+        "source": "Krebs on Security",
+        "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+        "pubDate": "2026-11-01",
+        "image": null
+      },
+      {
+        "rank": 8,
+        "title": "Attackers Target .NET Developers With Poisoned Job Assessments",
+        "summary": "Researchers discovered 13 malicious NuGet packages distributed as part of a fake recruitment campaign designed to compromise .NET developers. The poisoned packages deliver malware that grants attackers unauthorized access to developers' machines and sensitive development environments.",
+        "source": "Dark Reading",
+        "link": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+        "pubDate": "2026-11-01",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt62eb1a39d76dff3b/6b06d44d51725d29015e8423/Gorodenkoff-developer-coding-shutterstock.png?width=720&quality=80&disable=upscale"
+      },
+      {
+        "rank": 9,
+        "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+        "summary": "CISA added 10 security flaws to its Known Exploited Vulnerabilities catalog, including five critical vulnerabilities in Mitel MiCollab that are being actively exploited by threat actors. The vulnerabilities span multiple vendors and include arbitrary file upload issues with CVSS scores ranging from moderate to critical.",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+        "pubDate": "2026-11-01",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht82Zul6A6D_rTYZuOr0QQWkA4p8kQXRI-4qAYhdGBdTR0ZNzlHkHCiz3eSv5wm9Gq1rADX0CIEBUu08HBUbWd4fVKtL6f7UrWcaa_nVetYt0DyPj2-f_yM80HEIUbuy57mpftPYHHp1FKCNXvkDnFtsj-V5PWGUvWiNL38OKY3EIKUwKHuoKsIc4oSXeC/s1600/mitel.jpg"
+      },
+      {
+        "rank": 10,
+        "title": "Webworm APT Slithers Into Networks With Customized SoftEther VPN",
+        "summary": "A China-aligned espionage group has rebuilt the open-source SoftEther VPN software from source code, stripping forensic artifacts that would normally expose it to security defenders. This customization allows the Webworm APT to maintain persistent access to compromised networks while evading detection mechanisms.",
+        "source": "Dark Reading",
+        "link": "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
+        "pubDate": "2026-11-01",
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt90d6b1405473fe5b/6b05fadd5bf26ea3ca9d2638/snake_computer-the-lightwriter-GettyImages-530757188.jpg?width=720&quality=80&disable=upscale"
+      }
+    ],
+    "crypto-web3": [
+      {
+        "rank": 1,
+        "title": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
+        "summary": "Binance has announced the complete restoration of customer withdrawals following its October $6.3 billion security breach, marking a significant milestone in the exchange's recovery efforts. While a small number of networks remain paused for unrelated maintenance, the lifting of withdrawal suspensions indicates the exchange has resolved critical operational constraints stemming from the hack.",
+        "source": "CoinDesk",
+        "link": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack",
+        "pubDate": "2026-11-27",
+        "image": "https://cdn.sanity.io/images/s3y3vcno/production/6afa7aee3dd3e7c1e37e3929a4ac24b7cebaccdd-6000x4000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+      },
+      {
+        "rank": 2,
+        "title": "Spain gives anti-laundering unit power to freeze crypto accounts without a judge",
+        "summary": "Spain's anti-money laundering authority, Sepblac, has been granted expanded authority to freeze cryptocurrency accounts without judicial approval, strengthening the country's regulatory enforcement mechanisms. This regulatory shift represents a significant expansion of government powers over crypto financial activity beyond existing protocols requiring foreign financial intelligence unit requests.",
+        "source": "CoinDesk",
+        "link": "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge",
+        "pubDate": "2026-11-26",
+        "image": "https://cdn.sanity.io/images/s3y3vcno/production/323210c28533ae279cbc3e36b349743bedce4346-1920x1080.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+      },
+      {
+        "rank": 3,
+        "title": "Spot bitcoin ETFs on track for worst month on record as bear market drags on",
+        "summary": "Spot bitcoin ETFs are experiencing record monthly net outflows of $5.39 billion in November as the cryptocurrency continues its bear market downturn. With several trading days remaining in the month, the funds are positioned to record their worst performance since inception, reflecting diminished investor confidence amid broader market weakness.",
+        "source": "The Block",
+        "link": "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814",
+        "pubDate": "2026-11-26",
+        "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/bitcoin-unsplash-scaled.jpg"
+      },
+      {
+        "rank": 4,
+        "title": "Ripple's lending plan moves closer to tapping XRP Ledger's $800 million in stablecoins",
+        "summary": "Ripple's lending platform infrastructure is approaching deployment, with vaults scheduled to activate on December 9 to hold lender funds from the XRP Ledger's stablecoin supply. The underlying loan system requires approval from one additional validator before initiating its two-week operational timeline.",
+        "source": "CoinDesk",
+        "link": "https://www.coindesk.com/markets/2026/11/27/ripple-s-lending-plan-moves-closer-to-tapping-xrp-ledger-s-usd950-million-in-stablecoins",
+        "pubDate": "2026-11-27",
+        "image": "https://cdn.sanity.io/images/s3y3vcno/production/7062083f3eac875ac832f0c15d78be2612e57afe-1440x810.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+      },
+      {
+        "rank": 5,
+        "title": "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know",
+        "summary": "Ethereum developers have approved proceeding with the Glamsterdam upgrade testing despite concerns about storage charges affecting some existing smart contracts, resolving delays that had stalled the initiative for seven weeks. The upgrade is now scheduled for a December test phase with the contentious storage fee structure preserved.",
+        "source": "CoinDesk",
+        "link": "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
+        "pubDate": "2026-11-27",
+        "image": "https://cdn.sanity.io/images/s3y3vcno/production/c357579ddef2051b405b9e89f8525dd02709081d-5760x3240.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+      },
+      {
+        "rank": 6,
+        "title": "Standard Chartered's Zodia Custody suffers data breach, exposing client information",
+        "summary": "Standard Chartered's cryptocurrency custody arm, Zodia Custody, experienced a data breach that exposed client and employee contact information. The institution confirmed that no unauthorized transactions occurred as a result of the breach, limiting the immediate financial impact.",
+        "source": "CoinDesk",
+        "link": "https://www.coindesk.com/tech/2026/11/26/standard-chartered-s-zodia-custody-suffers-data-breach-exposing-client-information",
+        "pubDate": "2026-11-26",
+        "image": "https://cdn.sanity.io/images/s3y3vcno/production/126370357bab503bb185dc1c4df52756ebf449e2-1280x960.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+      },
+      {
+        "rank": 7,
+        "title": "China, Japan, South Korea and ASEAN to form working group on digital payments, crypto regulation",
+        "summary": "Regional economic powers China, Japan, South Korea, and ASEAN member nations have established a collaborative working group to coordinate on digital payments infrastructure and cryptocurrency regulation. The initiative follows preliminary discussions held in May and reflects growing recognition of cross-border digital payment cooperation as a strategic priority.",
+        "source": "The Block",
+        "link": "https://www.theblock.co/news/regulation/2026-11-26-china-japan-south-korea-asean-digital-payments-447029",
+        "pubDate": "2026-11-26",
+        "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/ASEAN-plus-three-crop-scaled.jpg"
+      },
+      {
+        "rank": 8,
+        "title": "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds",
+        "summary": "A Bitcoin Core contributor has identified a privacy vulnerability in Bitcoin wallets that allows anyone to link a wallet address to its associated computer by exploiting the wallet's payment-resend mechanism for a cost below 35 cents. The discovery highlights a previously underappreciated security weakness in wallet anonymity protections.",
+        "source": "CoinDesk",
+        "link": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds",
+        "pubDate": "2026-11-26",
+        "image": "https://cdn.sanity.io/images/s3y3vcno/production/422bf0c58d3c5d984b8ee7f8a379b85250db7bc2-6016x4016.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+      },
+      {
+        "rank": 9,
+        "title": "Switzerland approves 57 jurisdictions for crypto data exchange from 2028",
+        "summary": "Switzerland's Federal Council has authorized 57 jurisdictions as approved partners for cryptoasset tax-information exchanges beginning in 2028, expanding the country's regulatory transparency framework. The approval signals Switzerland's commitment to international tax compliance standards within the cryptocurrency sector.",
+        "source": "The Block",
+        "link": "https://www.theblock.co/news/regulation/2026-11-26-switzerland-approves-57-jurisdictions-for-crypto-data-exchange-from-2028-446821",
+        "pubDate": "2026-11-26",
+        "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/image-8.png"
+      },
+      {
+        "rank": 10,
+        "title": "Bitcoin's dormant supply rises, a behavior seen during previous bear-market bottoming phases",
+        "summary": "Bitcoin holdings sitting dormant onchain have increased as the cryptocurrency maintains price levels around $60,000, representing a 50% decline from previous peaks. This accumulation pattern historically correlates with bear-market bottoming phases, potentially signaling a shift in market sentiment among longer-term holders.",
+        "source": "CoinDesk",
+        "link": "https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases",
+        "pubDate": "2026-11-26",
+        "image": "https://cdn.sanity.io/images/s3y3vcno/production/a06055bd9377c15d8939aba2ce6d312e788a923c-3200x1800.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
       }
     ],
     "startups-vc": [
       {
         "rank": 1,
-        "title": "Jay Chaudhry Put $50M of His Own Money Into Zscaler and Took No VC for Five Years. CrowdStrike Just Paid $43.9B.",
-        "summary": "CrowdStrike announced the acquisition of Zscaler for $43.9 billion in enterprise value, marking the largest cybersecurity deal on record. Founder Jay Chaudhry, who bootstrapped the company with $50 million of personal capital and eschewed venture funding for five years, will retain between one-third and 40% ownership through the transaction and continue leading Zscaler post-acquisition.",
-        "source": "SaaStr",
-        "link": "https://www.saastr.com/jay-chaudhry-put-50m-of-his-own-money-into-zscaler-and-took-no-vc-for-five-years-crowdstrike-just-paid-43-9b/",
-        "pubDate": "2026-11-25",
+        "title": "Bending Spoons buys Mailchimp for $3.68B",
+        "summary": "Italian software company Bending Spoons has acquired Mailchimp for $3.68 billion, representing a significant markdown from Intuit's $12 billion acquisition price in 2021. The deal signals potential consolidation in the marketing automation space and reflects current market valuations for established SaaS platforms.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
+        "pubDate": "2026-11-20",
         "image": null
       },
       {
         "rank": 2,
-        "title": "Character.AI's plan to auction off users' private chats challenged by state AGs",
-        "summary": "State attorneys general are challenging Character.AI's bankruptcy sale plan that would transfer sensitive personal data from over 21 million U.S. user accounts, including 2.1 million accounts belonging to minors. The legal challenge raises significant privacy and regulatory concerns about the disposition of minors' data in the auction process.",
-        "source": "TechCrunch Startups",
-        "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-        "pubDate": "2026-11-25",
-        "image": null
+        "title": "The Week's 10 Biggest Funding Rounds: $400M For Neurotech Leads, Followed By Big Deals For AI, Fintech, Biotech And More",
+        "summary": "Brain-computer interface company Science led the week's funding activity with a $400 million raise, reflecting strong investor appetite for neurotech alongside significant capital deployment across AI, fintech, and biotech sectors. The funding round demonstrates continued momentum in deep-tech and transformative technology categories.",
+        "source": "Crunchbase News",
+        "link": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics/",
+        "pubDate": "2026-11-23",
+        "image": "https://news.crunchbase.com/wp-content/uploads/Top_10_.jpeg"
       },
       {
         "rank": 3,
-        "title": "Your AI Startup's Exit Is Being Shaped By The Deals You Sign Today",
-        "summary": "Early-stage financing and commercial contracts for compute, data, and distribution signed hastily during rapid AI market growth are creating long-term constraints that may impede successful exits and erode company valuations. Founders should carefully evaluate contractual terms today, as these agreements will significantly influence acquisition prospects and transaction costs.",
-        "source": "Crunchbase News",
-        "link": "https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today/",
-        "pubDate": "2026-11-25",
-        "image": "https://news.crunchbase.com/wp-content/uploads/Exits_2023.jpg"
+        "title": "20VC x SaaStr: Anthropic's $1.5 Trillion IPO, Jensen Huang's Return, and Mailchimp Sells for Under a Third of What Intuit Paid",
+        "summary": "A venture capital roundtable discusses major recent developments including Anthropic's anticipated $1.5 trillion IPO valuation, Jensen Huang's return at Nvidia, Mailchimp's discounted sale, and Cognition's $75 billion valuation. The episode covers critical M&A and capital market dynamics shaping the AI and SaaS landscape.",
+        "source": "SaaStr",
+        "link": "https://www.saastr.com/20vc-x-saastr-anthropics-1-5-trillion-ipo-jensen-huangs-return-and-mailchimp-sells-for-under-a-third-of-what-intuit-paid/",
+        "pubDate": "2026-11-23",
+        "image": null
       },
       {
         "rank": 4,
-        "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
-        "summary": "Nvidia has tightened its infrastructure backstopping requirements, now insisting that AI data centers be nearly operational before receiving support, coinciding with reports of construction delays and rising debt costs among neocloud providers. The shift signals that physical infrastructure readiness—land, power, and completed facilities—now matters more than technology pitches in securing vendor partnerships.",
-        "source": "TechCrunch Startups",
-        "link": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
-        "pubDate": "2026-11-25",
+        "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+        "summary": "Supertake has secured $20 million in funding to develop AI agents that automate portfolio construction based on user market predictions. The startup addresses the gap between investment conviction and execution, enabling users to implement their market views without requiring individual stock selection expertise.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+        "pubDate": "2026-11-23",
         "image": null
       },
       {
         "rank": 5,
-        "title": "The Blue Economy: The World's Quietest Economic Engine And Its Smartest Cities",
-        "summary": "The $2.6 trillion blue economy is generating substantial startup opportunities in maritime automation, clean energy, and logistics, with blue tech funding reaching nearly $10 billion through Q3 2026, bolstered by major defense contracts. Ports are emerging as innovation hubs for testing and scaling these technologies, though realizing full potential requires coordinated effort among port authorities, startups, investors, and policymakers.",
-        "source": "Crunchbase News",
-        "link": "https://news.crunchbase.com/startups/blue-economy-technology-defense-energy-onetti-mind-the-bridge/",
-        "pubDate": "2026-11-25",
-        "image": "https://news.crunchbase.com/wp-content/uploads/Quarterly-Blank.jpg"
-      },
-      {
-        "rank": 6,
-        "title": "What's Next For Recruiting, Job Hunting And HR? More AI, Of Course",
-        "summary": "Venture capital has deployed approximately $4 billion globally this year into recruiting, job search, and HR/payroll management platforms, with the vast majority incorporating significant AI functionality. The funding surge reflects investor confidence in AI-driven solutions to transform traditional human resources processes.",
-        "source": "Crunchbase News",
-        "link": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor/",
-        "pubDate": "2026-11-25",
-        "image": "https://news.crunchbase.com/wp-content/uploads/AI-cowork-1024x576.jpg"
-      },
-      {
-        "rank": 7,
-        "title": "Sam Blond Met 200+ AI Sales Startups at Founders Fund, Then Built Monaco: Why Most Get It Wrong, Where AI Beats Your Reps, and the $15,000 Plane",
-        "summary": "Sam Blond, a former Brex sales executive turned Founders Fund partner, evaluated hundreds of AI sales startups before co-founding Monaco, an AI-native revenue platform for startups, and securing Series A funding. His deep exposure to the AI GTM startup ecosystem positioned him to identify where most solutions fall short and where AI can genuinely outperform human sales representatives.",
-        "source": "SaaStr",
-        "link": "https://www.saastr.com/sam-blond-met-200-ai-sales-startups-at-founders-fund-then-built-monaco-why-most-get-it-wrong-where-ai-beats-your-reps-and-the-15000-plane/",
-        "pubDate": "2026-11-25",
+        "title": "Daniel Ek backs AI researcher's fusion power startup. Here's what they're building.",
+        "summary": "Spotify founder Daniel Ek has invested in Europa Fusion, a fusion power startup founded by an AI researcher focused on advancing clean energy technology. The funding reflects prominent entrepreneur interest in deep-tech solutions addressing critical infrastructure needs.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+        "pubDate": "2026-11-20",
         "image": null
       },
       {
+        "rank": 6,
+        "title": "Most Unicorns Are Worth More Than Their Last Funding-Round Valuations, Crunchbase Estimates",
+        "summary": "Crunchbase's new Current Valuation Model estimates the combined value of over 1,900 unicorns at approximately $11 trillion, up significantly from their last reported valuations of $9 trillion. The analysis suggests substantial private company value creation since most recent funding rounds in a strong market environment.",
+        "source": "Crunchbase News",
+        "link": "https://news.crunchbase.com/venture/unicorn-startup-current-valuations-thinking-machines-sierra-crunchbase/",
+        "pubDate": "2026-11-23",
+        "image": "https://news.crunchbase.com/wp-content/uploads/valuation-measurement-1024x576.jpg"
+      },
+      {
+        "rank": 7,
+        "title": "What The Telecom Bust Taught Me About AI's Debt Boom",
+        "summary": "A venture capital analyst draws parallels between the telecom industry's debt-fueled bubble and current AI infrastructure spending, warning that aggressive capital deployment could outpace revenue growth and create bankruptcy risks. The piece emphasizes the importance of realistic demand forecasts and sustainable cash flow models for AI-focused borrowers.",
+        "source": "Crunchbase News",
+        "link": "https://news.crunchbase.com/venture/telecom-bust-ai-startup-debt-boom-spreng-runway-growth/",
+        "pubDate": "2026-11-23",
+        "image": "https://news.crunchbase.com/wp-content/uploads/Bubble_Investment.jpg"
+      },
+      {
         "rank": 8,
-        "title": "Jason's Takes on This Week's 20VC: Anthropic's 6,000 Employees, a 2027 Without Nvidia as a Buyer, and Why Muse Is Replacing Marketing Automation",
-        "summary": "SaaStr editor Jason Lemkin offers extended commentary on significant industry developments including Anthropic's large headcount, potential shifts in Nvidia's strategic role, and the emergence of AI agents replacing traditional marketing automation tools. The piece synthesizes multiple emerging trends shaping the startup and venture ecosystem.",
+        "title": "5 Interesting Learnings from HubSpot as Brian Halligan Returns as CEO: A Refounding to Reaccelerate Growth",
+        "summary": "HubSpot's co-founder Brian Halligan has resumed the CEO role at the $3.7 billion revenue company as of November 12, replacing Yamini Rangan in a strategic leadership transition. The move reflects efforts to reinvigorate growth at the established SaaS platform through founder-led direction.",
         "source": "SaaStr",
-        "link": "https://www.saastr.com/jasons-takes-on-this-weeks-20vc-anthropics-6000-employees-a-2027-without-nvidia-as-a-buyer-and-why-muse-is-replacing-marketing-automation/",
-        "pubDate": "2026-11-25",
+        "link": "https://www.saastr.com/5-interesting-learnings-from-hubspot-as-brian-halligan-returns-as-ceo-net-new-customers-cut-in-half-nrr-down-to-101-and-a-guide-to-12-growth/",
+        "pubDate": "2026-11-23",
         "image": null
       },
       {
         "rank": 9,
-        "title": "How Steven Basart forced his way into Beacon Health and became its first engineer",
-        "summary": "Steven Basart transitioned from a Y Combinator batch to become the founding engineer at Beacon Health, where he built internal programming infrastructure supporting the healthcare startup's operations. His journey illustrates the founding engineer's critical role in building AI-driven healthcare solutions.",
-        "source": "Y Combinator Blog",
-        "link": "https://www.ycombinator.com/blog/how-steven-basart-forced-his-way-into-beacon-health-and-became-its-first-engineer/",
-        "pubDate": "2026-11-25",
-        "image": "https://www.ycombinator.com/blog/content/images/2026/11/c1.jpg"
+        "title": "5 Interesting Startup Deals You May Have Missed: Reflecting Sunlight From Space, Better Breathing And Smarter Garbage Trucks",
+        "summary": "A curated selection of emerging startup deals includes orbital mirror technology for solar farms, space-based research platforms, AI-powered waste management systems, factory automation software, and consumer health innovations. The roundup highlights diverse investment opportunities across climate tech, space tech, and industrial AI sectors.",
+        "source": "Crunchbase News",
+        "link": "https://news.crunchbase.com/venture/interesting-startup-deals-ai-solar-healthcare-space-tech/",
+        "pubDate": "2026-11-23",
+        "image": "https://news.crunchbase.com/wp-content/uploads/5_Most_Interesting.jpeg"
       },
       {
         "rank": 10,
-        "title": "How Daniel Zeltser cold-emailed his way to employee #2 at Beacon Health",
-        "summary": "Daniel Zeltser left Duke University to join Beacon Health as an early engineer hire, building AI agents designed to prevent patient care coordination gaps in healthcare settings. His story demonstrates the appeal of AI-native healthcare startups in recruiting early technical talent.",
-        "source": "Y Combinator Blog",
-        "link": "https://www.ycombinator.com/blog/how-daniel-zeltser-cold-emailed-his-way-to-employee-2-at-beacon-health/",
-        "pubDate": "2026-11-25",
-        "image": "https://www.ycombinator.com/blog/content/images/2026/11/d1.jpg"
+        "title": "The fallout from Nvidia's Jensen Huang scandal continues",
+        "summary": "Nvidia has navigated the fallout from CEO Jensen Huang's ouster while delivering healthy earnings growth and announcing plans to discontinue H200 chip sales to China. The company's earnings report and strategic adjustments underscore ongoing governance challenges alongside operational resilience.",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+        "pubDate": "2026-11-23",
+        "image": null
       }
     ],
     "energy-climate": [
       {
         "rank": 1,
-        "title": "Revealed: Russia, Saudi Arabia and Australia are largest CO2 exporters of all time",
-        "summary": "Carbon Brief analysis reveals that Russia, Saudi Arabia, and Australia are the world's largest historical exporters of carbon dioxide emissions, highlighting the responsibility of major fossil fuel producers in global climate change. The finding is particularly significant given Australia's role as COP31 co-president, underscoring tensions between climate commitments and fossil fuel production.",
+        "title": "Analysis: Climate-finance pledges fall 70% as countries meet at COP31",
+        "summary": "Public climate finance commitments to developing nations have declined by over 70 percent during COP31 negotiations in Antalya, Turkey, significantly undercutting global efforts to support climate action in vulnerable countries. The sharp reduction raises concerns about the adequacy of international support mechanisms for climate mitigation and adaptation initiatives.",
         "source": "Carbon Brief",
-        "link": "https://www.carbonbrief.org/revealed-russia-saudi-arabia-and-australia-are-largest-co2-exporters-of-all-time",
-        "pubDate": "2026-11-25",
+        "link": "https://www.carbonbrief.org/analysis-climate-finance-pledges-fall-70-as-countries-meet-at-cop31",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 2,
-        "title": "Media reaction: Who is to blame for COP31 'failure'?",
-        "summary": "COP31 in Antalya, Turkey concluded in controversy when a coalition of nations rejected the proposed 'Antalya pact,' prompting widespread media scrutiny over which parties bear responsibility for the conference's failure. The collapse represents a significant setback in international climate negotiations and raises questions about the feasibility of achieving consensus on major climate agreements.",
+        "title": "COP31: Key outcomes agreed at the UN climate talks in Antalya",
+        "summary": "COP31 climate negotiations in Antalya, Turkey have concluded without reaching agreement on a comprehensive climate pact, with significant gaps remaining in key policy commitments. The failed consensus on binding climate measures represents a setback for international climate governance.",
         "source": "Carbon Brief",
-        "link": "https://www.carbonbrief.org/media-reaction-who-is-to-blame-for-cop31-failure",
-        "pubDate": "2026-11-25",
+        "link": "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 3,
-        "title": "CB Live: Carbon Brief journalists discuss key COP31 outcomes",
-        "summary": "Carbon Brief's journalists convened to analyze and discuss the key outcomes and implications of COP31 following its conclusion in Antalya, Turkey. The discussion provides expert analysis on climate policy developments and their significance for the renewable energy and climate action sectors.",
-        "source": "Carbon Brief",
-        "link": "https://www.carbonbrief.org/cb-live-carbon-brief-journalists-discuss-key-cop31-outcomes",
-        "pubDate": "2026-11-25",
+        "title": "India adds 11.2 GW of rooftop PV capacity in first nine months of 2026",
+        "summary": "India's rooftop solar capacity surged by 11.2 gigawatts in the first three quarters of 2026, with residential installations accounting for over 95 percent of additions, bringing cumulative installed rooftop capacity to 32 GW. The expansion has been driven primarily by the government's PM Surya Ghar residential solar subsidy program.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/26/india-adds-11-2-gw-of-rooftop-pv-capacity-in-first-nine-months-of-2026/",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 4,
-        "title": "Greenvolt Power breaks ground at its biggest US solar and battery storage project to date",
-        "summary": "Greenvolt Power has commenced construction on a major 100 MWac solar facility paired with a 50 MW/200 MWh battery energy storage system in New Mexico, with commissioning expected in summer 2028. This project represents significant progress in integrated solar-storage deployment, addressing both renewable generation and grid stability challenges in the United States.",
+        "title": "France triples planned renewable energy auction volume to 1.5 GW",
+        "summary": "France has expanded its upcoming technology-neutral renewable energy auction from 500 megawatts to 1.5 gigawatts, opening procurement to all renewable power technologies with a unified baseload reference price mechanism. The tripled capacity represents a significant acceleration of France's renewable energy deployment strategy.",
         "source": "PV Magazine",
-        "link": "https://www.pv-magazine.com/2026/11/25/greenvolt-power-breaks-ground-at-its-biggest-us-solar-and-battery-storage-project-to-date",
-        "pubDate": "2026-11-25",
+        "link": "https://www.pv-magazine.com/2026/11/26/france-triples-planned-renewable-energy-auction-volume-to-1-5-gw/",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 5,
-        "title": "Grenergy signs 900GWh per year renewable PPA in Peru",
-        "summary": "Grenergy has secured a 15-year power purchase agreement with an investment-grade utility in Peru to deliver approximately 900 GWh of renewable energy annually. This substantial long-term renewable procurement commitment represents significant progress in Latin American clean energy development and corporate renewable energy adoption.",
+        "title": "Google signs PPA to buy 50MW geothermal power from Quaise Energy",
+        "summary": "Google has executed a power purchase agreement to acquire 50 megawatts of geothermal energy from Quaise Energy's Project Obsidian development in Central Oregon, expanding the technology giant's renewable energy portfolio. The agreement demonstrates growing corporate interest in geothermal as a reliable, dispatchable clean energy source.",
         "source": "Energy Monitor",
-        "link": "https://www.energymonitor.ai/news/grenergy-signs-900gwh-ppa/",
-        "pubDate": "2026-11-25",
+        "link": "https://www.energymonitor.ai/news/google-signs-ppa-50mw-quaise-energy/",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 6,
-        "title": "Belgium forecast to reach 28.6 GW of solar by 2035",
-        "summary": "GlobalData projects Belgium's solar capacity will more than double from 2025 levels to 28.6 GW by 2035, with distributed installations driving growth as electricity demand rises and nuclear capacity declines. This forecast reflects Europe's accelerating transition toward renewable energy sources and the critical role of solar deployment in meeting clean energy targets.",
+        "title": "Spain could reach 10 GW of batteries by 2030, but bankability remains the major challenge",
+        "summary": "Spain's energy storage sector is projected to reach 10 gigawatts of installed battery capacity by 2030, though experts warn that financing challenges, lack of proven revenue models, and administrative complexities could impede growth. The assessment highlights the critical role of battery storage in enabling higher renewable energy penetration in the Spanish grid.",
         "source": "PV Magazine",
-        "link": "https://www.pv-magazine.com/2026/11/25/belgium-forecast-to-reach-28-6-gw-of-solar-by-2035",
-        "pubDate": "2026-11-25",
+        "link": "https://www.pv-magazine.com/2026/11/26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 7,
-        "title": "Italy awards 16 GWh of battery storage in second auction",
-        "summary": "Italy's second electricity storage capacity auction successfully allocated all 16 GWh of battery storage capacity offered for delivery in 2029, with winning bids 12 percent below the previous auction's weighted average price. The successful auction demonstrates growing investor confidence in grid-scale energy storage and declining storage system costs across Europe.",
+        "title": "Gambia signs four solar PPAs totalling 232 MW",
+        "summary": "Gambia's state-owned utility has signed four large-scale solar power purchase agreements totaling 232 megawatts since late October, with battery storage integrated into each project. The agreements represent significant progress in West African renewable energy development and energy security.",
         "source": "PV Magazine",
-        "link": "https://www.pv-magazine.com/2026/11/25/italy-awards-16-gwh-of-battery-storage-in-second-auction/",
-        "pubDate": "2026-11-25",
+        "link": "https://www.pv-magazine.com/2026/11/26/gambia-signs-four-solar-ppas-totalling-232-mw/",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 8,
-        "title": "Ireland approves 1,367 MW of solar in sixth renewables auction",
-        "summary": "Ireland's sixth onshore renewables auction provisionally approved 1,367 MW of solar power across 22 projects, with weighted average pricing of €0.10242 per kilowatt-hour. The substantial auction results demonstrate Ireland's continued commitment to renewable energy deployment and competitive cost reductions in solar photovoltaic technology.",
-        "source": "PV Magazine",
-        "link": "https://www.pv-magazine.com/2026/11/25/ress-6-provisional-results-solar-pv-ireland/",
-        "pubDate": "2026-11-25",
+        "title": "Peñoles and Atlas sign 20-year solar and storage deal in Mexico",
+        "summary": "Mexican mining company Peñoles has signed a 20-year renewable energy agreement with Atlas Renewable Energy to develop a solar and battery storage project in Coahuila. The long-term procurement contract reflects growing corporate demand for renewable energy in Mexico's industrial sector.",
+        "source": "Energy Monitor",
+        "link": "https://www.energymonitor.ai/news/penoles-atlas-sign-20-year-deal/",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 9,
-        "title": "Peak Energy expands Series B to $157m for sodium-ion scale-up",
-        "summary": "Peak Energy has expanded its Series B funding round to $157 million to accelerate manufacturing of sodium-ion battery technology amid rising customer demand. The investment signals growing commercial interest in sodium-ion storage as an alternative battery chemistry for large-scale energy storage applications.",
-        "source": "Energy Monitor",
-        "link": "https://www.energymonitor.ai/news/peak-energy-expands-series-b/",
-        "pubDate": "2026-11-25",
+        "title": "Rare periods of low PV generation can be managed with storage",
+        "summary": "Research from Germany's DIW Berlin indicates that battery energy storage systems combined with underground green hydrogen storage can effectively manage shortfalls in solar and wind generation during prolonged low renewable output periods. The analysis supports the viability of hybrid storage solutions in high-renewable grids.",
+        "source": "PV Magazine",
+        "link": "https://www.pv-magazine.com/2026/11/26/rare-periods-of-low-pv-generation-can-be-managed-with-storage/",
+        "pubDate": "2026-11-26",
         "image": null
       },
       {
         "rank": 10,
-        "title": "UK small-scale battery deployment set to double annual record in 2026",
-        "summary": "Certification body MCS data indicates UK small-scale battery storage installations in 2026 are projected to nearly double the previous annual record, with policy support expected to drive additional growth in 2027. The trend reflects increasing consumer adoption of residential battery storage systems to maximize solar self-consumption and reduce energy costs.",
+        "title": "Estonian solar park energized with 55 MW/250 MWh battery",
+        "summary": "An Estonian hybrid solar facility has been equipped with a 55-megawatt/250-megawatt-hour battery energy storage system, the largest by capacity in the Baltic region to date, paired with an operational 77.5-megawatt solar farm. The installation demonstrates the feasibility of large-scale storage deployment in northern European renewable energy projects.",
         "source": "PV Magazine",
-        "link": "https://www.pv-magazine.com/2026/11/25/uk-small-scale-battery-deployment-set-to-double-annual-record-in-2026/",
-        "pubDate": "2026-11-25",
+        "link": "https://www.pv-magazine.com/2026/11/26/estonian-hybrid-park-energized-with-55-mw-250-mwh-battery/",
+        "pubDate": "2026-11-26",
         "image": null
       }
     ],
     "asia-pacific": [
       {
         "rank": 1,
-        "title": "Chinese AI chips to capture 88% of home market by 2028, UBS says, as Nvidia woes mount",
-        "summary": "China's domestic AI accelerator shipments are projected to increase nearly sixfold between 2025 and 2030 to over 10 million units, with Chinese firms Cambricon Technologies and Biren Technology leading the charge. This expansion reflects Beijing's intensified push for technological self-reliance amid escalating US export restrictions on semiconductor technology.",
+        "title": "Singapore reaches out to local firms amid reports of Nvidia chip shipment halt",
+        "summary": "Singapore's government is engaging with local businesses following reports that the United States has halted Nvidia server shipments to four Southeast Asian countries due to tightened export controls on advanced AI chips. Deputy Prime Minister Gan Kim Yong acknowledged the engagement but could not confirm the halt, citing ongoing US restrictions on advanced semiconductor exports based on national security concerns.",
         "source": "South China Morning Post",
-        "link": "https://www.scmp.com/tech/tech-war/article/3375758/chinese-ai-chips-capture-88-home-market-2028-ubs-says-nvidia-woes-mount",
+        "link": "https://www.scmp.com/news/asia/southeast-asia/article/3375994/singapore-reaches-out-local-firms-amid-reports-nvidia-chip-shipment-halt",
         "pubDate": "2026-11-01",
-        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/25/d81b9e33-a5f9-4bb8-8491-c90e53348b10_bf2ddfdd.jpg?itok=4okIZR-7&v=1795599700"
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/27/b63f21e2-8ce8-4279-8335-988267de3c38_72d2b751.jpg?itok=MYqp1b-H&v=1795756380"
       },
       {
         "rank": 2,
-        "title": "China's anti-corruption campaign tracker",
-        "summary": "China's anti-corruption campaign has ensnared 61 senior civilian officials in 2026, including three sitting Politburo members, with Shanghai Party Secretary Chen Jining being the latest prominent casualty. The escalation signals intensified political consolidation under Xi Jinping's leadership, with high-ranking officials from both civilian and military sectors targeted.",
+        "title": "What will Taiwan local elections reveal about 2028 race and cross-strait shifts?",
+        "summary": "Taiwan's local elections on Saturday will serve as a midterm test for President William Lai Ching-te and provide Beijing insight into shifting public sentiment and Taiwan's political trajectory ahead of the 2028 presidential race. Analysts suggest the results may influence city-level cross-strait exchanges and reflect voter sentiment on key governance issues.",
         "source": "South China Morning Post",
-        "link": "https://www.scmp.com/plus/news/china/politics/article/3375860/chinas-anti-corruption-campaign-tracker",
+        "link": "https://www.scmp.com/news/china/politics/article/3375904/what-will-taiwan-local-elections-reveal-about-2028-race-and-cross-strait-shifts",
         "pubDate": "2026-11-01",
-        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/3b48c7e5-2ab9-4856-a96c-a073686f9ac0_ed9e41d4.jpg?itok=h4Ch_Pn9&v=1795667783"
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/92954727-cf8f-4743-9d6e-c4d45d5a2d15_09f9f8c9.jpg?itok=d4Yg7RI4&v=1795682603"
       },
       {
         "rank": 3,
-        "title": "Can Australia's Pacific diplomacy with Solomon deal match China's enduring influence?",
-        "summary": "Australia has secured a significant bilateral treaty with the Solomon Islands as part of its strategic competition with China for influence in the Pacific region. Analysts caution that Australia's success will depend on its ability to deliver on development commitments and compete with China's established economic leverage in the region.",
+        "title": "Will Taiwan's referendum bring back nuclear power as chips and AI strain the grid?",
+        "summary": "Taiwan's growing electricity demand from its semiconductor and artificial intelligence industries has elevated a nuclear power referendum into prominence during Saturday's local elections. The vote offers President William Lai Ching-te a potential political solution to the administration's exploration of nuclear revival, despite decades of opposition from his ruling Democratic Progressive Party.",
         "source": "South China Morning Post",
-        "link": "https://www.scmp.com/week-asia/politics/article/3375849/can-australias-pacific-diplomacy-solomon-deal-match-chinas-enduring-influence",
+        "link": "https://www.scmp.com/news/china/politics/article/3375975/will-taiwans-referendum-bring-back-nuclear-power-chips-and-ai-strain-grid",
         "pubDate": "2026-11-01",
-        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/885eb5b0-5075-4733-81f1-d5a57880e87e_65b6dcf8.jpg?itok=QW3Qbrsr&v=1795664376"
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/27/75197653-b6d9-4214-8fe6-54189092a771_1750db51.jpg?itok=dKwxFoAM&v=1795748237"
       },
       {
         "rank": 4,
-        "title": "Southeast Asia's rice farmers are being squeezed. Your wallet could be next",
-        "summary": "Malaysian rice farmers face declining yields and crop security due to increasingly unpredictable rainfall and extreme heat, with harvests falling from 10 tonnes to 4-5 tonnes seasonally. The crisis threatens regional food security and could drive up rice prices across Southeast Asia, with significant implications for consumer costs across the region.",
-        "source": "South China Morning Post",
-        "link": "https://www.scmp.com/week-asia/economics/article/3375805/southeast-asias-rice-farmers-are-being-squeezed-your-wallet-could-be-next",
+        "title": "Is the Philippines Isolated Within ASEAN?",
+        "summary": "The article examines the Philippines' distinct diplomatic positioning within ASEAN, particularly regarding its approach to managing relations with China and Japan. The analysis suggests subtle differences in the Philippines' stance compared to other regional members on key strategic and security issues.",
+        "source": "The Diplomat",
+        "link": "https://thediplomat.com/2026/11/is-the-philippines-isolated-within-asean/",
         "pubDate": "2026-11-01",
-        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/25/5d0602bd-f986-44be-b640-489b7a948133_9e922527.jpg?itok=woVoxGHh&v=1795619943"
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/07/thediplomat_2026-07-23-095415.jpg"
       },
       {
         "rank": 5,
-        "title": "From AI models to football: how China plans to expand defence education by 2030",
-        "summary": "China has released a new five-year national defence education blueprint targeting gig economy workers, sports participants, and students across the country through 2030. The initiative, coordinated by the Communist Party and Central Military Commission, reflects Beijing's strategy to deepen civil-military integration and enhance societal mobilization capabilities.",
+        "title": "Relief for Japan's Takaichi as scandal-hit education chief survives censure motion",
+        "summary": "Japan's upper house narrowly rejected a censure motion against Education Minister Yoshihiro Seki over controversial fundraising events attended by bureaucrats, providing temporary relief for Prime Minister Sanae Takaichi's government. The nonbinding motion was defeated 124-120, easing immediate pressure for Seki's resignation and offering political breathing room for the administration.",
         "source": "South China Morning Post",
-        "link": "https://www.scmp.com/news/china/politics/article/3375850/ai-models-football-how-china-plans-expand-defence-education-2030",
+        "link": "https://www.scmp.com/news/asia/east-asia/article/3375984/relief-japans-takaichi-scandal-hit-education-chief-survives-censure-motion",
         "pubDate": "2026-11-01",
-        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/26/9eec367a-ab8a-4c92-9086-ecd0fa36989f_9d02f884.jpg?itok=a2BlZ7l7&v=1795664418"
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/27/9a099138-ca3c-49ef-a15a-8627a54008a9_5789d335.jpg?itok=vQ9z_Eh6&v=1795753005"
       },
       {
         "rank": 6,
-        "title": "Why Singapore's Tuas mega port could be good news for Malaysia",
-        "summary": "Singapore's expansion of Tuas Port with a next-generation automated deepwater terminal is spurring Malaysian ports to enhance competitiveness in the region's container shipping sector. Analysts suggest the development could benefit both economies as growing middle-class consumer demand in the Asia-Pacific region drives increased container traffic for both nations.",
-        "source": "South China Morning Post",
-        "link": "https://www.scmp.com/week-asia/economics/article/3375789/why-singapores-tuas-mega-port-could-be-good-news-malaysia",
+        "title": "South Korean Chief Justice's Impending Impeachment",
+        "summary": "South Korea faces significant political and constitutional questions as impeachment proceedings loom against the Chief Justice, drawing public discourse on the separation of powers. The case reflects broader institutional tensions within South Korea's governance structure.",
+        "source": "The Diplomat",
+        "link": "https://thediplomat.com/2026/11/south-korean-chief-justices-impending-impeachment/",
         "pubDate": "2026-11-01",
-        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/25/63c09345-a891-4189-a2a5-7b57ed32b525_aec94388.jpg?itok=v9_aPcqo&v=1795609531"
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-26-070128.png"
       },
       {
         "rank": 7,
-        "title": "S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch",
-        "summary": "Standard & Poor's has placed Nvidia on downgrade watch, warning that the chipmaker's board governance may be compromised, with potential downgrade within 90 days unless investigations and disclosures restore confidence. The rating action reflects concerns over the company's response to recent regulatory and national security scrutiny affecting its Asia-Pacific operations.",
-        "source": "Channel News Asia",
-        "link": "https://www.channelnewsasia.com/business/s-and-p-nvidia-board-compromised-rating-downgrade-watch-6582441",
+        "title": "Is the North Korean Economy Really 'Booming'?",
+        "summary": "Analysis of North Korea's economic narrative reveals a complex picture beyond claims of robust growth, examining the actual state of the country's economic development and sustainability. The assessment provides nuanced context for understanding North Korea's economic trajectory and international economic positioning.",
+        "source": "The Diplomat",
+        "link": "https://thediplomat.com/2026/11/is-the-north-korean-economy-really-booming/",
         "pubDate": "2026-11-01",
-        "image": "https://dam.mediacorp.sg/image/upload/s--jXSeqaEJ--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-11-26T033733Z_1_LYNXNPEMAP07Z_RTROPTP_3_NVIDIA-CEO-ALICE-CHIPS.JPG?itok=jCSs_I6S"
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/03/thediplomat_2026-03-10-050320.jpg"
       },
       {
         "rank": 8,
-        "title": "18 Years After 26/11, Is India Finally Winning the War Against Terror?",
-        "summary": "India's counterterrorism strategy has achieved notable successes in recent years, though security analysts caution against premature declarations of victory. The assessment reflects ongoing challenges in India's efforts to combat terrorism across the region.",
+        "title": "Nepal's Prime Minister Is Back From India. Now Comes the Hard Part.",
+        "summary": "Nepal's Prime Minister Balendra Shah has returned from India with numerous commitments from New Delhi, though questions remain regarding actual implementation of these agreements. The analysis examines the gap between diplomatic pledges and concrete policy outcomes in India-Nepal relations.",
         "source": "The Diplomat",
-        "link": "https://thediplomat.com/2026/11/18-years-after-26-11-is-india-finally-winning-the-war-against-terror/",
+        "link": "https://thediplomat.com/2026/11/nepals-prime-minister-is-back-from-india-now-comes-the-hard-part/",
         "pubDate": "2026-11-01",
-        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-26-021256.jpg"
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-25-235607.jpg"
       },
       {
         "rank": 9,
-        "title": "Why Nepali Prime Minister Balendra Shah's India Visit Was a Success",
-        "summary": "Nepal's Prime Minister Balendra Shah secured India's commitment to support post-disaster rebuilding efforts and secured air-entry access via Bhairahawa in Western Nepal. The bilateral engagement strengthens Nepal-India cooperation on development and regional connectivity issues.",
+        "title": "How Can Australia Secure Its Future?",
+        "summary": "Australia's Foreign Minister has articulated a strategic vision for navigating rapid geopolitical and economic changes, rejecting both fatalism and nostalgia in favor of pragmatic policy approaches. The framework addresses Australia's positioning within the evolving Asia-Pacific security and economic environment.",
         "source": "The Diplomat",
-        "link": "https://thediplomat.com/2026/11/why-nepali-prime-minister-balendra-shahs-india-visit-was-a-success/",
+        "link": "https://thediplomat.com/2026/11/how-can-australia-secure-its-future/",
         "pubDate": "2026-11-01",
-        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-25-224523.jpeg"
+        "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-25-230237.jpg"
       },
       {
         "rank": 10,
-        "title": "China's Soft Espionage: The Technology Transfers That Don't Make Headlines",
-        "summary": "Beyond high-profile cases like the Nvidia scandal, China conducts numerous technology acquisitions through legal and routine channels that escape public scrutiny. These mundane transactions represent a significant component of Beijing's broader strategy to acquire foreign technological capabilities.",
-        "source": "The Diplomat",
-        "link": "https://thediplomat.com/2026/11/chinas-soft-espionage-the-technology-transfers-that-dont-make-headlines/",
+        "title": "Huawei guilty on 10 counts in US trial; Nvidia's Jensen Huang returns: SCMP's 7 highlights",
+        "summary": "A weekly roundup of significant regional stories includes Huawei's conviction on ten counts in a US trial and updates on major technology industry developments including Nvidia leadership. The compilation highlights key developments affecting China's technology sector and broader Asia-Pacific business environment.",
+        "source": "South China Morning Post",
+        "link": "https://www.scmp.com/news/world/article/3375979/huawei-guilty-10-counts-us-trial-nvidias-jensen-huang-returns-scmps-7-highlights",
         "pubDate": "2026-11-01",
-        "image": "https://images.thediplomat.com/v1/td-list-l-2/2022/11/thediplomat_2022-11-10-170003.jpg"
+        "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/27/373cd195-f254-4d9f-a4a7-7f9a740dc707_bc7ffa97.jpg?itok=f84TWhz8&v=1795749415"
       }
     ]
   }
